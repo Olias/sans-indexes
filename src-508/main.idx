@@ -21,53 +21,51 @@
 
 \indexentry{Statistics (incident)|book{1}}{13}
 
-\indexentry{1A@\textbf{Incident Response Steps}|book{1}}{23-24}
-\indexentry{Incident Response|book{1}}{23-24}
-\indexentry{1A@\textbf{Incident Response Steps}!1. Preparation|book{1}}{24}
-\indexentry{1A@\textbf{Incident Response Steps}!2. Identification|book{1}}{24}
-\indexentry{1A@\textbf{Incident Response Steps}!3. Containment|book{1}}{24}
-\indexentry{1A@\textbf{Incident Response Steps}!4. Eradication|book{1}}{24}
-\indexentry{1A@\textbf{Incident Response Steps}!5. Recovery|book{1}}{24}
-\indexentry{1A@\textbf{Incident Response Steps}!6. Lessons Learned|book{1}}{24}
+\indexentry{1A@\textbf{Incident Response Steps}|book{1}}{20-21}
+\indexentry{Incident Response|book{1}}{20-21}
+\indexentry{1A@\textbf{Incident Response Steps}!1. Preparation|book{1}}{20}
+\indexentry{1A@\textbf{Incident Response Steps}!2. Identification|book{1}}{20}
+\indexentry{1A@\textbf{Incident Response Steps}!3. Containment|book{1}}{21}
+\indexentry{1A@\textbf{Incident Response Steps}!4. Eradication|book{1}}{21}
+\indexentry{1A@\textbf{Incident Response Steps}!5. Recovery|book{1}}{21}
+\indexentry{1A@\textbf{Incident Response Steps}!6. Lessons Learned|book{1}}{21}
 
-\indexentry{Eradication Without Identification|book{1}}{25}
+\indexentry{Eradication Without Identification|book{1}}{22}
 
-\indexentry{Containment|book{1}}{27}
-\indexentry{Intelligence Development|book{1}}{27}
+\indexentry{Containment|book{1}}{24}
+\indexentry{Intelligence Development|book{1}}{24}
 
-\indexentry{Active Defense|book{1}}{28}
+\indexentry{Active Defense|book{1}}{24}
+
+\indexentry{Remediation|book{1}}{27}
+\indexentry{Remediation!Requirements|book{1}}{28}
+\indexentry{Remediation!Steps|book{1}}{29}
 
 \indexentry{Hunting|book{1}}{29}
 \indexentry{Reactive Response|book{1}}{29}
 \indexentry{Proactive Response|book{1}}{29}
 
+\indexentry{Reactive Response|book{1}}{31}
 \indexentry{Hunting|book{1}}{31-34}
-\indexentry{Reactive Response|book{1}}{31-34}
-\indexentry{Identification|book{1}}{31-34}
 
-\indexentry{Digital Forensics \& IR|book{1}}{32}
 \indexentry{Incident Response!Team|book{1}}{32}
 
-\indexentry{Cyber Threat Intelligence|book{1}}{33}
+\indexentry{Cyber Threat Intelligence|book{1}}{35}
 
-\indexentry{Remediation|book{1}}{35}
-\indexentry{Remediation!Requirements|book{1}}{36}
-\indexentry{Remediation!Steps|book{1}}{37}
+%\indexentry{Identification|book{1}}{31-34}
 
-\indexentry{Incident Response!Process|book{1}}{38}
-\indexentry{Intelligence-Driven Incident Response|book{1}}{39}
-\indexentry{Incident Response!Intelligence-Driven|book{1}}{39}
+% \indexentry{Incident Response!Process|book{1}}{38}
+% \indexentry{Intelligence-Driven Incident Response|book{1}}{39}
+% \indexentry{Incident Response!Intelligence-Driven|book{1}}{39}
 
-\indexentry{Initial Compromise|book{1}}{39}
-\indexentry{Compromise|book{1}}{39}
-\indexentry{Establish Foothold|book{1}}{39}
-\indexentry{Maintain presence|book{1}}{39}
-\indexentry{Lateral Movement|book{1}}{40}
-\indexentry{Data Collection|book{1}}{40}
-\indexentry{Data Exfiltration|book{1}}{40}
+\indexentry{Attack Lifecycle|book{1}}{36}
+\indexentry{Attack Lifecycle!Initial Compromise|book{1}}{36}
+\indexentry{Attack Lifecycle!Low privileges lateral movement cycle|book{1}}{36}
+\indexentry{Attack Lifecycle!High privileges lateral movement cycle|book{1}}{36}
+\indexentry{Attack Lifecycle!Asset access and data exfiltration|book{1}}{39}
 
-\indexentry{Kill Chain|book{1}}{41}
-
+\indexentry{Kill Chain|book{1}}{38}
+% HERE =====================================
 \indexentry{Indicator of Compromise!Atomic|book{1}}{41}
 \indexentry{Indicator of Compromise!Computed|book{1}}{42}
 \indexentry{Indicator of Compromise!Behavioral|book{1}}{42}
