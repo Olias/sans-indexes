@@ -64,70 +64,61 @@
 \indexentry{Attack Lifecycle!High privileges lateral movement cycle|book{1}}{36}
 \indexentry{Attack Lifecycle!Asset access and data exfiltration|book{1}}{39}
 
+
+
+\indexentry{Indicator of Compromise|book{1}}{38}
+\indexentry{Indicator of Compromise!Atomic|book{1}}{38}
+\indexentry{Indicator of Compromise!Computed|book{1}}{39}
+\indexentry{Indicator of Compromise!Behavioral|book{1}}{39}
+
 \indexentry{Kill Chain|book{1}}{38}
-% HERE =====================================
-\indexentry{Indicator of Compromise!Atomic|book{1}}{41}
-\indexentry{Indicator of Compromise!Computed|book{1}}{42}
-\indexentry{Indicator of Compromise!Behavioral|book{1}}{42}
+\indexentry{Kill Chain!Reconnaissance|book{1}}{40}
+\indexentry{Kill Chain!Delivery|book{1}}{40}
+\indexentry{Kill Chain!Exploitation|book{1}}{40}
+\indexentry{Kill Chain!Persistence|book{1}}{40-41}
+\indexentry{Kill Chain!Actions on Objectives|book{1}}{41}
 
-\indexentry{Kill Chain|book{1}}{43}
-\indexentry{Kill Chain!Reconnaissance|book{1}}{43}
-\indexentry{Kill Chain!Delivery|book{1}}{43}
-\indexentry{Kill Chain!Exploitation|book{1}}{43}
+\indexentry{ATT\&CK|book{1}}{43}
 
-\indexentry{Kill Chain!Persistence|book{1}}{44}
-\indexentry{Kill Chain!Actions on Objectives|book{1}}{44}
-
-\indexentry{ATT\&CK|book{1}}{47}
-
-\indexentry{ATT\&CK!Persistence|book{1}}{50}
-\indexentry{ATT\&CK!Privilege Escalation|book{1}}{50}
-\indexentry{ATT\&CK!Defense Evasion|book{1}}{50}
-\indexentry{ATT\&CK!Credential Access|book{1}}{50}
-\indexentry{ATT\&CK!Discovery|book{1}}{50}
-\indexentry{ATT\&CK!Lateral Movement|book{1}}{50}
-\indexentry{ATT\&CK!Execution|book{1}}{50}
-
-\indexentry{ATT\&CK!Collection|book{1}}{51}
-\indexentry{ATT\&CK!Exfiltration|book{1}}{51}
-\indexentry{ATT\&CK!Command and Control|book{1}}{51}
-
-\indexentry{ATT\&CK|book{1}}{52}
+\indexentry{ATT\&CK!Initial Access|book{1}}{45}
+\indexentry{ATT\&CK!Execution|book{1}}{45}
+\indexentry{ATT\&CK!Persistence|book{1}}{45}
+\indexentry{ATT\&CK!Privilege Escalation|book{1}}{45}
+\indexentry{ATT\&CK!Defense Evasion|book{1}}{45}
+\indexentry{ATT\&CK!Credential Access|book{1}}{45}
+\indexentry{ATT\&CK!Discovery|book{1}}{45}
+\indexentry{ATT\&CK!Lateral Movement|book{1}}{45}
+\indexentry{ATT\&CK!Collection|book{1}}{45}
+\indexentry{ATT\&CK!Command and Control|book{1}}{45}
+\indexentry{ATT\&CK!Exfiltration|book{1}}{45}
+\indexentry{ATT\&CK!Impact|book{1}}{45}
 
 \indexentry{Cyber Threat Intelligence|book{1}}{53}
-\indexentry{Vulnerability|book{1}}{53}
-\indexentry{Impact|book{1}}{53}
-\indexentry{Threat|book{1}}{53}
 
-\indexentry{Intent|book{1}}{54}
-\indexentry{Opportunity|book{1}}{54}
-\indexentry{Capability|book{1}}{54}
+\indexentry{Indicator of Compromise|book{1}}{48}
+\indexentry{Indicator of Compromise!Language|book{1}}{49}
+\indexentry{STIX|book{1}}{49}
+\indexentry{CRITS|book{1}}{49}
+\indexentry{Yara|book{1}}{50}
+\indexentry{OpenIOC|book{1}}{49}
 
-\indexentry{Indicator of Compromise|book{1}}{56}
-\indexentry{Indicator of Compromise!Language|book{1}}{56}
-\indexentry{STIX|book{1}}{56}
+\indexentry{Malware!Paradox|book{1}}{53}
 
-\indexentry{CRITS|book{1}}{57}
-\indexentry{Yara|book{1}}{57}
-\indexentry{OpenIOC|book{1}}{57}
-\indexentry{RedLine|book{1}}{57}
-\indexentry{Indicator of Compromise!IOC Editor|book{1}}{57}
+\indexentry{Hunting!Steps (Roadmap)|book{1}}{54}
+\indexentry{Hunting!Automated to Manual|book{1}}{56}
 
-\indexentry{Malware!Paradox|book{1}}{61}
+\indexentry{Compromise Type|book{1}}{55}
+\indexentry{Malware!Dormant|book{1}}{55}
 
-\indexentry{Compromise|book{1}}{62}
-\indexentry{Hunting!Steps (color)|book{1}}{62}
-\indexentry{Malware!Dormant|book{1}}{62}
+\indexentry{Hiding in Plain Sight|book{1}}{59}
+\indexentry{Malware!Names|book{1}}{59}
+\indexentry{Malware!Locations|book{1}}{59}
 
-\indexentry{Hunting!Automated to Manual|book{1}}{64}
+\indexentry{Living off the Land Binaries (LOLbin)|book{1}}{60}
 
-\indexentry{Compromise|book{1}}{65}
+\indexentry{Malware!Evasion techniques|book{1}}{61}
 
-\indexentry{Hiding in Plain Sight|book{1}}{66}
-\indexentry{Malware!Names|book{1}}{66}
-\indexentry{Malware!Locations|book{1}}{66}
-
-\indexentry{Malware!Evasion techniques|book{1}}{67}
+% HERE =====================================
 
 \indexentry{Evasion|book{1}}{67}
 \indexentry{Service Hijacking|book{1}}{67}
