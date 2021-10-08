@@ -118,9 +118,68 @@
 
 \indexentry{Malware!Evasion techniques|book{1}}{61}
 
+\indexentry{Trusted Code|book{1}}{62}
+\indexentry{Code Signing|book{1}}{62}
+\indexentry{Certification Authority|book{1}}{62}
+\indexentry{Dun and Bradstreet Rating|book{1}}{62}
+
+\indexentry{Code Signing!Malware|book{1}}{63}
+\indexentry{Malware!Code Signing|book{1}}{63}
+
+\indexentry{Persistance|book{1}}{68}
+\indexentry{Malware Persistence|book{1}}{68}
+
+% Autostart 
+\indexentry{AutoStart (ASEPs)|book{1}}{69}
+\indexentry{Malware Persistence!AutoStart Locations|book{1}}{69}
+
+% Services
+\indexentry{Windows Service|book{1}}{71}
+\indexentry{Malware Persistence!Service Creation/Replacement|book{1}}{71}
+\indexentry{RIP Listener Service (IPRIP)|book{1}}{71}
+\indexentry{IPRIP \goto RIP Listener Service|comment}{0}
+\indexentry{Malware Persistence!Service Failure Recovery|book{1}}{72}
+\indexentry{GlassRAT|book{1}}{71}
+\indexentry{RasAuto|book{1}}{72}
+\indexentry{sc.exe@\texttt{sc.exe}|book{1}}{72}
+\indexentry{Get-SvcFail.ps1@\texttt{Get-SvcFail.ps1}|book{1}}{72}
+
+% Scheduled tasks
+\indexentry{Scheduled Tasks|book{1}}{73}
+\indexentry{Malware Persistence!Scheduled Tasks|book{1}}{73}
+\indexentry{Scheduled Tasks!at.exe@\texttt{at.exe}|book{1}}{73}
+\indexentry{Scheduled Tasks!schtasks.exe@\texttt{schtasks.exe}|book{1}}{73}
+
+% DLL 
+\indexentry{Malware Persistence!DLL Hijacking|book{1}}{74}
+\indexentry{DLL Hijacking!DLL Search Order Hijacking|book{1}}{74}
+\indexentry{DLL Hijacking!Phantom DLL Hijacking|book{1}}{75}
+\indexentry{DLL Hijacking!DLL Side-Loading|book{1}}{75}
+\indexentry{fxsst.dll@\texttt{fxsst.dll}|book{1}}{75}
+\indexentry{SxS \goto DLL Hijacking/DLL Side-Loading|comment}{0}
+\indexentry{PlugX|book{1}}{75}
+\indexentry{NetTraveler|book{1}}{75}
+
+% WMI Persistence
+\indexentry{Malware Persistence!WMI Event Consumers|book{1}}{76}
+\indexentry{WMI|book{1}}{76}
+\indexentry{WMI!Event Consumers|book{1}}{76}
+\indexentry{WMI!Event Filter (trigger)|book{1}}{76}
+\indexentry{WMI!Binding |book{1}}{76}
+\indexentry{WMI!mofcomp.exe@\texttt{mofcomp.exe}|book{1}}{76}
+\indexentry{WMI!Get-WmiObject@\texttt{Get-WmiObject}|book{1}}{76}
+
 % HERE =====================================
 
-\indexentry{Evasion|book{1}}{67}
+\indexentry{CreateInstance@\texttt{CreateInstance}|book{1}}{104}
+\indexentry{AutoRunsc.exe@\texttt{AutoRunsc.exe}|book{1}}{104}
+\indexentry{Kansa PowerShell Framework|book{1}}{104}
+
+
+
+\indexentry{Sakula|book{1}}{103}
+\indexentry{Poison Ivy|book{1}}{103}
+
 \indexentry{Service Hijacking|book{1}}{67}
 \indexentry{Service Replacement|book{1}}{67}
 \indexentry{Process!Injection|book{1}}{67}
@@ -136,6 +195,7 @@
 \indexentry{Binary Padding|book{1}}{67}
 \indexentry{Packing|book{1}}{67}
 \indexentry{Armoring|book{1}}{67}
+
 \indexentry{Malware!Dormant|book{1}}{67}
 \indexentry{Code Signing|book{1}}{67}
 \indexentry{Anti-Forensics|book{1}}{67}
@@ -144,13 +204,9 @@
 \indexentry{Zero Configuration|book{1}}{67}
 \indexentry{AutoRun|book{1}}{67}
 
-\indexentry{Trusted Code|book{1}}{69}
-\indexentry{Code Signing|book{1}}{69}
-\indexentry{Certification Authority|book{1}}{69}
-\indexentry{Dun and Bradstreet Rating|book{1}}{69}
 
-\indexentry{Code Signing!Malware|book{1}}{71}
-\indexentry{Malware!Code Signing|book{1}}{71}
+
+
 
 \indexentry{What is Evil?|book{1}}{73}
 \indexentry{What is Normal?|book{1}}{73}
@@ -223,49 +279,14 @@
 
 \indexentry{sigcheck@\texttt{sigcheck}|book{1}}{89}
 
-\indexentry{Malware Persistence|book{1}}{96}
 
-\indexentry{AutoStart|book{1}}{97}
-\indexentry{AutoRun|book{1}}{97}
-\indexentry{Malware Persistence!AutoStart Locations|book{1}}{97}
 \indexentry{RegRipper|book{1}}{98}
 
-\indexentry{Malware Persistence!Service Creation/Replacement|book{1}}{99}
-\indexentry{RIP Listener Service (IPRIP)|book{1}}{99}
-\indexentry{IPRIP \goto RIP Listener Service|comment}{0}
-\indexentry{Windows Service|book{1}}{99}
+%%%%%%%%%%%
 
-\indexentry{Malware Persistence!Service Failure Recovery|book{1}}{100}
-\indexentry{GlassRAT|book{1}}{100}
-\indexentry{RasAuto|book{1}}{100}
-\indexentry{AutoRunsc.exe@\texttt{AutoRunsc.exe}|book{1}}{100}
-\indexentry{sc.exe@\texttt{sc.exe}|book{1}}{100}
-\indexentry{Get-SvcFail.ps1@\texttt{Get-SvcFail.ps1}|book{1}}{100}
 
-\indexentry{Malware Persistence!Scheduled Tasks|book{1}}{101}
-\indexentry{at.exe@\texttt{at.exe}|book{1}}{101}
-\indexentry{schtasks.exe@\texttt{schtasks.exe}|book{1}}{101}
-\indexentry{AutoRunsc.exe@\texttt{AutoRunsc.exe}|book{1}}{101}
 
-\indexentry{Malware Persistence!DLL Hijacking|book{1}}{102}
-\indexentry{DLL Hijacking!DLL Search Order Hijacking|book{1}}{102}
-\indexentry{DLL Hijacking!Phantom DLL Hijacking|book{1}}{102}
-\indexentry{DLL Hijacking!DLL Side-Loading|book{1}}{102}
-\indexentry{fxsst.dll@\texttt{fxsst.dll}|book{1}}{103}
-\indexentry{SxS \goto DLL Hijacking/DLL Side-Loading|comment}{0}
-\indexentry{PlugX|book{1}}{103}
-\indexentry{NetTraveler|book{1}}{103}
-\indexentry{Sakula|book{1}}{103}
-\indexentry{Poison Ivy|book{1}}{103}
 
-\indexentry{Malware Persistence!WMI Event Consumers|book{1}}{104}
-\indexentry{WMI!Event Consumers|book{1}}{104}
-\indexentry{mofcomp.exe@\texttt{mofcomp.exe}|book{1}}{104}
-\indexentry{Get-WmiObject@\texttt{Get-WmiObject}|book{1}}{104}
-\indexentry{Set-WmiInstance@\texttt{Set-WmiInstance}|book{1}}{104}
-\indexentry{CreateInstance@\texttt{CreateInstance}|book{1}}{104}
-\indexentry{AutoRunsc.exe@\texttt{AutoRunsc.exe}|book{1}}{104}
-\indexentry{Kansa PowerShell Framework|book{1}}{104}
 
 \indexentry{AutoRunsc.exe@\texttt{AutoRunsc.exe}|book{1}}{105}
 
