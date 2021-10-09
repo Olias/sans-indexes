@@ -283,6 +283,8 @@
 \indexentry{WMI!Processes (svchost.exe/WmiPrvSE.exe for commandLineEventConsumers)|book{1}}{127}
 \indexentry{WMI!Processes (scrons.exe for ActiveScriptEventConsumers)|book{1}}{128}
 
+\indexentry{WMI!Threat hunting|book{1}}{129}
+
 % HERE =====================================
 
 
