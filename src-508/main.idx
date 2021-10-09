@@ -167,14 +167,123 @@
 \indexentry{WMI!Event Filter (trigger)|book{1}}{76}
 \indexentry{WMI!Binding |book{1}}{76}
 \indexentry{WMI!mofcomp.exe@\texttt{mofcomp.exe}|book{1}}{76}
-\indexentry{WMI!Get-WmiObject@\texttt{Get-WmiObject}|book{1}}{76}
+\indexentry{WMI!Get-WmiObject@\texttt{Get-WmiObject}|book{1}}{77}
+\indexentry{CreateInstance@\texttt{CreateInstance}|book{1}}{76}
+
+\indexentry{Malware Persistence!Local Group Policy|book{1}}{78}
+\indexentry{Malware Persistence!MS Office Add-in|book{1}}{78}
+\indexentry{Malware Persistence!BIOS Flashing|book{1}}{78}
+
+\indexentry{AutoRunsc.exe@\texttt{AutoRunsc.exe}|book{1}}{79-80}
+
+% Scripting 
+\indexentry{Scripting|book{1}}{85}
+\indexentry{Scripting!Bash|book{1}}{85}
+\indexentry{Scripting!WMI|book{1}}{85}
+\indexentry{Scripting!PowerShell|book{1}}{85}
+\indexentry{WMI|book{1}}{85}
+
+% WMI
+\indexentry{WMI|book{1}}{86}
+\indexentry{wmic.exe@\texttt{wmic.exe}|book{1}}{86}
+
+% PowerShell
+\indexentry{PowerShell|book{1}}{87}
+\indexentry{PowerShell!Basics|book{1}}{88}
+\indexentry{Get-Process@\texttt{Get-Process}|book{1}}{88}
+\indexentry{Get-Service@\texttt{Get-Service}|book{1}}{88}
+\indexentry{Get-Alias@\texttt{Get-Alias}|book{1}}{88}
+\indexentry{netstat.exe@\texttt{netstat.exe}|book{1}}{88}
+\indexentry{Get-ChildItem@\texttt{Get-ChildItem}|book{1}}{88}
+\indexentry{Out-GridView@\texttt{Out-GridView}|book{1}}{88}
+\indexentry{Select-String@\texttt{Select-String}|book{1}}{88}
+\indexentry{Format-Wide@\texttt{Format-Wide}|book{1}}{88}
+\indexentry{New-PSDrive@\texttt{New-PSDrive}|book{1}}{88}
+
+% PowerShell Remoting 
+\indexentry{PowerShell Remoting|book{1}}{90}
+\indexentry{PowerShell Remoting!WS-Management (WSMAN)|book{1}}{90}
+\indexentry{PowerShell Remoting!Enter-PSSession@\texttt{Enter-PSSession}|book{1}}{90}
+\indexentry{PowerShell Remoting!Invoke-Command@\texttt{Invoke-Command}|book{1}}{90}
+
+\indexentry{PowerShell!Authentication|book{1}}{92}
+\indexentry{PowerShell Authentication|book{1}}{92}
+\indexentry{PowerShell Authentication!CredSSP|book{1}}{92}
+\indexentry{PowerShell Authentication!Enter-PSSession@\texttt{Enter-PSSession}|book{1}}{92}
+
+% Kansa
+
+\indexentry{Kansa|book{1}}{93-103}
+\indexentry{Kansa!Configuration|book{1}}{95}
+\indexentry{Order of Volatility|book{1}}{95}
+\indexentry{Kansa!Run|book{1}}{97}
+
+\indexentry{Kansa!3\textsuperscript{rd} party tools|book{1}}{99}
+\indexentry{Kansa!Get-AutoRunsc.ps1@\texttt{Get-AutoRunsc.ps1}|book{1}}{99}
+\indexentry{Kansa!Get-CertStore.ps1@\texttt{Get-CertStore.ps1}|book{1}}{99}
+\indexentry{Kansa!Get-FlsBodyfile.ps1@\texttt{Get-FlsBodyfile.ps1}|book{1}}{99}
+\indexentry{Kansa!Get-Handle.ps1@\texttt{Get-Handle.ps1}|book{1}}{99}
+\indexentry{Kansa!Get-ProcDump.ps1@\texttt{Get-ProcDump.ps1}|book{1}}{99}
+\indexentry{Kansa!Get-RekalPslist.ps1@\texttt{Get-RekalPslist.ps1}|book{1}}{99}
+
+\indexentry{Stacking|book{1}}{100}
+\indexentry{Least frequency of occurence analysis|book{1}}{100}
+\indexentry{Kansa!Get-LogparserStack.ps1@\texttt{Get-LogparserStack.ps1}|book{1}}{100}
+
+\indexentry{Rootkit|book{1}}{103}
+\indexentry{Rekall|book{1}}{103}
+\indexentry{winpmem@\texttt{winpmem} Driver|book{1}}{103}
+
+% WMI
+\indexentry{WMI|book{1}}{107}
+\indexentry{Web-Based Entreprise Managment (WBEM)|book{1}}{107}
+\indexentry{Common Information Model (CIM)|book{1}}{107}
+\indexentry{WBEM \goto Web-Based Entreprise Managment|comment}{0}
+\indexentry{CIM \goto Common Information Model|comment}{0}
+
+\indexentry{WMI!Attacks|book{1}}{108}
+\indexentry{WMI!Reconnaissance|book{1}}{109}
+\indexentry{4A@\textbf{wmic}!process@\texttt{process}|book{1}}{109}
+\indexentry{4A@\textbf{wmic}!useraccount@\texttt{useraccount}|book{1}}{109}
+\indexentry{4A@\textbf{wmic}!group@\texttt{group}|book{1}}{109}
+\indexentry{4A@\textbf{wmic}!netuse@\texttt{netuse}|book{1}}{109}
+\indexentry{4A@\textbf{wmic}!qfe@\texttt{qfe}(KBpatch listing)|book{1}}{109}
+\indexentry{4A@\textbf{wmic}!startup@\texttt{startup}|book{1}}{109}
+
+\indexentry{WMI!Privilege Escalation|book{1}}{110}
+
+\indexentry{WMI!Lateral Movement|book{1}}{111}
+\indexentry{WannaCry|book{1}}{111}
+\indexentry{NotPetya|book{1}}{111}
+\indexentry{BadRabbit|book{1}}{111}
+
+\indexentry{WMI!Event Consumer Backdoor|book{1}}{112}
+\indexentry{MOF|book{1}}{112}
+\indexentry{StuxNet|book{1}}{112}
+\indexentry{Get-WmiObject@\texttt{Get-WmiObject}|book{1}}{112}
+
+\indexentry{WMI!Investigation|book{1}}{114}
+
+\indexentry{WMI!PowerShell commands|book{1}}{116}
+
+\indexentry{WMI!Database|book{1}}{118}
+\indexentry{WMI!WMI explorer|book{1}}{118}
+\indexentry{WMI!PyWMIPersistenceFinder.py|book{1}}{119}
+
+\indexentry{WMI!Event Consumer types|book{1}}{120}
+\indexentry{WMI!Hunting tips|book{1}}{121}
+
+\indexentry{WMI!MOF Files|book{1}}{123}
+\indexentry{MOF \goto WMI/MOF Files|comment}{123}
+
+\indexentry{mofcomp.exe@\texttt{mofcomp.exe}|book{1}}{123}
+\indexentry{WMI!WBEM AutoRecover Folder|book{1}}{125}
+\indexentry{WMI!WBEM AutoRecover Key|book{1}}{126}
+
+\indexentry{WMI!Processes (svchost.exe/WmiPrvSE.exe for commandLineEventConsumers)|book{1}}{127}
+\indexentry{WMI!Processes (scrons.exe for ActiveScriptEventConsumers)|book{1}}{128}
 
 % HERE =====================================
-
-\indexentry{CreateInstance@\texttt{CreateInstance}|book{1}}{104}
-\indexentry{AutoRunsc.exe@\texttt{AutoRunsc.exe}|book{1}}{104}
-\indexentry{Kansa PowerShell Framework|book{1}}{104}
-
 
 
 \indexentry{Sakula|book{1}}{103}
@@ -288,108 +397,9 @@
 
 
 
-\indexentry{AutoRunsc.exe@\texttt{AutoRunsc.exe}|book{1}}{105}
 
-\indexentry{Malware Persistence!Local Group Policy|book{1}}{96}
-\indexentry{Malware Persistence!MS Office Add-in|book{1}}{96}
-\indexentry{Malware Persistence!BIOS Flashing|book{1}}{96}
 
-\indexentry{Scripting|book{1}}{112}
-\indexentry{Scripting!Bash|book{1}}{112}
-\indexentry{Scripting!WMI|book{1}}{112}
-\indexentry{Scripting!PowerShell|book{1}}{112}
-\indexentry{WMI|book{1}}{112}
 
-\indexentry{wmic.exe@\texttt{wmic.exe}|book{1}}{113}
-
-\indexentry{PowerShell|book{1}}{114}
-
-\indexentry{PowerShell!Basics|book{1}}{115}
-\indexentry{Get-Process@\texttt{Get-Process}|book{1}}{115}
-\indexentry{Get-Service@\texttt{Get-Service}|book{1}}{115}
-\indexentry{Get-Alias@\texttt{Get-Alias}|book{1}}{115}
-\indexentry{netstat.exe@\texttt{netstat.exe}|book{1}}{115}
-\indexentry{Get-ChildItem@\texttt{Get-ChildItem}|book{1}}{115}
-\indexentry{Out-GridView@\texttt{Out-GridView}|book{1}}{115}
-\indexentry{Select-String@\texttt{Select-String}|book{1}}{115}
-\indexentry{Format-Wide@\texttt{Format-Wide}|book{1}}{115}
-\indexentry{New-PSDrive@\texttt{New-PSDrive}|book{1}}{115}
-
-\indexentry{PowerShell!Remoting|book{1}}{117}
-\indexentry{WSMAN|book{1}}{117}
-\indexentry{winrm.vbs@\texttt{winrm.vbs}|book{1}}{117}
-\indexentry{Enter-PSSession@\texttt{Enter-PSSession}|book{1}}{117}
-\indexentry{Invoke-Command@\texttt{Invoke-Command}|book{1}}{117}
-
-\indexentry{PowerShell!Authentication|book{1}}{119}
-\indexentry{CredSSP|book{1}}{119}
-\indexentry{Enter-PSSession@\texttt{Enter-PSSession}|book{1}}{119}
-\indexentry{Mimikatz|book{1}}{119}
-\indexentry{Incognito|book{1}}{119}
-\indexentry{Kerberos|book{1}}{119}
-
-\indexentry{Kansa|book{1}}{120-129}
-\indexentry{Kansa!Configuration|book{1}}{124}
-\indexentry{Order of Volatility|book{1}}{124}
-\indexentry{Kansa!3\textsuperscript{rd} party tools|book{1}}{126}
-
-\indexentry{Kansa!Get-AutoRunsc.ps1@\texttt{Get-AutoRunsc.ps1}|book{1}}{126}
-\indexentry{Kansa!Get-CertStore.ps1@\texttt{Get-CertStore.ps1}|book{1}}{126}
-\indexentry{Kansa!Get-FlsBodyfile.ps1@\texttt{Get-FlsBodyfile.ps1}|book{1}}{126}
-\indexentry{Kansa!Get-Handle.ps1@\texttt{Get-Handle.ps1}|book{1}}{126}
-\indexentry{Kansa!Get-ProcDump.ps1@\texttt{Get-ProcDump.ps1}|book{1}}{126}
-\indexentry{Kansa!Get-RekalPslist.ps1@\texttt{Get-RekalPslist.ps1}|book{1}}{126}
-
-\indexentry{Stacking|book{1}}{127}
-\indexentry{Least frequency of occurence analysis|book{1}}{127}
-\indexentry{Kansa!Get-LogparserStack.ps1@\texttt{Get-LogparserStack.ps1}|book{1}}{127}
-
-\indexentry{Rootkit|book{1}}{130}
-\indexentry{Rekall|book{1}}{130}
-\indexentry{winpmem@\texttt{winpmem} Driver|book{1}}{130}
-
-\indexentry{WMI|book{1}}{135}
-\indexentry{Web-Based Entreprise Managment (WBEM)|book{1}}{135}
-\indexentry{Common Information Model (CIM)|book{1}}{135}
-\indexentry{WBEM \goto Web-Based Entreprise Managment|comment}{0}
-\indexentry{CIM \goto Common Information Model|comment}{0}
-
-\indexentry{WMI!Attacks|book{1}}{136}
-\indexentry{4A@\textbf{wmic}!process@\texttt{process}|book{1}}{137}
-\indexentry{4A@\textbf{wmic}!useraccount@\texttt{useraccount}|book{1}}{137}
-\indexentry{4A@\textbf{wmic}!group@\texttt{group}|book{1}}{137}
-\indexentry{4A@\textbf{wmic}!netuse@\texttt{netuse}|book{1}}{137}
-\indexentry{4A@\textbf{wmic}!qfe@\texttt{qfe}|book{1}}{137}
-\indexentry{4A@\textbf{wmic}!startup@\texttt{startup}|book{1}}{137}
-
-\indexentry{WMI!Privilege Escalation|book{1}}{138}
-
-\indexentry{WMI!Lateral Movement|book{1}}{139}
-\indexentry{WannaCry|book{1}}{139}
-\indexentry{NotPetya|book{1}}{139}
-\indexentry{BadRabbit|book{1}}{139}
-
-\indexentry{WMI!Event Consumer Backdoor|book{1}}{140}
-\indexentry{MOF|book{1}}{141}
-\indexentry{StuxNet|book{1}}{141}
-\indexentry{Get-WmiObject@\texttt{Get-WmiObject}|book{1}}{140}
-
-\indexentry{WMI!Investigation|book{1}}{142}
-\indexentry{WMI!PowerShell|book{1}}{144}
-\indexentry{WMI!Database|book{1}}{146}
-
-\indexentry{WMI!PyWMIPersistenceFinder.py|book{1}}{147}
-
-\indexentry{WMI!Consumers|book{1}}{148}
-\indexentry{WMI!Hunting|book{1}}{149}
-
-\indexentry{WMI!MOF Files|book{1}}{150}
-\indexentry{MOF \goto WMI/MOF Files|comment}{150}
-
-\indexentry{mofcomp.exe@\texttt{mofcomp.exe}|book{1}}{150}
-
-\indexentry{WMI!WBEM AutoRecover Folder|book{1}}{152}
-\indexentry{WMI!WBEM AutoRecover Key|book{1}}{154}
 
 % \comment{********************************************************************************************
 %                                       SECOND BOOK SECTION
