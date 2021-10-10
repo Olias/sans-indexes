@@ -285,122 +285,6 @@
 
 \indexentry{WMI!Threat hunting|book{1}}{129}
 
-% HERE =====================================
-
-
-\indexentry{Sakula|book{1}}{103}
-\indexentry{Poison Ivy|book{1}}{103}
-
-\indexentry{Service Hijacking|book{1}}{67}
-\indexentry{Service Replacement|book{1}}{67}
-\indexentry{Process!Injection|book{1}}{67}
-\indexentry{Filename!Hijacking|book{1}}{67}
-\indexentry{Alternate Data Stream|book{1}}{67}
-\indexentry{WebShell|book{1}}{67}
-\indexentry{Beacons|book{1}}{67}
-\indexentry{Firmware|book{1}}{67}
-\indexentry{DLL Injection|book{1}}{67}
-\indexentry{Anti-Virus!Bypass|book{1}}{67}
-\indexentry{Defense Manipulation|book{1}}{67}
-\indexentry{Frequent Compilation|book{1}}{67}
-\indexentry{Binary Padding|book{1}}{67}
-\indexentry{Packing|book{1}}{67}
-\indexentry{Armoring|book{1}}{67}
-
-\indexentry{Malware!Dormant|book{1}}{67}
-\indexentry{Code Signing|book{1}}{67}
-\indexentry{Anti-Forensics|book{1}}{67}
-\indexentry{Timestomp|book{1}}{67}
-\indexentry{Rootkit|book{1}}{67}
-\indexentry{Zero Configuration|book{1}}{67}
-\indexentry{AutoRun|book{1}}{67}
-
-
-
-
-
-\indexentry{What is Evil?|book{1}}{73}
-\indexentry{What is Normal?|book{1}}{73}
-\indexentry{Process!Rogue|book{1}}{73}
-
-\indexentry{Code Injection|book{1}}{74}
-\indexentry{Rootkit|book{1}}{74}
-\indexentry{Services!Unknown|book{1}}{74}
-\indexentry{Artifacts!OS Unusual|book{1}}{74}
-
-\indexentry{sc.exe@\texttt{sc.exe}|book{1}}{74}
-\indexentry{queryex@\texttt{queryex}|book{1}}{74}
-\indexentry{qc@\texttt{qc}|book{1}}{74}
-\indexentry{qprivs@\texttt{qprivs}|book{1}}{74}
-\indexentry{qtriggerinfo@\texttt{qtriggerinfo}|book{1}}{74}
-
-\indexentry{cmd.exe@\texttt{cmd.exe}|book{1}}{75}
-\indexentry{rar.exe@\texttt{rar.exe}|book{1}}{75}
-\indexentry{at.exe@\texttt{at.exe}|book{1}}{75}
-\indexentry{schtasks.exe@\texttt{schtasks.exe}|book{1}}{75}
-\indexentry{PsExec@\texttt{PsExec}|book{1}}{75}
-\indexentry{PsLoggedOn@\texttt{PsLoggedOn}|book{1}}{75}
-\indexentry{ProcDump@\texttt{ProcDump}|book{1}}{75}
-\indexentry{wmic.exe@\texttt{wmic.exe}|book{1}}{75}
-\indexentry{powershell.exe@\texttt{powershell.exe}|book{1}}{75}
-\indexentry{winrm.vbs@\texttt{winrm.vbs}|book{1}}{75}
-\indexentry{net.exe@\texttt{net.exe}|book{1}}{75}
-\indexentry{sc.exe@\texttt{sc.exe}|book{1}}{75}
-\indexentry{reg.exe@\texttt{reg.exe}|book{1}}{75}
-\indexentry{MountPoints2@\texttt{MountPoints2}|book{1}}{75}
-
-\indexentry{Process!Anomaly \win|book{1}}{76}
-\indexentry{3A@\textbf{Windows Process}!System@\texttt{System}|book{1}}{76}
-\indexentry{3A@\textbf{Windows Process}!svchost.exe@\texttt{svchost.exe}|book{1}}{76}
-\indexentry{3A@\textbf{Windows Process}!ntoskrnl.exe@\texttt{ntoskrnl.exe}|book{1}}{80}
-
-\indexentry{2A@\textbf{Service Name}!DcomLaunch@\texttt{DcomLaunch}|book{1}}{76}
-\indexentry{2A@\textbf{Service Name}!RPCSS@\texttt{RPCSS}|book{1}}{76}
-\indexentry{2A@\textbf{Service Name}!LocalServiceNetworkRestricted@\texttt{LocalServiceNetworkRestricted}|book{1}}{76}
-\indexentry{2A@\textbf{Service Name}!LocalServiceNoNetwork@\texttt{LocalServiceNoNetwork}|book{1}}{76}
-\indexentry{2A@\textbf{Service Name}!LocalServiceAndNoImpersonation@\texttt{LocalServiceAndNoImpersonation}|book{1}}{76}
-\indexentry{2A@\textbf{Service Name}!netsvcs@\texttt{netsvcs}|book{1}}{76}
-\indexentry{2A@\textbf{Service Name}!NetworkService@\texttt{NetworkService}|book{1}}{76}
-
-\indexentry{3A@\textbf{Windows Process}!smss.exe@\texttt{smss.exe}|book{1}}{77}
-\indexentry{3A@\textbf{Windows Process}!csrss.exe@\texttt{csrss.exe}|book{1}}{77}
-\indexentry{3A@\textbf{Windows Process}!services.exe@\texttt{services.exe}|book{1}}{77}
-\indexentry{3A@\textbf{Windows Process}!lsaiso.exe@\texttt{lsaiso.exe}|book{1}}{78}
-\indexentry{3A@\textbf{Windows Process}!explorer.exe@\texttt{explorer.exe}|book{1}}{78}
-\indexentry{3A@\textbf{Windows Process}!wininit.exe@\texttt{wininit.exe}|book{1}}{78}
-\indexentry{3A@\textbf{Windows Process}!winlogon.exe@\texttt{winlogon.exe}|book{1}}{79}
-\indexentry{3A@\textbf{Windows Process}!userinit.exe@\texttt{userinit.exe}|book{1}}{79}
-\indexentry{3A@\textbf{Windows Process}!LSASS.exe@\texttt{LSASS.exe}|book{1}}{79}
-\indexentry{3A@\textbf{Windows Process}!taskhostw.exe@\texttt{taskhostw.exe}|book{1}}{79}
-\indexentry{3A@\textbf{Windows Process}!wininit.exe@\texttt{wininit.exe}|book{1}}{80}
-\indexentry{3A@\textbf{Windows Process}!winlogon.exe@\texttt{winlogon.exe}|book{1}}{80}
-\indexentry{3A@\textbf{Windows Process}!RuntimeBroker.exe@\texttt{RuntimeBroker.exe}|book{1}}{80}
-
-\indexentry{Malware!Identification|book{1}}{81}
-\indexentry{Behavior Detection Anomaly|book{1}}{81}
-
-\indexentry{densityscout@\texttt{densityscout}|book{1}}{82}
-\indexentry{bytehist@\texttt{bytehist}|book{1}}{82}
-\indexentry{sigcheck@\texttt{sigcheck}|book{1}}{82}
-\indexentry{pescan@\texttt{pescan}|book{1}}{82}
-
-\indexentry{densityscout@\texttt{densityscout}|book{1}}{84}
-
-\indexentry{pescan@\texttt{pescan}|book{1}}{87}
-
-\indexentry{sigcheck@\texttt{sigcheck}|book{1}}{89}
-
-
-\indexentry{RegRipper|book{1}}{98}
-
-%%%%%%%%%%%
-
-
-
-
-
-
-
 
 
 % \comment{********************************************************************************************
@@ -408,30 +292,27 @@
 % *****************************************************************************************************}
 
 \indexentry{Lateral Movement!Overview|book{2}}{5}
-
 \indexentry{Credential!Harvesting|book{2}}{6}
 \indexentry{Local Admin (Limitations)|book{2}}{6-7}
 \indexentry{RID 500|book{2}}{7}
 
-\indexentry{Credential!Attacks (evolution)|book{2}}{8}
-
-\indexentry{User Acess Control (UAC)|book{2}}{8}
+\indexentry{Credential Attacks mitigation|book{2}}{8}
+\indexentry{Credential Attacks mitigation!User Acess Control (UAC)|book{2}}{8}
 \indexentry{UAC \goto User Acess Control|comment}{8}
-\indexentry{Managed Service Account|book{2}}{8}
-\indexentry{KB2871997|book{2}}{8}
-
+\indexentry{Credential Attacks mitigation!Managed Service Account|book{2}}{8}
+\indexentry{Credential Attacks mitigation!KB2871997|book{2}}{8}
 \indexentry{CredSSP|book{2}}{9}
 \indexentry{TsPkg|book{2}}{9}
 \indexentry{WDigest|book{2}}{9}
 \indexentry{Mimikatz|book{2}}{9}
 \indexentry{Pass-the-hash attacks!Mitigations|book{2}}{9}
-\indexentry{Protected Processes|book{2}}{9}
-\indexentry{Restricted Admin|book{2}}{9}
-\indexentry{Domain Protected User|book{2}}{9}
-\indexentry{Group Managed Service Account|book{2}}{9}
-\indexentry{Credential Guard|book{2}}{9}
-\indexentry{Remote Credential Guard|book{2}}{9}
-\indexentry{Device Guard|book{2}}{9}
+\indexentry{Credential Attacks mitigation!Protected Processes|book{2}}{9}
+\indexentry{Credential Attacks mitigation!Restricted Admin|book{2}}{9}
+\indexentry{Credential Attacks mitigation!Domain Protected User|book{2}}{9}
+\indexentry{Credential Attacks mitigation!Group Managed Service Account|book{2}}{9}
+\indexentry{Credential Attacks mitigation!Credential Guard|book{2}}{9}
+\indexentry{Credential Attacks mitigation!Remote Credential Guard|book{2}}{9}
+\indexentry{Credential Attacks mitigation!Device Guard|book{2}}{9}
 
 \indexentry{Hashes|book{2}}{10}
 \indexentry{NTLM|book{2}}{10}
@@ -449,8 +330,8 @@
 \indexentry{WCE|book{2}}{10}
 \indexentry{SAM Registry Hive|book{2}}{10}
 \indexentry{Pass-the-hash attacks|book{2}}{10}
-\indexentry{PsExec@\texttt{PsExec}|book{2}}{10}
-\indexentry{SMB!SMBShell|book{2}}{10}
+\indexentry{PsExec@\texttt{PsExec}|book{2}}{11}
+\indexentry{SMB|book{2}}{11}
 
 \indexentry{Logon!Type|book{2}}{12}
 \indexentry{Credential!Availability|book{2}}{12}
@@ -458,29 +339,35 @@
 \indexentry{gsecdump@\texttt{gsecdump}|book{2}}{13}
 
 \indexentry{Mimikatz|book{2}}{15}
+\indexentry{Pass-the-hash attacks|book{2}}{15}
 
 \indexentry{Hashes!Defense|book{2}}{17}
-
-\indexentry{Local Administrator Password Solution (LAPS)|book{2}}{17}
-\indexentry{LAPS \goto Local Administrator Password Solution|comment}{17}
+\indexentry{WDigest Registry key|book{2}}{17}
+\indexentry{Local Administrator Password Solution (LAPS)|book{2}}{18}
+\indexentry{LAPS \goto Local Administrator Password Solution|comment}{18}
 
 \indexentry{Tokens|book{2}}{19}
 \indexentry{Security Tokens \goto Tokens|comment}{19}
 \indexentry{Incognito|book{2}}{19}
 \indexentry{MetaSploit|book{2}}{19}
-% \indexentry{PowerShell|book{2}}{19}
-\indexentry{Mimikatz|book{2}}{20}
-\indexentry{SeImpersonate@\texttt{SeImpersonate}|book{2}}{19}
+\indexentry{Tokens!SeImpersonate@\texttt{SeImpersonate}|book{2}}{19}
+\indexentry{Mimikatz!Token Stealing|book{2}}{20}
 
 \indexentry{Tokens!Defense|book{2}}{22}
 
 \indexentry{Cached Credentials|book{2}}{24}
+\indexentry{Cached Credentials!Security\textbackslash Cache key|book{2}}{24}
+\indexentry{Cached Credentials!MsCach2|book{2}}{24}
 \indexentry{cachedump@\texttt{cachedump}|book{2}}{24}
 \indexentry{MetaSploit|book{2}}{24}
 \indexentry{PWDumpX|book{2}}{24}
-\indexentry{creddump|book{2}}{24}
+\indexentry{creddump!Local NT Hashes \& Cached Hashes|book{2}}{24}
 \indexentry{AceHash|book{2}}{24}
 \indexentry{MsCash2|book{2}}{24}
+
+
+% HERE =====================================
+
 
 \indexentry{Cached Credentials!Defense|book{2}}{27}
 
@@ -1139,4 +1026,109 @@
                                       CROSS-KEYS SECTION
 *****************************************************************************************************}
 
- 
+
+
+\indexentry{Sakula|book{1}}{103}
+\indexentry{Poison Ivy|book{1}}{103}
+
+\indexentry{Service Hijacking|book{1}}{67}
+\indexentry{Service Replacement|book{1}}{67}
+\indexentry{Process!Injection|book{1}}{67}
+\indexentry{Filename!Hijacking|book{1}}{67}
+\indexentry{Alternate Data Stream|book{1}}{67}
+\indexentry{WebShell|book{1}}{67}
+\indexentry{Beacons|book{1}}{67}
+\indexentry{Firmware|book{1}}{67}
+\indexentry{DLL Injection|book{1}}{67}
+\indexentry{Anti-Virus!Bypass|book{1}}{67}
+\indexentry{Defense Manipulation|book{1}}{67}
+\indexentry{Frequent Compilation|book{1}}{67}
+\indexentry{Binary Padding|book{1}}{67}
+\indexentry{Packing|book{1}}{67}
+\indexentry{Armoring|book{1}}{67}
+
+\indexentry{Malware!Dormant|book{1}}{67}
+\indexentry{Code Signing|book{1}}{67}
+\indexentry{Anti-Forensics|book{1}}{67}
+\indexentry{Timestomp|book{1}}{67}
+\indexentry{Rootkit|book{1}}{67}
+\indexentry{Zero Configuration|book{1}}{67}
+\indexentry{AutoRun|book{1}}{67}
+
+
+
+
+
+\indexentry{What is Evil?|book{1}}{73}
+\indexentry{What is Normal?|book{1}}{73}
+\indexentry{Process!Rogue|book{1}}{73}
+
+\indexentry{Code Injection|book{1}}{74}
+\indexentry{Rootkit|book{1}}{74}
+\indexentry{Services!Unknown|book{1}}{74}
+\indexentry{Artifacts!OS Unusual|book{1}}{74}
+
+\indexentry{sc.exe@\texttt{sc.exe}|book{1}}{74}
+\indexentry{queryex@\texttt{queryex}|book{1}}{74}
+\indexentry{qc@\texttt{qc}|book{1}}{74}
+\indexentry{qprivs@\texttt{qprivs}|book{1}}{74}
+\indexentry{qtriggerinfo@\texttt{qtriggerinfo}|book{1}}{74}
+
+\indexentry{cmd.exe@\texttt{cmd.exe}|book{1}}{75}
+\indexentry{rar.exe@\texttt{rar.exe}|book{1}}{75}
+\indexentry{at.exe@\texttt{at.exe}|book{1}}{75}
+\indexentry{schtasks.exe@\texttt{schtasks.exe}|book{1}}{75}
+\indexentry{PsExec@\texttt{PsExec}|book{1}}{75}
+\indexentry{PsLoggedOn@\texttt{PsLoggedOn}|book{1}}{75}
+\indexentry{ProcDump@\texttt{ProcDump}|book{1}}{75}
+\indexentry{wmic.exe@\texttt{wmic.exe}|book{1}}{75}
+\indexentry{powershell.exe@\texttt{powershell.exe}|book{1}}{75}
+\indexentry{winrm.vbs@\texttt{winrm.vbs}|book{1}}{75}
+\indexentry{net.exe@\texttt{net.exe}|book{1}}{75}
+\indexentry{sc.exe@\texttt{sc.exe}|book{1}}{75}
+\indexentry{reg.exe@\texttt{reg.exe}|book{1}}{75}
+\indexentry{MountPoints2@\texttt{MountPoints2}|book{1}}{75}
+
+\indexentry{Process!Anomaly \win|book{1}}{76}
+\indexentry{3A@\textbf{Windows Process}!System@\texttt{System}|book{1}}{76}
+\indexentry{3A@\textbf{Windows Process}!svchost.exe@\texttt{svchost.exe}|book{1}}{76}
+\indexentry{3A@\textbf{Windows Process}!ntoskrnl.exe@\texttt{ntoskrnl.exe}|book{1}}{80}
+
+\indexentry{2A@\textbf{Service Name}!DcomLaunch@\texttt{DcomLaunch}|book{1}}{76}
+\indexentry{2A@\textbf{Service Name}!RPCSS@\texttt{RPCSS}|book{1}}{76}
+\indexentry{2A@\textbf{Service Name}!LocalServiceNetworkRestricted@\texttt{LocalServiceNetworkRestricted}|book{1}}{76}
+\indexentry{2A@\textbf{Service Name}!LocalServiceNoNetwork@\texttt{LocalServiceNoNetwork}|book{1}}{76}
+\indexentry{2A@\textbf{Service Name}!LocalServiceAndNoImpersonation@\texttt{LocalServiceAndNoImpersonation}|book{1}}{76}
+\indexentry{2A@\textbf{Service Name}!netsvcs@\texttt{netsvcs}|book{1}}{76}
+\indexentry{2A@\textbf{Service Name}!NetworkService@\texttt{NetworkService}|book{1}}{76}
+
+\indexentry{3A@\textbf{Windows Process}!smss.exe@\texttt{smss.exe}|book{1}}{77}
+\indexentry{3A@\textbf{Windows Process}!csrss.exe@\texttt{csrss.exe}|book{1}}{77}
+\indexentry{3A@\textbf{Windows Process}!services.exe@\texttt{services.exe}|book{1}}{77}
+\indexentry{3A@\textbf{Windows Process}!lsaiso.exe@\texttt{lsaiso.exe}|book{1}}{78}
+\indexentry{3A@\textbf{Windows Process}!explorer.exe@\texttt{explorer.exe}|book{1}}{78}
+\indexentry{3A@\textbf{Windows Process}!wininit.exe@\texttt{wininit.exe}|book{1}}{78}
+\indexentry{3A@\textbf{Windows Process}!winlogon.exe@\texttt{winlogon.exe}|book{1}}{79}
+\indexentry{3A@\textbf{Windows Process}!userinit.exe@\texttt{userinit.exe}|book{1}}{79}
+\indexentry{3A@\textbf{Windows Process}!LSASS.exe@\texttt{LSASS.exe}|book{1}}{79}
+\indexentry{3A@\textbf{Windows Process}!taskhostw.exe@\texttt{taskhostw.exe}|book{1}}{79}
+\indexentry{3A@\textbf{Windows Process}!wininit.exe@\texttt{wininit.exe}|book{1}}{80}
+\indexentry{3A@\textbf{Windows Process}!winlogon.exe@\texttt{winlogon.exe}|book{1}}{80}
+\indexentry{3A@\textbf{Windows Process}!RuntimeBroker.exe@\texttt{RuntimeBroker.exe}|book{1}}{80}
+
+\indexentry{Malware!Identification|book{1}}{81}
+\indexentry{Behavior Detection Anomaly|book{1}}{81}
+
+\indexentry{densityscout@\texttt{densityscout}|book{1}}{82}
+\indexentry{bytehist@\texttt{bytehist}|book{1}}{82}
+\indexentry{sigcheck@\texttt{sigcheck}|book{1}}{82}
+\indexentry{pescan@\texttt{pescan}|book{1}}{82}
+
+\indexentry{densityscout@\texttt{densityscout}|book{1}}{84}
+
+\indexentry{pescan@\texttt{pescan}|book{1}}{87}
+
+\indexentry{sigcheck@\texttt{sigcheck}|book{1}}{89}
+
+
+\indexentry{RegRipper|book{1}}{98}
