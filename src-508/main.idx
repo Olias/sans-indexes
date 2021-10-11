@@ -365,11 +365,9 @@
 \indexentry{AceHash|book{2}}{24}
 \indexentry{MsCash2|book{2}}{24}
 
-
-% HERE =====================================
-
-
 \indexentry{Cached Credentials!Defense|book{2}}{27}
+\indexentry{Cached Credentials!cachedlogonscount|book{2}}{27}
+
 
 \indexentry{LSA Secret|book{2}}{28}
 \indexentry{Cain|book{2}}{28}
@@ -381,8 +379,9 @@
 
 \indexentry{Nishang|book{2}}{29}
 \indexentry{Get-LsaSecret.ps1@\texttt{Get-LsaSecret.ps1}|book{2}}{29}
-
 \indexentry{LSA Secret!Defense|book{2}}{30}
+
+% HERE =====================================
 
 \indexentry{Tickets|book{2}}{31}
 \indexentry{Pass-the-ticket|book{2}}{31}
