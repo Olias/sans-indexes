@@ -381,8 +381,6 @@
 \indexentry{Get-LsaSecret.ps1@\texttt{Get-LsaSecret.ps1}|book{2}}{29}
 \indexentry{LSA Secret!Defense|book{2}}{30}
 
-% HERE =====================================
-
 \indexentry{Tickets|book{2}}{31}
 \indexentry{Pass-the-ticket|book{2}}{31}
 \indexentry{Golden Ticket|book{2}}{31}
@@ -396,7 +394,8 @@
 \indexentry{Kerberoasting|book{2}}{34}
 \indexentry{Golden Ticket|book{2}}{34}
 \indexentry{Silver Ticket|book{2}}{34}
-\indexentry{Skeleton Key|book{2}}{34}
+\indexentry{Skeleton Key|book{2}}{35}
+\indexentry{DCSync|book{2}}{35}
 
 \indexentry{Tickets!Defense|book{2}}{36}
 
@@ -408,23 +407,27 @@
 \indexentry{MetaSploit|book{2}}{39}
 \indexentry{ntdsdump@\texttt{ntdsdump}|book{2}}{39}
 
-\indexentry{Prefetch|book{2}}{42}
-\indexentry{blkls|book{2}}{42}
-\indexentry{foremost|book{2}}{42}
 
+\indexentry{Prefetch|book{2}}{43}
 \indexentry{Prefetch!First/Last Execution|book{2}}{45}
+\indexentry{PECmd.exe@\texttt{PECmd.exe}|book{2}}{46}
 
-\indexentry{PECmd.exe@\texttt{PECmd.exe}|book{2}}{47}
-
-\indexentry{ShimCache|book{2}}{51}
+\indexentry{ShimCache|book{2}}{50}
 \indexentry{Timestomp!Evidence|book{2}}{51}
-\indexentry{AppCompatCache \goto Application Compatibility Cache|comment}{52}
-\indexentry{Application Compatibility Cache|book{2}}{52}
+\indexentry{AppCompatCache \goto Application Compatibility Cache|comment}{50}
+\indexentry{Application Compatibility Cache|book{2}}{50}
 
-\indexentry{AppCompatCacheParser.exe@\texttt{AppCompatCacheParser.exe}|book{2}}{54}
+\indexentry{AppCompatCacheParser.exe@\texttt{AppCompatCacheParser.exe}|book{2}}{52}
 
-\indexentry{RecentFileCache.bcf|book{2}}{55}
-\indexentry{Amcache.hve|book{2}}{55}
+\indexentry{RecentFileCache.bcf|book{2}}{53}
+\indexentry{Amcache.hve|book{2}}{53}
+\indexentry{Amcache.hve!InventoryApplicationFile|book{2}}{53}
+\indexentry{Amcache.hve!InventoryApplication|book{2}}{53}
+\indexentry{Amcache.hve!Executable presence|book{2}}{55}
+
+
+% HERE =====================================
+
 \indexentry{Volume GUID|book{2}}{55}
 
 \indexentry{Amcache.hve!Parsing|book{2}}{57}
