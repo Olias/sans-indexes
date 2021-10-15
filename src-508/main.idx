@@ -424,14 +424,14 @@
 \indexentry{Amcache.hve!InventoryApplicationFile|book{2}}{53}
 \indexentry{Amcache.hve!InventoryApplication|book{2}}{53}
 \indexentry{Amcache.hve!Executable presence|book{2}}{55}
+\indexentry{Amcache.hve!Installed drivers|book{2}}{57}
+\indexentry{AmcacheParser.exe@\texttt{AmcacheParser.exe}|book{2}}{59}
 
+\indexentry{Malware!Search tips|book{2}}{63}
 
+\indexentry{AppCompatProcessor.py|book{2}}{66}
 % HERE =====================================
 
-\indexentry{Volume GUID|book{2}}{55}
-
-\indexentry{Amcache.hve!Parsing|book{2}}{57}
-\indexentry{AmcacheParser.exe@\texttt{AmcacheParser.exe}|book{2}}{58}
 
 \indexentry{EventLog|book{2}}{64}
 \indexentry{EVT|book{2}}{64}
