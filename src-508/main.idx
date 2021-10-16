@@ -430,80 +430,104 @@
 \indexentry{Malware!Search tips|book{2}}{63}
 
 \indexentry{AppCompatProcessor.py|book{2}}{66}
+
+\indexentry{EventLog|book{2}}{74}
+\indexentry{EVT|book{2}}{74}
+\indexentry{EVTX|book{2}}{74}
+
+\indexentry{EventLog!Types|book{2}}{76}
+\indexentry{EventLog!Service|book{2}}{77}
+\indexentry{EventLog!Application|book{2}}{67}
+\indexentry{EventLog!Security|book{2}}{68}
+
+\indexentry{LSASS!Security EventLog|book{2}}{77}
+
+\indexentry{EventLog!Security Event|book{2}}{78}
+\indexentry{SACL \goto System Access Control List|comment}{78}
+\indexentry{System Access Control List|book{2}}{78}
+
+\indexentry{Account!Tracking Usage|book{2}}{82}
+\indexentry{Tracking!Account Usage|book{2}}{82}
+
+\indexentry{Logon!Type Codes|book{2}}{87}
+
+\indexentry{Logon!Session Identification|book{2}}{88}
+\indexentry{Microsoft Online Accounts|book{2}}{88}
+
+\indexentry{Brute-Force Password Attack|book{2}}{90}
+
+\indexentry{Account!Built-in accounts|book{2}}{93}
+
+\indexentry{Built-in accounts!SYSTEM|book{2}}{92}
+\indexentry{Built-in accounts!LOCAL SERVICE|book{2}}{92}
+\indexentry{Built-in accounts!NETWORK SERVICE|book{2}}{92}
+\indexentry{Built-in accounts!DWM|book{2}}{92}
+\indexentry{Built-in accounts!UMFD|book{2}}{92}
+\indexentry{Built-in accounts!ANONYMOUS LOGON|book{2}}{92}
+
+\indexentry{Account!Tracking Administrator|book{2}}{94}
+\indexentry{SeTakeOwnership@\texttt{SeTakeOwnership}|book{2}}{94}
+\indexentry{SeDebug@\texttt{SeDebug}|book{2}}{94}
+\indexentry{SeImpersonate@\texttt{SeImpersonate}|book{2}}{94}
+
+\indexentry{Account!Tracking Creation|book{2}}{96}
+\indexentry{Tracking!Account Creation|book{2}}{96}
+
+\indexentry{Tracking!Account Usage (RDP)|book{2}}{98}
+\indexentry{Account!Tracking Usage (RDP)|book{2}}{98}
+\indexentry{Account!Usage (RDP)|book{2}}{98}
+
+\indexentry{Remote Desktop Protocol (RDP)!Logging|book{2}}{102}
+
+\indexentry{Logon!Event|book{2}}{104}
+\indexentry{Account!Logon Event|book{2}}{104}
+\indexentry{Local Account|book{2}}{104}
+\indexentry{Logon!Error Code|book{2}}{105}
+\indexentry{Kerberos logon errors|book{2}}{105}
+\indexentry{NTLM logon errors|book{2}}{106}
+
+\indexentry{Privileged Local Account Abuse|book{2}}{107}
+\indexentry{Pass-the-hash attacks|book{2}}{107}
+% \indexentry{Local Account!Abuse|book{2}}{98}
+\indexentry{Tracking!Reconnaissance|book{2}}{109}
+\indexentry{Reconnaissance Tracking|book{2}}{109}
+\indexentry{Account!Enumeration|book{2}}{109}
+\indexentry{Group Enumeration|book{2}}{109}
+\indexentry{PowerView|book{2}}{109}
+\indexentry{Bloodhound|book{2}}{109}
+
+\indexentry{Event Log Explorer|book{2}}{112}
+
+\indexentry{Lateral Movement!Tracking|book{2}}{121}
+\indexentry{Lateral Movement!Network Shares|book{2}}{121}
+\indexentry{Tracking!Network Shares|book{2}}{121}
+\indexentry{Network Shares!Tracking|book{2}}{121}
+
+\indexentry{Tracking!RunAs|book{2}}{124}
+\indexentry{Lateral Movement!RunAs|book{2}}{124}
+\indexentry{RunAs!Tracking|book{2}}{124}
+
+\indexentry{Lateral Movement!Scheduled Tasks|book{2}}{127}
+\indexentry{Tracking!Scheduled Tasks|book{2}}{127}
+\indexentry{Scheduled Tasks!Tracking|book{2}}{127}
+\indexentry{Scheduled Tasks!Logs|book{2}}{129}
+
+\indexentry{Windows Remote Management|book{2}}{131}
+\indexentry{Scheduled Tasks!Artifacts (v1.2)|book{2}}{131}
+
+\indexentry{Suspicious Services|book{2}}{134}
+\indexentry{Services!Suspicious|book{2}}{134}
+\indexentry{Service Control Manager|book{2}}{134}
+\indexentry{SCM \goto Service Control Manager|comment}{134}
+\indexentry{PsExec@\texttt{PsExec}|book{2}}{135}
+\indexentry{Suspicious Services!PsExec|book{2}}{136}
+\indexentry{Conficker|book{2}}{136}
+
+\indexentry{EventLog!Clearing|book{2}}{138}
+
 % HERE =====================================
 
 
-\indexentry{EventLog|book{2}}{64}
-\indexentry{EVT|book{2}}{64}
-\indexentry{EVTX|book{2}}{64}
-\indexentry{EventLog!Types|book{2}}{66}
-\indexentry{EventLog!Application|book{2}}{67}
-\indexentry{EventLog!Service|book{2}}{67}
-\indexentry{EventLog!Security|book{2}}{68}
-\indexentry{gpedit.msc@\texttt{gpedit.msc}|book{2}}{68}
-\indexentry{LSASS!Security EventLog|book{2}}{68}
-\indexentry{EventLog!Security Event|book{2}}{69}
-\indexentry{SACL \goto System Access Control List|comment}{69}
-\indexentry{System Access Control List|book{2}}{69}
-\indexentry{Analysis Scenario|book{2}}{72}
-\indexentry{Profiling Account Usage|book{2}}{72}
-\indexentry{Account!Tracking Usage|book{2}}{73}
-\indexentry{Tracking!Account Usage|book{2}}{73}
-\indexentry{Event Viewer|book{2}}{74}
-\indexentry{eventvwr.exe@\texttt{eventvwr.exe}|book{2}}{74}
-\indexentry{Logon!Type Codes|book{2}}{77}
-\indexentry{Logon!Session Identification|book{2}}{79}
-\indexentry{Microsoft Online Accounts|book{2}}{79}
-\indexentry{Brute-Force Password Attack|book{2}}{81}
-\indexentry{Account!Built-in accounts|book{2}}{83}
-\indexentry{SYSTEM|book{2}}{83}
-\indexentry{LOCAL SERVICE|book{2}}{83}
-\indexentry{NETWORK SERVICE|book{2}}{83}
-\indexentry{DWM|book{2}}{83}
-\indexentry{UMFD|book{2}}{83}
-\indexentry{ANONYMOUS LOGON|book{2}}{83}
-\indexentry{Account!Tracking Administrator|book{2}}{85}
-\indexentry{SeTakeOwnership@\texttt{SeTakeOwnership}|book{2}}{85}
-\indexentry{SeDebug@\texttt{SeDebug}|book{2}}{85}
-\indexentry{Account!Tracking Creation|book{2}}{87}
-\indexentry{Tracking!Account Creation|book{2}}{87}
-\indexentry{Tracking!Account Usage (RDP)|book{2}}{89}
-\indexentry{Account!Tracking Usage (RDP)|book{2}}{89}
-\indexentry{Account!Usage (RDP)|book{2}}{91}
-\indexentry{Remote Desktop Protocol (RDP)!Logging|book{2}}{93}
-\indexentry{Logon!Event|book{2}}{95}
-\indexentry{Account!Logon Event|book{2}}{95}
-\indexentry{Local Account|book{2}}{95}
-\indexentry{Logon!Error Code|book{2}}{96}
-\indexentry{Kerberos|book{2}}{96}
-\indexentry{Privileged Local Account Abuse|book{2}}{98}
-\indexentry{Local Account!Abuse|book{2}}{98}
-\indexentry{Tracking!Reconnaissance|book{2}}{100}
-\indexentry{Reconnaissance Tracking|book{2}}{100}
-\indexentry{Account!Enumeration|book{2}}{100}
-\indexentry{Group Enumeration|book{2}}{100}
-\indexentry{PowerView|book{2}}{100}
-\indexentry{Bloodhound|book{2}}{100}
-\indexentry{Event Log Explorer|book{2}}{103}
-\indexentry{Tracking!Lateral Movement|book{2}}{105}
-\indexentry{Lateral Movement!Tracking|book{2}}{105}
-\indexentry{Lateral Movement!Shares|book{2}}{106}
-\indexentry{Tracking!Network Shares|book{2}}{106}
-\indexentry{Network Shares!Tracking|book{2}}{106}
-\indexentry{Lateral Movement!Scheduled Tasks|book{2}}{112}
-\indexentry{Tracking!Scheduled Tasks|book{2}}{112}
-\indexentry{Scheduled Tasks!Tracking|book{2}}{112}
-\indexentry{Scheduled Tasks!Logs|book{2}}{114}
-\indexentry{jobparser.py@\texttt{jobparser.py}|book{2}}{115}
-\indexentry{Windows Remote Management|book{2}}{115}
-\indexentry{Scheduled Tasks!Artifacts (v1.2)|book{2}}{115}
-\indexentry{Suspicious Services|book{2}}{119}
-\indexentry{Services!Suspicious|book{2}}{119}
-\indexentry{Service Control Manager|book{2}}{119}
-\indexentry{SCM \goto Service Control Manager|comment}{119}
-\indexentry{PsExec@\texttt{PsExec}|book{2}}{121}
-\indexentry{Conficker|book{2}}{121}
-\indexentry{EventLog!Clearing|book{2}}{123}
 \indexentry{EventLog!Clearing (Selective)|book{2}}{126}
 \indexentry{Mimikatz!EventLog Clearing|book{2}}{126}
 \indexentry{eventlogedit|book{2}}{126}
