@@ -525,26 +525,34 @@
 
 \indexentry{EventLog!Clearing|book{2}}{138}
 
+\indexentry{EventLog!Clearing (Selective)|book{2}}{141}
+\indexentry{Mimikatz!EventLog Clearing|book{2}}{141}
+\indexentry{eventlogedit|book{2}}{141}
+
+\indexentry{Remote Desktop Protocol (RDP)!Source Artifacts|book{2}}{146}
+\indexentry{Artifacts!Remote Desktop Protocol (RDP)|book{2}}{146-148}
+\indexentry{RegRipper|book{2}}{146}
+\indexentry{VNC|book{2}}{147}
+\indexentry{TeamViewer|book{2}}{147}
+
+\indexentry{Remote Desktop Protocol (RDP)!Destination Artifacts|book{2}}{146}
+
+\indexentry{Admin Shares|book{2}}{149-150}
+\indexentry{Admin Shares!Source Artifacts|book{2}}{149}
+\indexentry{Artifacts!Network Shares|book{2}}{149}
+\indexentry{Network Shares!Admin|book{2}}{149}
+\indexentry{MountPoints2@\texttt{MountPoints2}|book{2}}{149}
+\indexentry{Admin Shares!Destination Artifacts|book{2}}{150}
+
+\indexentry{PsExec@\texttt{PsExec}!Source Artifacts|book{2}}{152}
+\indexentry{Artifacts!PsExec@\texttt{PsExec}|book{2}}{152-154}
+\indexentry{PsExec@\texttt{PsExec}!Destination Artifacts|book{2}}{153-154}
+
+
 % HERE =====================================
 
 
-\indexentry{EventLog!Clearing (Selective)|book{2}}{126}
-\indexentry{Mimikatz!EventLog Clearing|book{2}}{126}
-\indexentry{eventlogedit|book{2}}{126}
-\indexentry{Remote Desktop Protocol (RDP)!Source Artifacts|book{2}}{130}
-\indexentry{Artifacts!Remote Desktop Protocol (RDP)|book{2}}{130-132}
-\indexentry{RegRipper|book{2}}{130}
-\indexentry{VNC|book{2}}{131}
-\indexentry{TeamViewer|book{2}}{131}
-\indexentry{Admin Shares!Source Artifacts|book{2}}{133}
-\indexentry{Artifacts!Network Shares|book{2}}{133}
-\indexentry{Network Shares!Admin|book{2}}{133}
-\indexentry{MountPoints2@\texttt{MountPoints2}|book{2}}{133}
-\indexentry{Admin Shares|book{2}}{134}
-\indexentry{Admin Shares!Destination Artifacts|book{2}}{134}
-\indexentry{PsExec@\texttt{PsExec}!Source Artifacts|book{2}}{135}
-\indexentry{Artifacts!PsExec@\texttt{PsExec}|book{2}}{135-136}
-\indexentry{PsExec@\texttt{PsExec}!Destination Artifacts|book{2}}{136}
+
 \indexentry{Windows Remote Management|book{2}}{139}
 \indexentry{sc.exe@\texttt{sc.exe}|book{2}}{139}
 \indexentry{at.exe@\texttt{at.exe}|book{2}}{139}
