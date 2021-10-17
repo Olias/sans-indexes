@@ -534,11 +534,20 @@
 \indexentry{RegRipper|book{2}}{146}
 \indexentry{VNC|book{2}}{147}
 \indexentry{TeamViewer|book{2}}{147}
+\indexentry{mstsc.exe@\texttt{mstsc.exe}|book{2}}{146}
+
 
 \indexentry{Remote Desktop Protocol (RDP)!Destination Artifacts|book{2}}{146}
+\indexentry{rdpclip.exe@\texttt{rdpclip.exe}|book{2}}{148}
+\indexentry{tstheme.exe@\texttt{tstheme.exe}|book{2}}{148}
+
 
 \indexentry{Admin Shares|book{2}}{149-150}
 \indexentry{Admin Shares!Source Artifacts|book{2}}{149}
+
+\indexentry{net.exe@\texttt{net.exe}|book{2}}{149}
+\indexentry{net1.exe@\texttt{net1.exe}|book{2}}{149}
+
 \indexentry{Artifacts!Network Shares|book{2}}{149}
 \indexentry{Network Shares!Admin|book{2}}{149}
 \indexentry{MountPoints2@\texttt{MountPoints2}|book{2}}{149}
@@ -546,79 +555,92 @@
 
 \indexentry{PsExec@\texttt{PsExec}!Source Artifacts|book{2}}{152}
 \indexentry{Artifacts!PsExec@\texttt{PsExec}|book{2}}{152-154}
-\indexentry{PsExec@\texttt{PsExec}!Destination Artifacts|book{2}}{153-154}
+\indexentry{PsExec@\texttt{PsExec}!Source Artifacts|book{2}}{152}
+\indexentry{psexesvc.exe@\texttt{psexesvc.exe}!Destination Artifacts|book{2}}{153-154}
 
+
+\indexentry{Windows Remote Management|book{2}}{155}
+\indexentry{sc.exe@\texttt{sc.exe}|book{2}}{155}
+\indexentry{at.exe@\texttt{at.exe}|book{2}}{156}
+\indexentry{schtasks.exe@\texttt{schtasks.exe}|book{2}}{156}
+\indexentry{reg.exe@\texttt{reg.exe}|book{2}}{156}
+\indexentry{winrm \goto Windows Remote Management|comment}{156}
+\indexentry{Windows Remote Management|book{2}}{156}
+\indexentry{winrs.exe@\texttt{winrs.exe}|book{2}}{156}
+
+\indexentry{Remote Service Artifacts|book{2}}{157}
+\indexentry{Artifacts!Remote Service|book{2}}{157}
+
+\indexentry{Artifacts!Scheduled Tasks|book{2}}{158}
+\indexentry{Scheduled Tasks!Artifacts|book{2}}{158}
+\indexentry{Artifacts!WMI|book{2}}{159-160}
+\indexentry{WMI!Source Artifacts|book{2}}{159}
+\indexentry{WMI!Destination Artifacts|book{2}}{160}
+\indexentry{WMI!Dst:scrcons.exe@\texttt{scrcons.exe}|book{2}}{160}
+\indexentry{WMI!Dst:mofcomp.exe@\texttt{mofcomp.exe}|book{2}}{160}
+\indexentry{WMI!Dst:wmiprvse.exe@\texttt{wmiprvse.exe}|book{2}}{160}
+\indexentry{WMI!Src:wmic.exe@\texttt{wmic.exe}|book{2}}{159}
+
+
+\indexentry{Artifacts!PowerShell|book{2}}{161}
+\indexentry{PowerShell!Source Artifacts|book{2}}{161}
+\indexentry{PowerShell!Remote Artifacts|book{2}}{163}
+\indexentry{PowerShell!Dst:wsmprovhost.exe@\texttt{wsmprovhost.exe}|book{2}}{163}
+\indexentry{PowerShell!Src:powershell.exe@\texttt{powershell.exe}|book{2}}{163}
+
+\indexentry{Application Deployment Software|book{2}}{164-165}
+
+\indexentry{Vulnerability!Exploitation|book{2}}{166}
+
+\indexentry{Malware!Execution|book{2}}{171-172}
+\indexentry{PWDump@\texttt{PWDump}|book{2}}{172}
+\indexentry{Anti-Virus!Logs|book{2}}{172}
+
+
+\indexentry{Process!Tracking|book{2}}{174}
+\indexentry{Tracking!Process|book{2}}{174-160}
+\indexentry{Tracking!Command Line|book{2}}{174-162}
+
+\indexentry{Command Line Tracking|book{2}}{178}
+\indexentry{Process!Tracking|book{2}}{176}
+\indexentry{Process!Tracking!Command Line|book{2}}{178}
+
+\indexentry{PowerShell!Logs|book{2}}{180-181}
+
+\indexentry{PowerShell!Enabling logs|book{2}}{182}
+
+\indexentry{PowerShell!Tracking!Malicious (logs)|book{2}}{183}
+\indexentry{PowerShell!Stealth|book{2}}{185}
+\indexentry{PowerShell!Download file|book{2}}{185}
+
+\indexentry{PowerShell!Tracking!Log hunting (quick wins)|book{2}}{186}
+
+\indexentry{PowerShell!Obfuscation|book{2}}{187}
+\indexentry{AMSI \goto Anti-Malware Scanning Interface|comment}{187}
+\indexentry{Anti-Malware Script Obfuscation|book{2}}{187}
+
+\indexentry{CyberChef|book{2}}{188}
+
+\indexentry{PowerShell!Tracking!Transcript Logs|book{2}}{190-191}
+\indexentry{PowerShell!Tracking!PSReadline:ConsoleHost_history.txt|book{2}}{193}
+
+\indexentry{WMI!Tracking!Persistence|book{2}}{194-195}
+\indexentry{WMI!Tracking!Logs|book{2}}{194-197}
+\indexentry{WMI!Tracking!Common legit consummer|book{2}}{197}
+\indexentry{scrcons.exe@\texttt{scrcons.exe}|book{2}}{197}
+
+\indexentry{EventLog!Summary|book{2}}{199}
+
+\indexentry{EventLog!Extraction|book{2}}{200}
+\indexentry{PsLogList@\texttt{PsLogList}|book{2}}{200}
+\indexentry{Event Log Explorer|book{2}}{200}
+\indexentry{Event Log Forwarding|book{2}}{200}
+
+\indexentry{Get-WinEvent@\texttt{Get-WinEvent}|book{2}}{202}
+
+\indexentry{SysMon|book{2}}{205-206}
 
 % HERE =====================================
-
-
-
-\indexentry{Windows Remote Management|book{2}}{139}
-\indexentry{sc.exe@\texttt{sc.exe}|book{2}}{139}
-\indexentry{at.exe@\texttt{at.exe}|book{2}}{139}
-\indexentry{schtasks.exe@\texttt{schtasks.exe}|book{2}}{139}
-\indexentry{reg.exe@\texttt{reg.exe}|book{2}}{139}
-\indexentry{winrs.exe@\texttt{winrs.exe}|book{2}}{139}
-\indexentry{Remote Service Artifacts|book{2}}{141}
-\indexentry{Artifacts!Remote Service|book{2}}{141}
-\indexentry{Artifacts!Scheduled Tasks|book{2}}{142}
-\indexentry{Scheduled Tasks!Artifacts|book{2}}{142}
-\indexentry{Artifacts!WMI|book{2}}{143}
-\indexentry{WMI!Source Artifacts|book{2}}{143}
-\indexentry{WMI!Destination Artifacts|book{2}}{144}
-\indexentry{Artifacts!PowerShell|book{2}}{145}
-\indexentry{PowerShell!Source Artifacts|book{2}}{145}
-\indexentry{PowerShell!Remote Artifacts|book{2}}{147}
-\indexentry{wsmprovhost.exe@\texttt{wsmprovhost.exe}|book{2}}{147}
-\indexentry{powershell.exe@\texttt{powershell.exe}|book{2}}{146}
-\indexentry{scrcons.exe@\texttt{scrcons.exe}|book{2}}{144}
-\indexentry{mofcomp.exe@\texttt{mofcomp.exe}|book{2}}{144}
-\indexentry{wmiprvse.exe@\texttt{wmiprvse.exe}|book{2}}{144}
-\indexentry{wmic.exe@\texttt{wmic.exe}|book{2}}{143}
-\indexentry{psexesvc.exe@\texttt{psexesvc.exe}|book{2}}{137}
-\indexentry{PsExec@\texttt{PsExec}|book{2}}{136}
-\indexentry{net.exe@\texttt{net.exe}|book{2}}{133}
-\indexentry{net1.exe@\texttt{net1.exe}|book{2}}{133}
-\indexentry{rdpclip.exe@\texttt{rdpclip.exe}|book{2}}{132}
-\indexentry{tstheme.exe@\texttt{tstheme.exe}|book{2}}{132}
-\indexentry{mstsc.exe@\texttt{mstsc.exe}|book{2}}{130}
-\indexentry{Application Deployment Software|book{2}}{148}
-\indexentry{Vulnerability!Exploitation|book{2}}{150}
-\indexentry{Malware!Execution|book{2}}{155}
-\indexentry{Anti-Virus!Logs|book{2}}{156}
-\indexentry{Process!Tracking|book{2}}{158}
-\indexentry{Tracking!Process|book{2}}{158-160}
-\indexentry{Tracking!Command Line|book{2}}{158-162}
-\indexentry{Command Line Tracking|book{2}}{158}
-\indexentry{Process!Tracking|book{2}}{160}
-\indexentry{Process!Tracking!Command Line|book{2}}{162}
-\indexentry{PowerShell!Logs|book{2}}{164}
-\indexentry{PowerShell!Enabling logs|book{2}}{166}
-\indexentry{PowerShell!Malicious (logs)|book{2}}{167}
-\indexentry{PowerShell!Log hunting|book{2}}{168}
-\indexentry{PowerShell!Obfuscation|book{2}}{170}
-\indexentry{AMSI \goto Anti-Malware Scanning Interface|comment}{170}
-\indexentry{Anti-Malware Script Obfuscation|book{2}}{170}
-\indexentry{CyberChef|book{2}}{171}
-\indexentry{PowerShell!Transcript Logs|book{2}}{173-174}
-\indexentry{PowerShell!Command History|book{2}}{176}
-\indexentry{PSReadline@\texttt{PSReadline}|book{2}}{176}
-\indexentry{WMI!Persistence|book{2}}{177}
-\indexentry{WMI!Logs|book{2}}{177}
-\indexentry{WMI!Log Hunting|book{2}}{180}
-\indexentry{scrcons.exe@\texttt{scrcons.exe}|book{2}}{180}
-\indexentry{EventLog!Summary|book{2}}{182}
-\indexentry{EventLog!Extraction|book{2}}{183}
-\indexentry{PsLogList@\texttt{PsLogList}|book{2}}{183}
-\indexentry{Event Log Explorer|book{2}}{183}
-\indexentry{evtwalk|book{2}}{183}
-\indexentry{evtx\_view|book{2}}{183}
-\indexentry{ECTXtract|book{2}}{183}
-\indexentry{Get-WinEvent@\texttt{Get-WinEvent}|book{2}}{185}
-\indexentry{EventLog!PowerShell|book{2}}{185}
-\indexentry{SysMon|book{2}}{188}
-\indexentry{EventLog!EventID|book{2}}{191}
-
 
 % \comment{********************************************************************************************
 %                                      THIRD BOOK SECTION
