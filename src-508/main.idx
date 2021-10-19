@@ -640,43 +640,40 @@
 
 \indexentry{SysMon|book{2}}{205-206}
 
-% HERE =====================================
 
 % \comment{********************************************************************************************
 %                                      THIRD BOOK SECTION
 % *****************************************************************************************************}
 
-\indexentry{Incident Response!Remote|book{3}}{4}
-\indexentry{Forensics (Remote)|book{3}}{4}
+
+
+\indexentry{Incident Response!Remote|book{3}}{3}
 \indexentry{F-Response|book{3}}{7}
-\indexentry{GRR|book{3}}{7}
-\indexentry{F-Response!Enterprise|book{3}}{8}
-\indexentry{F-Response!MSI|book{3}}{12}
-\indexentry{F-Response!GPO|book{3}}{14}
-\indexentry{F-Response!Agent Service|book{3}}{15}
-\indexentry{fr\_ace!add|book{3}}{16}
-\indexentry{fr\_ace!query|book{3}}{16}
-\indexentry{fr\_ace!mount|book{3}}{17}
-\indexentry{kpartx|book{3}}{17}
-\indexentry{mount@\texttt{mount}|book{3}}{17}
-\indexentry{F-Response!Attach Remote Drive|book{3}}{17}
-\indexentry{F-Response!Acquire Memory|book{3}}{18}
-\indexentry{dc3dd@\texttt{dc3dd}|book{3}}{18}
-\indexentry{KAPE|book{3}}{22}
-\indexentry{KAPE!Options|book{3}}{23}
-\indexentry{Target Collection|book{3}}{25}
-\indexentry{KAPE!Collection|book{3}}{25}
-\indexentry{Endpoint Detection and Response (EDR)|book{3}}{29}
-\indexentry{EDR \goto Endpoint Detection and Response|comment}{29}
-\indexentry{Endpoint Detection and Response (EDR)!Importance|book{3}}{30}
-\indexentry{Endpoint Detection and Response (EDR)!Challenge|book{3}}{31}
-\indexentry{Visibility|book{3}}{30}
-\indexentry{Perimeter|book{3}}{30}
-\indexentry{Endpoint Detection and Response (EDR)!Memory|book{3}}{32}
-\indexentry{Process!Process tree|book{3}}{33}
-\indexentry{Memory!Forensics|book{3}}{35}
-\indexentry{Memory!Forensics!Motivations|book{3}}{36}
-\indexentry{Memory!Forensics!Advantages|book{3}}{37}
+\indexentry{Velociraptor|book{3}}{7}
+
+% HERE =====================================
+
+\indexentry{F-Response!Enterprise|book{3}}{9}
+
+\indexentry{KAPE|book{3}}{13}
+\indexentry{KAPE!Target Collection|book{3}}{15}
+
+\indexentry{Velociraptor|book{3}}{16}
+
+\indexentry{Endpoint Detection and Response (EDR)|book{3}}{23}
+\indexentry{EDR \goto Endpoint Detection and Response|comment}{23}
+
+\indexentry{Endpoint Detection and Response (EDR)!Importance|book{3}}{24}
+\indexentry{Endpoint Detection and Response (EDR)!Challenge|book{3}}{25}
+\indexentry{Visibility|book{3}}{24}
+\indexentry{Perimeter|book{3}}{24}
+
+\indexentry{Endpoint Detection and Response (EDR)!Memory|book{3}}{26}
+
+\indexentry{Memory!Forensics|book{3}}{30}
+\indexentry{Memory!Forensics!Motivations|book{3}}{31}
+\indexentry{Memory!Forensics!Advantages|book{3}}{32}
+
 \indexentry{Incognito mode|book{3}}{37}
 \indexentry{Chat threads|book{3}}{37}
 \indexentry{Memory!Acquisition|book{3}}{39}
