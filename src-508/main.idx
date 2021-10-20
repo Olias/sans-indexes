@@ -651,8 +651,6 @@
 \indexentry{F-Response|book{3}}{7}
 \indexentry{Velociraptor|book{3}}{7}
 
-% HERE =====================================
-
 \indexentry{F-Response!Enterprise|book{3}}{9}
 
 \indexentry{KAPE|book{3}}{13}
@@ -673,49 +671,55 @@
 \indexentry{Memory!Forensics|book{3}}{30}
 \indexentry{Memory!Forensics!Motivations|book{3}}{31}
 \indexentry{Memory!Forensics!Advantages|book{3}}{32}
+\indexentry{Incognito mode|book{3}}{32}
 
-\indexentry{Incognito mode|book{3}}{37}
-\indexentry{Chat threads|book{3}}{37}
-\indexentry{Memory!Acquisition|book{3}}{39}
-\indexentry{winpmem@\texttt{winpmem} Driver|book{3}}{39}
-\indexentry{DumpIt|book{3}}{39}
-\indexentry{F-Response!SIFT|book{3}}{39}
-\indexentry{BelgaSoft|book{3}}{39}
-\indexentry{MagnetForensics|book{3}}{39}
-\indexentry{Hibernation Files|book{3}}{39}
-\indexentry{Page File|book{3}}{39}
-\indexentry{Swap File|book{3}}{39}
-\indexentry{Memory!Dump|book{3}}{39}
-\indexentry{Memory!Virtual Machine|book{3}}{41}
-\indexentry{Hibernation Files|book{3}}{43}
-\indexentry{Volatility!\texttt{imagecopy}|book{3}}{43}
-\indexentry{hibr2bin@\texttt{hibr2bin}|book{3}}{43}
-\indexentry{Hibernation Recon|book{3}}{43}
-\indexentry{powercfg.exe@\texttt{powercfg.exe}|book{3}}{43}
-\indexentry{BulkExtractor|book{3}}{43}
-\indexentry{Internet Evidence Finder|book{3}}{43}
-\indexentry{Volatility|book{3}}{43}
-\indexentry{Passware|book{3}}{43}
-\indexentry{Memory!Forensics!Windows 10|book{3}}{45}
-\indexentry{VSM \goto Virtual Secure Mode|comment}{45}
-\indexentry{Virtual Secure Mode|book{3}}{45}
-\indexentry{Memory!Compression|book{3}}{45}
-\indexentry{Hibernation Files!Windows 10|book{3}}{47}
-\indexentry{Memory!Analysis|book{3}}{49}
-\indexentry{Memory!Analysis \win|book{3}}{50}
-\indexentry{Kernel Processor Control Region (KPCR)|book{3}}{50}
-\indexentry{KPCR \goto Kernel Processor Control Region|comment}{50}
-\indexentry{KDBG \goto Kernel Debugger Datablock|comment}{50}
-\indexentry{Kernel Debugger Datablock (KDBG)|book{3}}{50}
-\indexentry{PsActiveProcessHead|book{3}}{50}
-\indexentry{Directory Table Base (DTB)|book{3}}{50}
-\indexentry{DTB \goto Directory Table Base|comment}{50}
-\indexentry{EPROCESS|book{3}}{50}
-\indexentry{Executive Process Block|book{3}}{50}
-\indexentry{Process!Environment Block (PEB)|book{3}}{50}
-\indexentry{PEB \goto Process Environment Block|comment}{50}
-\indexentry{Virtual Address Descriptor (VAD)|book{3}}{50}
-\indexentry{VAD \goto Virtual Address Descriptor|comment}{50}
+% HERE =====================================
+
+\indexentry{Memory!Acquisition|book{3}}{34}
+\indexentry{winpmem@\texttt{winpmem} Driver|book{3}}{34}
+\indexentry{DumpIt|book{3}}{34}
+\indexentry{F-Response!SIFT|book{3}}{34}
+\indexentry{BelgaSoft|book{3}}{34}
+\indexentry{MagnetForensics|book{3}}{34}
+\indexentry{Hibernation Files|book{3}}{34}
+\indexentry{Page File|book{3}}{35}
+\indexentry{Swap File|book{3}}{35}
+\indexentry{Memory!Dump|book{3}}{35}
+
+\indexentry{Memory!Virtual Machine|book{3}}{36}
+
+\indexentry{Hibernation Files|book{3}}{38}
+\indexentry{hibr2bin@\texttt{hibr2bin}|book{3}}{39}
+\indexentry{Hibernation Recon|book{3}}{39}
+\indexentry{powercfg.exe@\texttt{powercfg.exe}|book{3}}{38}
+\indexentry{BulkExtractor|book{3}}{38}
+\indexentry{Internet Evidence Finder|book{3}}{38}
+\indexentry{Volatility|book{3}}{38}
+\indexentry{Passware|book{3}}{38}
+
+\indexentry{Memory!Forensics!Windows 10|book{3}}{40}
+\indexentry{VSM \goto Virtual Secure Mode|comment}{40}
+\indexentry{Virtual Secure Mode|book{3}}{40}
+\indexentry{Memory!Compression|book{3}}{40}
+\indexentry{Hibernation Files!Windows 10|book{3}}{42}
+
+\indexentry{Memory!Analysis|book{3}}{44}
+\indexentry{Memory!Analysis \win|book{3}}{45}
+\indexentry{Kernel Processor Control Region (KPCR)|book{3}}{45}
+\indexentry{KPCR \goto Kernel Processor Control Region|comment}{45}
+\indexentry{KDBG \goto Kernel Debugger Datablock|comment}{45}
+\indexentry{Kernel Debugger Datablock (KDBG)|book{3}}{45}
+\indexentry{Directory Table Base (DTB)|book{3}}{45}
+\indexentry{DTB \goto Directory Table Base|comment}{45}
+\indexentry{PsActiveProcessHead|book{3}}{45}
+\indexentry{EPROCESS|book{3}}{45}
+\indexentry{Executive Process Block|book{3}}{45}
+\indexentry{Process!Environment Block (PEB)|book{3}}{45}
+\indexentry{PEB \goto Process Environment Block|comment}{45}
+\indexentry{Virtual Address Descriptor (VAD)|book{3}}{45}
+\indexentry{VAD \goto Virtual Address Descriptor|comment}{45}
+
+
 \indexentry{Volatility|book{3}}{53}
 \indexentry{Volatility!Usage|book{3}}{54}
 \indexentry{Volatility!Help|book{3}}{56}
