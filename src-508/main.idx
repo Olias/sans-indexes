@@ -673,7 +673,6 @@
 \indexentry{Memory!Forensics!Advantages|book{3}}{32}
 \indexentry{Incognito mode|book{3}}{32}
 
-% HERE =====================================
 
 \indexentry{Memory!Acquisition|book{3}}{34}
 \indexentry{winpmem@\texttt{winpmem} Driver|book{3}}{34}
@@ -718,26 +717,32 @@
 \indexentry{PEB \goto Process Environment Block|comment}{45}
 \indexentry{Virtual Address Descriptor (VAD)|book{3}}{45}
 \indexentry{VAD \goto Virtual Address Descriptor|comment}{45}
+\indexentry{Memory representation|book{3}}{47}
 
 
-\indexentry{Volatility|book{3}}{53}
-\indexentry{Volatility!Usage|book{3}}{54}
-\indexentry{Volatility!Help|book{3}}{56}
-\indexentry{Volatility!\texttt{imageinfo}|book{3}}{58}
-\indexentry{Volatility!\texttt{kdbgscan}|book{3}}{59}
-\indexentry{Kernel Debugger Datablock (KDBG)!Identification|book{3}}{59}
-\indexentry{KdCopyDataBlock@\texttt{KdCopyDataBlock}|book{3}}{59}
-\indexentry{Volatility!\texttt{pslist}|book{3}}{59}
-\indexentry{Volatility!Profile|book{3}}{60}
-\indexentry{Volatility!Image identification|book{3}}{61}
-\indexentry{Volatility!\texttt{pslist}|book{3}}{61}
-\indexentry{Volatility!\texttt{psscan}|book{3}}{61}
-\indexentry{Volatility!\texttt{filescan}|book{3}}{61}
-\indexentry{Volatility!\texttt{hivelist}|book{3}}{61}
-\indexentry{Volatility!\texttt{kdbgscan}|book{3}}{62}
-\indexentry{Volatility!\texttt{imagecopy}|book{3}}{64}
-\indexentry{Memory!Finding the first hit|book{3}}{66}
-\indexentry{EPROCESS|book{3}}{68}
+
+
+\indexentry{Volatility|book{3}}{48}
+\indexentry{Volatility!Usage|book{3}}{49}
+\indexentry{Volatility!Help|book{3}}{5}1
+
+\indexentry{Volatility!Profile|book{3}}{54}
+\indexentry{Volatility!\texttt{imageinfo}|book{3}}{54}
+\indexentry{Volatility!\texttt{build}|book{3}}{55}
+\indexentry{Volatility!Image identification|book{3}}{55}
+
+\indexentry{Volatility!\texttt{kdbgscan}|book{3}}{56-57}
+\indexentry{Kernel Debugger Datablock (KDBG)!Identification|book{3}}{57}
+\indexentry{KdCopyDataBlock@\texttt{KdCopyDataBlock}|book{3}}{57}
+
+\indexentry{Volatility!\texttt{imagecopy}|book{3}}{59-60}
+
+\indexentry{Memory!Finding the first hit|book{3}}{61}
+
+\indexentry{EPROCESS|book{3}}{63}
+
+% HERE =====================================
+
 \indexentry{Process!Analysis|book{3}}{70}
 \indexentry{Volatility!\texttt{pslist}|book{3}}{73}
 \indexentry{Volatility!\texttt{psscan}|book{3}}{73}
