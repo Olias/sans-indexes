@@ -746,32 +746,38 @@
 \indexentry{Volatility!\texttt{pslist}|book{3}}{69}
 \indexentry{Volatility!\texttt{psscan}|book{3}}{74-76}
 \indexentry{PDB \goto Page Directory Offset|comment}{74}
+\indexentry{Page Directory Offset (PDB)|book{3}}{74}
+
 \indexentry{Memory!Offset|book{3}}{75}
+
+\indexentry{Volatility!\texttt{pstree}|book{3}}{78-82}
+\indexentry{WebShell|book{3}}{81}
+\indexentry{Deep Panda |book{3}}{81}
+\indexentry{APT19|book{3}}{81}
+
+
+\indexentry{WMI!Processes|book{3}}{83}
+\indexentry{PowerShell!Processes|book{3}}{83}
+\indexentry{wmiprvse.exe@\texttt{wmiprvse.exe}|book{3}}{83}
+\indexentry{scrcons.exe@\texttt{scrcons.exe}|book{3}}{83}
+\indexentry{wsmprovhost.exe@\texttt{wsmprovhost.exe}|book{3}}{83}
+\indexentry{wmic.exe@\texttt{wmic.exe}|book{3}}{83}
+\indexentry{wmiprvse.exe@\texttt{wmiprvse.exe}|book{3}}{83}
+
+\indexentry{Volatility!\texttt{malprocfind}|book{3}}{85-
+}
+
+\indexentry{Volatility!\texttt{processbl}|book{3}}{88}
 
 % HERE =====================================
 
 
-
-\indexentry{Volatility!\texttt{pstree}|book{3}}{73}
-\indexentry{Volatility!\texttt{malprocfind}|book{3}}{73}
-\indexentry{Volatility!\texttt{processbl}|book{3}}{73}
 \indexentry{Volatility!\texttt{pslist}|book{3}}{74}
 \indexentry{Volatility!\texttt{psscan}|book{3}}{78}
-\indexentry{Page Directory Offset (PDB)|book{3}}{78}
 
 \indexentry{Volatility!\texttt{psscan}|book{3}}{80}
 \indexentry{Process!Terminated|book{3}}{80}
 \indexentry{Volatility!\texttt{pstree}|book{3}}{82}
-\indexentry{WebShell|book{3}}{85}
-\indexentry{Deep Panda |book{3}}{85}
-\indexentry{APT19|book{3}}{85}
-\indexentry{WMI!Processes|book{3}}{87}
-\indexentry{PowerShell!Processes|book{3}}{87}
-\indexentry{wmiprvse.exe@\texttt{wmiprvse.exe}|book{3}}{87}
-\indexentry{scrcons.exe@\texttt{scrcons.exe}|book{3}}{87}
-\indexentry{wsmprovhost.exe@\texttt{wsmprovhost.exe}|book{3}}{87}
-\indexentry{wmic.exe@\texttt{wmic.exe}|book{3}}{87}
-\indexentry{wmiprvse.exe@\texttt{wmiprvse.exe}|book{3}}{87}
 \indexentry{Volatility!\texttt{malprocfind}|book{3}}{89}
 \indexentry{Volatility!\texttt{baseline}|book{3}}{91}
 \indexentry{Volatility!\texttt{processbl}|book{3}}{91}
