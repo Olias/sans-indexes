@@ -741,19 +741,24 @@
 
 \indexentry{EPROCESS|book{3}}{63}
 
+\indexentry{Process!Analysis|book{3}}{65-66}
+
+\indexentry{Volatility!\texttt{pslist}|book{3}}{69}
+\indexentry{Volatility!\texttt{psscan}|book{3}}{74-76}
+\indexentry{PDB \goto Page Directory Offset|comment}{74}
+\indexentry{Memory!Offset|book{3}}{75}
+
 % HERE =====================================
 
-\indexentry{Process!Analysis|book{3}}{70}
-\indexentry{Volatility!\texttt{pslist}|book{3}}{73}
-\indexentry{Volatility!\texttt{psscan}|book{3}}{73}
+
+
 \indexentry{Volatility!\texttt{pstree}|book{3}}{73}
 \indexentry{Volatility!\texttt{malprocfind}|book{3}}{73}
 \indexentry{Volatility!\texttt{processbl}|book{3}}{73}
 \indexentry{Volatility!\texttt{pslist}|book{3}}{74}
 \indexentry{Volatility!\texttt{psscan}|book{3}}{78}
 \indexentry{Page Directory Offset (PDB)|book{3}}{78}
-\indexentry{PDB \goto Page Directory Offset|comment}{78}
-\indexentry{Memory!Offset|book{3}}{79}
+
 \indexentry{Volatility!\texttt{psscan}|book{3}}{80}
 \indexentry{Process!Terminated|book{3}}{80}
 \indexentry{Volatility!\texttt{pstree}|book{3}}{82}
@@ -1153,7 +1158,7 @@
 
 \indexentry{Process!Anomaly \win|book{1}}{76}
 \indexentry{3A@\textbf{Windows Process}!System@\texttt{System}|book{1}}{76}
-\indexentry{3A@\textbf{Windows Process}!svchost.exe@\texttt{svchost.exe}|book{1}}{76}
+\indexentry{3A@\textbf{Windows Process}!svchost.exe@\texttt{svchost.exe}|book{1}}{72}
 \indexentry{3A@\textbf{Windows Process}!ntoskrnl.exe@\texttt{ntoskrnl.exe}|book{1}}{80}
 
 \indexentry{2A@\textbf{Service Name}!DcomLaunch@\texttt{DcomLaunch}|book{1}}{76}
