@@ -764,78 +764,70 @@
 \indexentry{wmic.exe@\texttt{wmic.exe}|book{3}}{83}
 \indexentry{wmiprvse.exe@\texttt{wmiprvse.exe}|book{3}}{83}
 
-\indexentry{Volatility!\texttt{malprocfind}|book{3}}{85-
-}
+\indexentry{Volatility!\texttt{malprocfind}|book{3}}{85-86}
+
+\indexentry{Volatility!\texttt{baseline}|book{3}}{87}
+\indexentry{Volatility!\texttt{processbl}|book{3}}{87}
+\indexentry{Volatility!\texttt{driverbl}|book{3}}{87}
+\indexentry{Volatility!\texttt{servicebl}|book{3}}{87}
+\indexentry{DarkComet|book{3}}{88}
 
 \indexentry{Volatility!\texttt{processbl}|book{3}}{88}
 
+\indexentry{Process!Objects|book{3}}{93}
+\indexentry{Volatility!\texttt{dlllist}|book{3}}{96-97}
+\indexentry{CozyDuke|book{3}}{97}
+
+\indexentry{Volatility!\texttt{getsids}|book{3}}{99}
+\indexentry{SID \goto Security Identifier|comment}{103}
+\indexentry{Security Identifier (SID)|book{3}}{103}
+\indexentry{Volatility!\texttt{handles}|book{3}}{105}
+\indexentry{Handle|book{3}}{105}
+\indexentry{File!Handle|book{3}}{105}
+\indexentry{Volatility!\texttt{mutantscan}|book{3}}{105}
+\indexentry{Volatility!\texttt{filescan}|book{3}}{105}
+
+\indexentry{Mutant|book{3}}{108}
+\indexentry{Mutex|book{3}}{108}
+
+\indexentry{Network Artifacts|book{3}}{112}
+\indexentry{Artifacts!Network|book{3}}{112}
+
+\indexentry{Volatility!\texttt{connections}|book{3}}{114}
+\indexentry{Volatility!\texttt{connscan}|book{3}}{114}
+\indexentry{Volatility!\texttt{sockets}|book{3}}{114}
+\indexentry{Volatility!\texttt{sockscan}|book{3}}{114}
+\indexentry{Volatility!\texttt{netscan}|book{3}}{114-115}
+
+\indexentry{Code Injection|book{3}}{123}
+\indexentry{LoadLibrary@\texttt{LoadLibrary}|book{3}}{123}
+\indexentry{CreateRemoteThread|book{3}}{123}
+\indexentry{WriteProcessMemory@\texttt{WriteProcessMemory}|book{3}}{123}
+
+\indexentry{VirtualAllocEx@\texttt{VirtualAllocEx}|book{3}}{124}
+\indexentry{SetWindowsHookEx@\texttt{SetWindowsHookEx}|book{3}}{124}
+\indexentry{CreateRemoteThread|book{3}}{124}
+\indexentry{Process!Hollowing|book{3}}{124}
+
+\indexentry{DLL Injection|book{3}}{125}
+
+\indexentry{Volatility!\texttt{ldrmodules}|book{3}}{128}
+\indexentry{Volatility!\texttt{malfind}|book{3}}{128}
+\indexentry{Volatility!\texttt{hollowfind}|book{3}}{128}
+\indexentry{Volatility!\texttt{threadmap}|book{3}}{128}
+\indexentry{Volatility!\texttt{ldrmodules}|book{3}}{128}
+
+\indexentry{ldrmodules|book{3}}{128}
+\indexentry{ldrmodules!InLoadOrderModule List@\texttt{InLoadOrderModule} List|book{3}}{130}
+\indexentry{ldrmodules!InInitializationOrderModule List@\texttt{InInitializationOrderModule} List|book{3}}{130}
+\indexentry{ldrmodules!InMemoryOrderModule List@\texttt{InMemoryOrderModule} List|book{3}}{130}
+\indexentry{ldrmodules!TDL3/TDSS|book{3}}{133}
+\indexentry{ldrmodules!StuxNet|book{3}}{136}
+\indexentry{Process!Hollowing|book{3}}{136}
 % HERE =====================================
 
 
-\indexentry{Volatility!\texttt{pslist}|book{3}}{74}
-\indexentry{Volatility!\texttt{psscan}|book{3}}{78}
 
-\indexentry{Volatility!\texttt{psscan}|book{3}}{80}
-\indexentry{Process!Terminated|book{3}}{80}
-\indexentry{Volatility!\texttt{pstree}|book{3}}{82}
-\indexentry{Volatility!\texttt{malprocfind}|book{3}}{89}
-\indexentry{Volatility!\texttt{baseline}|book{3}}{91}
-\indexentry{Volatility!\texttt{processbl}|book{3}}{91}
-\indexentry{Volatility!\texttt{driverbl}|book{3}}{91}
-\indexentry{Volatility!\texttt{servicebl}|book{3}}{91}
-\indexentry{DarkComet|book{3}}{92}
-\indexentry{Rogue Process Analysis|book{3}}{94}
-\indexentry{Process!Objects|book{3}}{94}
-\indexentry{Volatility!\texttt{dlllist}|book{3}}{99}
-\indexentry{Volatility!\texttt{cmdline}|book{3}}{99}
-\indexentry{Volatility!\texttt{getsids}|book{3}}{99}
-\indexentry{Volatility!\texttt{handles}|book{3}}{99}
-\indexentry{Volatility!\texttt{mutantscan}|book{3}}{99}
-\indexentry{Volatility!\texttt{svcscan}|book{3}}{99}
-\indexentry{Volatility!\texttt{servicebl}|book{3}}{99}
-\indexentry{Volatility!\texttt{dlllist}|book{3}}{100}
-\indexentry{CozyDuke|book{3}}{101}
-\indexentry{Volatility!\texttt{getsids}|book{3}}{103}
-\indexentry{SID \goto Security Identifier|comment}{103}
-\indexentry{Security Identifier (SID)|book{3}}{103}
-\indexentry{Security Identifier (SID)|book{3}}{107}
-\indexentry{Volatility!\texttt{handles}|book{3}}{110}
-\indexentry{Handle|book{3}}{111}
-\indexentry{File!Handle|book{3}}{111}
-\indexentry{Mutant|book{3}}{113}
-\indexentry{Mutex|book{3}}{113}
-\indexentry{Volatility!\texttt{svcscan}|book{3}}{115}
-\indexentry{Volatility!\texttt{servicebl}|book{3}}{119}
-\indexentry{Process!Objects|book{3}}{121}
-\indexentry{Network Artifacts|book{3}}{123}
-\indexentry{Artifacts!Network|book{3}}{123}
-\indexentry{Volatility!\texttt{connections}|book{3}}{125}
-\indexentry{Volatility!\texttt{connscan}|book{3}}{125}
-\indexentry{Volatility!\texttt{sockets}|book{3}}{125}
-\indexentry{Volatility!\texttt{sockscan}|book{3}}{125}
-\indexentry{Volatility!\texttt{netscan}|book{3}}{125}
-\indexentry{Volatility!\texttt{netscan}|book{3}}{126}
-\indexentry{Network Artifacts!Review|book{3}}{129}
-\indexentry{Code Injection|book{3}}{134}
-\indexentry{LoadLibrary@\texttt{LoadLibrary}|book{3}}{134}
-\indexentry{CreateRemoteThread|book{3}}{134}
-\indexentry{WriteProcessMemory@\texttt{WriteProcessMemory}|book{3}}{135}
-\indexentry{VirtualAllocEx@\texttt{VirtualAllocEx}|book{3}}{135}
-\indexentry{SetWindowsHookEx@\texttt{SetWindowsHookEx}|book{3}}{135}
-\indexentry{CreateRemoteThread|book{3}}{135}
-\indexentry{Process!Hollowing|book{3}}{135}
-\indexentry{DLL Injection|book{3}}{136}
-\indexentry{Volatility!\texttt{ldrmodules}|book{3}}{139}
-\indexentry{Volatility!\texttt{malfind}|book{3}}{139}
-\indexentry{Volatility!\texttt{hollowfind}|book{3}}{139}
-\indexentry{Volatility!\texttt{threadmap}|book{3}}{139}
-\indexentry{Volatility!\texttt{ldrmodules}|book{3}}{140}
-\indexentry{DLL Lists|book{3}}{140}
-\indexentry{InLoadOrderModule List@\texttt{InLoadOrderModule} List|book{3}}{140}
-\indexentry{InInitializationOrderModule List@\texttt{InInitializationOrderModule} List|book{3}}{140}
-\indexentry{InMemoryOrderModule List@\texttt{InMemoryOrderModule} List|book{3}}{140}
-\indexentry{TDL3/TDSS|book{3}}{144}
-\indexentry{StuxNet|book{3}}{147}
 \indexentry{Code Injection!Reflective|book{3}}{149}
 \indexentry{LoadLibrary@\texttt{LoadLibrary}|book{3}}{149}
 \indexentry{Memory!Page Execute ReadWrite|book{3}}{150}
