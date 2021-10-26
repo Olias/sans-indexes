@@ -824,78 +824,98 @@
 \indexentry{ldrmodules!TDL3/TDSS|book{3}}{133}
 \indexentry{ldrmodules!StuxNet|book{3}}{136}
 \indexentry{Process!Hollowing|book{3}}{136}
+
+\indexentry{Code Injection!Reflective|book{3}}{138}
+\indexentry{Memory!Page Execute ReadWrite|book{3}}{139}
+\indexentry{Volatility!\texttt{malfind}|book{3}}{140-147}
+\indexentry{MZ|book{3}}{141-143}
+\indexentry{Code Injection!Review|book{3}}{148}
+
+\indexentry{Rootkit!Hooking|book{3}}{150}
+
+\indexentry{System Service Descriptor Table (SSDT)|book{3}}{150}
+\indexentry{ntoskrnl.exe@\texttt{ntoskrnl.exe}|book{3}}{150}
+\indexentry{win32k.sys|book{3}}{150}
+
+\indexentry{Interrupt Descriptor Table (IDT)|book{3}}{150}
+\indexentry{Import Address Table (IAT)|book{3}}{151}
+\indexentry{Inline API|book{3}}{151}
+\indexentry{I/O Request Packet (IRP)|book{3}}{151}
+
+\indexentry{SSDT \goto System Service Descriptor Table|comment}{150}
+\indexentry{IDT \goto Interrupt Descriptor Table|comment}{150}
+\indexentry{IAT \goto Import Address Table|comment}{151}
+\indexentry{IRP \goto I/O Request Packet|comment}{151}
+
+\indexentry{Volatility!\texttt{ssdt}|book{3}}{152}
+\indexentry{Volatility!\texttt{psxview}|book{3}}{152}
+\indexentry{Volatility!\texttt{modscan}|book{3}}{152}
+\indexentry{Volatility!\texttt{apihooks}|book{3}}{152}
+\indexentry{Volatility!\texttt{driverirp}|book{3}}{152}
+\indexentry{Volatility!\texttt{idt}|book{3}}{152}
+
+\indexentry{Volatility!\texttt{ssdt}|book{3}}{153-155}
+\indexentry{Kernel Patch Protection|book{3}}{153}
+\indexentry{PatchGuard|book{3}}{153}
+
+\indexentry{Direct Kernel Object Manipulation (DKOM)|book{3}}{157}
+\indexentry{DKOM \goto Direct Kernel Object Manipulation|comment}{157}
+
+\indexentry{Volatility!\texttt{psxview}|book{3}}{158}
+\indexentry{PspCid@\texttt{PspCid}|book{3}}{158}
+\indexentry{csrss@\texttt{csrss}|book{3}}{158}
+\indexentry{thrdproc@\texttt{thrdproc}|book{3}}{158}
+\indexentry{deskthrd@\texttt{deskthrd}|book{3}}{158}
+\indexentry{FU Rootkit|book{3}}{159}
+
+\indexentry{Volatility!\texttt{modscan}|book{3}}{161}
+\indexentry{Volatility!\texttt{modules}|book{3}}{161}
+\indexentry{Volatility!\texttt{devicetree}|book{3}}{161}
+\indexentry{Volatility!\texttt{driverbl}|book{3}}{164}
+\indexentry{Volatility!\texttt{apihooks}|book{3}}{166}
+\indexentry{Zeus/Zbot|book{3}}{168}
+\indexentry{Rootkit!Detection Review|book{3}}{169}
+
 % HERE =====================================
 
 
+\indexentry{Volatility!\texttt{dlldump}|book{3}}{173}
+\indexentry{Volatility!\texttt{moddump}|book{3}}{173}
+\indexentry{Volatility!\texttt{procdump}|book{3}}{173}
+\indexentry{Volatility!\texttt{memdump}|book{3}}{173}
+\indexentry{Volatility!\texttt{cmdscan}|book{3}}{173}
+\indexentry{Volatility!\texttt{consoles}|book{3}}{173}
+\indexentry{Volatility!\texttt{dumpfiles}|book{3}}{173}
+\indexentry{Volatility!\texttt{filescan}|book{3}}{173}
+\indexentry{Volatility!\texttt{shimcachemem}|book{3}}{173}
 
-\indexentry{Code Injection!Reflective|book{3}}{149}
-\indexentry{LoadLibrary@\texttt{LoadLibrary}|book{3}}{149}
-\indexentry{Memory!Page Execute ReadWrite|book{3}}{150}
-\indexentry{Volatility!\texttt{malfind}|book{3}}{151}
-\indexentry{MZ|book{3}}{152-154}
-\indexentry{Code Injection!Review|book{3}}{159}
-\indexentry{Rootkit!Hooking|book{3}}{161}
-\indexentry{System Service Descriptor Table (SSDT)|book{3}}{161}
-\indexentry{Interrupt Descriptor Table (IDT)|book{3}}{161}
-\indexentry{Import Address Table (IAT)|book{3}}{161}
-\indexentry{Inline API|book{3}}{161}
-\indexentry{I/O Request Packet (IRP)|book{3}}{161}
-\indexentry{SSDT \goto System Service Descriptor Table|comment}{161}
-\indexentry{IDT \goto Interrupt Descriptor Table|comment}{161}
-\indexentry{IAT \goto Import Address Table|comment}{161}
-\indexentry{IRP \goto I/O Request Packet|comment}{161}
-\indexentry{ntoskrnl.exe@\texttt{ntoskrnl.exe}|book{3}}{161}
-\indexentry{win32k.sys|book{3}}{161}
-\indexentry{Volatility!\texttt{ssdt}|book{3}}{163}
-\indexentry{Volatility!\texttt{psxview}|book{3}}{163}
-\indexentry{Volatility!\texttt{modscan}|book{3}}{163}
-\indexentry{Volatility!\texttt{apihooks}|book{3}}{163}
-\indexentry{Volatility!\texttt{driverirp}|book{3}}{163}
-\indexentry{Volatility!\texttt{idt}|book{3}}{163}
-\indexentry{Volatility!\texttt{ssdt}|book{3}}{164}
-\indexentry{Kernel Patch Protection|book{3}}{164}
-\indexentry{PatchGuard|book{3}}{164}
-\indexentry{Direct Kernel Object Manipulation (DKOM)|book{3}}{168}
-\indexentry{DKOM \goto Direct Kernel Object Manipulation|comment}{168}
-\indexentry{EPROCESS|book{3}}{168}
-\indexentry{Volatility!\texttt{psxview}|book{3}}{169}
-\indexentry{PspCid@\texttt{PspCid}|book{3}}{170}
-\indexentry{FU Rootkit|book{3}}{170}
-\indexentry{Volatility!\texttt{modscan}|book{3}}{172}
-\indexentry{Volatility!\texttt{modules}|book{3}}{172}
-\indexentry{Volatility!\texttt{devicetree}|book{3}}{172}
-\indexentry{Volatility!\texttt{driverbl}|book{3}}{175}
-\indexentry{Volatility!\texttt{apihooks}|book{3}}{177}
-\indexentry{Zeus|book{3}}{178}
-\indexentry{Zbot|book{3}}{178}
-\indexentry{Rootkit!Detection|book{3}}{180}
-\indexentry{Volatility!\texttt{dlldump}|book{3}}{184}
-\indexentry{Volatility!\texttt{moddump}|book{3}}{184}
-\indexentry{Volatility!\texttt{procdump}|book{3}}{184}
-\indexentry{Volatility!\texttt{memdump}|book{3}}{184}
-\indexentry{Volatility!\texttt{cmdscan}|book{3}}{184}
-\indexentry{Volatility!\texttt{consoles}|book{3}}{184}
-\indexentry{Volatility!\texttt{dumpfiles}|book{3}}{184}
-\indexentry{Volatility!\texttt{filescan}|book{3}}{184}
-\indexentry{Volatility!\texttt{dlldump}|book{3}}{185}
-\indexentry{Volatility!\texttt{moddump}|book{3}}{187}
-\indexentry{Volatility!\texttt{procdump}|book{3}}{191}
-\indexentry{Volatility!\texttt{memdump}|book{3}}{192}
-\indexentry{Volatility!\texttt{vaddump}|book{3}}{192}
-\indexentry{Strings|book{3}}{193}
-\indexentry{bstring.exe@\texttt{bstring.exe}|book{3}}{193}
-\indexentry{grep@\texttt{grep}|book{3}}{194}
-\indexentry{Volatility!\texttt{cmdscan}|book{3}}{197-198}
-\indexentry{Volatility!\texttt{consoles}|book{3}}{197-198}
-\indexentry{Volatility!\texttt{dumpfiles}|book{3}}{201}
-\indexentry{Volatility!\texttt{vainfo}|book{3}}{201}
-\indexentry{Volatility!\texttt{filescan}|book{3}}{204}
-\indexentry{Process!Acquisition|book{3}}{207}
-\indexentry{Driver Acquisition|book{3}}{207}
-\indexentry{Rekall|book{3}}{210}
-\indexentry{GRR|book{3}}{210}
-\indexentry{IOC Analysis|book{3}}{212}
-\indexentry{Volatility!\texttt{openioc\_scan}|book{3}}{212}
+\indexentry{Volatility!\texttt{dlldump}|book{3}}{174}
+\indexentry{Volatility!\texttt{moddump}|book{3}}{176}
+\indexentry{Volatility!\texttt{procdump}|book{3}}{179}
+\indexentry{Volatility!\texttt{memdump}|book{3}}{180}
+\indexentry{Volatility!\texttt{vaddump}|book{3}}{180}
+\indexentry{Strings|book{3}}{181}
+\indexentry{grep@\texttt{grep}|book{3}}{182}
+\indexentry{Volatility!\texttt{cmdscan}|book{3}}{185-187}
+\indexentry{Volatility!\texttt{consoles}|book{3}}{185-187}
+
+\indexentry{Win10 Mem Compression|book{3}}{189}
+\indexentry{Win10 Mem Compression!winmem_decompress.py|book{3}}{189}
+\indexentry{Win10 Mem Compression!win10memcompression.py|book{3}}{189}
+
+
+\indexentry{Volatility!\texttt{dumpfiles}|book{3}}{191}
+
+\indexentry{Volatility!\texttt{filescan}|book{3}}{194-195}
+\indexentry{Volatility!\texttt{shimcacheme}|book{3}}{197}
+\indexentry{Process!Acquisition Review|book{3}}{198}
+\indexentry{Driver Acquisition Review|book{3}}{198}
+\indexentry{Rekall|book{3}}{201}
+\indexentry{GRR|book{3}}{201}
+\indexentry{IOC Analysis|book{3}}{203}
+\indexentry{Volatility!\texttt{openioc\_scan}|book{3}}{203}
+\indexentry{Volatility!\texttt{yarascan}|book{3}}{203}
+\indexentry{Volatility!\texttt{page_brute.py}|book{3}}{203}
 
 % \comment{********************************************************************************************
 %                                      FOURTH BOOK SECTION
