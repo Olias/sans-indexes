@@ -622,7 +622,7 @@
 \indexentry{CyberChef|book{2}}{188}
 
 \indexentry{PowerShell!Tracking!Transcript Logs|book{2}}{190-191}
-\indexentry{PowerShell!Tracking!PSReadline:ConsoleHost_history.txt|book{2}}{193}
+\indexentry{PowerShell!Tracking!PSReadline:ConsoleHost\_history.txt|book{2}}{193}
 
 \indexentry{WMI!Tracking!Persistence|book{2}}{194-195}
 \indexentry{WMI!Tracking!Logs|book{2}}{194-197}
@@ -718,8 +718,6 @@
 \indexentry{Virtual Address Descriptor (VAD)|book{3}}{45}
 \indexentry{VAD \goto Virtual Address Descriptor|comment}{45}
 \indexentry{Memory representation|book{3}}{47}
-
-
 
 
 \indexentry{Volatility|book{3}}{48}
@@ -900,7 +898,7 @@
 \indexentry{Volatility!\texttt{consoles}|book{3}}{185-187}
 
 \indexentry{Win10 Mem Compression|book{3}}{189}
-\indexentry{Win10 Mem Compression!winmem_decompress.py|book{3}}{189}
+\indexentry{Win10 Mem Compression!winmem\_decompress.py|book{3}}{189}
 \indexentry{Win10 Mem Compression!win10memcompression.py|book{3}}{189}
 
 
@@ -915,94 +913,121 @@
 \indexentry{IOC Analysis|book{3}}{203}
 \indexentry{Volatility!\texttt{openioc\_scan}|book{3}}{203}
 \indexentry{Volatility!\texttt{yarascan}|book{3}}{203}
-\indexentry{Volatility!\texttt{page_brute.py}|book{3}}{203}
+\indexentry{Volatility!\texttt{page\_brute.py}|book{3}}{203}
 
 % \comment{********************************************************************************************
 %                                      FOURTH BOOK SECTION
 % *****************************************************************************************************}
 
-\indexentry{Timeline!Benefits|book{4}}{5}
-\indexentry{Timeline!Utopia and Reality|book{4}}{5-6}
-\indexentry{Artifacts|book{4}}{9}
-\indexentry{File!Download|book{4}}{11}
-\indexentry{Open/Save MRU|book{4}}{11}
-\indexentry{E-mail Attachments|book{4}}{11}
-\indexentry{Skype|book{4}}{11}
-\indexentry{Download.sqlite|book{4}}{11}
-\indexentry{Index.dat|book{4}}{12}
-\indexentry{Places.sqlite|book{4}}{12}
-\indexentry{Artifacts!Program Execution|book{4}}{12}
-\indexentry{Last visited MRU|book{4}}{12}
-\indexentry{Application Compatibility Cache|book{4}}{12}
-\indexentry{Prefetch|book{4}}{13}
-\indexentry{Service Events|book{4}}{13}
-\indexentry{Jump List|book{4}}{13}
-\indexentry{Run MRU|book{4}}{14}
-\indexentry{UserAssist|book{4}}{14}
-\indexentry{Artifacts!File Opening/Creation|book{4}}{14}
-\indexentry{Open/Save MRU|book{4}}{14}
-\indexentry{Recent Files|book{4}}{14}
-\indexentry{Shell bags|book{4}}{15}
-\indexentry{Last visited MRU|book{4}}{15}
-\indexentry{Office Recent Files|book{4}}{15}
-\indexentry{Shortcut (LNK) files|book{4}}{15}
-\indexentry{Prefetch|book{4}}{15}
-\indexentry{Index.dat|book{4}}{17}
-\indexentry{Location: Internet Explorer|book{4}}{17}
-\indexentry{Artifacts!Deleted file or File Knowledge|book{4}}{17}
-\indexentry{Search (XP)|book{4}}{17}
-\indexentry{ACMRU|book{4}}{17}
-\indexentry{Last visited MRU|book{4}}{17}
-\indexentry{Thumbnails|book{4}}{18}
-\indexentry{Recycle Bin|book{4}}{18}
-\indexentry{Search (Win7-10)|book{4}}{19}
-\indexentry{WordWheelQuery@\texttt{WordWheelQuery}|book{4}}{19}
-\indexentry{Thumbs.db|book{4}}{19}
-\indexentry{Artifacts!Physical Location|book{4}}{19}
-\indexentry{Timezone|book{4}}{19}
-\indexentry{Browser!Search Terms|book{4}}{20}
-\indexentry{Network History|book{4}}{20}
-\indexentry{Artifacts!USB or Drive Usage|book{4}}{20}
-\indexentry{USB Key Identification|book{4}}{20}
-\indexentry{USB First/Last Times|book{4}}{21}
-\indexentry{Driver Letter|book{4}}{21}
-\indexentry{Volume Name|book{4}}{21}
-\indexentry{Volume Serial Number|book{4}}{22}
-\indexentry{Shortcut (LNK) files|book{4}}{22}
-\indexentry{Plug-and-Play Event Log|book{4}}{22}
-\indexentry{Artifacts!Account Usage|book{4}}{23}
-\indexentry{Logon!Last|book{4}}{23}
-\indexentry{Logon!Success/Failure|book{4}}{23}
-\indexentry{Password!Last change|book{4}}{23}
-\indexentry{Logon!Type|book{4}}{23}
-\indexentry{Remote Desktop Protocol (RDP)!Usage|book{4}}{24}
-\indexentry{Artifacts!Browser Usage|book{4}}{24}
-\indexentry{Browser!History|book{4}}{24}
-\indexentry{Browser!Cache|book{4}}{24}
-\indexentry{Browser!Cookies|book{4}}{24}
-\indexentry{Browser!Flash \& Supercookies|book{4}}{25}
-\indexentry{Browser!Session Restore|book{4}}{25}
-\indexentry{Pivot|book{4}}{26-27}
-\indexentry{Temporal proximity|book{4}}{26}
-\indexentry{Timeline!Context|book{4}}{29}
-\indexentry{Timeline!Comparison|book{4}}{30}
-\indexentry{fls|book{4}}{30}
-\indexentry{MFTECmd@\texttt{MFTECmd}|book{4}}{30}
-\indexentry{log2timeline|book{4}}{30}
-\indexentry{Timeline!Process Analysis|book{4}}{32}
-\indexentry{Triage!Filesystem Timeline|book{4}}{35}
-\indexentry{Timestamp|book{4}}{35-36}
-\indexentry{MACB|book{4}}{35-36}
-\indexentry{NTFS!Timestamp|book{4}}{36}
-\indexentry{Windows Time Rules|book{4}}{38}
-\indexentry{1@\$STANDARD\_INFORMATION|book{4}}{38}
-\indexentry{Archives (embedded timestamp)|book{4}}{39}
-\indexentry{Timestamp!Lateral Movement Analysis|book{4}}{43}
-\indexentry{MountPoints2@\texttt{MountPoints2}|book{4}}{43}
-\indexentry{SMB!File copy|book{4}}{43}
-\indexentry{Timeline!Filesystem|book{4}}{44}
-\indexentry{MFTECmd@\texttt{MFTECmd}|book{4}}{46}
-\indexentry{fls|book{4}}{48}
+\indexentry{Malware Discovery|book{4}}{4}
+
+\indexentry{Malware!Identification|book{4}}{4}
+\indexentry{Behavior Detection Anomaly|book{4}}{4}
+
+\indexentry{densityscout@\texttt{densityscout}|book{4}}{5}
+\indexentry{yara@\texttt{yara}|book{4}}{5}
+\indexentry{sigcheck@\texttt{sigcheck}|book{4}}{5}
+\indexentry{pescan@\texttt{pescan}|book{4}}{5}
+
+\indexentry{yara@\texttt{yara}|book{4}}{6-8}
+\indexentry{DensityScout@\texttt{DensityScout}|book{4}}{9-11}
+\indexentry{Poison Ivy|book{4}}{11}
+\indexentry{pescan@\texttt{pescan}|book{4}}{12-14}
+\indexentry{sigcheck@\texttt{sigcheck}|book{4}}{15-17}
+
+
+\indexentry{Timeline!Benefits|book{4}}{22}
+\indexentry{Timeline!Utopia and Reality|book{4}}{23-24}
+
+\indexentry{Artifacts|book{4}}{26-42}
+
+\indexentry{Artifacts!File Download|book{4}}{28}
+\indexentry{Artifacts!File Download!Open/Save MRU|book{4}}{28}
+\indexentry{Artifacts!File Download!Email Attachements|book{4}}{28}
+\indexentry{Artifacts!File Download!Skype History|book{4}}{28}
+\indexentry{Artifacts!File Download!Downloads.sqlite|book{4}}{28}
+\indexentry{Artifacts!File Download!Index.dat/Places.sqlite|book{4}}{29}
+
+\indexentry{Artifacts!Program Execution|book{4}}{29}
+\indexentry{Artifacts!Program Execution!Last Visited MRU|book{4}}{29}
+\indexentry{Artifacts!Program Execution!Prefetch|book{4}}{30}
+\indexentry{Artifacts!Program Execution!Services Events|book{4}}{30}
+\indexentry{Artifacts!Program Execution!JumpList|book{4}}{30}
+\indexentry{Artifacts!Program Execution!RunMRU|book{4}}{31}
+\indexentry{Artifacts!Program Execution!UserAssist|book{4}}{31}
+
+\indexentry{Artifacts!File Opening/Creation|book{4}}{31}
+\indexentry{Artifacts!File Opening/Creation!Open/Save MRU|book{4}}{31}
+\indexentry{Artifacts!File Opening/Creation!Recent Files|book{4}}{32}
+\indexentry{Artifacts!File Opening/Creation!Shell bags|book{4}}{32}
+\indexentry{Artifacts!File Opening/Creation!Last visited MRU|book{4}}{32}
+\indexentry{Artifacts!File Opening/Creation!Office Recent Files|book{4}}{33}
+\indexentry{Artifacts!File Opening/Creation!Shortcut (LNK) files|book{4}}{33}
+\indexentry{Artifacts!File Opening/Creation!Prefetch|book{4}}{33}
+\indexentry{Artifacts!File Opening/Creation!Index.dat|book{4}}{34}
+\indexentry{Artifacts!File Opening/Creation!JumpList{4}}{30}
+
+\indexentry{Artifacts!Deleted File or File Knowledge|book{4}}{34}
+\indexentry{Artifacts!Deleted File or File Knowledge!XP Search (ACMRU)|book{4}}{34}
+\indexentry{Artifacts!Deleted File or File Knowledge!Last visited MRU|book{4}}{34}
+\indexentry{Artifacts!Deleted File or File Knowledge!Thumbnails|book{4}}{35}
+\indexentry{Artifacts!Deleted File or File Knowledge!Recycle Bin|book{4}}{35}
+\indexentry{Artifacts!Deleted File or File Knowledge!Win7-10 Search WordWheelQuery|book{4}}{36}
+\indexentry{Artifacts!Deleted File or File Knowledge!Thumbs.db|book{4}}{
+36}
+
+\indexentry{Artifacts!Physical Location|book{4}}{36}
+\indexentry{Artifacts!Physical Location!Timezone|book{4}}{36}
+\indexentry{Artifacts!Physical Location!Browser!Search Terms|book{4}}{37}
+\indexentry{Artifacts!Physical Location!Network History|book{4}}{37}
+\indexentry{Artifacts!Physical Location!Cookies|book{4}}{37}
+
+\indexentry{Artifacts!USB or Drive Usage|book{4}}{38}
+\indexentry{Artifacts!USB or Drive Usage!USB Key Identification|book{4}}{38}
+\indexentry{Artifacts!USB or Drive Usage!USB First/Last Times|book{4}}{38}
+\indexentry{Artifacts!USB or Drive Usage!Driver Letter|book{4}}{38}
+\indexentry{Artifacts!USB or Drive Usage!Volume Name|book{4}}{38}
+\indexentry{Artifacts!USB or Drive Usage!Volume Serial Number|book{4}}{38}
+\indexentry{Artifacts!USB or Drive Usage!Shortcut (LNK) files|book{4}}{38}
+\indexentry{Artifacts!USB or Drive Usage!Plug-and-Play Event Log|book{4}}{38}
+
+\indexentry{Artifacts!Account Usage|book{4}}{40}
+\indexentry{Artifacts!Account Usage!Logon!Last|book{4}}{40}
+\indexentry{Artifacts!Account Usage!Logon!Success/Failure|book{4}}{40}
+\indexentry{Artifacts!Account Usage!Password!Last change|book{4}}{40}
+\indexentry{Artifacts!Account Usage!Logon!Type|book{4}}{40}
+\indexentry{Artifacts!Account Usage!Remote Desktop Protocol (RDP)!Usage|book{4}}{41}
+
+\indexentry{Artifacts!Account Usage|book{4}}{24}
+\indexentry{Artifacts!Account Usage!Browser!History|book{4}}{40}
+\indexentry{Artifacts!Account Usage!Browser!Cache|book{4}}{40}
+\indexentry{Artifacts!Account Usage!Browser!Cookies|book{4}}{41}
+\indexentry{Artifacts!Account Usage!Browser!Flash \& Supercookies|book{4}}{41}
+\indexentry{Artifacts!Account Usage!Browser!Session Restore|book{4}}{41}
+
+\indexentry{Pivot|book{4}}{43-44}
+
+\indexentry{Timeline!Comparison|book{4}}{46}
+\indexentry{Timeline!fls|book{4}}{46}
+\indexentry{Timeline!MFTECmd@\texttt{MFTECmd}|book{4}}{46}
+\indexentry{Timeline!log2timeline|book{4}}{46}
+
+\indexentry{Timeline!Process Analysis|book{4}}{47}
+\indexentry{Timeline!Triage!Filesystem Timeline|book{4}}{50}
+\indexentry{Timeline!NTFS Timestamp|book{4}}{51}
+\indexentry{Timeline!MACB|book{4}}{51}
+\indexentry{Timeline!Windows Time Rules|book{4}}{53}
+\indexentry{1@\$STANDARD\_INFORMATION|book{4}}{53}
+
+\indexentry{Timestamp!Lateral Movement Analysis|book{4}}{55}
+\indexentry{MountPoints2@\texttt{MountPoints2}|book{4}}{55}
+\indexentry{SMB!File copy|book{4}}{55}
+
+\indexentry{Timeline!Filesystem|book{4}}{56}
+\indexentry{Timeline!MFTECmd@\texttt{MFTECmd}|book{4}}{58-59}
+\indexentry{Timeline!fls|book{4}}{60}
+\indexentry{Timeline!mactime|book{4}}{60}
+
 \indexentry{Super Timeline|book{4}}{53}
 \indexentry{Timeline!Super Timeline|book{4}}{53}
 \indexentry{Plaso|book{4}}{60}
@@ -1114,7 +1139,7 @@
 
 
 \indexentry{Sakula|book{1}}{103}
-\indexentry{Poison Ivy|book{1}}{103}
+
 
 \indexentry{Service Hijacking|book{1}}{67}
 \indexentry{Service Replacement|book{1}}{67}
@@ -1201,19 +1226,6 @@
 \indexentry{3A@\textbf{Windows Process}!winlogon.exe@\texttt{winlogon.exe}|book{1}}{80}
 \indexentry{3A@\textbf{Windows Process}!RuntimeBroker.exe@\texttt{RuntimeBroker.exe}|book{1}}{80}
 
-\indexentry{Malware!Identification|book{1}}{81}
-\indexentry{Behavior Detection Anomaly|book{1}}{81}
-
-\indexentry{densityscout@\texttt{densityscout}|book{1}}{82}
-\indexentry{bytehist@\texttt{bytehist}|book{1}}{82}
-\indexentry{sigcheck@\texttt{sigcheck}|book{1}}{82}
-\indexentry{pescan@\texttt{pescan}|book{1}}{82}
-
-\indexentry{densityscout@\texttt{densityscout}|book{1}}{84}
-
-\indexentry{pescan@\texttt{pescan}|book{1}}{87}
-
-\indexentry{sigcheck@\texttt{sigcheck}|book{1}}{89}
 
 
 \indexentry{RegRipper|book{1}}{98}
