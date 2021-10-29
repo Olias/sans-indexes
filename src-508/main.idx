@@ -874,9 +874,6 @@
 \indexentry{Zeus/Zbot|book{3}}{168}
 \indexentry{Rootkit!Detection Review|book{3}}{169}
 
-% HERE =====================================
-
-
 \indexentry{Volatility!\texttt{dlldump}|book{3}}{173}
 \indexentry{Volatility!\texttt{moddump}|book{3}}{173}
 \indexentry{Volatility!\texttt{procdump}|book{3}}{173}
@@ -1028,33 +1025,40 @@
 \indexentry{Timeline!fls|book{4}}{60}
 \indexentry{Timeline!mactime|book{4}}{60}
 
-\indexentry{Super Timeline|book{4}}{53}
-\indexentry{Timeline!Super Timeline|book{4}}{53}
-\indexentry{Plaso|book{4}}{60}
-\indexentry{log2timeline|book{4}}{60}
-\indexentry{pinfo@\texttt{pinfo}|book{4}}{60}
-\indexentry{psort@\texttt{psort}|book{4}}{60}
-\indexentry{Plaso!Windows Parsers|book{4}}{61}
-\indexentry{Plaso!Registry Parsers|book{4}}{63}
-\indexentry{Plaso!Web History Parsers|book{4}}{65}
-\indexentry{Plaso!Linux/Android/Mac Parsers|book{4}}{66}
-\indexentry{mactime@\texttt{mactime}|book{4}}{68}
-\indexentry{Plaso!mactime|book{4}}{68}
-\indexentry{log2timeline|book{4}}{69}
-\indexentry{log2timeline!Device examples|book{4}}{73}
-\indexentry{log2timeline!Arguments|book{4}}{70}
-\indexentry{Super Timeline!Targeted|book{4}}{75}
-\indexentry{Super Timeline!Filter|book{4}}{78}
-\indexentry{Fast forensics|book{4}}{80}
-\indexentry{Triage|book{4}}{80}
-\indexentry{filter\_windows|book{4}}{81}
-\indexentry{log2timeline!Parser lists|book{4}}{85}
-\indexentry{pinfo|book{4}}{89}
-\indexentry{psort|book{4}}{93}
-\indexentry{Super Timeline!Creation steps|book{4}}{96}
-\indexentry{Web Server Intrusion|book{4}}{97}
+% HERE =====================================
+
+\indexentry{Super Timeline|book{4}}{66-71}
+\indexentry{Timeline!Super Timeline|book{4}}{66-71}
+
+\indexentry{log2timeline|book{4}}{72}
+\indexentry{pinfo@\texttt{pinfo}|book{4}}{72}
+\indexentry{psort@\texttt{psort}|book{4}}{72}
+
+\indexentry{log2timeline!Windows Parsers|book{4}}{73}
+\indexentry{log2timeline!Registry Parsers|book{4}}{75}
+\indexentry{log2timeline!Web History Parsers|book{4}}{77}
+\indexentry{log2timeline!Linux/Android/Mac Parsers|book{4}}{78}
+
+\indexentry{log2timeline!mactime|book{4}}{79}
+
+\indexentry{log2timeline|book{4}}{80}
+
+\indexentry{Super Timeline!Targeted|book{4}}{84}
+\indexentry{log2timeline!Parser lists|book{4}}{89}
+\indexentry{log2timeline!Filter Files|book{4}}{90}
+
+\indexentry{Fast forensics|book{4}}{95}
+\indexentry{Triage|book{4}}{96}
+
+\indexentry{pinfo|book{4}}{99}
+\indexentry{psort|book{4}}{104}
+\indexentry{Super Timeline!Web Server Intrusion|book{4}}{107}
+\indexentry{Super Timeline!Remote Creation|book{4}}{108}
+
+\indexentry{Super Timeline!Output|book{4}}{113-116}
+
 \indexentry{Phishing Attack|book{4}}{98-100}
-\indexentry{Super Timeline!Output|book{4}}{105}
+
 \indexentry{Anti-Forensics|book{4}}{119}
 \indexentry{Timestomp|book{4}}{119}
 \indexentry{File!Delete|book{4}}{119}
