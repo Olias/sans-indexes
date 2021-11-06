@@ -1025,8 +1025,6 @@
 \indexentry{Timeline!fls|book{4}}{60}
 \indexentry{Timeline!mactime|book{4}}{60}
 
-% HERE =====================================
-
 \indexentry{Super Timeline|book{4}}{66-71}
 \indexentry{Timeline!Super Timeline|book{4}}{66-71}
 
@@ -1057,47 +1055,61 @@
 
 \indexentry{Super Timeline!Output|book{4}}{113-116}
 
-\indexentry{Phishing Attack|book{4}}{98-100}
+\indexentry{Anti-Forensics|book{4}}{127-128}
 
-\indexentry{Anti-Forensics|book{4}}{119}
-\indexentry{Timestomp|book{4}}{119}
-\indexentry{File!Delete|book{4}}{119}
-\indexentry{File!Wiping|book{4}}{119}
-\indexentry{Data Encryption|book{4}}{120}
-\indexentry{Malware!Fileless|book{4}}{120}
-\indexentry{Registry!Deletion|book{4}}{120}
-\indexentry{Registry!Hiding Data|book{4}}{120}
-\indexentry{EventLog!Tampering|book{4}}{121}
-\indexentry{EventLog!Deletion|book{4}}{121}
-\indexentry{Historical Data|book{4}}{124}
-\indexentry{Volume Shadow Copy|book{4}}{124}
-\indexentry{Volume Shadow Copy!Examination|book{4}}{126}
-\indexentry{vshadowinfo@\texttt{vshadowinfo}|book{4}}{127}
-\indexentry{vshadowmount@\texttt{vshadowmount}|book{4}}{128}
-\indexentry{Volume Shadow Copy!log2timeline|book{4}}{131}
-\indexentry{log2timeline!VSS|book{4}}{131}
+% \indexentry{Phishing Attack|book{4}}{98-100}
+
+\indexentry{Timestomp|book{4}}{127}
+\indexentry{File!Delete|book{4}}{127}
+\indexentry{File!Wiping|book{4}}{127}
+\indexentry{Data Encryption|book{4}}{128}
+\indexentry{Malware!Fileless|book{4}}{128}
+\indexentry{Registry!Deletion|book{4}}{128}
+\indexentry{Registry!Hiding Data|book{4}}{128}
+\indexentry{EventLog!Tampering|book{4}}{128}
+\indexentry{EventLog!Deletion|book{4}}{128}
+
+
+\indexentry{Historical Data|book{4}}{131}
+\indexentry{Volume Shadow Copy|book{4}}{131}
+
+\indexentry{Volume Shadow Copy!Examination|book{4}}{133}
+\indexentry{vshadowinfo@\texttt{vshadowinfo}|book{4}}{135}
+\indexentry{vshadowmount@\texttt{vshadowmount}|book{4}}{136}
+
+\indexentry{Volume Shadow Copy!log2timeline|book{4}}{139}
+\indexentry{log2timeline!VSS|book{4}}{139}
+
+\indexentry{NTFS|book{4}}{143}
+\indexentry{NTFS!Features|book{4}}{143}
+\indexentry{Link (soft and hard)|book{4}}{143}
+
+\indexentry{MFT \goto Master File Table|comment}{147}
+\indexentry{Master File Table (MFT)|book{4}}{147}
+\indexentry{Master File Table (MFT)!Structure|book{4}}{148-151}
+\indexentry{Master File Table (MFT)!Sequential Entries|book{4}}{153}
+\indexentry{Master File Table (MFT)!File Record Header|book{4}}{155}
+
+\indexentry{istat@\texttt{istat}|book{4}}{157-158}
+
+\indexentry{1@\$STANDARD\_INFORMATION|book{4}}{159}
+\indexentry{2@\$FILE\_NAME|book{4}}{163}
+
+\indexentry{Windows Time Rules|book{4}}{166-167}
+\indexentry{Timestomp!Detection|book{4}}{168-170}
+
+\begin{comment}
 \indexentry{Prefetch!From memory|book{4}}{137}
 \indexentry{prefetchparser@\texttt{prefetchparser}|book{4}}{137}
 \indexentry{shimcachemem@\texttt{shimcachemem}|book{4}}{138}
 \indexentry{ShimCache|book{4}}{138}
-\indexentry{NTFS|book{4}}{140}
-\indexentry{NTFS!Features|book{4}}{142}
-\indexentry{Link (soft and hard)|book{4}}{142}
-\indexentry{NTFS!System Files|book{4}}{144}
-\indexentry{MFT \goto Master File Table|comment}{147}
-\indexentry{Master File Table (MFT)|book{4}}{147}
-\indexentry{Master File Table (MFT)!Structure|book{4}}{148}
-\indexentry{Metadata Layer|book{4}}{150}
-\indexentry{Master File Table (MFT)!Sequential Entries|book{4}}{151}
-\indexentry{Master File Table (MFT)!File Record Header|book{4}}{152}
-\indexentry{1@\$STANDARD\_INFORMATION|book{4}}{154}
-\indexentry{2@\$FILE\_NAME|book{4}}{154}
-\indexentry{1@\$STANDARD\_INFORMATION|book{4}}{156}
-\indexentry{2@\$FILE\_NAME|book{4}}{157}
+\end{comment}
+
+% HERE =====================================
+
 \indexentry{MFTECmd@\texttt{MFTECmd}|book{4}}{157}
 \indexentry{AnalyzeMFT|book{4}}{157}
-\indexentry{Windows Time Rules|book{4}}{160-161}
-\indexentry{Timestomp!Detection|book{4}}{162}
+
 \indexentry{istat@\texttt{istat}|book{4}}{162}
 \indexentry{AnalyzeMFT|book{4}}{163}
 \indexentry{Master File Table (MFT)!Outlier|book{4}}{166}
@@ -1105,7 +1117,7 @@
 \indexentry{Alternate Data Stream|book{4}}{171}
 \indexentry{NTFS!Alternate Data Stream|book{4}}{171}
 \indexentry{Zone Identifier|book{4}}{172}
-\indexentry{istat@\texttt{istat}|book{4}}{173-175}
+
 \indexentry{Filename |book{4}}{176}
 \indexentry{wisp@\texttt{wisp}|book{4}}{180}
 \indexentry{NTFS!Index slack space|book{4}}{180}
