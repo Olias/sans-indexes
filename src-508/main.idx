@@ -1023,7 +1023,10 @@
 \indexentry{Timeline!Filesystem|book{4}}{56}
 \indexentry{Timeline!MFTECmd@\texttt{MFTECmd}|book{4}}{58-59}
 \indexentry{Timeline!fls|book{4}}{60}
+\indexentry{SleuthKit!fls|book{4}}{60}
+
 \indexentry{Timeline!mactime|book{4}}{60}
+\indexentry{SleuthKit!mactime|book{4}}{60}
 
 \indexentry{Super Timeline|book{4}}{66-71}
 \indexentry{Timeline!Super Timeline|book{4}}{66-71}
@@ -1090,7 +1093,7 @@
 \indexentry{Master File Table (MFT)!Sequential Entries|book{4}}{153}
 \indexentry{Master File Table (MFT)!File Record Header|book{4}}{155}
 
-\indexentry{istat@\texttt{istat}|book{4}}{157-158}
+\indexentry{SleuthKit!istat@\texttt{istat}|book{4}}{157-158}
 
 \indexentry{1@\$STANDARD\_INFORMATION|book{4}}{159}
 \indexentry{2@\$FILE\_NAME|book{4}}{163}
@@ -1098,39 +1101,61 @@
 \indexentry{Windows Time Rules|book{4}}{166-167}
 \indexentry{Timestomp!Detection|book{4}}{168-170}
 
+\indexentry{3@\$DATA|book{4}}{171}
+\indexentry{Alternate Data Stream|book{4}}{171}
+\indexentry{NTFS!Alternate Data Stream|book{4}}{171}
+
+\indexentry{Alternate Data Stream|book{4}}{173}
+\indexentry{NTFS!Alternate Data Stream|book{4}}{173}
+
+\indexentry{SleuthKit!icat@\texttt{icat}|book{4}}{175}
+
+\indexentry{Zone Identifier|book{4}}{176}
+\indexentry{NTFS!\$I30|book{4}}{178}
+
+\indexentry{wisp@\texttt{wisp}|book{4}}{185}
+
+\indexentry{File System!Journaling|book{4}}{187}
+\indexentry{4@\$logfile|book{4}}{188}
+\indexentry{4@\$logfile!Operation Codes|book{4}}{196}
+\indexentry{5@\$UsnJrnl|book{4}}{190}
+\indexentry{5@\$UsnJrnl!MFTEcmd|book{4}}{201}
+\indexentry{5@\$UsnJrnl \& \$Logfile Common pattern|book{4}}{192}
+
+\indexentry{4@\$logfile!mala@\texttt{mala}|book{4}}{199}
+
+\indexentry{NTFS!File Deletion|book{4}}{203}
+
+\indexentry{NTFS!File Write|book{4}}{194}
+
 \begin{comment}
 \indexentry{Prefetch!From memory|book{4}}{137}
 \indexentry{prefetchparser@\texttt{prefetchparser}|book{4}}{137}
 \indexentry{shimcachemem@\texttt{shimcachemem}|book{4}}{138}
 \indexentry{ShimCache|book{4}}{138}
+\indexentry{NTFS!Index slack space|book{4}}{180}
 \end{comment}
 
 % HERE =====================================
 
-\indexentry{MFTECmd@\texttt{MFTECmd}|book{4}}{157}
-\indexentry{AnalyzeMFT|book{4}}{157}
+\indexentry{Evidence Recovery|book{4}}{206}
+\indexentry{Evidence Recovery!SDELETE|book{4}}{207}
+\indexentry{Evidence Recovery!Wipers|book{4}}{209}
+\indexentry{Evidence Recovery!Registry Key|book{4}}{214}
+\indexentry{Evidence Recovery!Fileless Malware in registry|book{4}}{215}
+\indexentry{Evidence Recovery!File Recovery|book{4}}{216}
 
-\indexentry{istat@\texttt{istat}|book{4}}{162}
-\indexentry{AnalyzeMFT|book{4}}{163}
-\indexentry{Master File Table (MFT)!Outlier|book{4}}{166}
-\indexentry{3@\$DATA|book{4}}{168}
-\indexentry{Alternate Data Stream|book{4}}{171}
-\indexentry{NTFS!Alternate Data Stream|book{4}}{171}
-\indexentry{Zone Identifier|book{4}}{172}
+\indexentry{Photorec|book{4}}{219}
 
-\indexentry{Filename |book{4}}{176}
-\indexentry{wisp@\texttt{wisp}|book{4}}{180}
-\indexentry{NTFS!Index slack space|book{4}}{180}
-\indexentry{File System!Journaling|book{4}}{182-185}
-\indexentry{4@\$logfile Operation Codes|book{4}}{186}
-\indexentry{5@\$UsnJrnl|book{4}}{187}
-\indexentry{5@\$UsnJrnl!Reason Code|book{4}}{189}
-\indexentry{5@\$UsnJrnl!Parsing|book{4}}{190}
-\indexentry{jp@\texttt{jp}|book{4}}{191}
-\indexentry{ANJP \goto Advanced NTFS Journal Parser|comment}{192}
-\indexentry{Advanced NTFS Journal Parser (ANJP)|book{4}}{192}
-\indexentry{NTFS!File Write|book{4}}{194}
-\indexentry{NTFS!File Deletion|book{4}}{195}
+\indexentry{Evidence Recovery!VSS Recovery|book{4}}{221}
+\indexentry{vss\_carver.py|book{4}}{221}
+
+\indexentry{Evidence Recovery!EventLogs Recovery|book{4}}{225}
+
+\indexentry{Anti-Forensics contermeasures|book{4}}{231}
+\indexentry{Anti-Forensics contermeasures!System History|book{4}}{231}
+\indexentry{Anti-Forensics contermeasures|book{4}}{231}
+
 
 % \comment{********************************************************************************************
 %                                      LAB BOOK SECTION
