@@ -162,144 +162,142 @@
 \indexentry{Malware report|book{1}}{11}
 \indexentry{Automated analysis|book{1}}{13}
 \indexentry{VirusTotal|book{1}}{13}
-\indexentry{Yotalhash|book{1}}{13}
+\indexentry{MalwareBazaar|book{1}}{13}
 \indexentry{MetaDefender|book{1}}{13}
-\indexentry{VirSCAN|book{1}}{13}
-\indexentry{AVCaesar|book{1}}{13}
 \indexentry{Malware Hash Registry|book{1}}{13}
 \indexentry{HashSets|book{1}}{13}
+\indexentry{Winbindex|book{1}}{13}
 \indexentry{Any.run|book{1}}{13}
 \indexentry{CAPE|book{1}}{ 13}
 \indexentry{Intezer Analyze|book{1}}{ 13}
 \indexentry{Hybrid Analysis|book{1}}{13}
-\indexentry{PassiveTotal|book{1}}{ 13}
-\indexentry{Censys|book{1}}{13}
-\indexentry{Open Threat Exchange|book{1}}{13}
-\indexentry{vURL|book{1}}{13}
+\indexentry{FileScan.IO|book{1}}{13}
 \indexentry{Quttera|book{1}}{13}
-\indexentry{urlscana.io|book{1}}{13}
+\indexentry{urlscan.io|book{1}}{13}
+\indexentry{SecurityTrails|book{1}}{13}
+\indexentry{Shodan|book{1}}{13}
+\indexentry{Open Threat Exchange|book{1}}{13}
+\indexentry{ThreatFox|book{1}}{13}
 \indexentry{VirusTotal|book{1}}{14}
 \indexentry{DLL|book{1}}{14}
 \indexentry{Hybrid Analysis|book{1}}{15}
 \indexentry{Mutant \goto Mutex|comment}{0}
 \indexentry{Mutex|book{1}}{15}
-\indexentry{PassiveTotal|book{1}}{16}
+\indexentry{CrowdStrike|book{1}}{15}
 \indexentry{Open Threat Exchange|book{1}}{16}
+\indexentry{SecurityTrails|book{1}}{16}
 \indexentry{OSINT|book{1}}{17}
 \indexentry{Beaconing|book{1}}{17}
+\indexentry{C2|book{1}}{17}
 \indexentry{Command and control (C2)|book{1}}{17}
 \indexentry{Exfiltration|book{1}}{17}
 \indexentry{Indicator of Compromise (IOC)|book{1}}{17}
-\indexentry{Automated analysis|book{1}}{18}
-\indexentry{Internet access|book{1}}{19}
-\indexentry{TOR|book{1}}{20}
-\indexentry{VPN|book{1}}{20}
-\indexentry{JonDonym|book{1}}{20}
-\indexentry{DNS leakage|book{1}}{20}
-\indexentry{Honeypot|book{1}}{21}
-\indexentry{Malware lab|book{1}}{24-25}
-\indexentry{Virtualization|book{1}}{26}
-\indexentry{Malware lab!Isolation|book{1}}{28}
-\indexentry{Self-defense|book{1}}{29}
-\indexentry{Snapshot|book{1}}{31}
-\indexentry{Clonezilla|book{1}}{32}
-\indexentry{Fog|book{1}}{32}
-\indexentry{dd|book{1}}{32}
-\indexentry{PXE booting|book{1}}{32}
-\indexentry{Deep Freeze|book{1}}{32}
-\indexentry{RollBack Rx|book{1}}{32}
-\indexentry{Static properties!Analysis|book{1}}{33}
-\indexentry{Behavioral Analysis|book{1}}{33}
-\indexentry{Code analysis|book{1}}{33}
-\indexentry{Administrative rights|book{1}}{39}
-\indexentry{Static properties|book{1}}{41}
-\indexentry{Registry|book{1}}{41}
-\indexentry{CurrentVersion/Run|book{1}}{41}
-\indexentry{Persistence|book{1}}{41}
-\indexentry{pestr|book{1}}{42}
-\indexentry{Strings|book{1}}{42}
-\indexentry{Pev Toolkit|book{1}}{42}
-\indexentry{Indicator of Compromise (IOC)|book{1}}{43}
-\indexentry{PeStudio|book{1}}{44}
-\indexentry{Imports|book{1}}{45}
-\indexentry{Sections|book{1}}{45}
-\indexentry{peframe|book{1}}{46}
-\indexentry{Detect It Easy (DIE)|book{1}}{47}
-\indexentry{Exeinfo PE|book{1}}{47}
-\indexentry{PE (Portable Executable)|book{1}}{47}
-\indexentry{Packing|book{1}}{47}
-\indexentry{signsrch|book{1}}{48}
-\indexentry{pescan|book{1}}{48}
-\indexentry{PortEx|book{1}}{48}
-\indexentry{MASTIFF|book{1}}{48}
-\indexentry{ExifTool|book{1}}{48}
+\indexentry{Internet access|book{1}}{18}
+\indexentry{TOR|book{1}}{19}
+\indexentry{VPN|book{1}}{19}
+\indexentry{DNS leakage|book{1}}{19}
+\indexentry{Honeypot|book{1}}{20}
+\indexentry{AI|book{1}}{21}
+\indexentry{ChatGPT|book{1}}{21}
+\indexentry{Malware lab|book{1}}{23-25}
+\indexentry{Malware lab!Configuration|book{1}}{26}
+\indexentry{Virtualization|book{1}}{27-28}
+\indexentry{Malware lab!Isolation|book{1}}{29}
+\indexentry{Self-defense of malware|book{1}}{30}
+\indexentry{Self-defense of malware!countermeasures|book{1}}{31}
+\indexentry{Snapshot|book{1}}{33}
+\indexentry{Clonezilla|book{1}}{34}
+\indexentry{Fog|book{1}}{34}
+\indexentry{dd|book{1}}{34}
+\indexentry{PXE booting|book{1}}{34}
+\indexentry{Deep Freeze|book{1}}{34}
+\indexentry{RollBack Rx|book{1}}{34}
+\indexentry{Static properties!Analysis|book{1}}{35}
+\indexentry{Behavioral Analysis|book{1}}{35}
+\indexentry{Code analysis|book{1}}{35}
+\indexentry{Administrative rights|book{1}}{41}
+\indexentry{Static properties|book{1}}{43}
+\indexentry{pestr|book{1}}{44}
+\indexentry{Strings|book{1}}{44}
+\indexentry{Registry persistance|book{1}}{45}
+\indexentry{CurrentVersion/Run|book{1}}{45}
+\indexentry{Persistence|book{1}}{45}
+\indexentry{Indicator of Compromise (IOC)|book{1}}{45}
+\indexentry{PeStudio|book{1}}{46}
+\indexentry{Imports|book{1}}{47}
+\indexentry{Sections|book{1}}{47}
+\indexentry{peframe|book{1}}{48}
+\indexentry{Detect It Easy (DIE)|book{1}}{49}
+\indexentry{Exeinfo PE|book{1}}{49}
+\indexentry{PE (Portable Executable)|book{1}}{49}
+\indexentry{Packing|book{1}}{49}
 \indexentry{TrId|book{1}}{48}
 \indexentry{Viper|book{1}}{48}
-\indexentry{Behavioral Analysis|book{1}}{51}
-\indexentry{Process Hacker|book{1}}{52}
-\indexentry{Process Monitor|book{1}}{52}
-\indexentry{Regshot|book{1}}{52}
-\indexentry{ProcDOT|book{1}}{52}
-\indexentry{Wireshark|book{1}}{52}
-\indexentry{Process Monitor|book{1}}{54}
-\indexentry{Regshot|book{1}}{55}
-\indexentry{Wireshark|book{1}}{56}
-\indexentry{Regshot|book{1}}{59}
-\indexentry{Process Monitor|book{1}}{61}
-\indexentry{ProcDOT|book{1}}{63}
-\indexentry{Wireshark|book{1}}{66}
-\indexentry{DNS|book{1}}{66}
-\indexentry{fakedns|book{1}}{67}
-\indexentry{nslookup|book{1}}{67}
-\indexentry{Malware lab!Configuration|book{1}}{28}
-\indexentry{httpd|book{1}}{71}
-\indexentry{Wireshark!TCP Stream|book{1}}{73}
-\indexentry{xxd|book{1}}{75}
-\indexentry{Code analysis|book{1}}{80}
-\indexentry{Ghidra|book{1}}{80}
-\indexentry{IDA|book{1}}{80}
-\indexentry{WinDbg|book{1}}{80}
-\indexentry{Radare|book{1}}{80}
-\indexentry{Binary Ninja|book{1}}{80}
-\indexentry{Hopper|book{1}}{80}
+\indexentry{Behavioral Analysis|book{1}}{52}
+\indexentry{Process Hacker|book{1}}{53}
+\indexentry{Process Monitor|book{1}}{53}
+\indexentry{Regshot|book{1}}{53}
+\indexentry{ProcDOT|book{1}}{53}
+\indexentry{Wireshark|book{1}}{53}
+\indexentry{ExifTool|book{1}}{53}
+\indexentry{Process Hacker|book{1}}{54}
+\indexentry{Regshot|book{1}}{56}
+\indexentry{Regshot|book{1}}{60-61}
+\indexentry{Process Monitor|book{1}}{62-63}
+\indexentry{ProcDOT|book{1}}{64-66}
+\indexentry{Wireshark|book{1}}{67}
+\indexentry{DNS|book{1}}{67}
+\indexentry{fakedns|book{1}}{68}
+\indexentry{nslookup|book{1}}{68}
+\indexentry{httpd|book{1}}{72}
+\indexentry{Wireshark!TCP Stream|book{1}}{74}
+\indexentry{xxd|book{1}}{76}
+\indexentry{Code analysis|book{1}}{79}
+\indexentry{IDA|book{1}}{81}
+\indexentry{WinDbg|book{1}}{81}
+\indexentry{Radare|book{1}}{81}
+\indexentry{Binary Ninja|book{1}}{81}
+\indexentry{Hopper|book{1}}{81}
+\indexentry{emulating code execution|book{1}}{82-84}
+\indexentry{Speakeasy|book{1}}{83}
+\indexentry{Speakeasy|book{1}}{86}
+\indexentry{capa|book{1}}{83}
+\indexentry{capa|book{1}}{87-89}
+\indexentry{binee|book{1}}{83}
+\indexentry{Qiling|book{1}}{83}
+\indexentry{Vivisect|book{1}}{83}
+\indexentry{Ghidra|book{1}}{81}
 \indexentry{Disassembling|book{1}}{81}
-\indexentry{Code analysis!Static|book{1}}{81}
-\indexentry{Code analysis!Dynamic|book{1}}{81}
+\indexentry{Code analysis!Static|book{1}}{82}
+\indexentry{Code analysis!Dynamic|book{1}}{82}
 \indexentry{Debugger|book{1}}{81}
-\indexentry{Single-step|book{1}}{83}
-\indexentry{Breakpoint|book{1}}{85}
-\indexentry{SetBPX|book{1}}{85}
-\indexentry{Handle|book{1}}{87-88}
-\indexentry{API Monitor|book{1}}{94}
-\indexentry{ROR|book{1}}{96}
-\indexentry{ROL|book{1}}{96}
-\indexentry{XOR|book{1}}{96}
-\indexentry{xxd|book{1}}{97}
-\indexentry{translate.py|book{1}}{97}
-\indexentry{Interactive Behavior Analysis|book{1}}{101}
-\indexentry{httpd|book{1}}{105}
-\indexentry{C2|book{1}}{107}
-\indexentry{SYN|book{1}}{108}
-\indexentry{INetSim|book{1}}{109}
-\indexentry{SMTP|book{1}}{109}
-\indexentry{FTP|book{1}}{109}
-\indexentry{POP3|book{1}}{109}
-\indexentry{TFTP|book{1}}{109}
-\indexentry{IRC|book{1}}{109}
-\indexentry{Fiddler|book{1}}{112}
-\indexentry{IP redirection|book{1}}{115}
-\indexentry{set-static-ip|book{1}}{115}
-\indexentry{iptables|book{1}}{117}
-\indexentry{xxd|book{1}}{118}
-\indexentry{MyDoom|book{1}}{119}
-\indexentry{DoomJuice|book{1}}{119}
-\indexentry{netcat|book{1}}{120}
-\indexentry{nc|book{1}}{120}
-\indexentry{TcpLogView|book{1}}{124}
-\indexentry{PE Capture|book{1}}{124}
-\indexentry{PolarProxy|book{1}}{124}
-\indexentry{ApateDNS|book{1}}{124}
-\indexentry{FakeNet-NG|book{1}}{124}
+\indexentry{x64dbg|book{1}}{81}
+\indexentry{x64dbg|book{1}}{90}
+\indexentry{Single-step|book{1}}{91}
+\indexentry{Breakpoint|book{1}}{91}
+\indexentry{SetBPX|book{1}}{93}
+\indexentry{Handle|book{1}}{95-96}
+\indexentry{CryptDecrypt|book{1}}{98}
+\indexentry{ROR|book{1}}{104}
+\indexentry{ROL|book{1}}{104}
+\indexentry{XOR|book{1}}{104}
+\indexentry{CyberChef|book{1}}{105-109}
+
+\indexentry{Network Interaction Analysis|book{1}}{112}
+\indexentry{C2|book{1}}{113}
+\indexentry{SYN|book{1}}{119}
+\indexentry{INetSim|book{1}}{120}
+\indexentry{INetSim!logfile|book{1}}{123}
+\indexentry{SMTP|book{1}}{120}
+\indexentry{FTP|book{1}}{120}
+\indexentry{POP3|book{1}}{120}
+\indexentry{TFTP|book{1}}{120}
+\indexentry{IRC|book{1}}{120}
+\indexentry{fakedns|book{1}}{120}
+\indexentry{Fiddler|book{1}}{124-125}
+\indexentry{IP redirection|book{1}}{127}
+\indexentry{set-static-ip|book{1}}{126}
+\indexentry{iptables|book{1}}{127}
 
 \comment{********************************************************************************************
                                       SECOND BOOK SECTION
@@ -489,6 +487,7 @@
 \indexentry{js|book{3}}{38}
 \indexentry{location.href|book{3}}{39}
 \indexentry{Internet Explorer|book{3}}{39}
+\indexentry{trid|book{4}}{41}
 \indexentry{JavaScript!Anti-analysis|book{3}}{42}
 \indexentry{JavaScript!Tuple|book{3}}{43}
 \indexentry{JavaScript!Ternary Operator|book{3}}{44}
@@ -542,6 +541,7 @@
 \indexentry{libemu|book{3}}{72}
 \indexentry{sctest|book{3}}{72}
 \indexentry{AcroForm|book{3}}{73}
+\indexentry{translate.py|book{3}}{74}
 \indexentry{XML Forms Architecture (XFA)|book{3}}{73-75}
 \indexentry{XFA \goto XML Forms Architecture|comment}{0}
 \indexentry{shellcode2exe.py|book{3}}{77}
