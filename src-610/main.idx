@@ -88,52 +88,57 @@
 \indexentry{1A@\textbf{Function}!1@CryptDecrypt|book{4}}{102}
 \indexentry{1A@\textbf{Function}!1@CryptDecrypt|book{4}}{51}
 
-\indexentry{2A@\textbf{Instruction}!1@ADD|book{2}}{38}
-\indexentry{2A@\textbf{Instruction}!1@AND|book{2}}{38}
-\indexentry{2A@\textbf{Instruction}!1@AND|book{2}}{41}
-\indexentry{2A@\textbf{Instruction}!1@CALL|book{2}}{38}
-\indexentry{2A@\textbf{Instruction}!1@CALL|book{2}}{40}
-\indexentry{2A@\textbf{Instruction}!1@CMP|book{2}}{41}
-\indexentry{2A@\textbf{Instruction}!1@CMP|book{2}}{55}
-\indexentry{2A@\textbf{Instruction}!1@IMUL|book{2}}{38}
-\indexentry{2A@\textbf{Instruction}!1@JA|book{2}}{42}
-\indexentry{2A@\textbf{Instruction}!1@JB|book{2}}{42}
-\indexentry{2A@\textbf{Instruction}!1@JB|book{2}}{41}
-\indexentry{2A@\textbf{Instruction}!1@JC|book{2}}{106}
-\indexentry{2A@\textbf{Instruction}!1@JCC|book{2}}{41}
-\indexentry{2A@\textbf{Instruction}!1@JE|book{2}}{41}
-\indexentry{2A@\textbf{Instruction}!1@JG|book{2}}{41}
-\indexentry{2A@\textbf{Instruction}!1@JL|book{2}}{41}
-\indexentry{2A@\textbf{Instruction}!1@JMP|book{2}}{22}
-\indexentry{2A@\textbf{Instruction}!1@JMP|book{2}}{37}
-\indexentry{2A@\textbf{Instruction}!1@JMP|book{2}}{39}
-\indexentry{2A@\textbf{Instruction}!1@JZ|book{2}}{42}
-\indexentry{2A@\textbf{Instruction}!1@JNGE|book{2}}{42}
-\indexentry{2A@\textbf{Instruction}!1@LEAVE|book{2}}{68}
-\indexentry{2A@\textbf{Instruction}!1@LOOP|book{2}}{39}
-\indexentry{2A@\textbf{Instruction}!1@LOOP|book{2}}{109}
-\indexentry{2A@\textbf{Instruction}!1@LOOPcc|book{2}}{109}
-\indexentry{2A@\textbf{Instruction}!1@LOOPnz|book{2}}{109}
-\indexentry{2A@\textbf{Instruction}!1@MOV|book{2}}{38}
-\indexentry{2A@\textbf{Instruction}!1@MOV|book{2}}{76}
-\indexentry{2A@\textbf{Instruction}!1@NOP|book{3}}{91}
-\indexentry{2A@\textbf{Instruction}!1@OR|book{2}}{38}
-\indexentry{2A@\textbf{Instruction}!1@PUSH|book{2}}{38}
-\indexentry{2A@\textbf{Instruction}!1@RDTSC|book{5}}{14}
-\indexentry{2A@\textbf{Instruction}!1@RET|book{2}}{38}
-\indexentry{2A@\textbf{Instruction}!1@RET|book{2}}{68}
-\indexentry{2A@\textbf{Instruction}!1@SCASB|book{2}}{23}
-\indexentry{2A@\textbf{Instruction}!1@SHL|book{2}}{38}
-\indexentry{2A@\textbf{Instruction}!1@SHR|book{2}}{38}
-\indexentry{2A@\textbf{Instruction}!1@SUB|book{2}}{38}
-\indexentry{2A@\textbf{Instruction}!1@SUB|book{2}}{41}
-\indexentry{2A@\textbf{Instruction}!1@TEST|book{2}}{41}
-\indexentry{2A@\textbf{Instruction}!1@XCHG|book{2}}{37}
+\indexentry{2A@\textbf{Instructions}!0@Overview|comment}{0}
+\indexentry{2A@\textbf{Instructions}!ADD|book{2}}{38}
+\indexentry{2A@\textbf{Instructions}!AND|book{2}}{38}
+\indexentry{2A@\textbf{Instructions}!AND|book{2}}{41}
+\indexentry{2A@\textbf{Instructions}!CALL|book{2}}{38}
+\indexentry{2A@\textbf{Instructions}!CALL|book{2}}{40}
+\indexentry{2A@\textbf{Instructions}!CMP|book{2}}{41}
+\indexentry{2A@\textbf{Instructions}!CMP|book{2}}{55}
+\indexentry{2A@\textbf{Instructions}!IMUL|book{2}}{38}
+\indexentry{2A@\textbf{Instructions}!J0@Jcc instructions|book{2}}{42}
+\indexentry{2A@\textbf{Instructions}!JA|book{2}}{42}
+\indexentry{2A@\textbf{Instructions}!JB|book{2}}{42}
+\indexentry{2A@\textbf{Instructions}!JB|book{2}}{42}
+\indexentry{2A@\textbf{Instructions}!JC|book{2}}{106}
+\indexentry{2A@\textbf{Instructions}!JE|book{2}}{42}
+\indexentry{2A@\textbf{Instructions}!JG|book{2}}{42}
+\indexentry{2A@\textbf{Instructions}!JL|book{2}}{42}
+\indexentry{2A@\textbf{Instructions}!JMP|book{2}}{22}
+\indexentry{2A@\textbf{Instructions}!JMP|book{2}}{37}
+\indexentry{2A@\textbf{Instructions}!JMP|book{2}}{39}
+\indexentry{2A@\textbf{Instructions}!JZ|book{2}}{42}
+\indexentry{2A@\textbf{Instructions}!JNGE|book{2}}{42}
+\indexentry{2A@\textbf{Instructions}!LEAVE|book{2}}{68}
+\indexentry{2A@\textbf{Instructions}!LOOP|book{2}}{39}
+\indexentry{2A@\textbf{Instructions}!LOOP|book{2}}{109}
+\indexentry{2A@\textbf{Instructions}!LOOPcc|book{2}}{109}
+\indexentry{2A@\textbf{Instructions}!LOOPnz|book{2}}{109}
+\indexentry{2A@\textbf{Instructions}!MOV|book{2}}{38}
+\indexentry{2A@\textbf{Instructions}!MOV|book{2}}{76}
+\indexentry{2A@\textbf{Instructions}!NOP|book{3}}{91}
+\indexentry{2A@\textbf{Instructions}!OR|book{2}}{38}
+\indexentry{2A@\textbf{Instructions}!PUSH|book{2}}{38}
+\indexentry{2A@\textbf{Instructions}!RDTSC|book{5}}{14}
+\indexentry{2A@\textbf{Instructions}!RET|book{2}}{38}
+\indexentry{2A@\textbf{Instructions}!RET|book{2}}{68}
+\indexentry{2A@\textbf{Instructions}!SCASB|book{2}}{23}
+\indexentry{2A@\textbf{Instructions}!SHL|book{2}}{38}
+\indexentry{2A@\textbf{Instructions}!SHR|book{2}}{38}
+\indexentry{2A@\textbf{Instructions}!SUB|book{2}}{38}
+\indexentry{2A@\textbf{Instructions}!SUB|book{2}}{41}
+\indexentry{2A@\textbf{Instructions}!TEST|book{2}}{41}
+\indexentry{2A@\textbf{Instructions}!XCHG|book{2}}{37}
 
-\indexentry{3A@\textbf{Register}!1@EAX|book{2}}{25}
+\indexentry{3A@\textbf{Register}!1@AX (16 Bit)|book{2}}{27}
+\indexentry{3A@\textbf{Register}!1@AL (8 Bit)|book{2}}{27}
+\indexentry{3A@\textbf{Register}!1@AH (8 Bit)|book{2}}{27}
+\indexentry{3A@\textbf{Register}!1@EAX (32 Bit)|book{2}}{25}
+\indexentry{3A@\textbf{Register}!1@RAX (64 Bit)|comment}{0}
 \indexentry{3A@\textbf{Register}!1@ECX|book{2}}{25}
 \indexentry{3A@\textbf{Register}!1@EBP|book{2}}{25}
-\indexentry{3A@\textbf{Register}!1@EIP|book{2}}{25}
+\indexentry{3A@\textbf{Register}!1@EIP|book{2}}{26}
 \indexentry{3A@\textbf{Register}!1@ESP|book{2}}{25}
 \indexentry{3A@\textbf{Register}!1@EDI|book{2}}{25}
 \indexentry{3A@\textbf{Register}!1@ESI|book{2}}{25}
@@ -304,9 +309,9 @@
 *****************************************************************************************************}
 
 
-\indexentry{Code analysis|book{2}}{4}
+\indexentry{Reversing Malicious |book{2}}{4}
 
-\indexentry{Behavioral analysis|book{2}}{4}
+\indexentry{Reversing Concepts|book{2}}{4}
 \indexentry{Code lifecycle|book{2}}{5}
 \indexentry{Compiler|book{2}}{5}
 \indexentry{Linker|book{2}}{5}
@@ -323,62 +328,69 @@
 \indexentry{Capstone|book{2}}{6}
 \indexentry{Ghidra!Create Project|book{2}}{8}
 \indexentry{Ghidra!Project Analysis|book{2}}{10}
-\indexentry{Program Tree|book{2}}{12}
-\indexentry{Sections|book{2}}{12}
-\indexentry{Headers|book{2}}{12}
+\indexentry{Ghidra!Program Tree|book{2}}{12}
+\indexentry{Sections@Ghidra!Sections|book{2}}{12}
+\indexentry{Ghidra!Sections|book{2}}{12}
+\indexentry{Headers@Ghidra!Headers|book{2}}{12}
+\indexentry{Ghidra!Headers|book{2}}{12}
 \indexentry{text@.text|book{2}}{12}
 \indexentry{rdata@.rdata|book{2}}{12}
 \indexentry{data@.data|book{2}}{12}
 \indexentry{reloc@.reloc|book{2}}{12}
-\indexentry{Function Graph|book{2}}{14}
-\indexentry{Exports|book{2}}{15}
-\indexentry{Imports|book{2}}{15}
-\indexentry{Import Address Table (IAT)|book{2}}{16}
+\indexentry{Ghidra!Function Graph|book{2}}{14}
+\indexentry{Function Graph@Ghidra!Function Graph|book{2}}{14}
+\indexentry{Exports@Ghidra!Exports|book{2}}{16}
+\indexentry{Imports@Ghidra!Imports|book{2}}{17}
+\indexentry{Ghidra!Exports|book{2}}{16}
+\indexentry{Ghidra!Imports|book{2}}{17}
+\indexentry{Import Address Table (IAT)|book{2}}{17}
 \indexentry{IAT \goto Import Address Table|comment}{0}
-\indexentry{Ghidra!Symbol reference|book{2}}{16}
-\indexentry{strace|book{2}}{18}
+\indexentry{Ghidra!Symbol reference|book{2}}{18}
+\indexentry{strace|book{2}}{19}
 \indexentry{API|book{2}}{18}
 \indexentry{System call|book{2}}{18}
-\indexentry{Instruction|book{2}}{22}
-\indexentry{Register|book{2}}{22}
-\indexentry{Immediate value|book{2}}{22}
-\indexentry{Operation|book{2}}{22}
-\indexentry{Operand|book{2}}{22}
-\indexentry{Addressing mode|book{2}}{22}
+\indexentry{Instructions|book{2}}{23}
+\indexentry{Registers|book{2}}{23}
+\indexentry{Operation (of Instructions)|book{2}}{23}
+\indexentry{Operand (of Instructions)|book{2}}{23}
+\indexentry{Addressing mode|book{2}}{23}
 \indexentry{Register-based CPU|book{2}}{23}
-\indexentry{Register|book{2}}{24}
+\indexentry{Registers@x86 Registers|book{2}}{25}
 \indexentry{Segment|book{2}}{25}
-\indexentry{EFLAGS|book{2}}{25}
-\indexentry{Register|book{2}}{26}
-\indexentry{Word|book{2}}{27}
-\indexentry{Dword|book{2}}{27}
-\indexentry{Byte|book{2}}{27}
-\indexentry{Qword|book{2}}{27}
-\indexentry{Pointer|book{2}}{28}
-\indexentry{Dereferencing|book{2}}{28}
+\indexentry{EFLAGS|book{2}}{26}
+\indexentry{Register|book{2}}{25-27}
+\indexentry{Word (16 Bit)|book{2}}{28}
+\indexentry{Dword (32 Bit)|book{2}}{28}
+\indexentry{Byte (8 Bit)|book{2}}{28}
+\indexentry{Qword (64 Bit)|book{2}}{28}
+\indexentry{Pointer|book{2}}{29-30}
+\indexentry{Dereferencing|book{2}}{29-30}
 \indexentry{Effective Address (EA)|book{2}}{31}
 \indexentry{EA \goto Effective Address|comment}{0}
-\indexentry{Addressing mode|book{2}}{32}
-\indexentry{Data Structure|book{2}}{33}
-\indexentry{String|book{2}}{33}
-\indexentry{Constant|book{2}}{35}
-\indexentry{Ghidra!Equate|book{2}}{35}
-\indexentry{Instruction|book{2}}{37}
-\indexentry{Branch|book{2}}{38}
-\indexentry{Ghidra!Comment|book{2}}{43}
-\indexentry{HTTP|book{2}}{44}
-\indexentry{DNS|book{2}}{44}
-\indexentry{IRC|book{2}}{44}
-\indexentry{P2P|book{2}}{44}
-\indexentry{Ghidra!Data Type|book{2}}{47}
-\indexentry{Ghidra!Propagate External Parameters|book{2}}{47}
-\indexentry{Ghidra!Data Convert|book{2}}{49}
-\indexentry{Variable!Local|book{2}}{53}
-\indexentry{Variable!Global|book{2}}{53}
-\indexentry{Variable!Static|book{2}}{53}
-\indexentry{Ghidra!Function Call Tree|book{2}}{55}
-\indexentry{Ghidra!Function|book{2}}{57}
-\indexentry{Function|book{2}}{64}
+\indexentry{Addressing memory|book{2}}{32-33}
+\indexentry{Structures@Data Structures|book{2}}{34}
+\indexentry{Data Structures|book{2}}{34}
+\indexentry{Strings|book{2}}{34}
+\indexentry{Constant|book{2}}{36}
+\indexentry{Ghidra!Equate|book{2}}{36}
+\indexentry{Instructions|book{2}}{38}
+\indexentry{Branches|book{2}}{39-41}
+\indexentry{Jumps|book{2}}{39-41}
+\indexentry{Jcc instructions|book{2}}{42}
+\indexentry{Ghidra!Comment|book{2}}{44}
+\indexentry{HTTP|book{2}}{45}
+\indexentry{DNS|book{2}}{45}
+\indexentry{IRC|book{2}}{45}
+\indexentry{P2P|book{2}}{45}
+\indexentry{Ghidra!Data Type|book{2}}{48}
+\indexentry{Ghidra!Propagate External Parameters|book{2}}{48}
+\indexentry{Ghidra!Data Convert|book{2}}{50}
+\indexentry{Variable!Local|book{2}}{54}
+\indexentry{Variable!Global|book{2}}{54}
+\indexentry{Variable!Static|book{2}}{54}
+\indexentry{Ghidra!Function Call Tree|book{2}}{57}
+\indexentry{Ghidra!Function|book{2}}{58}
+\indexentry{Function|book{2}}{61}
 \indexentry{Return Pointer|book{2}}{65}
 \indexentry{Function!Prologue|book{2}}{66}
 \indexentry{Function!Epilogue|book{2}}{66}
