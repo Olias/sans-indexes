@@ -1,0 +1,124 @@
+% \comment{********************************************************************************************
+%                                       CATEGORIES SECTION
+% *****************************************************************************************************
+% Sort entries consist of a number to be inserted in the standard 'Numbers' section
+% Number composition : [(1) Alphabet order number] [(2) 0]
+%   (1) Sorting in alphabetical number
+%   (2) Allows up to 10 subsections / alphabet character }
+
+% \indexentry{1A@\textbf{Ransomware}!1@Locky|book{1}}{31}
+
+\indexentry{1Z@\blankline|comment}{0}
+\indexentry{2Z@\blankline|comment}{0}
+\indexentry{3Z@\blankline|comment}{0}
+\indexentry{4Z@\blankline|comment}{0}
+
+% \indexentry{999ZZZ@\blankline|newpage\comment}{0}
+
+
+\indexentry{gcloud|book{4}}{144}
+\indexentry{gcloud!Service Account Permissions|book{4}}{146}
+\indexentry{gcloud!Collect Logs|book{4}}{149}
+\indexentry{gcloud!Collect Logs|book{5}}{66}
+
+\indexentry{Organisation Overview|book{5}}{10}
+
+\indexentry{Key Resources for DFIR|book{5}}{14}
+\indexentry{Data transfert pricing|book{5}}{15}
+
+\indexentry{Identity and Access Management|book{5}}{18}
+\indexentry{Identity and Access Management!Identity Setup|book{5}}{19}
+\indexentry{Cloud Identity|book{5}}{19}
+
+\indexentry{Identity and Access Management!Member(Users)|book{5}}{21}
+\indexentry{Identity and Access Management!Role(Permissions)|book{5}}{21}
+\indexentry{Identity and Access Management!Policy(Binding)|book{5}}{21}
+\indexentry{Identity and Access Management!Role(Permissions)|book{5}}{23}
+\indexentry{Identity and Access Management!Policy(Binding)|book{5}}{25}
+\indexentry{Identity and Access Management!Challenges|book{5}}{26}
+\indexentry{Identity and Access Management!Challenges|book{5}}{34}
+\indexentry{Identity and Access Management!Logical Grouping|book{5}}{27}
+
+\indexentry{gcp-organisation-admins|book{5}}{28}
+
+\indexentry{Identity and Access Management!Service Account|book{5}}{29}
+\indexentry{Identity and Access Management!Service Account|book{5}}{31}
+
+\indexentry{Identity and Access Management!Owner vs Editor|book{5}}{33}
+
+\indexentry{gcploit|book{5}}{38}
+
+\indexentry{Filtering on IAM logs|book{5}}{39}
+
+\indexentry{Default logs|book{5}}{47}
+\indexentry{Log Retention (400 days)|book{5}}{47}
+
+\indexentry{Log Ingestion|book{5}}{48}
+\indexentry{Log Storage|book{5}}{48}
+
+\indexentry{Log Explorer|book{5}}{49}
+
+\indexentry{Log Sinks|book{5}}{57}
+\indexentry{Log Sinks!Create|book{5}}{62}
+
+\indexentry{DFIR mission example|book{5}}{67}
+
+\indexentry{Log Cloud Pub/Sub|book{5}}{68}
+\indexentry{Log Queueing & Shipping|book{5}}{68}
+
+\indexentry{Compute Overview|book{5}}{75}
+
+\indexentry{Preemptible VM|book{5}}{78}
+\indexentry{Shielded VM|book{5}}{78}
+
+\indexentry{Common attacks goals|book{5}}{79}
+
+\indexentry{Snapshot|book{5}}{80}
+\indexentry{Capturing a VM Disk Image|book{5}}{80}
+
+\indexentry{Ops Agent|book{5}}{82}
+\indexentry{Ops Agent!Fluent Bit|book{5}}{85}
+\indexentry{Ops Agent!VM Agent Log example|book{5}}{90}
+
+\indexentry{Storage|book{5}}{96}
+\indexentry{Storage!Cloud Storage (Bucket)|book{5}}{96}
+\indexentry{Storage!Block Storage|book{5}}{96}
+\indexentry{Storage!File Storage|book{5}}{96}
+
+\indexentry{Storage!Bucket|book{5}}{98}
+\indexentry{Storage!Bucket!Attacking tool GCPBucketBrute|book{5}}{101}
+\indexentry{Storage!Bucket!Audit logs|book{5}}{102}
+\indexentry{Storage!Bucket!gsutils|book{5}}{105}
+\indexentry{Storage!Bucket!Usage Logs|book{5}}{105}
+\indexentry{Storage!Bucket!Storage Logs|book{5}}{105}
+
+\indexentry{Storage!Bucket!Usage Logs|book{5}}{106}
+\indexentry{Storage!Bucket!Storage Logs|book{5}}{106}
+
+\indexentry{Hunt for Data Exfiltration by bill|book{5}}{108}
+
+\indexentry{Filtering on storage logs|book{5}}{111}
+
+\indexentry{VPC|book{5}}{117}
+\indexentry{VPC!Flow logs!Sampled logs|book{5}}{121}
+\indexentry{VPC!Firewall Rules|book{5}}{124}
+
+\indexentry{VPC!Packet Mirroring|book{5}}{126}
+
+\indexentry{Kubernetes|book{5}}{135}
+\indexentry{Kubernetes!Pod|book{5}}{138}
+\indexentry{Kubernetes!Node|book{5}}{139}
+\indexentry{Kubernetes!Architecture|book{5}}{141}
+\indexentry{Kubernetes!Logging Overview|book{5}}{143}
+
+\indexentry{Kubernetes!klog|book{5}}{143}
+
+\indexentry{Kubernetes!AKS (Azure Kubernetes Service)|book{5}}{144}
+\indexentry{Kubernetes!EKS (Amazon Elastic Container Service)|book{5}}{144}
+\indexentry{Kubernetes!ECS (Amazon Elastic Kebernetes Service)|book{5}}{144}
+\indexentry{Kubernetes!GKE (Kubernietes Engine|book{5}}{144}
+
+\indexentry{Kubernetes!Attacks (MITRE ATT&CK)|book{5}}{149}
+
+\indexentry{Kubernetes!Attacks in the cloud|book{5}}{153}
+

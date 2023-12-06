@@ -1,0 +1,159 @@
+% \comment{********************************************************************************************
+%                                       CATEGORIES SECTION
+% *****************************************************************************************************
+% Sort entries consist of a number to be inserted in the standard 'Numbers' section
+% Number composition : [(1) Alphabet order number] [(2) 0]
+%   (1) Sorting in alphabetical number
+%   (2) Allows up to 10 subsections / alphabet character }
+
+% \indexentry{1A@\textbf{Ransomware}!1@Locky|book{1}}{31}
+
+\indexentry{1Z@\blankline|comment}{0}
+\indexentry{2Z@\blankline|comment}{0}
+\indexentry{3Z@\blankline|comment}{0}
+\indexentry{4Z@\blankline|comment}{0}
+
+% \indexentry{999ZZZ@\blankline|newpage\comment}{0}
+
+% \comment{********************************************************************************************
+%                                        FIRST BOOK SECTION
+% *****************************************************************************************************}
+
+\indexentry{Azure General Structure|book{2}}{5}
+
+\indexentry{Subscriptions|book{2}}{6}
+
+\indexentry{Azure Resource Manager|book{2}}{7}
+
+\indexentry{Resource Groups|book{2}}{8}
+
+\indexentry{Key Resources|book{2}}{9}
+
+\indexentry{Resource ID|book{2}}{10}
+
+\indexentry{Universal Resource Identifier|book{2}}{11}
+
+\indexentry{Role-Base Access Control (RBAC)|book{2}}{13}
+\indexentry{Role-Base Access Control (RBAC)!1.Security Principal|book{2}}{13}
+\indexentry{Role-Base Access Control (RBAC)!2.Role Definition|book{2}}{13}
+\indexentry{Role-Base Access Control (RBAC)!3.Scope|book{2}}{13}
+\indexentry{Role-Base Access Control (RBAC)!List user Role Assignamnets|book{2}}{15}
+
+\indexentry{Tools!az|book{2}}{15}
+
+\indexentry{MITRE ATT&CK and Azure|book{2}}{16}
+
+\indexentry{Accessing Microsoft Azure|book{2}}{17}
+\indexentry{Accessing Microsoft Azure!1.Portal|book{2}}{18}
+\indexentry{Accessing Microsoft Azure!2.CLI|book{2}}{19}
+
+\indexentry{Tools!az|book{2}}{20}
+
+\indexentry{DFIR Evidence!Cloud Shell|book{2}}{21-24}
+
+\indexentry{Accessing Microsoft Azure!3.PowerShell|book{2}}{25}
+
+\indexentry{Azure Compute|book{2}}{28}
+
+\indexentry{VM Types|book{2}}{29}
+
+\indexentry{VM Storage|book{2}}{31}
+
+\indexentry{DFIR Evidence!Crypto mining VM (VmSize)|book{2}}{32}
+
+\indexentry{Azure Virtual Network (VNet)|book{2}}{34}
+
+\indexentry{Network Security Group|book{2}}{35}
+\indexentry{Network Security Group!1min interval collection|book{2}}{35}
+
+\indexentry{Network Virtual Applicance|book{2}}{36}
+
+\indexentry{Storage Account|book{2}}{37}
+\indexentry{Storage Account!Blob storage|book{2}}{37}
+
+\indexentry{Blob storage|book{2}}{37-38}
+
+\indexentry{Sources of Logs|book{2}}{43}
+
+\indexentry{DFIR Evidence!Uselfulness of each level of logs|book{2}}{43-44}
+
+\indexentry{Log Analystics Workspace|book{2}}{45}
+\indexentry{Log Analystics Workspace!Setup|book{2}}{58}
+\indexentry{Log Analystics Workspace!Logs description|book{2}}{59}
+\indexentry{Log Analystics Workspace!Tenant Logs|book{2}}{61}
+\indexentry{Log Analystics Workspace!Subscription Logs|book{2}}{86}
+
+
+\indexentry{DFIR Evidence!Tenant logs|book{2}}{47}
+
+\indexentry{Interrupted sign-in status|book{2}}{50}
+
+\indexentry{Sign-in Logs|book{2}}{50}
+
+\indexentry{MFA|book{2}}{53}
+
+\indexentry{Audit Logs|book{2}}{55}
+
+\indexentry{Audit Logs|book{2}}{59}
+\indexentry{Sign-in Logs|book{2}}{59}
+\indexentry{Provisioning Logs|book{2}}{59}
+
+\indexentry{Diagnostic setting|book{2}}{58}
+
+\indexentry{KQL|book{2}}{61}
+
+\indexentry{Storage Account|book{2}}{65}
+
+\indexentry{Tools!Azure Storage Explorer|book{2}}{68}
+
+\indexentry{Tenant Logs!Import into SOF-ELF|book{2}}{71}
+
+\indexentry{Event Hubs Stream|book{2}}{73}
+
+\indexentry{Export logs via Graph API|book{2}}{75}
+
+\indexentry{Subscription Logs|book{2}}{80}
+\indexentry{Subscription Logs!1.resourceId|book{2}}{81}
+\indexentry{Subscription Logs!2.operationName|book{2}}{81}
+\indexentry{Subscription Logs!3.resultType & resultSignature|book{2}}{81}
+\indexentry{Subscription Logs!4.callerIpAddress|book{2}}{81}
+\indexentry{Subscription Logs!5.correlationId|book{2}}{81}
+\indexentry{Subscription Logs!6.Identity & claims|book{2}}{81}
+\indexentry{Subscription Logs!5.correlationId|book{2}}{82}
+
+\indexentry{Network Security Group|book{2}}{98}
+\indexentry{Network Security Group!Logs|book{2}}{101}
+\indexentry{Network Security Group!Flow Logs|book{2}}{102}
+\indexentry{Network Security Group!Flow Log Configuration|book{2}}{102}
+\indexentry{Network Security Group!Network Watcher|book{2}}{104}
+\indexentry{Network Security Group!Traffic Analytics|book{2}}{106}
+\indexentry{Network Security Group!Import into SOF-ELK|book{2}}{107}
+\indexentry{Network Watcher|book{2}}{104}
+
+\indexentry{DFIR Evidence!NSG Logs|book{2}}{101}
+\indexentry{DFIR Evidence!NSG Flow Logs|book{2}}{102}
+
+\indexentry{Storage Account!Logs|book{2}}{108}
+\indexentry{Storage Account!Logs Enable by Policies|book{2}}{114}
+\indexentry{Storage Account!Access|book{2}}{109}
+\indexentry{Storage Account!Access!Shared access signature (SAS)|book{2}}{109}
+\indexentry{Storage Account!Access!Access Keys|book{2}}{109}
+
+\indexentry{Storage Account!Exfiltration (generated keys)|book{2}}{111}
+
+\indexentry{DFIR Evidence!Generated keys|book{2}}{111}
+
+\indexentry{Storage Account!Exfiltration (generated keys)|book{2}}{110}
+
+\indexentry{Windows Agents|book{2}}{120}
+
+\indexentry{VM Insights|book{2}}{133}
+
+\indexentry{DFIR Evidence!Log Sources Summary|book{2}}{135}
+
+\indexentry{IR in Cloud|book{2}}{138}
+
+\indexentry{Snapshot|book{2}}{140}
+
+\indexentry{Tools!azcopy (download snapshot)|book{2}}{148}
+

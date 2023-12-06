@@ -1,0 +1,81 @@
+% \comment{********************************************************************************************
+%                                       CATEGORIES SECTION
+% *****************************************************************************************************
+% Sort entries consist of a number to be inserted in the standard 'Numbers' section
+% Number composition : [(1) Alphabet order number] [(2) 0]
+%   (1) Sorting in alphabetical number
+%   (2) Allows up to 10 subsections / alphabet character }
+
+% \indexentry{1A@\textbf{Ransomware}!1@Locky|book{1}}{31}
+
+\indexentry{1Z@\blankline|comment}{0}
+\indexentry{2Z@\blankline|comment}{0}
+\indexentry{3Z@\blankline|comment}{0}
+\indexentry{4Z@\blankline|comment}{0}
+
+% \indexentry{999ZZZ@\blankline|newpage\comment}{0}
+
+% \comment{********************************************************************************************
+%                                        FIRST BOOK SECTION
+% *****************************************************************************************************}
+
+\indexentry{SOF-ELK|book{1}}{17}
+\indexentry{SOF-ELK!Supported logs|book{1}}{17}
+\indexentry{SOF-ELK!Kibana Search Process|book{1}}{22}
+\indexentry{SOF-ELK!Kibana Search Examples|book{1}}{33}
+
+\indexentry{Mitre ATT&CK Cloud version|book{1}}{43}
+
+\indexentry{Common attacks|book{1}}{45}
+
+\indexentry{Cloud Models & Logs (Iaas, Pass, Saas & Serverless & Containers)|book{1}}{46}
+
+\indexentry{DFIR in the Cloud|book{1}}{50}
+
+\indexentry{Shared Responsability Model|book{1}}{52}
+
+\indexentry{Key Logs for Investigations|book{1}}{53}
+
+\indexentry{Cloud Access Options|book{1}}{54}
+
+\indexentry{Snapshots|book{1}}{55}
+ 
+\indexentry{Cloud Flows|book{1}}{56}
+
+\indexentry{Pricing|book{1}}{57}
+
+\indexentry{Pricing|book{1}}{57}
+
+\indexentry{Terminology Across Clouds|book{1}}{60}
+
+
+
+% \comment{********************************************************************************************
+%                                       SECOND BOOK SECTION
+% *****************************************************************************************************}
+
+
+
+% \comment{********************************************************************************************
+%                                      THIRD BOOK SECTION
+% *****************************************************************************************************}
+
+
+
+
+% \comment{********************************************************************************************
+%                                      FOURTH BOOK SECTION
+% *****************************************************************************************************}
+
+
+
+% \comment{********************************************************************************************
+%                                      LAB BOOK SECTION
+% *****************************************************************************************************}
+
+
+
+\comment{********************************************************************************************
+                                      CROSS-KEYS SECTION
+*****************************************************************************************************}
+
