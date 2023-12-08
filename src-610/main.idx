@@ -135,7 +135,7 @@
 \indexentry{3A@\textbf{Register}!1@AL (8 Bit)|book{2}}{27}
 \indexentry{3A@\textbf{Register}!1@AH (8 Bit)|book{2}}{27}
 \indexentry{3A@\textbf{Register}!1@EAX (32 Bit)|book{2}}{25}
-\indexentry{3A@\textbf{Register}!1@RAX (64 Bit)|comment}{0}
+\indexentry{3A@\textbf{Register}!1@RAX (64 Bit)|book{2}}{149}
 \indexentry{3A@\textbf{Register}!1@ECX|book{2}}{25}
 \indexentry{3A@\textbf{Register}!1@EBP|book{2}}{25}
 \indexentry{3A@\textbf{Register}!1@EIP|book{2}}{26}
@@ -160,6 +160,7 @@
                                        FIRST BOOK SECTION
 *****************************************************************************************************}
 
+\indexentry{4B11@\textbf{Introduction to Malware Analysis}|book{1}}{4}
 \indexentry{Malware analysis|book{1}}{5}
 \indexentry{Malware|book{1}}{5}
 \indexentry{Malware analysis!stage|book{1}}{9}
@@ -204,7 +205,9 @@
 \indexentry{Honeypot|book{1}}{20}
 \indexentry{AI|book{1}}{21}
 \indexentry{ChatGPT|book{1}}{21}
-\indexentry{Malware lab|book{1}}{23-25}
+
+\indexentry{4B12@\textbf{Malware Analysis Lab}|book{1}}{24}
+\indexentry{Malware lab|book{1}}{25}
 \indexentry{Malware lab!Configuration|book{1}}{26}
 \indexentry{Virtualization|book{1}}{27-28}
 \indexentry{Malware lab!Isolation|book{1}}{29}
@@ -220,6 +223,8 @@
 \indexentry{Static properties!Analysis|book{1}}{35}
 \indexentry{Behavioral Analysis|book{1}}{35}
 \indexentry{Code analysis|book{1}}{35}
+
+\indexentry{4B13@\textbf{Static Properties Analysis}|book{1}}{38}
 \indexentry{Administrative rights|book{1}}{41}
 \indexentry{Static properties|book{1}}{43}
 \indexentry{pestr|book{1}}{44}
@@ -238,7 +243,8 @@
 \indexentry{Packing|book{1}}{49}
 \indexentry{TrId|book{1}}{48}
 \indexentry{Viper|book{1}}{48}
-\indexentry{Behavioral Analysis|book{1}}{52}
+
+\indexentry{4B14@\textbf{Behavioral Analysis Essentials}|book{1}}{52}
 \indexentry{Process Hacker|book{1}}{53}
 \indexentry{Process Monitor|book{1}}{53}
 \indexentry{Regshot|book{1}}{53}
@@ -257,7 +263,8 @@
 \indexentry{httpd|book{1}}{72}
 \indexentry{Wireshark!TCP Stream|book{1}}{74}
 \indexentry{xxd|book{1}}{76}
-\indexentry{Code analysis|book{1}}{79}
+
+\indexentry{4B15@\textbf{Code Analysis Essentials}|book{1}}{79}
 \indexentry{IDA|book{1}}{81}
 \indexentry{WinDbg|book{1}}{81}
 \indexentry{Radare|book{1}}{81}
@@ -288,7 +295,7 @@
 \indexentry{XOR|book{1}}{104}
 \indexentry{CyberChef|book{1}}{105-109}
 
-\indexentry{Network Interaction Analysis|book{1}}{112}
+\indexentry{4B16@\textbf{Exploring Network Interactions}|book{1}}{112}
 \indexentry{C2|book{1}}{113}
 \indexentry{SYN|book{1}}{119}
 \indexentry{INetSim|book{1}}{120}
@@ -309,9 +316,7 @@
 *****************************************************************************************************}
 
 
-\indexentry{Reversing Malicious |book{2}}{4}
-
-\indexentry{Reversing Concepts|book{2}}{4}
+\indexentry{4B21@\textbf{Core Reversing Concepts}|book{2}}{4}
 \indexentry{Code lifecycle|book{2}}{5}
 \indexentry{Compiler|book{2}}{5}
 \indexentry{Linker|book{2}}{5}
@@ -388,76 +393,83 @@
 \indexentry{Variable!Local|book{2}}{54}
 \indexentry{Variable!Global|book{2}}{54}
 \indexentry{Variable!Static|book{2}}{54}
-\indexentry{Ghidra!Function Call Tree|book{2}}{57}
-\indexentry{Ghidra!Function|book{2}}{58}
+\indexentry{Ghidra!Function Call Tree|book{2}}{56}
+
+\indexentry{4B22@\textbf{Reversing Functions}|book{2}}{61}
+\indexentry{Ghidra!Functions|book{2}}{58}
 \indexentry{Function|book{2}}{61}
-\indexentry{Return Pointer|book{2}}{65}
-\indexentry{Function!Prologue|book{2}}{66}
-\indexentry{Function!Epilogue|book{2}}{66}
+\indexentry{Function|book{2}}{65}
+\indexentry{Return Pointer|book{2}}{66}
+\indexentry{Function!Prologue|book{2}}{67}
+\indexentry{Function!Epilogue|book{2}}{67}
 \indexentry{Hot patching|book{2}}{66}
-\indexentry{Stack|book{2}}{67-69}
-\indexentry{Frame pointer|book{2}}{67}
-\indexentry{Stack!Pointer|book{2}}{67}
-\indexentry{Calling convention|book{2}}{71}
-\indexentry{cdecl|book{2}}{71}
-\indexentry{stdcall|book{2}}{71}
-\indexentry{fastcall|book{2}}{72}
-\indexentry{thiscall|book{2}}{72}
-\indexentry{Inlining|book{2}}{76}
-\indexentry{Ghidra!Show References|book{2}}{79}
-\indexentry{Arguments|book{2}}{80-81}
-\indexentry{Prologue|book{2}}{82}
-\indexentry{Epilogue|book{2}}{83}
-\indexentry{cdecl|book{2}}{84}
-\indexentry{Prologue|book{2}}{89}
-\indexentry{Epilogue|book{2}}{90}
-\indexentry{Data Structure|book{2}}{92}
-\indexentry{Ghidra!Local Variable Conflict|book{2}}{93}
+\indexentry{Multithread process|book{2}}{66}
+\indexentry{Stack|book{2}}{68-70}
+\indexentry{Frame pointer|book{2}}{68}
+\indexentry{Stack!Pointer|book{2}}{68}
+\indexentry{Calling convention|book{2}}{72}
+\indexentry{cdecl|book{2}}{72}
+\indexentry{stdcall|book{2}}{72}
+\indexentry{cdecl|book{2}}{74}
+\indexentry{stdcall|book{2}}{74}
+\indexentry{fastcall|book{2}}{73}
+\indexentry{thiscall|book{2}}{73}
+\indexentry{fastcall|book{2}}{75}
+\indexentry{thiscall|book{2}}{75}
+\indexentry{Inline functions|book{2}}{77}
+\indexentry{Ghidra!Show References|book{2}}{80}
+\indexentry{Arguments|book{2}}{81-82}
+\indexentry{Prologue|book{2}}{83}
+\indexentry{Epilogue|book{2}}{84}
+\indexentry{cdecl|book{2}}{85}
+\indexentry{Prologue|book{2}}{90}
+\indexentry{Epilogue|book{2}}{91}
+\indexentry{Data Structures|book{2}}{93}
+\indexentry{Ghidra!Local Variable Conflict|book{2}}{94}
+
+\indexentry{4B23@\textbf{Control Flow In-Dpth}|book{2}}{98}
 \indexentry{If-Else|book{2}}{99-102}
 \indexentry{String|book{2}}{103}
 \indexentry{Ghidra!Defined Strings|book{2}}{103}
-\indexentry{Ghidra!String Reference|book{2}}{106}
-\indexentry{Loop|book{2}}{108}
-\indexentry{Loop|book{2}}{110}
+\indexentry{Ghidra!String Reference|book{2}}{105}
+\indexentry{Loop|book{2}}{106-112}
 \indexentry{strlen|book{2}}{111}
 \indexentry{For (loop)|book{2}}{112}
 \indexentry{While (loop)|book{2}}{112}
 \indexentry{Do (loop)|book{2}}{112}
 \indexentry{For (loop)|book{2}}{113}
-\indexentry{Binary expression|book{2}}{123}
-\indexentry{And|book{2}}{124}
+\indexentry{loop assembly|book{2}}{116-120}
+\indexentry{And|book{2}}{123-124}
+\indexentry{Or|book{2}}{123}
 \indexentry{Or|book{2}}{125}
-\indexentry{Switch|book{2}}{130}
-\indexentry{EFLAGS|book{2}}{130}
+\indexentry{Switch|book{2}}{130-132}
 \indexentry{Jump table|book{2}}{131}
+
+\indexentry{4B24@\textbf{API patterns in Malware}|book{2}}{136}
 \indexentry{DLL|book{2}}{137}
-\indexentry{API!Pattern|book{2}}{135}
-\indexentry{PeStudio|book{2}}{138}
-\indexentry{Exports|book{2}}{138}
+\indexentry{PeStudio (DLL)|book{2}}{138}
+\indexentry{Ghidra!Exports|book{2}}{139}
+\indexentry{Ghidra!Imports|book{2}}{140}
 \indexentry{Dropper|book{2}}{140}
-\indexentry{Ressource Dumpimp|book{2}}{142}
+\indexentry{PeStudio!Ressource Dumpimg|book{2}}{142}
 \indexentry{MZ|book{2}}{142}
 \indexentry{Mutex|book{2}}{143}
-\indexentry{CFF Explorer|book{2}}{145}
-\indexentry{BHOs|book{2}}{148}
+
+\indexentry{4B25@\textbf{64-bit Code Analysis}|book{2}}{145}
+\indexentry{malware@64-bit Malware|book{2}}{147}
+
+\indexentry{Browser Helper Objects|book{2}}{147}
+\indexentry{BHOs|book{2}}{147}
 \indexentry{Device Driver|book{2}}{148}
-\indexentry{RootKit|book{2}}{148}
-\indexentry{TDL RootKit|book{2}}{148}
-\indexentry{wow64|book{2}}{149}
-\indexentry{NTVDM|book{2}}{149}
-\indexentry{bit@64-bits|book{2}}{150}
-\indexentry{RIP-relative addressing|book{2}}{150}
-\indexentry{Position-independent code (PIC)|book{2}}{150}
-\indexentry{Register!64-bits|book{2}}{151}
-\indexentry{Arguments!64-bits|book{2}}{156}
-\indexentry{Decompiler vs Dissassembly|book{2}}{159}
-\indexentry{Key logger|book{2}}{172}
-\indexentry{WM\_(SYS)KEY(XX)|book{2}}{179}
-\indexentry{Two complements|book{2}}{182}
-\indexentry{Most significant bit (MSB)|book{2}}{182}
-\indexentry{Signed|book{2}}{182}
-\indexentry{Unsigned|book{2}}{182}
-\indexentry{Jump table|book{2}}{184}
+\indexentry{RootKit|book{2}}{147}
+\indexentry{wow64|book{2}}{148}
+\indexentry{NTVDM|book{2}}{148}
+\indexentry{bit@64-bits|book{2}}{149}
+\indexentry{RIP-relative addressing|book{2}}{149}
+\indexentry{Position-independent code (PIC)|book{2}}{149}
+\indexentry{Register!64-bits|book{2}}{149}
+\indexentry{Arguments!64-bits|book{2}}{149}
+\indexentry{Decompiler vs Dissassembly|book{2}}{158}
 
 
 \comment{********************************************************************************************
