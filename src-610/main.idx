@@ -27,6 +27,7 @@
 \indexentry{1A@\textbf{Function}!1@CreateMutex|book{2}}{143}
 \indexentry{1A@\textbf{Function}!1@ShellExecute|book{2}}{153}
 \indexentry{1A@\textbf{Function}!1@URLDownloadToFileA|book{3}}{45}
+\indexentry{1A@\textbf{Function}!1@URLDownloadToFileA|book{3}}{52}
 \indexentry{1A@\textbf{Function}!1@SetWindowsHookEx|book{5}}{68-69}
 \indexentry{1A@\textbf{Function}!1@IsDebuggerPresent|book{5}}{6}
 \indexentry{1A@\textbf{Function}!1@IsDebuggerPresent|book{5}}{12}
@@ -87,6 +88,7 @@
 \indexentry{1A@\textbf{Function}!1@CryptDecrypt|book{4}}{98}
 \indexentry{1A@\textbf{Function}!1@CryptDecrypt|book{4}}{102}
 \indexentry{1A@\textbf{Function}!1@CryptDecrypt|book{4}}{51}
+\indexentry{1A@\textbf{Function}!1@regsvr32|book{3}}{53}
 
 \indexentry{2A@\textbf{Instructions}!0@Overview|comment}{0}
 \indexentry{2A@\textbf{Instructions}!ADD|book{2}}{38}
@@ -241,7 +243,7 @@
 \indexentry{Exeinfo PE|book{1}}{49}
 \indexentry{PE (Portable Executable)|book{1}}{49}
 \indexentry{Packing|book{1}}{49}
-\indexentry{TrId|book{1}}{48}
+\indexentry{Trid|book{1}}{48}
 \indexentry{Viper|book{1}}{48}
 
 \indexentry{4B14@\textbf{Behavioral Analysis Essentials}|book{1}}{52}
@@ -427,7 +429,7 @@
 \indexentry{Data Structures|book{2}}{93}
 \indexentry{Ghidra!Local Variable Conflict|book{2}}{94}
 
-\indexentry{4B23@\textbf{Control Flow In-Dpth}|book{2}}{98}
+\indexentry{4B23@\textbf{Control Flow In-Depth}|book{2}}{98}
 \indexentry{If-Else|book{2}}{99-102}
 \indexentry{String|book{2}}{103}
 \indexentry{Ghidra!Defined Strings|book{2}}{103}
@@ -476,188 +478,116 @@
                                      THIRD BOOK SECTION
 *****************************************************************************************************}
 
-\indexentry{Website|book{3}}{4}
-\indexentry{Pinpoint|book{3}}{4}
-\indexentry{Scout|book{3}}{4}
-\indexentry{Thug|book{3}}{4}
-\indexentry{Honeyclient|book{3}}{4}
-\indexentry{Burp|book{3}}{4}
-\indexentry{Fiddler|book{3}}{6}
-\indexentry{document!.createElement|book{3}}{8}
-\indexentry{Flash|book{3}}{10}
-\indexentry{Process Monitor|book{3}}{12}
-\indexentry{WMIC|book{3}}{12}
-\indexentry{Wireshark!Filter|book{3}}{13}
-\indexentry{Deobfuscation|book{3}}{17}
-\indexentry{Obfuscation|book{3}}{18}
-\indexentry{VBScript|book{3}}{18}
-\indexentry{JSTool|book{3}}{20}
-\indexentry{JavaScript!Beautify|book{3}}{20}
-\indexentry{JavaScript|book{3}}{21}
-\indexentry{HTML|book{3}}{21}
-\indexentry{Internet Explorer|book{3}}{25}
-\indexentry{JavaScript!Debug|book{3}}{25}
-\indexentry{JavaScript!BreakPoint|book{3}}{28}
-\indexentry{JavaScript!Console|book{3}}{30}
-\indexentry{JavaScript!Watch|book{3}}{30}
-\indexentry{JavaScript!Anti-analysis|book{3}}{33}
-\indexentry{arguments.callee|book{3}}{33}
-\indexentry{Internet Explorer|book{3}}{25}
-\indexentry{Debugger|book{3}}{34}
-\indexentry{Interpreter|book{3}}{36}
-\indexentry{SpiderMonkey|book{3}}{37}
-\indexentry{CScript|book{3}}{37}
-\indexentry{V8|book{3}}{37}
-\indexentry{js|book{3}}{38}
-\indexentry{location.href|book{3}}{39}
-\indexentry{Internet Explorer|book{3}}{39}
-\indexentry{trid|book{4}}{41}
-\indexentry{JavaScript!Anti-analysis|book{3}}{42}
-\indexentry{JavaScript!Tuple|book{3}}{43}
-\indexentry{JavaScript!Ternary Operator|book{3}}{44}
-\indexentry{JavaScript!Search and Replace|book{3}}{45}
-\indexentry{document!.getElementById|book{3}}{46}
-\indexentry{CScript|book{3}}{47}
-\indexentry{VBScript|book{3}}{47}
-\indexentry{Kahu Security|book{3}}{48}
-\indexentry{box-js|book{3}}{48}
-\indexentry{malware-jail|book{3}}{48}
-\indexentry{PhantomJS|book{3}}{48}
-\indexentry{Nightmare|book{3}}{48}
-\indexentry{WSF|book{3}}{49}
-\indexentry{VCF|book{3}}{49}
-\indexentry{box-js!Download|book{3}}{51}
-\indexentry{Deobfuscation|book{3}}{52}
-\indexentry{PDF|book{3}}{55}
-\indexentry{PDF!/JS|book{3}}{55}
-\indexentry{PDF!/JavaScript|book{3}}{55}
-\indexentry{PDF!/XFA|book{3}}{55}
-\indexentry{PDF!/RichMedia|book{3}}{55}
-\indexentry{PDF!/Launch|book{3}}{55}
-\indexentry{PDF!/EmbeddedFiles|book{3}}{55}
-\indexentry{PDF!/URI|book{3}}{55}
-\indexentry{PDF!/SubmitForm|book{3}}{55}
-\indexentry{Adobe Reader|book{3}}{55}
-\indexentry{FoxIT Reader|book{3}}{55}
-\indexentry{PDF!File structure|book{3}}{56}
-\indexentry{PDF!Object|book{3}}{57}
-\indexentry{PDF!/A|book{3}}{57}
-\indexentry{PDF!Dictionary|book{3}}{58}
-\indexentry{Base64|book{3}}{59}
-\indexentry{base64dump.py|book{3}}{60}
-\indexentry{PDF!/OpenAction|book{3}}{61}
-\indexentry{pdfid.py|book{3}}{61}
-\indexentry{pdf-parser.py|book{3}}{61-63}
-\indexentry{Heap Spraying|book{3}}{64}
-\indexentry{peeppdf.py|book{3}}{65}
-\indexentry{SpiderMonkey|book{3}}{66}
-\indexentry{app.setTimeOut|book{3}}{66}
-\indexentry{app.viewerVersion|book{3}}{66}
-\indexentry{syncAnnotScan|book{3}}{66}
-\indexentry{getAnnots|book{3}}{66}
-\indexentry{Heap Spraying|book{3}}{66}
-\indexentry{Hexadecimal string|book{3}}{67}
-\indexentry{Collab.collectEmailInfo|book{3}}{67}
-\indexentry{Shellcode|book{3}}{69}
-\indexentry{base64dump.py|book{3}}{70}
-\indexentry{unicode2raw|book{3}}{70}
-\indexentry{scdbg|book{3}}{72}
-\indexentry{libemu|book{3}}{72}
-\indexentry{sctest|book{3}}{72}
-\indexentry{AcroForm|book{3}}{73}
-\indexentry{translate.py|book{3}}{74}
-\indexentry{XML Forms Architecture (XFA)|book{3}}{73-75}
-\indexentry{XFA \goto XML Forms Architecture|comment}{0}
-\indexentry{shellcode2exe.py|book{3}}{77}
-\indexentry{INetSim|book{3}}{78}
-\indexentry{PDF!/ObjStm|book{3}}{80}
-\indexentry{PDF!Analysis|book{3}}{80}
-\indexentry{swf\_mastah.py|book{3}}{80}
-\indexentry{qpdf|book{3}}{80}
-\indexentry{pdftk|book{3}}{80}
-\indexentry{PDF!Stream|book{3}}{80}
-\indexentry{Macro|book{3}}{83}
-\indexentry{VBA \goto Visual Basic for Applications|comment}{0}
-\indexentry{Visual Basic for Applications (VBA)|book{3}}{84}
-\indexentry{Macro!Enable Content|book{3}}{85}
-\indexentry{olevba.py|book{3}}{87}
-\indexentry{Macro!Extraction|book{3}}{87}
-\indexentry{Macro!AutoOpen|book{3}}{88}
-\indexentry{OLE2|book{3}}{89}
-\indexentry{OOXML|book{3}}{89}
-\indexentry{Structured Storage (SS)|book{3}}{89}
-\indexentry{Compound File Binary Format (CFBF)|book{3}}{89}
-\indexentry{Strings|book{3}}{91}
-\indexentry{oledump.py|book{3}}{92}
-\indexentry{Macro!Dump|book{3}}{92}
-\indexentry{olecfinfo|book{3}}{92}
-\indexentry{oledir.py|book{3}}{92}
-\indexentry{olebrowse.py|book{3}}{92}
-\indexentry{SSView|book{3}}{92}
-\indexentry{SRP Stream|book{3}}{93}
-\indexentry{oledump.py|book{3}}{94}
-\indexentry{Visual Basic for Applications (VBA)!Downloader|book{3}}{84}
-\indexentry{XOR (VBA)|book{3}}{97}
-\indexentry{XOR Encoding|book{3}}{98}
-\indexentry{XOR Encoding|book{3}}{98}
-\indexentry{xor-kpa.py|book{3}}{100-101}
-\indexentry{Macro!Debug|book{3}}{101}
-\indexentry{Macro!Locals|book{3}}{103}
-\indexentry{Visual Basic for Applications (VBA)!Stomping|book{3}}{104}
-\indexentry{p-code|book{3}}{104}
-\indexentry{pcodedmp.py|book{3}}{106}
-\indexentry{p-code!Dump|book{3}}{106}
-\indexentry{Macro!Enable Content|book{3}}{107}
-\indexentry{olevba.py|book{3}}{108}
-\indexentry{pcodedmp.py|book{3}}{109}
-\indexentry{Macro!Debug|book{3}}{111}
-\indexentry{Visual Basic for Applications (VBA)!Watches|book{3}}{112}
-\indexentry{Macro|book{3}}{114}
-\indexentry{RTF|book{3}}{117}
-\indexentry{OLE1|book{3}}{117}
-\indexentry{RTF!Auto extraction|book{3}}{117}
-\indexentry{RTF!Controls/Group/Object|book{3}}{118}
-\indexentry{rtfdump.py|book{3}}{119-212}
-\indexentry{RTF!Nesting|book{3}}{120}
-\indexentry{XORSearch|book{3}}{122}
-\indexentry{GetEIP|book{3}}{123}
-\indexentry{Process Environment Block (PEB)|book{3}}{124}
-\indexentry{FS:[30h]|book{3}}{124}
-\indexentry{Thread Information Block (TIB)|book{3}}{124}
-\indexentry{scdbg|book{3}}{125}
-\indexentry{File handle|book{3}}{125}
-\indexentry{jmp2it|book{3}}{128}
-\indexentry{shellcode2exe.py|book{3}}{128}
-\indexentry{Archive (self-extracting)|book{3}}{129}
-\indexentry{oledump.py|book{3}}{134}
-\indexentry{SSView|book{3}}{136}
-\indexentry{FileInsight|book{3}}{136}
-\indexentry{oleid.py|book{3}}{136}
-\indexentry{olemap.py|book{3}}{136}
-\indexentry{olebrowse.py|book{3}}{136}
-\indexentry{oledir.py|book{3}}{136}
-\indexentry{olecfinfo|book{3}}{136}
-\indexentry{zipdump.py|book{3}}{137-138}
-\indexentry{Yara|book{3}}{137}
-\indexentry{feh|book{3}}{139}
-\indexentry{exiftool|book{3}}{139}
-\indexentry{hachoir-urwid|book{3}}{139}
-\indexentry{ActiveXObject|book{3}}{141}
-\indexentry{certutil|book{3}}{142}
-\indexentry{box-js|book{3}}{143}
-\indexentry{AutoDetect|book{3}}{144}
-\indexentry{AutoConfigURL|book{3}}{144}
-\indexentry{openssl|book{3}}{145}
-\indexentry{DER format|book{3}}{145}
-\indexentry{Enable Content|book{3}}{148}
-\indexentry{message\_extract.py|book{3}}{150}
-\indexentry{rtfdump.py|book{3}}{151-153}
-\indexentry{rtfdump.py!Carving|book{3}}{155}
-\indexentry{scdbg|book{3}}{156}
-\indexentry{rtfobj.py|book{3}}{157}
-\indexentry{FileInsight|book{3}}{158}
-\indexentry{VBScript!Deobfuscation|book{3}}{160}
-\indexentry{CScript|book{3}}{160-163}
+\indexentry{4B31@\textbf{Malicious PDF Files}|book{3}}{3}
+\indexentry{PDF!keywords|book{3}}{4}
+\indexentry{PDF!/JS|book{3}}{4}
+\indexentry{PDF!/JavaScript|book{3}}{4}
+\indexentry{PDF!/XFA|book{3}}{4}
+\indexentry{AcroForm|book{3}}{4}
+\indexentry{PDF!/Launch|book{3}}{4}
+\indexentry{PDF!/EmbeddedFiles|book{3}}{4}
+\indexentry{PDF!/URI|book{3}}{4}
+\indexentry{PDF!/SubmitForm|book{3}}{4}
+\indexentry{Adobe Reader|book{3}}{4}
+\indexentry{FoxIT Reader|book{3}}{4}
+\indexentry{PDF!File structure|book{3}}{5}
+\indexentry{PDF!Object|book{3}}{5}
+\indexentry{PDF!/AA|book{3}}{5}
+\indexentry{PDF!/AA|book{3}}{6}
+\indexentry{PDF!Stream|book{3}}{6}
+\indexentry{PDF!/URI|book{3}}{8}
+\indexentry{PDF!/OpenAction|book{3}}{8}
+\indexentry{pdfid.py|book{3}}{8}
+\indexentry{pdf-parser.py|book{3}}{9-17}
+\indexentry{Pinpoint|book{3}}{19}
+\indexentry{Scout|book{3}}{19}
+\indexentry{Thug|book{3}}{19}
+\indexentry{Honeyclient|book{3}}{19}
+\indexentry{Burp|book{3}}{19}
+\indexentry{Fiddler|book{3}}{19}
+\indexentry{Fiddler|book{3}}{21}
+\indexentry{PDF!/ObjStm|book{3}}{29}
+\indexentry{pdf-parser.py|book{3}}{32}
+\indexentry{PDF!/Annots|book{3}}{33-34}
+\indexentry{PDF!object references|book{3}}{34}
+\indexentry{qpdf|book{3}}{35}
+\indexentry{pdftk|book{3}}{35}
+
+\indexentry{4B32@\textbf{VBA Macros in MS Office Documents}|book{3}}{37}
+\indexentry{VBA \goto Visual Basic for Applications|book{3}}{38}
+\indexentry{Visual Basic for Applications (VBA)|book{3}}{38}
+\indexentry{Visual Basic for Applications (VBA)!Downloader|book{3}}{38}
+\indexentry{Zone Identifier}{39}
+\indexentry{Alternate Data Stream}{39}
+\indexentry{ADS}{39}
+\indexentry{OLE2|book{3}}{40}
+\indexentry{OOXML|book{3}}{40}
+\indexentry{Structured Storage (SS)|book{3}}{40}
+\indexentry{Compound File Binary Format (CFBF)|book{3}}{40}
+\indexentry{Composite Document File V2 (CDFV2)|book{3}}{40}
+\indexentry{Macro!Enable Content|book{3}}{42}
+\indexentry{zipdump.py|book{3}}{43}
+\indexentry{feh|book{3}}{43}
+\indexentry{Macro!Extraction|book{3}}{44}
+\indexentry{olevba.py|book{3}}{45}
+\indexentry{Macro!AutoOpen|book{3}}{46}
+\indexentry{oledump|book{3}}{47-49}
+\indexentry{regsvr32|book{3}}{53}
+\indexentry{SRP Stream|book{3}}{54}
+\indexentry{exiftool|book{3}}{54}
+\indexentry{ViperMonkey (vmonkey)|book{3}}{56}
+\indexentry{evilclippy|book{3}}{57}
+\indexentry{Macro!Debug|book{3}}{57}
+\indexentry{Composite Document File V2 (CDFV2)|book{3}}{65}
+\indexentry{oledump|book{3}}{66-70}
+\indexentry{base64dump.py|book{3}}{71}
+\indexentry{base64dump.py|book{3}}{74}
+\indexentry{libemu|book{3}}{75}
+\indexentry{scdbg (PS emulator)|book{3}}{75}
+\indexentry{yara-rules|book{3}}{76}
+\indexentry{1768|book{3}}{76}
+\indexentry{translate.py|book{3}}{76}
+
+\indexentry{4B33@\textbf{Examining Malicious RTF Files}|book{3}}{80}
+\indexentry{RTF|book{3}}{80}
+\indexentry{OLE1|book{3}}{81}
+\indexentry{RTF!Auto extraction|book{3}}{81}
+\indexentry{VBScript|book{3}}{81}
+\indexentry{RTF!Controls/Group/Object|book{3}}{82}
+\indexentry{rtfdump.py|book{3}}{83-84}
+\indexentry{rtfdump.py|book{3}}{90}
+\indexentry{trid|book{4}}{84}
+\indexentry{rtfobj.py|book{3}}{84}
+\indexentry{oledump|book{3}}{85-88}
+\indexentry{Vulnarablility vs Expoit|book{3}}{85}
+\indexentry{Expoit vs Vulnarablility|book{3}}{85}
+\indexentry{XORSearch|book{3}}{92}
+\indexentry{GetEIP|book{3}}{92}
+\indexentry{Process Environment Block (PEB)|book{3}}{94}
+\indexentry{FS:[30h]|book{3}}{94}
+\indexentry{Thread Information Block (TIB)|book{3}}{94}
+\indexentry{scdbg|book{3}}{95-96}
+\indexentry{File handle|book{3}}{95}
+\indexentry{Archive (self-extracting)|book{3}}{98}
+
+\indexentry{4B34@\textbf{Deobfuscating Malicious JavaScript}|book{3}}{102}
+\indexentry{js-beautofy.js|book{3}}{104}
+\indexentry{JavaScript!Beautify|book{3}}{104}
+\indexentry{js eval|book{3}}{105}
+\indexentry{Deobfuscation|book{3}}{105}
+\indexentry{ActiveXObject|book{3}}{106}
+\indexentry{ActiveXObject|book{3}}{108}
+\indexentry{SpiderMonkey|book{3}}{106,107}
+\indexentry{HTML|book{3}}{106}
+\indexentry{AMSI|book{3}}{109-110}
+\indexentry{Antimalware San Interface(AMSI)|book{3}}{109-110}
+\indexentry{logman|book{3}}{110}
+\indexentry{CScript|book{3}}{110}
+\indexentry{CScript|book{3}}{118}
+\indexentry{objects.js|book{3}}{107}
+\indexentry{objects.js|book{3}}{114-117}
+\indexentry{box-js|book{3}}{118}
+\indexentry{js debugger|book{3}}{118}
 
 
 \comment{********************************************************************************************
