@@ -89,6 +89,8 @@
 \indexentry{1A@\textbf{Function}!1@CryptDecrypt|book{4}}{102}
 \indexentry{1A@\textbf{Function}!1@CryptDecrypt|book{4}}{51}
 \indexentry{1A@\textbf{Function}!1@regsvr32|book{3}}{53}
+\indexentry{1A@\textbf{Function}!1@Assembly.LoadFile|book{4}}{115}
+\indexentry{1A@\textbf{Function}!1@Assembly.LoadFrom|book{4}}{115}
 
 \indexentry{2A@\textbf{Instructions}!0@Overview|comment}{0}
 \indexentry{2A@\textbf{Instructions}!ADD|book{2}}{38}
@@ -156,13 +158,13 @@
 \indexentry{3A@\textbf{Register}!1@GS|book{5}}{99}
 \indexentry{3A@\textbf{Register}!1@GS|book{5}}{129}
 
-% \indexentry{999ZZZ@\blankline|newpage\comment}{0}
+%\indexentry{999ZZZ@\blankline|newpage\comment}{0}
 
 \comment{********************************************************************************************
                                        FIRST BOOK SECTION
 *****************************************************************************************************}
 
-\indexentry{4B11@\textbf{Introduction to Malware Analysis}|book{1}}{4}
+\indexentry{00A@\textbf{Chapters}!1.1 Introduction to Malware Analysis|book{1}}{4}
 \indexentry{Malware analysis|book{1}}{5}
 \indexentry{Malware|book{1}}{5}
 \indexentry{Malware analysis!stage|book{1}}{9}
@@ -208,7 +210,7 @@
 \indexentry{AI|book{1}}{21}
 \indexentry{ChatGPT|book{1}}{21}
 
-\indexentry{4B12@\textbf{Malware Analysis Lab}|book{1}}{24}
+\indexentry{00A@\textbf{Chapters}!1.2 Malware Analysis Lab|book{1}}{24}
 \indexentry{Malware lab|book{1}}{25}
 \indexentry{Malware lab!Configuration|book{1}}{26}
 \indexentry{Virtualization|book{1}}{27-28}
@@ -226,7 +228,7 @@
 \indexentry{Behavioral Analysis|book{1}}{35}
 \indexentry{Code analysis|book{1}}{35}
 
-\indexentry{4B13@\textbf{Static Properties Analysis}|book{1}}{38}
+\indexentry{00A@\textbf{Chapters}!1.3 Static Properties Analysis|book{1}}{38}
 \indexentry{Administrative rights|book{1}}{41}
 \indexentry{Static properties|book{1}}{43}
 \indexentry{pestr|book{1}}{44}
@@ -246,7 +248,7 @@
 \indexentry{Trid|book{1}}{48}
 \indexentry{Viper|book{1}}{48}
 
-\indexentry{4B14@\textbf{Behavioral Analysis Essentials}|book{1}}{52}
+\indexentry{00A@\textbf{Chapters}!1.4 Behavioral Analysis Essentials|book{1}}{52}
 \indexentry{Process Hacker|book{1}}{53}
 \indexentry{Process Monitor|book{1}}{53}
 \indexentry{Regshot|book{1}}{53}
@@ -266,7 +268,7 @@
 \indexentry{Wireshark!TCP Stream|book{1}}{74}
 \indexentry{xxd|book{1}}{76}
 
-\indexentry{4B15@\textbf{Code Analysis Essentials}|book{1}}{79}
+\indexentry{00A@\textbf{Chapters}!1.5 Code Analysis Essentials|book{1}}{79}
 \indexentry{IDA|book{1}}{81}
 \indexentry{WinDbg|book{1}}{81}
 \indexentry{Radare|book{1}}{81}
@@ -297,7 +299,7 @@
 \indexentry{XOR|book{1}}{104}
 \indexentry{CyberChef|book{1}}{105-109}
 
-\indexentry{4B16@\textbf{Exploring Network Interactions}|book{1}}{112}
+\indexentry{00A@\textbf{Chapters}!1.6 Exploring Network Interactions|book{1}}{112}
 \indexentry{C2|book{1}}{113}
 \indexentry{SYN|book{1}}{119}
 \indexentry{INetSim|book{1}}{120}
@@ -317,8 +319,7 @@
                                       SECOND BOOK SECTION
 *****************************************************************************************************}
 
-
-\indexentry{4B21@\textbf{Core Reversing Concepts}|book{2}}{4}
+\indexentry{00A@\textbf{Chapters}!2.1 Core Reversing Concepts|book{2}}{4}
 \indexentry{Code lifecycle|book{2}}{5}
 \indexentry{Compiler|book{2}}{5}
 \indexentry{Linker|book{2}}{5}
@@ -397,7 +398,7 @@
 \indexentry{Variable!Static|book{2}}{54}
 \indexentry{Ghidra!Function Call Tree|book{2}}{56}
 
-\indexentry{4B22@\textbf{Reversing Functions}|book{2}}{61}
+\indexentry{00A@\textbf{Chapters}!2.2 Reversing Functions|book{2}}{61}
 \indexentry{Ghidra!Functions|book{2}}{58}
 \indexentry{Function|book{2}}{61}
 \indexentry{Function|book{2}}{65}
@@ -429,7 +430,7 @@
 \indexentry{Data Structures|book{2}}{93}
 \indexentry{Ghidra!Local Variable Conflict|book{2}}{94}
 
-\indexentry{4B23@\textbf{Control Flow In-Depth}|book{2}}{98}
+\indexentry{00A@\textbf{Chapters}!2.3 Control Flow In-Depth|book{2}}{98}
 \indexentry{If-Else|book{2}}{99-102}
 \indexentry{String|book{2}}{103}
 \indexentry{Ghidra!Defined Strings|book{2}}{103}
@@ -447,7 +448,7 @@
 \indexentry{Switch|book{2}}{130-132}
 \indexentry{Jump table|book{2}}{131}
 
-\indexentry{4B24@\textbf{API patterns in Malware}|book{2}}{136}
+\indexentry{00A@\textbf{Chapters}!2.4 API patterns in Malware|book{2}}{136}
 \indexentry{DLL|book{2}}{137}
 \indexentry{PeStudio (DLL)|book{2}}{138}
 \indexentry{Ghidra!Exports|book{2}}{139}
@@ -457,7 +458,7 @@
 \indexentry{MZ|book{2}}{142}
 \indexentry{Mutex|book{2}}{143}
 
-\indexentry{4B25@\textbf{64-bit Code Analysis}|book{2}}{145}
+\indexentry{00A@\textbf{Chapters}!2.5 64-bit Code Analysis|book{2}}{145}
 \indexentry{malware@64-bit Malware|book{2}}{147}
 
 \indexentry{Browser Helper Objects|book{2}}{147}
@@ -478,7 +479,7 @@
                                      THIRD BOOK SECTION
 *****************************************************************************************************}
 
-\indexentry{4B31@\textbf{Malicious PDF Files}|book{3}}{3}
+\indexentry{00A@\textbf{Chapters}!3.1 Malicious PDF Files|book{3}}{3}
 \indexentry{PDF!keywords|book{3}}{4}
 \indexentry{PDF!/JS|book{3}}{4}
 \indexentry{PDF!/JavaScript|book{3}}{4}
@@ -513,7 +514,7 @@
 \indexentry{qpdf|book{3}}{35}
 \indexentry{pdftk|book{3}}{35}
 
-\indexentry{4B32@\textbf{VBA Macros in MS Office Documents}|book{3}}{37}
+\indexentry{00A@\textbf{Chapters}!3.2 VBA Macros in MS Office Documents|book{3}}{37}
 \indexentry{VBA \goto Visual Basic for Applications|book{3}}{38}
 \indexentry{Visual Basic for Applications (VBA)|book{3}}{38}
 \indexentry{Visual Basic for Applications (VBA)!Downloader|book{3}}{38}
@@ -548,7 +549,7 @@
 \indexentry{1768|book{3}}{76}
 \indexentry{translate.py|book{3}}{76}
 
-\indexentry{4B33@\textbf{Examining Malicious RTF Files}|book{3}}{80}
+\indexentry{00A@\textbf{Chapters}!3.3 Examining Malicious RTF Files|book{3}}{80}
 \indexentry{RTF|book{3}}{80}
 \indexentry{OLE1|book{3}}{81}
 \indexentry{RTF!Auto extraction|book{3}}{81}
@@ -570,7 +571,7 @@
 \indexentry{File handle|book{3}}{95}
 \indexentry{Archive (self-extracting)|book{3}}{98}
 
-\indexentry{4B34@\textbf{Deobfuscating Malicious JavaScript}|book{3}}{102}
+\indexentry{00A@\textbf{Chapters}!3.4 Deobfuscating Malicious JavaScript|book{3}}{102}
 \indexentry{js-beautofy.js|book{3}}{104}
 \indexentry{JavaScript!Beautify|book{3}}{104}
 \indexentry{js eval|book{3}}{105}
@@ -594,7 +595,7 @@
                                      FOURTH BOOK SECTION
 *****************************************************************************************************}
 
-\indexentry{Packing|book{4}}{3}
+\indexentry{00A@\textbf{Chapters}!4.1 Recognizing Packed Malware|book{4}}{3}
 \indexentry{Packing|book{4}}{5-6}
 \indexentry{Sections|book{4}}{7}
 \indexentry{Entry Point|book{4}}{7}
@@ -611,138 +612,108 @@
 \indexentry{Detect It Easy (DIE)|book{4}}{12}
 \indexentry{Exeinfo PE|book{4}}{12}
 \indexentry{diec|book{4}}{12}
-\indexentry{trid|book{4}}{13}
-\indexentry{file|book{4}}{13}
-\indexentry{pepack|book{4}}{13 }
-\indexentry{packerid|book{4}}{13}
-\indexentry{pescan|book{4}}{13}
-\indexentry{ProtectionID|book{4}}{13}
-\indexentry{RDG Packer Detector|book{4}}{13}
-\indexentry{CFF Explorer|book{4}}{13}
-\indexentry{UPX!Unpacking (auto)|book{4}}{17}
-\indexentry{Ether|book{4}}{18}
-\indexentry{UnpacMe|book{4}}{18}
-\indexentry{TitanMist|book{4}}{18}
-\indexentry{ASLR|book{4}}{19}
-\indexentry{ImageBase|book{4}}{19}
-\indexentry{PeStudio!ASLR|book{4}}{20}
-\indexentry{CFF Explorer!ASLR|book{4}}{20-21}
-\indexentry{setdllcharacteristics|book{4}}{20-21}
-\indexentry{String!Process Hacker|book{4}}{22}
-\indexentry{Process Hacker!String|book{4}}{22}
-\indexentry{Import Address Table (IAT)|book{4}}{23}
-\indexentry{Entry Point|book{4}}{23}
-\indexentry{PE Tools|book{4}}{23}
-\indexentry{Universal Import Fixer|book{4}}{23}
-\indexentry{Imports!Fixer|book{4}}{23}
-\indexentry{Dumping|book{4}}{23}
-\indexentry{Scylla|book{4}}{24}
-\indexentry{Scylla!IAT|book{4}}{25}
-\indexentry{Import Address Table (IAT)!Fix (Scylla)|book{4}}{25}
-\indexentry{Dumping!Debugger|book{4}}{30}
-\indexentry{Entry Point!Original|book{4}}{30}
-\indexentry{Single-step|book{4}}{34}
-\indexentry{x32dbg!Strings|book{4}}{35}
-\indexentry{x32dbg|book{4}}{Intermodular calls,35}
-\indexentry{OllyDumpEx|book{4}}{37}
-\indexentry{Entry Point!Original|book{4}}{38}
-\indexentry{Page Memory Rights|book{4}}{39}
-\indexentry{Import Address Table (IAT)!Fix (Scylla)|book{4}}{41-42}
-\indexentry{Debugging|book{4}}{46}
-\indexentry{x32dbg!cleardb|book{4}}{48}
-\indexentry{Memory map|book{4}}{49}
-\indexentry{Intermodular call|book{4}}{51}
-\indexentry{Hardware breakpoint|book{4}}{53}
-\indexentry{Packing!Debug|book{4}}{55}
-\indexentry{Registry|book{4}}{64}
-\indexentry{AutoRun|book{4}}{64}
-\indexentry{BAT File|book{4}}{64}
-\indexentry{File extension|book{4}}{65}
-\indexentry{mshta.exe|book{4}}{67}
-\indexentry{javascript|book{4}}{67}
-\indexentry{Registry|book{4}}{68}
-\indexentry{reg\_export|book{4}}{68}
-\indexentry{js|book{4}}{70}
-\indexentry{Unicode conversion|book{4}}{70}
-\indexentry{SpiderMonkey|book{4}}{70}
-\indexentry{Strings|book{4}}{70}
-\indexentry{Base64|book{4}}{71}
-\indexentry{PowerShell|book{4}}{71}
-\indexentry{base64dump.py|book{4}}{72}
-\indexentry{Hex encoding|book{4}}{74}
-\indexentry{PowerShell!Debug|book{4}}{77}
-\indexentry{scdbg|book{4}}{75}
-\indexentry{PowerShell!Dump|book{4}}{78}
-\indexentry{scdbg|book{4}}{79}
-\indexentry{scdbg!Debug|book{4}}{81}
-\indexentry{scdbg!Stack manipulation|book{4}}{82}
-\indexentry{Base Offset|book{4}}{82}
-\indexentry{jmp2it|book{4}}{83}
-\indexentry{jmp2it!Pause|book{4}}{83}
-\indexentry{jmp2it!x32dbg|book{4}}{83-85}
-\indexentry{x32dbg!jmp2it|book{4}}{83-85}
-\indexentry{Patching|book{4}}{86}
-\indexentry{advapi32.dll|book{4}}{88}
-\indexentry{Call Stack|book{4}}{89}
-\indexentry{x32dbg!Dump|book{4}}{95}
-\indexentry{x32dbg!Dump|book{4}}{101}
-\indexentry{Code Injection|book{4}}{106}
-\indexentry{API!Hooking|book{4}}{106}
-\indexentry{RootKit|book{4}}{107}
-\indexentry{API!Native|book{4}}{109}
-\indexentry{Ghidra!Symbol References|book{4}}{112}
-\indexentry{Function Call Trees|book{4}}{117}
-\indexentry{Page Memory Rights|book{4}}{119}
-\indexentry{Function Call Graph|book{4}}{120}
-\indexentry{Injection|book{4}}{122-123}
-\indexentry{Hooking|book{4}}{124}
-\indexentry{Hooking!Call Table|book{4}}{124}
-\indexentry{Layering|book{4}}{124}
-\indexentry{Queuing|book{4}}{124}
-\indexentry{Driver|book{4}}{124}
-\indexentry{Minidriver|book{4}}{124}
-\indexentry{I/O Request Packet (IRP)|book{4}}{124}
-\indexentry{Interrupt Descriptor Table (IDT)|book{4}}{124}
-\indexentry{System Service Descriptor Table (SSDT)|book{4}}{124}
-\indexentry{Import/Export Tables|book{4}}{124}
-\indexentry{Virtual Function Table (vftable)|book{4}}{124}
-\indexentry{IRP \goto I/O Request Packet|comment}{0}
-\indexentry{IDT \goto Interrupt Descriptor Table|comment}{0}
-\indexentry{SSDT \goto System Service Descriptor Table|comment}{0}
-\indexentry{vftable \goto Virtual Function Table|comment}{0}
-\indexentry{API!Call|book{4}}{125}
-\indexentry{API!Inline hook|book{4}}{126}
-\indexentry{Hooking|book{4}}{126}
-\indexentry{Hooking!JMP|book{4}}{130}
-\indexentry{Hooking!PUSH/RET|book{4}}{131}
-\indexentry{Memory Forensics|book{4}}{135}
-\indexentry{WinPMEM|book{4}}{136}
-\indexentry{DumpIt|book{4}}{136}
-\indexentry{BelkaSoft Live RAM Capturer|book{4}}{136}
-\indexentry{Volatility|book{4}}{137}
-\indexentry{Rekall|book{4}}{137}
-\indexentry{Redline|book{4}}{137}
-\indexentry{Volatility!kdbgscan|book{4}}{138}
-\indexentry{Volatility!pslist|book{4}}{139}
-\indexentry{Volatility!pstree|book{4}}{140}
-\indexentry{Volatility!cmdline|book{4}}{142}
-\indexentry{Memory!Virtual vs Physical|book{4}}{143}
-\indexentry{Memory!Page|book{4}}{143}
-\indexentry{Volatility!memdump|book{4}}{144}
-\indexentry{Delete|book{4}}{144}
-\indexentry{BAT File|book{4}}{144}
-\indexentry{Volatility!dlllist|book{4}}{145}
-\indexentry{Volatility!ldrmodules|book{4}}{145}
-\indexentry{Volatility!malfind|book{4}}{146}
-\indexentry{Virtual Address Descriptor (VAD)|book{4}}{146}
-\indexentry{MZ|book{4}}{147}
-\indexentry{pestr|book{4}}{149}
-\indexentry{peframe|book{4}}{149}
-\indexentry{Volatility!apihooks|book{4}}{150}
-\indexentry{Hooking!PUSH/RET|book{4}}{152}
-\indexentry{Memory!Virtual Offset|book{4}}{154}
-\indexentry{Volatility!Virtual Offset|book{4}}{150}
 
+\indexentry{00A@\textbf{Chapters}!4.2 Getting Started with Unpacking|book{4}}{15}
+\indexentry{UPX!Unpacking (auto)|book{4}}{16-17}
+\indexentry{UnpacMe|book{4}}{17}
+\indexentry{TitanMist|book{4}}{17}
+\indexentry{ASLR|book{4}}{18}
+\indexentry{CFF Explorer|book{4}}{19}
+\indexentry{ImageBase|book{4}}{18}
+\indexentry{PeStudio!ASLR|book{4}}{18}
+\indexentry{CFF Explorer!ASLR|book{4}}{19-20}
+\indexentry{setdllcharacteristics|book{4}}{19-20}
+\indexentry{String!Process Hacker|book{4}}{21}
+\indexentry{Process Hacker!String|book{4}}{21}
+\indexentry{Import Address Table (IAT)|book{4}}{22}
+\indexentry{Import Address Table (IAT)|book{4}}{24}
+\indexentry{Entry Point|book{4}}{24-25}
+\indexentry{PE Tools|book{4}}{22}
+\indexentry{Imports!Fixer|book{4}}{22}
+\indexentry{Imports!Fixer|book{4}}{22}
+\indexentry{Dumping|book{4}}{23}
+\indexentry{Scylla|book{4}}{23}
+\indexentry{Scylla!IAT|book{4}}{24}
+\indexentry{Import Address Table (IAT)!Fix (Scylla)|book{4}}{24}
+
+\indexentry{00A@\textbf{Chapters}!4.3 Using Debuggers for Dumping|book{4}}{27}
+\indexentry{Dumping!Debugger|book{4}}{27}
+\indexentry{Entry Point!Original|book{4}}{29}
+\indexentry{Original Entry Point (OEP)|book{4}}{29}
+\indexentry{Single-step|book{4}}{29}
+\indexentry{x32dbg!Strings|book{4}}{34}
+\indexentry{x32dbg|book{4}}{Intermodular calls,35}
+\indexentry{OllyDumpEx|book{4}}{36}
+\indexentry{Entry Point!Original|book{4}}{37}
+\indexentry{Page Memory Rights|book{4}}{38}
+\indexentry{Import Address Table (IAT)!Fix (Scylla)|book{4}}{40-41}
+
+\indexentry{00A@\textbf{Chapters}!4.4 Debugging Packed Malware|book{4}}{44}
+\indexentry{x64dbg!cleardb|book{4}}{47}
+\indexentry{Memory map|book{4}}{48}
+\indexentry{Intermodular call|book{4}}{50}
+\indexentry{Hardware breakpoint|book{4}}{52}
+
+\indexentry{00A@\textbf{Chapters}!4.5 Analyzing Multi-Technology Malware|book{4}}{56}
+\indexentry{ProcDOT|book{4}}{61-64}
+\indexentry{Registry|book{4}}{65}
+\indexentry{AutoRun|book{4}}{63}
+\indexentry{AutoRun|book{4}}{65}
+\indexentry{BAT File|book{4}}{65}
+\indexentry{File extension|book{4}}{66}
+\indexentry{mshta.exe|book{4}}{67-68}
+\indexentry{javascript|book{4}}{68}
+\indexentry{Registry|book{4}}{68-69}
+\indexentry{reg\_export|book{4}}{69}
+\indexentry{Unicode conversion|book{4}}{7}
+\indexentry{Base64|book{4}}{72}
+\indexentry{PowerShell|book{4}}{72}
+\indexentry{base64dump.py|book{4}}{73}
+\indexentry{Hex encoding|book{4}}{75}
+\indexentry{PowerShell!Debug|book{4}}{76-78}
+\indexentry{scdbg|book{4}}{76}
+\indexentry{PowerShell!WriteAllBytes|book{4}}{79}
+\indexentry{scdbg|book{4}}{79}
+\indexentry{scdbg!Debug|book{4}}{83}
+\indexentry{advapi32.dll|book{4}}{80}
+\indexentry{advapi32.dll|book{4}}{87}
+\indexentry{Call Stack|book{4}}{89}
+\indexentry{x32dbg!Dump|book{4}}{95-100}
+
+
+\indexentry{00A@\textbf{Chapters}!4.6 Examining .NET Malware|book{4}}{106}
+\indexentry{Just-In-Time Compiler|book{4}}{107}
+\indexentry{Compiler@Just-In-Time Compiler|book{4}}{107}
+\indexentry{Common Intermediate Language (CIL)|book{4}}{107}
+\indexentry{CIL@Common Intermediate Language (CIL)|book{4}}{107}
+\indexentry{assembly@.NET assembly|book{4}}{107}
+\indexentry{ILSpy|book{4}}{108}
+\indexentry{dnSpyEx|book{4}}{108}
+\indexentry{de4dot|book{4}}{108}
+\indexentry{DotDumper|book{4}}{108}
+\indexentry{PeStudio!.NET|book{4}}{110}
+\indexentry{ILSpy|book{4}}{111}
+\indexentry{ILSpy|book{4}}{113}
+\indexentry{dnSpyEx|book{4}}{113}
+\indexentry{Reflective code loading|book{4}}{114-116}
+\indexentry{dnSpyEx|book{4}}{117}
+\indexentry{dnSpyEx!Modules|book{4}}{120}
+\indexentry{dnSpyEx!Locals|book{4}}{126}
+\indexentry{dnSpyEx!Dump Variable|book{4}}{126}
+\indexentry{ILSpy|book{4}}{128}
+\indexentry{de4ot|book{4}}{129}
+\indexentry{DotDumper|book{4}}{129}
+\indexentry{Packing@Unpacking .NET malware|book{4}}{131}
+
+\indexentry{00A@\textbf{Chapters}!4.7 Understanding Code Injection|book{4}}{133}
+\indexentry{API!Hooking|book{4}}{135}
+\indexentry{RootKit|book{4}}{135}
+\indexentry{API!Native|book{4}}{137}
+\indexentry{Ghidra!Symbol References|book{4}}{140}
+\indexentry{Function Call Trees|book{4}}{145}
+\indexentry{Page Memory Rights|book{4}}{147}
+\indexentry{Function Call Graph|book{4}}{148-149}
+\indexentry{Injection|book{4}}{150-151}
 
 \comment{********************************************************************************************
                                      FIFTH BOOK SECTION
