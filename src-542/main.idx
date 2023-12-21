@@ -1,0 +1,1723 @@
+\comment{ AUTHOR : Benjamin Wolf
+
+USER DEFINED COMMANDS AND SPECIAL SYNTAX
+  a. Add a blank line between paragraphs : \blankline
+       Syntax in .idx file : \indexentry{...@\blankline|comment}{0}
+
+  b. Insert a page break : (standard) \newpage
+       Syntax in .idx file : \indexentry{...@\blankline|newpage \comment}{0}
+
+  c. Fills page number with book name : \book{x}
+       Syntax in .idx file : \indexentry{...|book{x}}{...}
+          with x = nbr of the book to display in the page number with format : [BOOKNAME][x]
+          Example : SANS SEC504 book ->  504.1--1-10
+                                     =======
+  d. Insert an entry rank : \rate{x}
+       Syntax in .idx file : \indexentry{... \rate{x}|...}{...}
+          with x = # of \star's to display between item and dotfill before page number
+          
+  e. Insert an entry with special style : \indexentry{my_entry@\text..{my_entry}|...}{...}
+       Before '@' is for indexing, after is what will be displayed
+  
+  NB :
+    - ... = sorting key
+    - \blankline is defined in the .tex file and fills the line with space
+    - \rank is defined in the .tex file and uses a the forloop package to repeat x times \star
+    - comment style (behind "|") will act as a \comment command, commenting the page number "{0}"
+
+
+*****************************************************************************************************
+                                          TOPICS SECTION
+*****************************************************************************************************
+ Sort entries consist of a number and a letter to be inserted in the standard 'Symbols' section }
+
+\indexentry{1a@\textbf{Introduction and Information Gathering}!1@Introduction and Information Gathering|book{1}}{3-13}
+\indexentry{1a@\textbf{Introduction and Information Gathering}!2@Defensible Network Architecture|book{1}}{14-53}
+\indexentry{1a@\textbf{Introduction and Information Gathering}!3@Protocols and Packet Analysis|book{1}}{54-107}
+\indexentry{1a@\textbf{Introduction and Information Gathering}!4@Virtualization and Cloud Essentials|book{1}}{108-165}
+\indexentry{1a@\textbf{Introduction and Information Gathering}!5@Securing Wireless Networks|book{1}}{166-235}
+
+\indexentry{1b@\blankline|comment}{0}
+
+\indexentry{2a@\textbf{Defense-in-Depth}!1@Defense-in-Depth|book{2}}{3-45}
+\indexentry{2a@\textbf{Defense-in-Depth}!2@Identity & Access Managemnet|book{2}}{46-76}
+\indexentry{2a@\textbf{Defense-in-Depth}!3@Authentication and Password Secuirty|book{2}}{77-112}
+\indexentry{2a@\textbf{Defense-in-Depth}!4@Security Frameworks|book{2}}{113-141}
+\indexentry{2a@\textbf{Defense-in-Depth}!5@Data Loss Prevention|book{2}}{142-181}
+\indexentry{2a@\textbf{Defense-in-Depth}!6@Mobile Device Security|book{2}}{182-205}
+
+\indexentry{2b@\blankline|comment}{0}
+
+\indexentry{3a@\textbf{Vulnerability Management and Response}!1@Vulnerability Assessments|book{3}}{3-32}
+\indexentry{3a@\textbf{Vulnerability Management and Response}!2@Penetration Testing|book{3}}{33-76}
+\indexentry{3a@\textbf{Vulnerability Management and Response}!3@Attacks and Malicious Software|book{3}}{77-128}
+\indexentry{3a@\textbf{Vulnerability Management and Response}!4@Web Application Security|book{3}}{129-162}
+\indexentry{3a@\textbf{Vulnerability Management and Response}!5@Security Operations and Log Management|book{3}}{162-200}
+\indexentry{3a@\textbf{Vulnerability Management and Response}!6@Digital Forensics and Incident Response|book{3}}{201-239}
+
+\indexentry{3b@\blankline|comment}{0}
+
+\indexentry{4a@\textbf{Data Security Technologies}!1@Cryptography|book{4}}{3-52}
+\indexentry{4a@\textbf{Data Security Technologies}!2@Cryptography Algroithms and Deployment|book{4}}{53-80}
+\indexentry{4a@\textbf{Data Security Technologies}!3@Applying Cryptography|book{4}}{81-129}
+\indexentry{4a@\textbf{Data Security Technologies}!4@Network Security Devices|book{4}}{130-184}
+\indexentry{4a@\textbf{Data Security Technologies}!5@Endpoint Security|book{4}}{185-220}
+
+\indexentry{4b@\blankline|comment}{0}
+
+\indexentry{5a@\textbf{Windows and Azure Security}!1@Windows Security Infrastructure|book{5}}{3-43}
+\indexentry{5a@\textbf{Windows and Azure Security}!2@Windows as a Service|book{5}}{44-70}
+\indexentry{5a@\textbf{Windows and Azure Security}!3@Windows Access Controls|book{5}}{71-119}
+\indexentry{5a@\textbf{Windows and Azure Security}!4@Enforcing Security Policy|book{5}}{120-193}
+\indexentry{5a@\textbf{Windows and Azure Security}!5@Microsoft Cloud Computing|book{5}}{194-247}
+\indexentry{5a@\textbf{Windows and Azure Security}!6@Automation, Logging, and Auditing|book{5}}{248-296}
+
+\indexentry{5b@\blankline|comment}{0}
+
+\indexentry{6a@\textbf{Linux, AWS, and Mac Security}!1@Linux Fundamentals|book{5}}{3-66}
+\indexentry{6a@\textbf{Linux, AWS, and Mac Security}!2@Linux Security Enhancements and Infrastructure|book{5}}{67-121}
+\indexentry{6a@\textbf{Linux, AWS, and Mac Security}!3@Containerized Security|book{5}}{122-143}
+\indexentry{6a@\textbf{Linux, AWS, and Mac Security}!4@AWS Fundamentals|book{5}}{144-161}
+\indexentry{6a@\textbf{Linux, AWS, and Mac Security}!5@AWS Security Controls|book{5}}{162-178}
+\indexentry{6a@\textbf{Linux, AWS, and Mac Security}!6@AWS Hardening|book{5}}{179-200}
+\indexentry{6a@\textbf{Linux, AWS, and Mac Security}!7@macOS Security|book{5}}{201-215}
+
+\indexentry{6b@\blankline|comment}{0}
+
+\indexentry{7a@\textbf{Workbook}!1@tcpdump|book{5}}{26-37}
+\indexentry{7a@\textbf{Workbook}!2@Wireshark|book{5}}{38-50}
+\indexentry{7a@\textbf{Workbook}!3@Aircrack-ng|book{5}}{51-57}
+\indexentry{7a@\textbf{Workbook}!4@Hashcat|book{5}}{58-69}
+\indexentry{7a@\textbf{Workbook}!5@Cain and Abel|book{5}}{70-94}
+\indexentry{7a@\textbf{Workbook}!6@AppLocker|book{5}}{95-123}
+\indexentry{7a@\textbf{Workbook}!7@Nmap|book{5}}{124-139}
+\indexentry{7a@\textbf{Workbook}!8@Malicious Software|book{5}}{140-147}
+\indexentry{7a@\textbf{Workbook}!9@Command Injection|book{5}}{148-153}
+\indexentry{7a@\textbf{Workbook}!10@hping3|book{5}}{154-163}
+\indexentry{7a@\textbf{Workbook}!11@Image Steganography|book{5}}{164-184}
+\indexentry{7a@\textbf{Workbook}!12@GNU Privacy Guard (GPG)|book{5}}{184-203}
+\indexentry{7a@\textbf{Workbook}!13@Snort|book{5}}{204-227}
+\indexentry{7a@\textbf{Workbook}!14@Process Hacker|book{5}}{228-244}
+\indexentry{7a@\textbf{Workbook}!15@NTFS Permissions Reporter|book{5}}{245-258}
+\indexentry{7a@\textbf{Workbook}!16@SECEDIT.EXE|book{5}}{259-266}
+\indexentry{7a@\textbf{Workbook}!17@PowerShell Scripting|book{5}}{267-}
+
+\indexentry{7b@\blankline|comment}{0}
+
+
+\comment{********************************************************************************************
+                                       CATEGORIES SECTION
+*****************************************************************************************************
+ Sort entries consist of a number to be inserted in the standard 'Numbers' section
+ Number composition : [(1) Alphabet order number] [(2) 0]
+   (1) Sorting in alphabetical number
+   (2) Allows up to 10 subsections / alphabet character }
+
+%\indexentry{100@\textbf{Labs}!1@Lab Setup|book{4}\lab}{1}
+
+%\indexentry{101@\blankline|comment}{0}
+
+% \indexentry{200@\textbf{Summaries}!Wireless Threat|book{1}}{31}
+% \indexentry{200@\textbf{Summaries}!Sniffing WiFi|book{1}}{87}
+% \indexentry{200@\textbf{Summaries}!Rogue AP Analysis|book{1}}{121}
+% \indexentry{200@\textbf{Summaries}!Bridging the Airgap|book{1}}{152}
+% \indexentry{200@\textbf{Summaries}!Exploiting WiFi Hotspots|book{2}}{30}
+% \indexentry{200@\textbf{Summaries}!WiFi Client Attacks|book{2}}{61}
+% \indexentry{200@\textbf{Summaries}!WEP Attacks|book{2}}{80}
+% \indexentry{200@\textbf{Summaries}!Denial-of-Service Attacks|book{2}}{120}
+% \indexentry{200@\textbf{Summaries}!WiFi Fuzzing for Bug Discovery|book{2}}{145}
+% \indexentry{200@\textbf{Summaries}!WPA2 PSK Attacks|book{3}}{48}
+% \indexentry{200@\textbf{Summaries}!WPA2 Enterprise Attacks|book{3}}{76}
+% \indexentry{200@\textbf{Summaries}!DECT Attacks|book{3}}{104}
+% \indexentry{200@\textbf{Summaries}!Zigbee Attacks|book{3}}{148}
+% \indexentry{200@\textbf{Summaries}!Bluetooth Attacks|book{4}}{47-48}
+% \indexentry{200@\textbf{Summaries}!Bluetooth LE Attacks|book{4}}{94}
+% \indexentry{200@\textbf{Summaries}!SDR|book{4}}{130}
+% \indexentry{200@\textbf{Summaries}!RFID|book{5}}{14}
+% \indexentry{200@\textbf{Summaries}!RFID!Tracking \& Privacy Attacks|book{5}}{32}
+% \indexentry{200@\textbf{Summaries}!RFID!Low-Frequency Attacks|book{5}}{66}
+% \indexentry{200@\textbf{Summaries}!RFID!Contactless Smart Card Attacks|book{5}}{113}
+% \indexentry{200@\textbf{Summaries}!NFC Attacks|book{5}}{137}
+
+% \indexentry{201@\blankline|comment}{0}
+
+% \indexentry{300@\textbf{Tools}!Tcpdump|book{1}}{37-38}
+% \indexentry{300@\textbf{Tools}!AirPcap|book{1}}{40}
+% \indexentry{300@\textbf{Tools}!Wireshark|book{1}}{40}
+% \indexentry{300@\textbf{Tools}!WinPcap|book{1}}{40}
+% \indexentry{300@\textbf{Tools}!Kismet|book{1}}{40}
+% \indexentry{300@\textbf{Tools}!Windump|book{1}}{40}
+% \indexentry{300@\textbf{Tools}!Cain \& Abel|book{1}}{40}
+% \indexentry{300@\textbf{Tools}!NetMon|book{1}}{41-42}
+% \indexentry{300@\textbf{Tools}!MS Message Analyzer (MMA)|book{1}}{42}
+% \indexentry{300@\textbf{Tools}!LibPcap|book{1}}{43}
+% \indexentry{300@\textbf{Tools}!Airport|book{1}}{43}
+% \indexentry{300@\textbf{Tools}!Aircrack-ng|book{1}}{45}
+% \indexentry{300@\textbf{Tools}!Aircrack-ng!Airmon-ng|book{1}}{45}
+% \indexentry{300@\textbf{Tools}!Tcpdump}{53}
+% \indexentry{300@\textbf{Tools}!Wireshark}{53}
+% \indexentry{300@\textbf{Tools}!Kismet}{53}
+% \indexentry{300@\textbf{Tools}!Android Pcap Capture|book{1}}{53}
+% \indexentry{300@\textbf{Tools}!Tcpdump}{55-58}
+% \indexentry{300@\textbf{Tools}!Tcpdump!Options|book{1}}{56}
+% \indexentry{300@\textbf{Tools}!Tcpdump!Filters|book{1}}{58}
+% \indexentry{300@\textbf{Tools}!Wireshark}{59}
+% \indexentry{300@\textbf{Tools}!WildPackets AiroPeek NX|book{1}}{59}
+% \indexentry{300@\textbf{Tools}!Network Chemistry WSP-100|book{1}}{59}
+% \indexentry{300@\textbf{Tools}!Network Associates Sniffer|book{1}}{59}
+% \indexentry{300@\textbf{Tools}!Wireshark!Filters|book{1}}{61-65}
+% \indexentry{300@\textbf{Tools}!Kismet}{67-74}
+% \indexentry{300@\textbf{Tools}!Kismet!Features|book{1}}{68-69}
+% \indexentry{300@\textbf{Tools}!Kismet!Aircrack-PTW Plugin|book{1}}{69}
+% \indexentry{300@\textbf{Tools}!Kismet!Channel Control|book{1}}{74}
+% \indexentry{300@\textbf{Tools}!GISKismet|book{1}}{77}
+% \indexentry{300@\textbf{Tools}!Android Pcap Capture}{79-80}
+% \indexentry{300@\textbf{Tools}!Ekahau HeatMapper|book{1}}{82}
+% \indexentry{300@\textbf{Tools}!Kismapping|book{1}}{83-84}
+% \indexentry{300@\textbf{Tools}!GPSMap|book{1}}{83}
+% \indexentry{300@\textbf{Tools}!Kismet!Oldcore|book{1}}{83}
+% \indexentry{300@\textbf{Tools}!MyKismap|book{1}}{83-84}
+% \indexentry{300@\textbf{Tools}!Kismet!Postprocessing Analysis|book{1}}{85-86}
+% \indexentry{300@\textbf{Tools}!Nmap|book{1}}{99}
+% \indexentry{300@\textbf{Tools}!Nmap!RogueAP (NSE Script)|book{1}}{99}
+% \indexentry{300@\textbf{Tools}!Kismet!Filtering|book{1}}{101-104}
+% \indexentry{300@\textbf{Tools}!Vistumbler|book{1}}{105}
+% \indexentry{300@\textbf{Tools}!InSSIDer|book{1}}{105-106}
+% \indexentry{300@\textbf{Tools}!AirMagnet Laptop Analyzer|book{1}}{105}
+% \indexentry{300@\textbf{Tools}!RFProtect Mobile|book{1}}{105}
+% \indexentry{300@\textbf{Tools}!Android WiFi Analyzer|book{1}}{107}
+% \indexentry{300@\textbf{Tools}!WiFiFoFum|book{1}}{107}
+% \indexentry{300@\textbf{Tools}!Aruba AirMonitor|book{1}}{110}
+% \indexentry{300@\textbf{Tools}!Kismet!Signal Quality|book{1}}{113}
+% \indexentry{300@\textbf{Tools}!NetScout AirCheck G2|book{1}}{115}
+% \indexentry{300@\textbf{Tools}!Netdisco|book{1}}{119}
+% \indexentry{300@\textbf{Tools}!Metasploit|book{1}}{130}
+% \indexentry{300@\textbf{Tools}!Metasploit!MsfVenom|book{1}}{130}
+% \indexentry{300@\textbf{Tools}!Metasploit!Meterpreter|book{1}}{130-132}
+% \indexentry{300@\textbf{Tools}!WirelessKeyView|book{1}}{134}
+% \indexentry{300@\textbf{Tools}!Metasploit!Meterpreter}{137}
+% \indexentry{300@\textbf{Tools}!Metasploit!Meterpreter}{141-143}
+% \indexentry{300@\textbf{Tools}!NetMon}{137-138}
+% \indexentry{300@\textbf{Tools}!Wireshark}{138}
+% \indexentry{300@\textbf{Tools}!CrowbarKC|book{1}}{148}
+% \indexentry{300@\textbf{Tools}!Iodine|book{2}}{12}
+% \indexentry{300@\textbf{Tools}!Nstx|book{2}}{12}
+% \indexentry{300@\textbf{Tools}!ICMPTX|book{2}}{12}
+% \indexentry{300@\textbf{Tools}!Pickupline|book{2}}{17}
+% \indexentry{300@\textbf{Tools}!Cpscam|book{2}}{17}
+% \indexentry{300@\textbf{Tools}!Zillow|book{2}}{19}
+% \indexentry{300@\textbf{Tools}!Aircrack-ng!Aireplay-ng|book{2}}{21}
+% \indexentry{300@\textbf{Tools}!Metasploit! |book{2}}{22}
+% \indexentry{300@\textbf{Tools}!Ferret|book{2}}{24}
+% \indexentry{300@\textbf{Tools}!Hamster|book{2}}{24}
+% \indexentry{300@\textbf{Tools}!Wireshark!TCP Stream|book{2}}{25}
+% \indexentry{300@\textbf{Tools}!Cookies Manager+|book{2}}{26}
+% \indexentry{300@\textbf{Tools}!Burp Suite|book{2}}{27}
+% \indexentry{300@\textbf{Tools}!AirPWN|book{2}}{36-38}
+% \indexentry{300@\textbf{Tools}!Aircrack-ng!Airtun-ng|book{2}}{42}
+% \indexentry{300@\textbf{Tools}!ISniff-GPS|book{2}}{44-46}
+% \indexentry{300@\textbf{Tools}!Metasploit! }{47}
+% \indexentry{300@\textbf{Tools}!Cain Password Sniffer|book{2}}{50}
+% \indexentry{300@\textbf{Tools}!Metasploit!Meterpreter@ |book{2}}{56-59}
+% \indexentry{300@\textbf{Tools}!Aircrack-ng! |book{2}}{73-74}
+% \indexentry{300@\textbf{Tools}!Aircrack-ng!Aireplay-ng}{77}
+% \indexentry{300@\textbf{Tools}!Wifite2|book{2}}{78}
+% \indexentry{300@\textbf{Tools}!Aircrack-ng!Airdecap-ng|book{2}}{79}
+% \indexentry{300@\textbf{Tools}!Hwk|book{2}}{95}
+% \indexentry{300@\textbf{Tools}!File2Air|book{2}}{99-100}
+% \indexentry{300@\textbf{Tools}!Aircrack-ng!Aireplay-ng}{101}
+% \indexentry{300@\textbf{Tools}!MDK3|book{2}}{102}
+% \indexentry{300@\textbf{Tools}!File2Air}{104}
+% \indexentry{300@\textbf{Tools}!Scapy|book{2}}{105}
+% \indexentry{300@\textbf{Tools}!File2Air}{110}
+% \indexentry{300@\textbf{Tools}!JRockets|book{2}}{115}
+% \indexentry{300@\textbf{Tools}!Scapy}{131-139}
+% \indexentry{300@\textbf{Tools}!Nmap! |book{2}}{131}
+% \indexentry{300@\textbf{Tools}!Tshark|book{2}}{143}
+% \indexentry{300@\textbf{Tools}!CoWPAtty|book{3}}{21-23}
+% \indexentry{300@\textbf{Tools}!Hashcat|book{3}}{26-28}
+% \indexentry{300@\textbf{Tools}!Hashcat!HCCAPX Format|book{3}}{26}
+% \indexentry{300@\textbf{Tools}!Reaver|book{3}}{35-37}
+% \indexentry{300@\textbf{Tools}!WirelessKeyView! |book{3}}{39}
+% \indexentry{300@\textbf{Tools}!Aircrack-ng!Airdecap-ng! |book{3}}{40}
+% \indexentry{300@\textbf{Tools}!Aircrack-ng!Airodump-ng|book{3}}{52}
+% \indexentry{300@\textbf{Tools}!Aircrack-ng!Airgraph-ng|book{3}}{52}
+% \indexentry{300@\textbf{Tools}!SniffAir|book{3}}{60}
+% \indexentry{300@\textbf{Tools}!Hostapd-WPE|book{3}}{69-71}
+% \indexentry{300@\textbf{Tools}!Aircrack-ng!Hostapd-WPE|book{3}}{69-71}
+% \indexentry{300@\textbf{Tools}!Eaphammer|book{3}}{71}
+% \indexentry{300@\textbf{Tools}!Asleap|book{3}}{72}
+% \indexentry{300@\textbf{Tools}!John the Ripper|book{3}}{73}
+% \indexentry{300@\textbf{Tools}!DECT CLI|book{3}}{92}
+% \indexentry{300@\textbf{Tools}!DECTShark|book{3}}{93-94}
+% \indexentry{300@\textbf{Tools}!Wireshark! |book{3}}{95}
+% \indexentry{300@\textbf{Tools}!DECT Decoder|book{3}}{97}
+% \indexentry{300@\textbf{Tools}!G72X Decoder|book{3}}{97}
+% \indexentry{300@\textbf{Tools}!DECT CLI}{98}
+% \indexentry{300@\textbf{Tools}!DECT Decoder}{99-100}
+% \indexentry{300@\textbf{Tools}!Re-DECTed|book{3}}{103}
+% \indexentry{300@\textbf{Tools}!Wireshark! }{103}
+% \indexentry{300@\textbf{Tools}!KillerBee|book{3}}{126-141}
+% \indexentry{300@\textbf{Tools}!KillerBee!Arsenal|book{3}}{130}
+% \indexentry{300@\textbf{Tools}!KillerBee!Attack Example|book{3}}{132}
+% \indexentry{300@\textbf{Tools}!KillerBee!Attack Example}{134}
+% \indexentry{300@\textbf{Tools}!KillerBee!Attack Example}{136}
+% \indexentry{300@\textbf{Tools}!Wireshark! }{141}
+% \indexentry{300@\textbf{Tools}!KillerZee|book{3}}{144-147}
+% \indexentry{300@\textbf{Tools}!BTCrack|book{4}}{27-28}
+% \indexentry{300@\textbf{Tools}!BlueScannner|book{4}}{39}
+% \indexentry{300@\textbf{Tools}!BTScannner|book{4}}{39}
+% \indexentry{300@\textbf{Tools}!Bluetooth Scannner|book{4}}{39}
+% \indexentry{300@\textbf{Tools}!BLE Scannner|book{4}}{39}
+% \indexentry{300@\textbf{Tools}!BTCrack}{40}
+% \indexentry{300@\textbf{Tools}!BTScannner}{43}
+% \indexentry{300@\textbf{Tools}!CarWhisperer|book{4}}{43}
+% \indexentry{300@\textbf{Tools}!Bluesnarfer|book{4}}{43}
+% \indexentry{300@\textbf{Tools}!Hcitool|book{4}}{44-45}
+% \indexentry{300@\textbf{Tools}!Rfcomm|book{4}}{44-45}
+% \indexentry{300@\textbf{Tools}!Ussp-Push|book{4}}{44-45}
+% \indexentry{300@\textbf{Tools}!Obexftp|book{4}}{44-45}
+% \indexentry{300@\textbf{Tools}!Bluetooth Stack Smasher|book{4}}{46}
+% \indexentry{300@\textbf{Tools}!BLE Sniffer|book{4}}{67}
+% \indexentry{300@\textbf{Tools}!Wireshark!  |book{4}}{68}
+% \indexentry{300@\textbf{Tools}!Crackle|book{4}}{71}
+% \indexentry{300@\textbf{Tools}!BlueZ Suite|book{4}}{74-75}
+% \indexentry{300@\textbf{Tools}!NRF Connect|book{4}}{76-78}
+% \indexentry{300@\textbf{Tools}!BLESuite|book{4}}{79-80}
+% \indexentry{300@\textbf{Tools}!BLEReplay|book{4}}{79}
+% \indexentry{300@\textbf{Tools}!BLESuiteCLI|book{4}}{80}
+% \indexentry{300@\textbf{Tools}!Crackle}{81}
+% \indexentry{300@\textbf{Tools}!BlueZ Suite}{84-85}
+% \indexentry{300@\textbf{Tools}!Scapy! |book{4}}{84}
+% \indexentry{300@\textbf{Tools}!BLE Fuzzer|book{4}}{85}
+% \indexentry{300@\textbf{Tools}!BLESuite}{85}
+% \indexentry{300@\textbf{Tools}!BLEFuzz|book{4}}{86}
+% \indexentry{300@\textbf{Tools}!BLEAH|book{4}}{86}
+% \indexentry{300@\textbf{Tools}!BLEReplay}{89}
+% \indexentry{300@\textbf{Tools}!Blue Hydra|book{4}}{94}
+% \indexentry{300@\textbf{Tools}!Vapor Trail|book{4}}{101}
+% \indexentry{300@\textbf{Tools}!Responder|book{4}}{101}
+% \indexentry{300@\textbf{Tools}!SpectrumSpy|book{4}}{107}
+% \indexentry{300@\textbf{Tools}!RTL Power \& Heatmap|book{4}}{109}
+% \indexentry{300@\textbf{Tools}!RTL Power \& Heatmap}{112-114}
+% \indexentry{300@\textbf{Tools}!Dump1090|book{4}}{116}
+% \indexentry{300@\textbf{Tools}!RTL-FM|book{4}}{120}
+% \indexentry{300@\textbf{Tools}!Multimon-ng|book{4}}{120}
+% \indexentry{300@\textbf{Tools}!RX-Tools|book{4}}{120}
+% \indexentry{300@\textbf{Tools}!Kalibrate|book{4}}{122}
+% \indexentry{300@\textbf{Tools}!RTL\_433|book{4}}{125}
+% \indexentry{300@\textbf{Tools}!RFIDIOt|book{5}}{38-39}
+% \indexentry{300@\textbf{Tools}!Proxmark 3|book{5}}{45-52}
+% \indexentry{300@\textbf{Tools}!ProxBrute|book{5}}{50-52}
+% \indexentry{300@\textbf{Tools}!Easy Flasher|book{5}}{51}
+% \indexentry{300@\textbf{Tools}!Proxmark 3!Data Plot|book{5}}{58-61}
+% \indexentry{300@\textbf{Tools}!Proxmark 3!Data Decoding|book{5}}{63-64}
+% \indexentry{300@\textbf{Tools}!Pwnpass|book{5}}{74}
+% \indexentry{300@\textbf{Tools}!NFC Smart Card Info|book{5}}{75}
+% \indexentry{300@\textbf{Tools}!Squareless|book{5}}{75}
+% \indexentry{300@\textbf{Tools}!NFCProxy|book{5}}{77}
+% \indexentry{300@\textbf{Tools}!PCSC-Lite|book{5}}{79-80}
+% \indexentry{300@\textbf{Tools}!NFC Tag Info|book{5}}{81}
+% \indexentry{300@\textbf{Tools}!Mfoc|book{5}}{85-87}
+% \indexentry{300@\textbf{Tools}!Mfcuk|book{5}}{85}
+% \indexentry{300@\textbf{Tools}!Mfcuk}{88-89}
+% \indexentry{300@\textbf{Tools}!Mfoc}{90-91}
+% \indexentry{300@\textbf{Tools}!NFC MFClassic|book{5}}{94-95}
+% \indexentry{300@\textbf{Tools}!Mifare Classic Tool|book{5}}{95-96}
+% \indexentry{300@\textbf{Tools}!NFC Tag Info}{101}
+% \indexentry{300@\textbf{Tools}!UltraReset|book{5}}{105}
+% \indexentry{300@\textbf{Tools}!NFC Tag Cloner|book{5}}{106}
+% \indexentry{300@\textbf{Tools}!MIFARE SmartHack|book{5}}{108}
+% \indexentry{300@\textbf{Tools}!NFC Tag Info}{110}
+% \indexentry{300@\textbf{Tools}!MIFARE SmartHack}{111-112}
+% \indexentry{300@\textbf{Tools}!NFC Tag Writer|book{5}}{124}
+% \indexentry{300@\textbf{Tools}!Ulread|book{5}}{128}
+% \indexentry{300@\textbf{Tools}!TagMo|book{5}}{131-132}
+
+% \indexentry{301@\blankline|comment}{0}
+
+% \indexentry{500@\textbf{Commands}!\texttt{tcpdump}|book{1}}{37-38}
+% \indexentry{500@\textbf{Commands}!\texttt{airport}|book{1}}{43}
+% \indexentry{500@\textbf{Commands}!\texttt{iw}|book{1}}{44-46}
+% \indexentry{500@\textbf{Commands}!\texttt{iwconfig}|book{1}}{44-46}
+% \indexentry{500@\textbf{Commands}!\texttt{ifconfig}|book{1}}{44-46}
+% \indexentry{500@\textbf{Commands}!\texttt{airmon-ng}|book{1}}{45}
+% \indexentry{500@\textbf{Commands}!\texttt{iw}}{51-52}
+% \indexentry{500@\textbf{Commands}!\texttt{tcpdump}}{57}
+% \indexentry{500@\textbf{Commands}!\texttt{kismet}|book{1}}{70}
+% \indexentry{500@\textbf{Commands}!\texttt{giskismet}|book{1}}{75-77}
+% \indexentry{500@\textbf{Commands}!\texttt{netsh}|book{1}}{96}
+% \indexentry{500@\textbf{Commands}!\texttt{nmap}|book{1}}{99}
+% \indexentry{500@\textbf{Commands}!\texttt{netsh}}{129}
+% \indexentry{500@\textbf{Commands}!\texttt{msfvenom}|book{1}}{130}
+% \indexentry{500@\textbf{Commands}!\texttt{msfconsole}|book{1}}{130}
+% \indexentry{500@\textbf{Commands}!\texttt{netsh}}{133-135}
+% \indexentry{500@\textbf{Commands}!\texttt{msiexec}|book{1}}{137}
+% \indexentry{500@\textbf{Commands}!\texttt{nmwifi}|book{1}}{137}
+% \indexentry{500@\textbf{Commands}!\texttt{nmcap}|book{1}}{137}
+% \indexentry{500@\textbf{Commands}!\texttt{idletime}|book{1}}{137}
+% \indexentry{500@\textbf{Commands}!\texttt{netsh}}{139-143}
+% \indexentry{500@\textbf{Commands}!\texttt{nm2lp}|book{1}}{138}
+% \indexentry{500@\textbf{Commands}!\texttt{winenum}|book{1}}{141}
+% \indexentry{500@\textbf{Commands}!\texttt{rogueap}|book{1}}{142}
+% \indexentry{500@\textbf{Commands}!\texttt{getsystem}|book{1}}{142}
+% \indexentry{500@\textbf{Commands}!\texttt{airport}}{145-146}
+% \indexentry{500@\textbf{Commands}!\texttt{sw\_vers}|book{1}}{147}
+% \indexentry{500@\textbf{Commands}!\texttt{security}|book{1}}{148}
+% \indexentry{500@\textbf{Commands}!\texttt{networksetup}|book{1}}{150}
+% \indexentry{500@\textbf{Commands}!\texttt{macshift}|book{2}}{16}
+% \indexentry{500@\textbf{Commands}!\texttt{ifconfig}! |book{2}}{16}
+% \indexentry{500@\textbf{Commands}!\texttt{airpwn}|book{2}}{38}
+% \indexentry{500@\textbf{Commands}!\texttt{airtun-ng}|book{2}}{42}
+% \indexentry{500@\textbf{Commands}!\texttt{ncpa.cpl}|book{2}}{49}
+% \indexentry{500@\textbf{Commands}!\texttt{neighbor.sh}|book{2}}{52-55}
+% \indexentry{500@\textbf{Commands}!\texttt{neighbor.sh}}{57}
+% \indexentry{500@\textbf{Commands}!\texttt{msfvenom}! |book{2}}{56}
+% \indexentry{500@\textbf{Commands}!\texttt{msfconsole}! |book{2}}{57}
+% \indexentry{500@\textbf{Commands}!\texttt{aircrack-ng}|book{2}}{74}
+% \indexentry{500@\textbf{Commands}!\texttt{aireplay-ng}|book{2}}{77}
+% \indexentry{500@\textbf{Commands}!\texttt{wifite2}|book{2}}{78}
+% \indexentry{500@\textbf{Commands}!\texttt{airdecap-ng}|book{2}}{79}
+% \indexentry{500@\textbf{Commands}!\texttt{hwk}|book{2}}{95}
+% \indexentry{500@\textbf{Commands}!\texttt{file2air}|book{2}}{100}
+% \indexentry{500@\textbf{Commands}!\texttt{aireplay-ng}}{101}
+% \indexentry{500@\textbf{Commands}!\texttt{mdk3}|book{2}}{102}
+% \indexentry{500@\textbf{Commands}!\texttt{jrockets}|book{2}}{115}
+% \indexentry{500@\textbf{Commands}!\texttt{scapy}|book{2}}{132}
+% \indexentry{500@\textbf{Commands}!\texttt{tshark}|book{2}}{143}
+% \indexentry{500@\textbf{Commands}!\texttt{cowpatty}|book{3}}{23}
+% \indexentry{500@\textbf{Commands}!\texttt{aircrack-ng}! |book{3}}{24}
+% \indexentry{500@\textbf{Commands}!\texttt{genpmk}|book{3}}{25}
+% \indexentry{500@\textbf{Commands}!\texttt{cowpatty}}{25}
+% \indexentry{500@\textbf{Commands}!\texttt{hashcat}|book{3}}{27-28}
+% \indexentry{500@\textbf{Commands}!\texttt{cap2hccapx}|book{3}}{27}
+% \indexentry{500@\textbf{Commands}!\texttt{reaver}|book{3}}{36}
+% \indexentry{500@\textbf{Commands}!\texttt{wirelesskeyview}|book{3}}{39}
+% \indexentry{500@\textbf{Commands}!\texttt{airdecap-ng}! |book{3}}{40}
+% \indexentry{500@\textbf{Commands}!\texttt{airodump-ng}|book{3}}{52}
+% \indexentry{500@\textbf{Commands}!\texttt{airgraph-ng}|book{3}}{52}
+% \indexentry{500@\textbf{Commands}!\texttt{sniffair.py}|book{3}}{60}
+% \indexentry{500@\textbf{Commands}!\texttt{hostapd-wpe}|book{3}}{71}
+% \indexentry{500@\textbf{Commands}!\texttt{airmon-ng}! |book{3}}{71}
+% \indexentry{500@\textbf{Commands}!\texttt{asleap}|book{3}}{72}
+% \indexentry{500@\textbf{Commands}!\texttt{john}|book{3}}{73}
+% \indexentry{500@\textbf{Commands}!\texttt{dect\_cli}|book{3}}{92}
+% \indexentry{500@\textbf{Commands}!\texttt{dectshark}|book{3}}{93}
+% \indexentry{500@\textbf{Commands}!\texttt{dect\_cli}}{98}
+% \indexentry{500@\textbf{Commands}!\texttt{dect-decoder.sh}|book{3}}{100}
+% \indexentry{500@\textbf{Commands}!\texttt{play}|book{3}}{100}
+% \indexentry{500@\textbf{Commands}!\texttt{zbid}|book{3}}{131}
+% \indexentry{500@\textbf{Commands}!\texttt{zbstumbler}|book{3}}{131}
+% \indexentry{500@\textbf{Commands}!\texttt{zbdump}|book{3}}{131}
+% \indexentry{500@\textbf{Commands}!\texttt{zbdsniff}|book{3}}{133}
+% \indexentry{500@\textbf{Commands}!\texttt{zbreplay}|book{3}}{135}
+% \indexentry{500@\textbf{Commands}!\texttt{zbfind}|book{3}}{137}
+% \indexentry{500@\textbf{Commands}!\texttt{zbgoodfind}|book{3}}{140}
+% \indexentry{500@\textbf{Commands}!\texttt{zwdump}|book{3}}{147}
+% \indexentry{500@\textbf{Commands}!\texttt{zwreplay}|book{3}}{147}
+% \indexentry{500@\textbf{Commands}!\texttt{btcrack}|book{4}}{28}
+% \indexentry{500@\textbf{Commands}!\texttt{tshark}! |book{4}}{32}
+% \indexentry{500@\textbf{Commands}!\texttt{hcitool}|book{4}}{32}
+% \indexentry{500@\textbf{Commands}!\texttt{ubertooth-lap}|book{4}}{35}
+% \indexentry{500@\textbf{Commands}!\texttt{ubertooth-lap}}{37}
+% \indexentry{500@\textbf{Commands}!\texttt{ubertooth-uap}|book{4}}{37}
+% \indexentry{500@\textbf{Commands}!\texttt{hcitool}}{37}
+% \indexentry{500@\textbf{Commands}!\texttt{hcitool}}{44}
+% \indexentry{500@\textbf{Commands}!\texttt{sdptool}|book{4}}{45}
+% \indexentry{500@\textbf{Commands}!\texttt{bss}|book{4}}{46}
+% \indexentry{500@\textbf{Commands}!\texttt{btmon}|book{4}}{70}
+% \indexentry{500@\textbf{Commands}!\texttt{ubertooth-btle}|book{4}}{72}
+% \indexentry{500@\textbf{Commands}!\texttt{hcitool}}{75}
+% \indexentry{500@\textbf{Commands}!\texttt{gatttool}|book{4}}{75}
+% \indexentry{500@\textbf{Commands}!\texttt{blesuite-runner.py}|book{4}}{80}
+% \indexentry{500@\textbf{Commands}!\texttt{ubertooth-btle}}{82}
+% \indexentry{500@\textbf{Commands}!\texttt{crackle}|book{4}}{82}
+% \indexentry{500@\textbf{Commands}!\texttt{bleah}|book{4}}{87-88}
+% \indexentry{500@\textbf{Commands}!\texttt{rtl\_power}|book{4}}{113}
+% \indexentry{500@\textbf{Commands}!\texttt{heatmap.py}|book{4}}{113}
+% \indexentry{500@\textbf{Commands}!\texttt{dump1090}|book{4}}{116}
+% \indexentry{500@\textbf{Commands}!\texttt{rtl\_fm}|book{4}}{120}
+% \indexentry{500@\textbf{Commands}!\texttt{multimon-ng}|book{4}}{120}
+% \indexentry{500@\textbf{Commands}!\texttt{kal}|book{4}}{122}
+% \indexentry{500@\textbf{Commands}!\texttt{rtl\_433}|book{4}}{126-127}
+% \indexentry{500@\textbf{Commands}!\texttt{cardselect.py}|book{5}}{38}
+% \indexentry{500@\textbf{Commands}!\texttt{fdxbnum.py}|book{5}}{39}
+% \indexentry{500@\textbf{Commands}!\texttt{proxmark3}|book{5}}{45-46}
+% \indexentry{500@\textbf{Commands}!\texttt{proxmark3}}{56-57}
+% \indexentry{500@\textbf{Commands}!\texttt{proxmark3}}{63-64}
+% \indexentry{500@\textbf{Commands}!\texttt{pcsc\_scan}|book{5}}{80}
+% \indexentry{500@\textbf{Commands}!\texttt{mfoc}|book{5}}{87}
+% \indexentry{500@\textbf{Commands}!\texttt{mfcuk}|book{5}}{89}
+% \indexentry{500@\textbf{Commands}!\texttt{mfoc}}{90}
+% \indexentry{500@\textbf{Commands}!\texttt{nfc-mfclassic}|book{5}}{94}
+% \indexentry{500@\textbf{Commands}!\texttt{proxmark3}}{97-98}
+% \indexentry{500@\textbf{Commands}!\texttt{nfc-list}|book{5}}{100}
+% \indexentry{500@\textbf{Commands}!\texttt{nfc-emulate-tag}|book{5}}{101}
+% \indexentry{500@\textbf{Commands}!\texttt{nfc-emulate-uid}|book{5}}{102}
+% \indexentry{500@\textbf{Commands}!\texttt{nfc-mfultralight}|book{5}}{105}
+% \indexentry{500@\textbf{Commands}!\texttt{mifare-ultralight-info}|book{5}}{108}
+% \indexentry{500@\textbf{Commands}!\texttt{nfc-mfultralightc}|book{5}}{108}
+% \indexentry{500@\textbf{Commands}!\texttt{nfc-mfdesfire-keysearch}|book{5}}{112}
+% \indexentry{500@\textbf{Commands}!\texttt{nfc-mfultralight}|book{5}}{124}
+% \indexentry{500@\textbf{Commands}!\texttt{ulread}|book{5}}{128}
+% \indexentry{500@\textbf{Commands}!\texttt{amiitool}|book{5}}{131}
+% \indexentry{500@\textbf{Commands}!\texttt{gstrings}|book{5}}{131}
+% \indexentry{500@\textbf{Commands}!\texttt{msfconsole}!  |book{5}}{134}
+
+% \indexentry{501@\blankline|comment}{0}
+
+% \indexentry{600@\textbf{Toolkit}!SWAT|book{1}}{22}
+% \indexentry{600@\textbf{Toolkit}!Panda USB Adapter|book{1}}{23-24}
+% \indexentry{600@\textbf{Toolkit}!Parani SENA UD-100|book{1}}{24}
+% \indexentry{600@\textbf{Toolkit}!ACR122U Smart Card Reader/Writer|book{1}}{25}
+% \indexentry{600@\textbf{Toolkit}!RTL-SDR|book{1}}{26}
+% \indexentry{600@\textbf{Toolkit}!Powered USB Hub|book{1}}{27}
+% \indexentry{600@\textbf{Toolkit}!PiPoint Raspberry Pi|book{1}}{28}
+% \indexentry{600@\textbf{Toolkit}!Canakit|book{1}}{28}
+% \indexentry{600@\textbf{Toolkit}!Kali Linux|book{1}}{29}
+% \indexentry{600@\textbf{Toolkit}!I Love My Neighbors|book{1}}{29}
+% \indexentry{600@\textbf{Toolkit}!Verizon MiFi|book{2}}{21}
+% \indexentry{600@\textbf{Toolkit}!Pineapple Nano|book{2}}{48-49}
+% \indexentry{600@\textbf{Toolkit}!I Love My Neighbors! |book{2}}{51-55}
+% \indexentry{600@\textbf{Toolkit}!I Love My Neighbors!Services|book{2}}{54}
+% \indexentry{600@\textbf{Toolkit}!I Love My Neighbors! }{57}
+% \indexentry{600@\textbf{Toolkit}!Wave Bubble|book{2}}{90}
+% \indexentry{600@\textbf{Toolkit}!SWAT! |book{3}}{69}
+% \indexentry{600@\textbf{Toolkit}!BladeRF|book{3}}{103}
+% \indexentry{600@\textbf{Toolkit}!HackRF|book{3}}{103}
+% \indexentry{600@\textbf{Toolkit}!RTL-SDR! |book{3}}{103}
+% \indexentry{600@\textbf{Toolkit}!AVR RZ Raven USB Stick|book{3}}{127}
+% \indexentry{600@\textbf{Toolkit}!AVR Dragon|book{3}}{128}
+% \indexentry{600@\textbf{Toolkit}!YARD Stick One|book{3}}{146}
+% \indexentry{600@\textbf{Toolkit}!Linksys USBBT100|book{3}}{146}
+% \indexentry{600@\textbf{Toolkit}!FTS4BT|book{4}}{28}
+% \indexentry{600@\textbf{Toolkit}!Ubertooth One|book{4}}{35}
+% \indexentry{600@\textbf{Toolkit}!Adafruit BLE Sniffer|book{4}}{66}
+% \indexentry{600@\textbf{Toolkit}!Ubertooth One}{71-72}
+% \indexentry{600@\textbf{Toolkit}!Parani SENA UD-100! |book{4}}{73}
+% \indexentry{600@\textbf{Toolkit}!Ubertooth One}{81}
+% \indexentry{600@\textbf{Toolkit}!Ubertooth One}{84}
+% \indexentry{600@\textbf{Toolkit}!LimeSDR|book{4}}{84}
+% \indexentry{600@\textbf{Toolkit}!HackRF! |book{4}}{104}
+% \indexentry{600@\textbf{Toolkit}!BladeRF! |book{4}}{105}
+% \indexentry{600@\textbf{Toolkit}!Ubertooth One}{104}
+% \indexentry{600@\textbf{Toolkit}!YARD Stick One! |book{4}}{104}
+% \indexentry{600@\textbf{Toolkit}!RTL-SDR!DVB-T Tuner|book{4}}{106}
+% \indexentry{600@\textbf{Toolkit}!LimeSDR}{107}
+% \indexentry{600@\textbf{Toolkit}!Ettus SDR|book{4}}{107}
+% \indexentry{600@\textbf{Toolkit}!AirSpy|book{4}}{107}
+% \indexentry{600@\textbf{Toolkit}!Stingray|book{4}}{121}
+% \indexentry{600@\textbf{Toolkit}!HackRF! }{125}
+% \indexentry{600@\textbf{Toolkit}!HackRF! }{127-128}
+% \indexentry{600@\textbf{Toolkit}!ACG LAHF LF/HF Reader/Writer|book{5}}{37}
+% \indexentry{600@\textbf{Toolkit}!Proxmark 3 RDV2|book{5}}{44-48}
+% \indexentry{600@\textbf{Toolkit}!Tastic RF Thief|book{5}}{53-54}
+% \indexentry{600@\textbf{Toolkit}!VIVOPay Credit Card Reader|book{5}}{73-75}
+% \indexentry{600@\textbf{Toolkit}!ACR122U Smart Card Reader/Writer! |book{5}}{79-80}
+% \indexentry{600@\textbf{Toolkit}!ACR122U Smart Card Reader/Writer! }{86}
+% \indexentry{600@\textbf{Toolkit}!ACR122U Smart Card Reader/Writer! }{94}
+% \indexentry{600@\textbf{Toolkit}!ACR122U Smart Card Reader/Writer! }{100-102}
+% \indexentry{600@\textbf{Toolkit}!ACR122U Smart Card Reader/Writer! }{112}
+% \indexentry{600@\textbf{Toolkit}!ACR122U Smart Card Reader/Writer! }{128}
+
+% %\indexentry{601@\blankline|comment}{0}
+
+% %\indexentry{700@\textbf{Documentation}!SWAT|book{1}}{22}
+
+% \indexentry{999@\blankline|newpage \comment}{0}
+
+% % [example] add blank lines at the end of the 'S' section to shift the 'T' section
+% %\indexentry{Szzzzzz@\blankline|comment}{0}
+
+\comment{********************************************************************************************
+                                       FIRST BOOK SECTION
+*****************************************************************************************************}
+
+\indexentry{Web Applications|book {1}}{8}
+\indexentry{Michal Zalewski|book {1}}{9}
+\indexentry{The Tangled Web|book {1}}{9}
+\indexentry{p0f|book {1}}{9}
+\indexentry{American Fuzzy Lop|book {1}}{9}
+\indexentry{Tim Berners-Lee|book {1}}{9}
+\indexentry{Hypertext Transfer Protocol (HTTP)!History|book {1}}{9}
+\indexentry{Hypertext Transfer Protocol (HTTP)!History!0.9|book {1}}{9}
+\indexentry{vulnerability mailing lists|book {1}}{10}
+\indexentry{NIST National Vulnerability Database|book {1}}{10}
+\indexentry{Exploit Database (EDB)|book {1}}{10}
+\indexentry{business functionality testing|book {1}}{10}
+\indexentry{Mailing Lists|book {1}}{10}
+\indexentry{Mailing Lists!Full Disclosure|book {1}}{10}
+\indexentry{Mailing Lists!Bugtraq|book {1}}{10}
+\indexentry{Full Disclosure|book {1}}{10}
+\indexentry{Bugtraq|book {1}}{10}
+\indexentry{Offensive Security|book {1}}{10}
+\indexentry{Application Security|book {1}}{10}
+\indexentry{Application Security!Assessing|book {1}}{12-13}
+\indexentry{Application Security!Improving|book {1}}{12}
+\indexentry{Threat Modeling|book {1}}{13}
+\indexentry{Code review|book {1}}{13}
+\indexentry{Static Application Security Testing (SAST)|book {1}}{13}
+\indexentry{Dynamic Application Security Testing (DAST)|book {1}}{13}
+\indexentry{Interactive Application Security Testing (IAST)|book {1}}{13}
+\indexentry{Out-of-Band Application Secuirty Testing|book {1}}{13}
+\indexentry{Full-Knowledge|book {1}}{13}
+\indexentry{Zero-Knowledge|book {1}}{13}
+\indexentry{Assessments!Full-Knowledge|book {1}}{13}
+\indexentry{Assessments!Zero-Knowledge|book {1}}{13}
+\indexentry{Application Security!Static Application Security Testing (SAST)|book {1}}{13}
+\indexentry{Application Security!Dynamic Application Security Testing (DAST)|book {1}}{13}
+\indexentry{Application Security!Interactive Application Security Testing (IAST)|book {1}}{13}
+\indexentry{Application Security!Out-of-Band Application Security Testing (OAST)|book {1}}{13}
+\indexentry{Application Security!Testing!Full Knowledge|book {1}}{13}
+\indexentry{Application Security!Testing!Zero-Knowledge|book {1}}{13}
+\indexentry{Runtime Application Self-Protection (RASP)|book {1}}{13}
+\indexentry{Burp Suite!Infiltrator|book {1}}{13}
+\indexentry{Threat Modeling|textbf|book {1}|}{14}
+\indexentry{NIST!800-30!Appendix D|book {1}}{14}
+\indexentry{Threat Modeling!Advantages|book {1}}{14}
+\indexentry{Threat Modeling!Disadvantages|book {1}}{14}
+\indexentry{Threat Modeling!NIST 800-30|book {1}}{14}
+\indexentry{Software Engineering Institute (SEI)|book {1}}{14}
+\indexentry{Security Posture|book {1}}{14}
+\indexentry{Source Code Review|book {1}}{15}
+\indexentry{Source Code Review!Advantages|book {1}}{15}
+\indexentry{Source Code Review!Disadvantages|book {1}}{15}
+\indexentry{concurrency problems|book {1}}{15}
+\indexentry{flawed business logic|book {1}}{15}
+\indexentry{access control problems|book {1}}{15}
+\indexentry{cryptographic weaknesses|book {1}}{15}
+\indexentry{backdoors|book {1}}{15}
+\indexentry{Trojans|book {1}}{15}
+\indexentry{Easter eggs|book {1}}{15}
+\indexentry{time bombs|book {1}}{15}
+\indexentry{logic bombs|book {1}}{15}
+\indexentry{Static Application Security Testing (SAST)|book {1}}{16}
+\indexentry{Application Security!Static Application Security Testing (SAST)|book {1}}{16}
+\indexentry{Dynamic Application Security Testing (DAST)|book {1}}{17-18}
+\indexentry{Penetration Testing|book {1}}{17}
+\indexentry{Software Development Lifecycle (SDLC)|book {1}}{17}
+\indexentry{Application Security!Dynamic Application Security Testing (DAST)|book {1}}{17-18}
+\indexentry{Dynamic Application Security Testing (DAST)!Tools|book {1}}{17-18}
+\indexentry{Push Button Pen Testing|book {1}}{18}
+\indexentry{Manual Inspection and Reviews|book {1}}{19}
+\indexentry{OWASP!Web Security Testing Guide (WSTG)|book {1}}{19}
+\indexentry{Software Development Lifecycle (SDLC)|book {1}}{19}
+\indexentry{Documentation|book {1}}{19}
+\indexentry{Automated Scanning|book {1}}{20}
+\indexentry{Manual Assessments|book {1}}{20}
+\indexentry{Assessments!Manual|book {1}}{20}
+\indexentry{Assessments!Automated|book {1}}{20}
+\indexentry{Best|book {1}}{20}
+\indexentry{Full-Knowledge|book {1}}{21}
+\indexentry{Zero-Knowledge|book {1}}{21}
+\indexentry{Assessments!Full-Knowledge|book {1}}{21}
+\indexentry{Assessments!Zero-Knowledge|book {1}}{21}
+\indexentry{Methodology|book {1}}{22}
+\indexentry{Assessments!Methodology|book {1}}{22}
+\indexentry{Assessments!Full-Knowledge|book {1}}{21}
+\indexentry{Assessments!Frameworks|book {1}}{22}
+\indexentry{OWASP!Web Security Testing Guide (WSTG)|book {1}}{22}
+\indexentry{Assessments!Frameworks!OWASP Web Security Testing Guide|book {1}}{22}
+\indexentry{Penetration Testing Execution Standard (PTES)|book {1}}{22}
+\indexentry{Assessments!Frameworks!Penetration Testing Execution Standard (PTES)|book {1}}{22}
+\indexentry{Testing Techniques|book {1}}{22}
+\indexentry{Assessments!Testing Techniques|book {1}}{22}
+\indexentry{Reconaissance|book {1}}{22}
+\indexentry{Scanning|book {1}}{22}
+\indexentry{Vulnerability assessment|book {1}}{22}
+\indexentry{Post-exploitation|book {1}}{22}
+\indexentry{Reporting|book {1}}{22}
+\indexentry{OWASP|book {1}}{24}
+\indexentry{OWASP!Top 10|book {1}}{25-26}
+\indexentry{OWASP!Web Application Penetration Testing Methodology|book {1}}{27}
+\indexentry{OWASP!Web Security Testing Guide (WSTG)!Web Application Penetration Testing Methodology|book {1}}{27}
+\indexentry{OWASP!Web Security Testing Guide (WSTG)!Testing Categories|book {1}}{27}
+\indexentry{Information Gathering (INFO)|book {1}}{28}
+\indexentry{Configuration and Deployment Management (CONF)|book {1}}{28}
+\indexentry{Identity Management (IDNT)|book {1}}{28}
+\indexentry{Authentication (ATHN)|book {1}}{28}
+\indexentry{Authorization (ATHZ)|book {1}}{28}
+\indexentry{Session Management (SESS)|book {1}}{28}
+\indexentry{Input Validation (INPV)|book {1}|boldmain}{28}
+\indexentry{Error Handling (ERRH)|book {1}}{28}
+\indexentry{Cryptography (CRYP)|book {1}}{28}
+\indexentry{Business Logic (BUSL)|book {1}}{28}
+\indexentry{Client Side (CLNT)|book {1}}{28}
+\indexentry{OWASP!Web Security Testing Guide (WSTG)|book {1}}{29}
+\indexentry{Checklist|book {1}}{29}
+\indexentry{Web Application PenTester's Toolkit|book {1}}{32}
+\indexentry{Attack platform|book {1}}{32}
+\indexentry{Dynamic web application security scanners|book {1}}{32}
+\indexentry{Browser|book {1}}{32}
+\indexentry{Interception proxies|book {1}}{32}
+\indexentry{Tookkit|book {1}}{32}
+\indexentry{Attack Platform|book {1}}{33-34}
+\indexentry{Kali|book {1}}{33-34}
+\indexentry{Kali!Update Command|book {1}}{34}
+\indexentry{Kali!metapackages|book {1}}{34}
+\indexentry{Dynamic Application Security Testing (DAST)|book {1}}{35}
+\indexentry{Dynamic Application Security Testing (DAST)!Scanners|book {1}}{35}
+\indexentry{ZAP Active Scan|book {1}}{35}
+\indexentry{Arachni Scanner|book {1}}{35}
+\indexentry{Nikto|book {1}}{35}
+\indexentry{Acunetix Vulnerability Scanner|book {1}}{35}
+\indexentry{BuprSuite Pro Active/Live Scan|book {1}}{35}
+\indexentry{Fortify WebInspect|book {1}}{35}
+\indexentry{HCL AppScan|book {1}}{35}
+\indexentry{Qualys WAS|book {1}}{35}
+\indexentry{Rapid7 AppSpider|book {1}}{35}
+\indexentry{Whitehat Sentinel|book {1}}{35}
+\indexentry{Invicti (formerly Netsparker)|book {1}}{35}
+\indexentry{Network Vulnerability Scanner|book {1}}{35}
+\indexentry{Browsers|book {1}}{36}
+\indexentry{Interception Proxies|book {1}}{38}
+\indexentry{forward proxy|book {1}}{38}
+\indexentry{Man-in-the-middle (MITM)|book {1}}{38}
+\indexentry{Zed Attack Proxy (ZAP)|book {1}}{38}
+\indexentry{Burp Suite Professional|book {1}}{38}
+\indexentry{Zed Attack Proxy (ZAP)|book {1}}{39}
+\indexentry{Interception Proxies!Zed Attack Proxy (ZAP)|book {1}}{39}
+\indexentry{Paros Proxy|book {1}}{39}
+\indexentry{Zed Attack Proxy (ZAP)!Interface|book {1}}{40}
+\indexentry{Zed Attack Proxy (ZAP)!Attack Menu|book {1}}{41}
+\indexentry{Zed Attack Proxy (ZAP)!Functions!Active Scan|book {1}}{41}
+\indexentry{Zed Attack Proxy (ZAP)!Functions!Forced browsing|book {1}}{41}
+\indexentry{Zed Attack Proxy (ZAP)!Functions!Spider and AJAX spider|book {1}}{41}
+\indexentry{Zed Attack Proxy (ZAP)!Functions!Fuzzing|book {1}}{41}
+\indexentry{Burp Suite Professional|book {1}}{42}
+\indexentry{Burp Suite Professional!Dashboard|book {1}}{43}
+\indexentry{Burp Suite Professional!Heads-Up Dispaly|book {1}}{43}
+\indexentry{Burp Suite Professional!Target!Scope|book {1}}{44}
+\indexentry{Burp Suite Professional!Target!Site Map|book {1}}{45}
+\indexentry{Burp Suite Professional!Target!Site Map - Filter|book {1}}{46}
+\indexentry{Burp Suite Professional!Proxy|book {1}}{47}
+\indexentry{Burp Suite Professional!Intruder|book {1}}{48}
+\indexentry{Grep|book {1}}{48}
+\indexentry{Burp Suite Professional!Repeater|book {1}}{49}
+\indexentry{Burp Suite Professional!Repeater!Inspector|book {1}}{49}
+\indexentry{Burp Suite Professional!Sequencer|book {1}}{50}
+\indexentry{Session Analysis|book {1}}{50}
+\indexentry{Burp Suite Professional!Decoder|book {1}}{51}
+\indexentry{Encoding|book {1}}{51}
+\indexentry{Decoding|book {1}}{51}
+\indexentry{Hashing|book {1}}{51}
+\indexentry{Burp Suite Professional!Comparer|book {1}}{52}
+\indexentry{Burp Suite Professional!Extender|book {1}}{53}
+\indexentry{BApp Store|book {1}}{53}
+\indexentry{Burp Suite Professional!BApp Store|book {1}}{53}
+\indexentry{Burp Suite Professional!Crawling/Auditing|book {1}}{54}
+\indexentry{Auditing|book {1}}{54}
+\indexentry{Burp Suite Professional!Engagement Tools|book {1}}{55}
+\indexentry{Burp Suite Professional!Engagement Tools!Search|book {1}}{55}
+\indexentry{Burp Suite Professional!Engagement Tools!Find Commment / Find Scripts|book {1}}{55}
+\indexentry{Burp Suite Professional!Engagement Tools!Target Analyzer|book {1}}{55}
+\indexentry{Burp Suite Professional!Engagement Tools!Content Discovery|book {1}}{55}
+\indexentry{Burp Suite Professional!Engagement Tools!Cenerage CSRF PoC|book {1}}{55}
+\indexentry{Burp Suite Professional!Engagement Tools!Simulate Manual Testing|book {1}}{55}
+\indexentry{Interception Proxies!Configuring|book {1}}{57}
+\indexentry{OWASP!Web Security Testing Guide (WSTG)!Information Gathering|book {1}}{59}
+\indexentry{Information Gathering|book {1}}{59}
+\indexentry{Open-Source Intelligence (OSINT)|book {1}}{60}
+\indexentry{Open-Source Intelligence (OSINT)!Micah Hoffman's OSINT MindMap|book {1}}{61}
+\indexentry{Micah Hoffman's OSINT MindMap|book {1}}{61}
+\indexentry{Open-Source Intelligence (OSINT)!For Web Application Testers|book {1}}{62}
+\indexentry{Open-Source Intelligence (OSINT)!Search Engines|book {1}}{64}
+\indexentry{filter bubble|book {1}}{64}
+\indexentry{Open-Source Intelligence (OSINT)!Search Engines!Key Search Operators|book {1}}{65}
+\indexentry{Google|book {1}}{65-66}
+\indexentry{Bing|book {1}}{65}
+\indexentry{DuckDuckGo|book {1}}{65}
+\indexentry{Open-Source Intelligence (OSINT)!Search Engines!Google Dorks|book {1}}{66}
+\indexentry{Dorks|book {1}}{66}
+\indexentry{Google Hacking Database (GHDB)|book {1}}{66-67}
+\indexentry{Google Dorks|book {1}}{66}
+\indexentry{Open-Source Intelligence (OSINT)!Search Engines!Dorking|book {1}}{67}
+\indexentry{Dorking|book {1}}{67}
+\indexentry{Google Hacking Database (GHDB)!GHDB-ID 4804|book {1}}{67}
+\indexentry{Open-Source Intelligence (OSINT)!Social Media|book {1}}{68}
+\indexentry{Open-Source Intelligence (OSINT)!Social Media!LinkedIn|book {1}}{68}
+\indexentry{SOCMINT|book {1}}{68}
+\indexentry{LinkedIn Open Networkers (LIONs)|book {1}}{68}
+\indexentry{Open-Source Intelligence (OSINT)!Suites|book {1}}{70}
+\indexentry{Open-Source Intelligence (OSINT)!SpiderFoot|book {1}}{71}
+\indexentry{SpiderFoot|book {1}}{71}
+\indexentry{Operational Security (OPSEC)|book {1}}{71}
+\indexentry{Virtual Host Discovery|book {1}}{73}
+\indexentry{Virtual Host Discovery!DNS|book {1}}{74-75}
+\indexentry{Domain Name System (DNS)|book {1}}{74}
+\indexentry{Domain Name System (DNS)!Zone Transfer|book {1}}{74}
+\indexentry{Zone Transfer|book {1}}{74-75}
+\indexentry{Dig|book {1}}{74}
+\indexentry{EDNS|book {1}}{74}
+\indexentry{Domain Name System (DNS)!EDNS|book {1}}{74}
+\indexentry{Domain Name System (DNS)!Querying Directly|book {1}}{75}
+\indexentry{Commands!full (AXFR) zone transfer|book {1}}{75}
+\indexentry{Domain Name System (DNS)!Reverse|book {1}}{75}
+\indexentry{Reverse DNS|book {1}}{76}
+\indexentry{Domain Name System (DNS)!PTR|book {1}}{76}
+\indexentry{Commands!reverse DNS|book {1}}{76}
+\indexentry{Domain Name System (DNS)!Brute Force Scans|book {1}}{77}
+\indexentry{DNSRecon|book {1}}{77}
+\indexentry{Domain Name System (DNS)!Recon Tools|book {1}}{78}
+\indexentry{nslookup|book {1}}{79}
+\indexentry{Domain Name System (DNS)!Recon Tools!nslookup|book {1}}{79}
+\indexentry{dig|book {1}}{80}
+\indexentry{Domain Name System (DNS)!Recon Tools!dig|book {1}}{80-81}
+\indexentry{Commands!dig domain lookup|book {1}}{80}
+\indexentry{dig!Syntax|book {1}}{81}
+\indexentry{Commands!dig (many)|book {1}}{81}
+\indexentry{CHAOSNET|book {1}}{81}
+\indexentry{Nmap!DNS NSE Scripts|book {1}}{82}
+\indexentry{Domain Name System (DNS)!Recon Tools!Nmap|book {1}}{82}
+\indexentry{DNSRecon|book {1}}{83-84}
+\indexentry{Domain Name System (DNS)!Recon Tools!DNSRecon|book {1}}{83-84}
+\indexentry{Commands!DNSRecon|book {1}}{83-84}
+\indexentry{Domain Name System (DNS)!Repositories|book {1}}{85-86}
+\indexentry{Domain Name System (DNS)!Repositories!Farsight Security's DNSDB|book {1}}{85}
+\indexentry{Domain Name System (DNS)!Repositories!Dnsdumpster.com|book {1}}{85}
+\indexentry{Virtual Host Discovery!HTTPS Certificate|book {1}}{87}
+\indexentry{HTTPS Certificates|book {1}}{87}
+\indexentry{Common Name|book {1}}{87}
+\indexentry{Certificate Transparency|book {1}}{87}
+\indexentry{Certificate Authorities|book {1}}{87}
+\indexentry{Tim Berners-Lee|book {1}}{91}
+\indexentry{World Wide Web|book {1}}{91}
+\indexentry{Internet|book {1}}{91-92}
+\indexentry{CERN|book {1}}{91}
+\indexentry{Generalized Markup Language (GML)|book {1}}{91}
+\indexentry{Hypertext Transfer Protocol (HTTP)!History|book {1}}{91}
+\indexentry{ARPANET|book {1}}{92}
+\indexentry{RFC!1918|book {1}}{92}
+\indexentry{Morris Worm|book {1}}{92}
+\indexentry{Kerberos|book {1}}{92}
+\indexentry{Hypertext Transfer Protocol (HTTP)!Semantics|book {1}}{93}
+\indexentry{Hypertext Transfer Protocol (HTTP)!Syntax|book {1}}{93}
+\indexentry{Semantics|book {1}}{93}
+\indexentry{Syntax|book {1}}{93}
+\indexentry{Hypertext Transfer Protocol (HTTP)!QUIC|book {1}}{93}
+\indexentry{World Wide Web (W3)|book {1}}{94}
+\indexentry{RFC!1945|book {1}}{94-95}
+\indexentry{Hypertext Transfer Protocol (HTTP)!0.9|book {1}}{95}
+\indexentry{Hypertext Transfer Protocol (HTTP)!1.0|book {1}}{95-96}
+\indexentry{Command!HTTP/0.9|book {1}}{95}
+\indexentry{Command!HTTP/1.0|book {1}}{96}
+\indexentry{Hypertext Transfer Protocol (HTTP)!1.1|book {1}}{97}
+\indexentry{Hypertext Transfer Protocol (HTTP)!2|book {1}}{98-99}
+\indexentry{RFC!2616|book {1}}{97}
+\indexentry{RFC!7231|book {1}}{97}
+\indexentry{RFC!7232|book {1}}{97}
+\indexentry{RFC!7233|book {1}}{97}
+\indexentry{RFC!7234|book {1}}{97}
+\indexentry{RFC!7235|book {1}}{97}
+\indexentry{RFC!7231|book {1}}{97}
+\indexentry{Command!HTTP/1.1|book {1}}{97}
+\indexentry{RFC!7540|book {1}}{98}
+\indexentry{Push Promise|book {1}}{98}
+\indexentry{HPACK|book {1}}{98-99}
+\indexentry{Multiplexing|book {1}}{98}
+\indexentry{Pipelining|book {1}}{98}
+\indexentry{RFC!7541|book {1}}{99}
+\indexentry{Hypertext Transfer Protocol (HTTP)!3 QUIC|book {1}}{100}
+\indexentry{Quick UDP Internet Connection (QUIC)|book {1}}{100}
+\indexentry{RFC!9114|book {1}}{100}
+\indexentry{Hypertext Transfer Protocol (HTTP)!Semantics|book {1}}{101}
+\indexentry{Hypertext Transfer Protocol (HTTP)!Request!Example|book {1}}{102}
+\indexentry{Hypertext Transfer Protocol (HTTP)!Response!Example|book {1}}{103-104}
+\indexentry{Hypertext Transfer Protocol (HTTP)!Request!Methods/Verbs|book {1}}{105-116}
+\indexentry{idempotent|book {1}}{105}
+\indexentry{DELETE|book {1}}{105}
+\indexentry{RFC!3986|book {1}}{106}
+\indexentry{GET|book {1}}{106-108}
+\indexentry{URI Query Parameters|book {1}}{108}
+\indexentry{GET!URI Query Parameters|book {1}}{108}
+\indexentry{RFC!3986|book {1}}{108}
+\indexentry{Hypertext Transfer Protocol (HTTP)!URI Query Parameters|book {1}}{108}
+\indexentry{POST|book {1}}{109}
+\indexentry{Content-Type|book {1}}{109}
+\indexentry{POST!Parameters|book {1}}{110}
+\indexentry{Burp Suite!Request Parameters|book {1}}{111}
+\indexentry{Method Tampering|book {1}}{112}
+\indexentry{Verb Tampering|book {1}}{112}
+\indexentry{Method Interchange|book {1}}{112}
+\indexentry{HEAD|book {1}}{113}
+\indexentry{Commands!HEAD request|book {1}}{113}
+\indexentry{TRACE|book {1}}{114}
+\indexentry{Cross-Site Tracing (XST)|book {1}}{114}
+\indexentry{HttpOnly!Bypass|book {1}}{114}
+\indexentry{RFC!2616|book {1}}{114}
+\indexentry{RFC!7231book {1}}{114}
+\indexentry{RFC!7235|book {1}}{114}
+\indexentry{RFC!6265|book {1}}{114}
+\indexentry{OPTIONS|book {1}}{116}
+\indexentry{Commands!OPTIONS request|book {1}}{116-117}
+\indexentry{Commands!DELETE request|book {1}}{116}
+\indexentry{CRUD|book {1}}{118}
+\indexentry{PATCH|book {1}}{118}
+\indexentry{RFC!5789|book {1}}{118}
+\indexentry{User-Agent|book {1}}{120}
+\indexentry{Hypertext Transfer Protocol (HTTP)!Request!User-Agent|book {1}}{120}
+\indexentry{web client|book {1}}{120}
+\indexentry{Referer|book {1}}{121}
+\indexentry{Hypertext Transfer Protocol (HTTP)!Request!Referer|book {1}}{121}
+\indexentry{Cookie|book {1}}{122}
+\indexentry{Hypertext Transfer Protocol (HTTP)!Request!Methods/Verbs|book {1}}{122}
+\indexentry{Set-Cookie|book {1}}{122-123}
+\indexentry{Hypertext Transfer Protocol (HTTP)!Request!Highlights|book {1}}{123}
+\indexentry{Commands!Server strings|book {1}}{123-124}
+\indexentry{Hypertext Transfer Protocol (HTTP)!Response!Status Code|book {1}}{123}
+\indexentry{Hypertext Transfer Protocol (HTTP)!Response!Server|book {1}}{123}
+\indexentry{Hypertext Transfer Protocol (HTTP)!Response!Cache-Control|book {1}}{123-124}
+\indexentry{Hypertext Transfer Protocol (HTTP)!Response!Set-Cookie|book {1}}{123}
+\indexentry{Status Codes|book {1}}{123}
+\indexentry{Cache-Control|book {1}}{124}
+\indexentry{Set-Cookie|book {1}}{124}
+\indexentry{OWASP!Top 10!Cryptographic Failures|book {1}}{126}
+\indexentry{Cryptographic Failures|book {1}}{126}
+\indexentry{HTTPS!Transmission Security|book {1}}{127}
+\indexentry{Transmission Security|book {1}}{127}
+\indexentry{SSL|book {1}}{127}
+\indexentry{TLS|book {1}}{127}
+\indexentry{RFC!2246|book {1}}{127}
+\indexentry{RFC!5246|book {1}}{127}
+\indexentry{RFC!8446|book {1}}{127}
+\indexentry{TLS!Handshake|book {1}}{128-129}
+\indexentry{RSA|book {1}}{129}
+\indexentry{Diffie-Helman|book {1}}{129}
+\indexentry{HTTPS!Confidentiality|book {1}}{130}
+\indexentry{Cipher Suites|book {1}}{130}
+\indexentry{HTTPS!Cipher Suites|book {1}}{130}
+\indexentry{Confidentiality|book {1}}{130}
+\indexentry{Integrity|book {1}}{130}
+\indexentry{HTTPS!Integrity|book {1}}{130}
+\indexentry{HTTPS!Authentication|book {1}}{130}
+\indexentry{Authentication|book {1}}{130}
+\indexentry{Algorithms|book {1}}{131}
+\indexentry{Algorithms!Assymetric|book {1}}{131}
+\indexentry{Algorithms!Assymetric!RSA|book {1}}{131}
+\indexentry{Algorithms!Assymetric!DH|book {1}}{131}
+\indexentry{Algorithms!Assymetric!DSA|book {1}}{131}
+\indexentry{Algorithms!Assymetric!ECDH|book {1}}{131}
+\indexentry{Algorithms!Assymetric!ECDSA|book {1}}{131}
+\indexentry{Algorithms!Symmetric!DES|book {1}}{131}
+\indexentry{Algorithms!Symmetric!TDES/3DES|book {1}}{131}
+\indexentry{Algorithms!Symmetric!AES|book {1}}{131}
+\indexentry{Algorithms!Hashing!MD5|book {1}}{131}
+\indexentry{Algorithms!Hashing!SHA|book {1}}{131}
+\indexentry{Algorithms!Hashing!SHA256|book {1}}{131}
+\indexentry{Algorithms!Hashing!SHA384|book {1}}{131}
+\indexentry{Assymetric|book {1}}{131}
+\indexentry{Symmetric|book {1}}{131}
+\indexentry{Hashing|book {1}}{131}
+\indexentry{HTTPS!Public Keys/Certificates and Certificate Authorities|book {1}}{132}
+\indexentry{Public key|book {1}}{132}
+\indexentry{Private key|book {1}}{132}
+\indexentry{Certificate Authorities|book {1}}{132}
+\indexentry{Web Security Testing Guide (WSTG)!Testing for Weak Transport Layer Security|book {1}}{132}
+\indexentry{HTTPS!Testing!Version and Cipher Suites|book {1}}{134}
+\indexentry{Cipher suites!Testing|book {1}}{134}
+\indexentry{HTTPS!Testing!nmap|book {1}}{135}
+\indexentry{Commands!nmap https|book {1}}{135}
+\indexentry{Commands!testssl.sh|book {1}}{136}
+\indexentry{testssl.sh|book {1}}{136}
+\indexentry{Qualys SSL Labs|book {1}}{137}
+\indexentry{Target!Profiling|book {1}}{141}
+\indexentry{Profiling|book {1}}{141}
+\indexentry{Recon and Enum|book {1}}{141}
+\indexentry{Fingerprinting|book {1}}{141}
+\indexentry{Port Scanning|book {1}}{142}
+\indexentry{Commands!nc port scan|book {1}}{142}
+\indexentry{Port Scanning!Tools!Nmap|book {1}}{143}
+\indexentry{Port Scanning!Tools!Zenmap|book {1}}{143}
+\indexentry{Port Scanning!Tools!Shodan|book {1}}{143}
+\indexentry{Port Scanning!Tools!Netcraft|book {1}}{143}
+\indexentry{nmap|book {1}}{144-145}
+\indexentry{Tools!nmap|book {1}}{144-145}
+\indexentry{Tools!Shodan|book {1}}{146-147}
+\indexentry{Shodan|book {1}}{146-148}
+\indexentry{Shodan!for Pentesters|book {1}}{147}
+\indexentry{Shodan!Port Scanner|book {1}}{148}
+\indexentry{Netcraft Sitereport|book {1}}{149}
+\indexentry{Tools!Netcraft Sitereport|book {1}}{149}
+\indexentry{Application Infrastructure|book {1}}{150}
+\indexentry{Port!3306/tcp|book {1}}{150}
+\indexentry{mySQL|book {1}}{150}
+\indexentry{Identifying Web Server Components|book {1}}{151}
+\indexentry{Web Servers|book {1}}{151}
+\indexentry{Application Frameworks|book {1}}{151}
+\indexentry{Content Management Systems(CMS)|book {1}}{151}
+\indexentry{Databases|book {1}}{151}
+\indexentry{Other software|book {1}}{151}
+\indexentry{Version Detection|book {1}}{151}
+\indexentry{Port Scanning|book {1}}{151}
+\indexentry{Default Web Pages|book {1}}{151}
+\indexentry{Vulnerability Scans|book {1}}{151}
+\indexentry{Configuration Files|book {1}}{151}
+\indexentry{Administrative Pages|book {1}}{152}
+\indexentry{Hypertext Transfer Protocol (HTTP)!Testing!Methods|book {1}}{153}
+\indexentry{Commands!Enumerate HTTP methods|book {1}}{153-154}
+\indexentry{Web Security Testing Guide (WSTG)!Test HTTP Methods|book {1}}{153-154}
+\indexentry{Web Security Testing Guide (WSTG)!Review Webserver Metafiles for Information Leakage|book {1}}{155}
+\indexentry{Robots.txt|book {1}}{155}
+\indexentry{Heartbleed|book {1}}{161}
+\indexentry{OpenSSL|book {1}}{161}
+\indexentry{RFC!6520|book {1}}{161}
+\indexentry{Heartbleed!Effect|book {1}}{162}
+\indexentry{Cloudflare Challenge|book {1}}{163}
+\indexentry{Heartbleed!Exploit Output|book {1}}{164}
+\indexentry{Commands!heartbleed.py|book {1}}{164}
+\indexentry{Tools!heartbleed.py|book {1}}{164}
+
+
+
+
+
+
+
+
+\comment{********************************************************************************************
+                                      SECOND BOOK SECTION
+*****************************************************************************************************}
+
+
+\indexentry{OWASP!Top 10!A09:2021-Security Loggin and Monitoring Failures|book {2}}{8}
+\indexentry{Operational Controls|book {2}}{8}
+\indexentry{Server!Configuration flaw|book {2}}{8}
+\indexentry{Logging and Monitoring|book {2}}{8}
+\indexentry{Logged Events and Sources|book {2}}{9}
+\indexentry{Logging and Monitoring!Sources|book {2}}{9}
+\indexentry{Logging and Monitoring!Centralized Logs|book {2}}{10}
+\indexentry{Security Information and Event Management (SIEM)|book {2}}{10}
+\indexentry{NTP|book {2}}{10}
+\indexentry{UTC|book {2}}{10}
+\indexentry{Logging and Monitoring!Timestamping|book {2}}{9}
+\indexentry{Incident Response|book {2}}{11}
+\indexentry{Application Information Gathering!Spidering|book {2}}{13}
+\indexentry{Web Security Testing Guide (WSTG)!Information Gathering|book {2}}{13}
+\indexentry{Spidering|book {2}}{14}
+\indexentry{Crawling|book {2}}{14}
+\indexentry{Link Depth|book {2}}{14}
+\indexentry{Robot Exclusion Protocol|book {2}}{15}
+\indexentry{robots.txt|book {2}}{15}
+\indexentry{META tags|book {2}}{15}
+\indexentry{Spidering!Manual vs. Automated|book {2}}{16}
+\indexentry{Logic Flaws|book {2}}{16}
+\indexentry{Spidering!Manual and Automated|book {2}}{17}
+\indexentry{Spidering!Command-Line|book {2}}{18}
+\indexentry{Wget|book {2}}{18}
+\indexentry{Commands!Wget!robots off|book {2}}{18}
+\indexentry{Commands!Wget!set proxy|book {2}}{18}
+\indexentry{Spidering!BurpSuite|book {2}}{19}
+\indexentry{Burp Suite Professional!Spidering|book {2}}{19}
+\indexentry{Spidering!ZAP|book {2}}{20}
+\indexentry{Zed Attack Proxy (ZAP)!Spidering|book {2}}{20}
+\indexentry{Spidering!AJAX|book {2}}{21}
+\indexentry{AJAX!Spidering|book {2}}{21}
+\indexentry{Burp Suite Professional!AJAX|book {2}}{21}
+\indexentry{Zed Attack Proxy (ZAP)!AJAX|book {2}}{21}
+\indexentry{Spidering!CEWL|book {2}}{22}
+\indexentry{CEWL!Spidering|book {2}}{22}
+\indexentry{Spidering!Analyzing Results|book {2}}{23}
+\indexentry{High-risk functions|book {2}}{23}
+\indexentry{Developer comments|book {2}}{23}
+\indexentry{Disabled functionality|book {2}}{23}
+\indexentry{Hidden links|book {2}}{23}
+\indexentry{Forced Browsing|book {2}}{27}
+\indexentry{Unlinked content|book {2}}{27}
+\indexentry{Directory brute forcing|book {2}}{27}
+\indexentry{Forced Browsing!file extensions|book {2}}{27}
+\indexentry{Burp Suite Professional!Discover Content|book {2}}{28}
+\indexentry{Forced Browsing!BurpSuite|book {2}}{28}
+\indexentry{Zed Attack Proxy (ZAP)!Discover Content|book {2}}{29}
+\indexentry{Forced Browsing!ZAP|book {2}}{29}
+\indexentry{DirBuster|book {2}}{29}
+\indexentry{FFuF|book {2}}{30-32}
+\indexentry{Forced Browsing!FFuF|book {2}}{30-32}
+\indexentry{Commands!FuFF|book {2}}{30-32}
+\indexentry{FFuF!HTTP request|book {2}}{31}
+\indexentry{FFuF!Virtual Host Discovery|book {2}}{31-32}
+\indexentry{FFuF!Custom Filters|book {2}}{32}
+\indexentry{Fuzzing|book {2}}{36}
+\indexentry{Attack strings|book {2}}{36}
+\indexentry{Wordlists|book {2}}{36}
+\indexentry{Fuzzing!Examples|book {2}}{37}
+\indexentry{Fuzzing!Reviewing the Responses|book {2}}{38}
+\indexentry{Timing-based attack|book {2}}{38}
+\indexentry{Username enumeration|book {2}}{38}
+\indexentry{SecLists|book {2}}{40}
+\indexentry{FuzzDB|book {2}}{40}
+\indexentry{Zed Attack Proxy (ZAP)!Fuzzer|book {2}}{41}
+\indexentry{Fuzzing!ZAP|book {2}}{41}
+\indexentry{Web Security Testing Guide (WSTG)!WSTG-CONF-04: Review Unreferenced Files for Sensitive Information|book {2}}{43}
+\indexentry{Information Leakage|book {2}}{44}
+\indexentry{Enrors!Information Leakage|book {2}}{44}
+\indexentry{Information Leakage!Types|book {2}}{45}
+\indexentry{Directory Broswing|book {2}}{46}
+\indexentry{Google!Directory Browsing|book {2}}{47}
+\indexentry{Directory Browsing!Google|book {2}}{47}
+\indexentry{Information Leakage!Flaws|book {2}}{48}
+\indexentry{MITRE|book {2}}{48}
+\indexentry{Common Vulnerabilities and Exposures (CVE)|book {2}}{48}
+\indexentry{Information Leakage!CVE search|book {2}}{48}
+\indexentry{Authentication|book {2}}{50}
+\indexentry{Authentication!Schemes|book {2}}{50}
+\indexentry{Authentication|Schemes!Built-in|book {2}}{51}
+\indexentry{WWW-Authenticate|book {2}}{51}
+\indexentry{Browsers!Authentication Schemes!Required|book {2}}{51}
+\indexentry{Authentication!Basic|book {2}}{52-53}
+\indexentry{Basic Authentication|book {2}}{52-53}
+\indexentry{RFC!2617|book {2}}{52}
+\indexentry{Realm|book {2}}{52}
+\indexentry{Commands!Base64 Encode|book {2}}{53}
+\indexentry{Commands!echo prevent CR|book {2}}{53}
+\indexentry{Authentication!Basic!Illustrated|book {2}}{54}
+\indexentry{Basic Authentication!Illustrated|book {2}}{54}
+\indexentry{Authentication!Basic!Issues|book {2}}{55}
+\indexentry{Basic Authentication!Issues|book {2}}{55}
+\indexentry{Authentication!Digest|book {2}}{56}
+\indexentry{Digest Authentication|book {2}}{56}
+\indexentry{quality of protection (qop)|book {2}}{56}
+\indexentry{RFC!2617 Digest Auth|book {2}}{56}
+\indexentry{RFC!2069 Digest OG|book {2}}{56}
+\indexentry{Authentication!Digest!Illustrated|book {2}}{57}
+\indexentry{Digest Authentication!Illustrated|book {2}}{57}
+\indexentry{Authentication!Digest!Issues|book {2}}{58}
+\indexentry{Digest Authentication!Issues|book {2}}{58}
+\indexentry{Authentication!Integrated Windows|book {2}}{59}
+\indexentry{Integrated Windows Authentication|book {2}}{59}
+\indexentry{NTML|book {2}}{59}
+\indexentry{Kerberos|book {2}}{59}
+\indexentry{Single Sign On (SSO)!Integrated Windows Authentication|book {2}}{59}
+\indexentry{Authentication!Integrated Windows!Illustrated|book {2}}{60}
+\indexentry{Integrated Windows Authentication!Illustrated|book {2}}{60}
+\indexentry{Authentication!Integrated Windows!Issues|book {2}}{61}
+\indexentry{Integrated Windows Authentication!Issues|book {2}}{61}
+\indexentry{Authentication|BurpSuite|book {2}}{62}
+\indexentry{Burp Suite Professional!Authenticating|book {2}}{62}
+\indexentry{Authentication!Form-based|book {2}}{63-64}
+\indexentry{Form-based Authentication|book {2}}{63-64}
+\indexentry{Authentication!Form-based!Illustrated|book {2}}{65}
+\indexentry{Form-based Authentication!Illustrated|book {2}}{65}
+\indexentry{Authentication!Form-based!Issues|book {2}}{66}
+\indexentry{Form-based Authentication!Issues|book {2}}{66}
+\indexentry{Authentication!Openid/Oauth/SAML Authentication|book {2}}{67}
+\indexentry{OpenID/OAuth/SAML Authentication|book {2}}{67}
+\indexentry{Identity Provider|book {2}}{67}
+\indexentry{OAuth|book {2}}{68}
+\indexentry{Authentication!OAuth|book {2}}{68-71}
+\indexentry{RFC!6749 OAuth|book {2}}{68}
+\indexentry{OAuth!Flow|book {2}}{69-71}
+\indexentry{Authentication!Bearer|book {2}}{72}
+\indexentry{Bearer Authentication|book {2}}{72}
+\indexentry{RFC!6750 Bearer AuthN|book {2}}{72}
+\indexentry{Token Authentiction|book {2}}{72}
+\indexentry{JSON Web Token (JWT)|book {2}}{72-73}
+\indexentry{JSON Web Token (JWT)!Structure|book {2}}{74-75}
+\indexentry{JSON Web Token (JWT)!Issues|book {2}}{76}
+\indexentry{HMAC!JWT Signature Cracking|book {2}}{76}
+\indexentry{Web Security Testing Guide (WSTG)!WSTG-IDNT-04: Testing for Account Enumeration|book {2}}{80}
+\indexentry{Username Harvesting|book {2}}{81-82}
+\indexentry{Username Enumeration|book {2}}{81-82}
+\indexentry{Username Harvesting!Results to look for|book {2}}{83}
+\indexentry{Username Enumeration!Results to look for|book {2}}{83}
+\indexentry{Total cost of ownership (TCO)|book {2}}{83}
+\indexentry{Side-Channel Attacks|book {2}}{84}
+\indexentry{Username Harvesting!Side-Channel Attacks|book {2}}{84}
+\indexentry{Username Enumeration!Side-Channel Attacks|book {2}}{84}
+\indexentry{Electromagnetic Interference (EMI)|book {2}}{84}
+\indexentry{Side-Channel Attacks!Practical|book {2}}{85}
+\indexentry{Side-Channel Attacks!Timing|book {2}}{86}
+\indexentry{Timing Attacks|book {2}}{86}
+\indexentry{Password hashes|book {2}}{86}
+\indexentry{Integrity hashes|book {2}}{86}
+\indexentry{Slow hashing|book {2}}{87}
+\indexentry{Timing Attacks!Slow Hashing|book {2}}{87}
+\indexentry{bcrypt|book {2}}{87}
+\indexentry{PBKDF2|book {2}}{87}
+\indexentry{MD5|book {2}}{87}
+\indexentry{Side-Channel Attacks!Timing!Practical|book {2}}{88}
+\indexentry{Timing Attacks!Practical|book {2}}{88}
+\indexentry{Burp Suite Professional!Intruder|book {2}}{92}
+\indexentry{Fuzzing|BurpSuite|book {2}}{92}
+\indexentry{Concurrency attacks|book {2}}{92}
+\indexentry{Burp Suite Professional!Intruder!Sniper|book {2}}{93}
+\indexentry{Burp Suite Professional!Intruder!Battering Ram|book {2}}{94}
+\indexentry{Shellshock!fuzzing|book {2}}{94}
+\indexentry{Burp Suite Professional!Intruder!Pitchfork|book {2}}{95}
+\indexentry{Burp Suite Professional!Intruder!Cluster Bomb|book {2}}{96}
+\indexentry{Sessions!Management|book {2}}{100}
+\indexentry{Sessions!Identifiers|book {2}}{101}
+\indexentry{Sessions!Management Principles|book {2}}{102}
+\indexentry{Sessions!Unpredictable|book {2}}{103}
+\indexentry{Pseudo-random number generators (PRNG)|book {2}}{103}
+\indexentry{Globally Unique Identifiers (GUID)|book {2}}{103}
+\indexentry{Sessions!Predicatbility|book {2}}{104}
+\indexentry{Commands!SHA1 hash of session id|book {1}}{104}
+\indexentry{Sessions!Tamper Resistant|book {2}}{105+}
+\indexentry{Sessions!Expire|book {2}}{106}
+\indexentry{Sessions!Confidential|book {2}}{107}
+\indexentry{Sessions!Theft|book {2}}{108}
+\indexentry{Sessions!Management!Testing|book {2}}{109}
+\indexentry{Sessions!Attacks|book {2}}{110}
+\indexentry{Sessions!Attacks!Predictability|book {2}}{111-112}
+\indexentry{Burp Suite Professional!Sequencer|book {2}}{111-112}
+\indexentry{Entropy|book {2}}{112}
+\indexentry{Sessions!Attacks!Fixation|book {2}}{113}
+\indexentry{Sessions!Attacks!Logout and Timeout|book {2}}{114}
+\indexentry{Web Security Testing Guide (WSTG)!WSTG-ATHN-04: Testing for Bypassing Authentication Schema|book {2}}{118}
+\indexentry{Authentication!Bypass|book {2}}{119}
+\indexentry{Authentication!Bypass!Parameter Tampering and Direct Page Access|book {2}}{120}
+\indexentry{Direct Page Access|book {2}}{120}
+\indexentry{Authentication!Bypass!SQLi|book {2}}{121}
+\indexentry{SQL Injection (SQLi)!Auth Bypass|book {2}}{121}
+\indexentry{Authorization!Bypass|book {2}}{122}
+\indexentry{Authorization!Attacks|book {2}}{123}
+\indexentry{Insecure Directo Object Reference (IDOR)!AuthZ attacks|book {2}}{123}
+\indexentry{Privilege Escalation|book {2}}{123}
+\indexentry{Authorization!Role Enforcement|book {2}}{124}
+\indexentry{Role Enforcement|book {2}}{124}
+\indexentry{Insecure Direct Object Reference (IDOR)|book {2}}{125}
+\indexentry{Direct Page Access|book {2}}{125}
+\indexentry{Mutillidae|book {2}}{127}
+\indexentry{Mutillidae!Security Levels|book {2}}{128}
+\indexentry{Mutillidae!Hints|book {2}}{129}
+\indexentry{Mutillidae!Reset DB|book {2}}{130}
+\indexentry{Shellshock|book {2}}{137-139}
+\indexentry{Bash shell|book {2}}{137}
+\indexentry{Commmon Vulnerabilities and Exposures (CVE)!CVE-2014-6271|book {2}}{137}
+\indexentry{Commmon Vulnerabilities and Exposures (CVE)!CVE-2014-6278|book {2}}{138}
+\indexentry{Commmon Vulnerabilities and Exposures (CVE)!CVE-2014-6269|book {2}}{138}
+\indexentry{Commmon Vulnerabilities and Exposures (CVE)!CVE-2014-6277|book {2}}{138}
+\indexentry{Commmon Vulnerabilities and Exposures (CVE)!CVE-2014-6286|book {2}}{138}
+\indexentry{CGI Scripts|book {2}}{139}
+\indexentry{Shellshock!Payloads|book {2}}{140}
+\indexentry{Shellshock!Payloads!Injection Explained|book {2}}{141-142}
+\indexentry{Shellshock!Payloads!Execution and Impact|book {2}}{143}
+\indexentry{Shellshock!Visualized|book {2}}{144}
+
+
+
+
+
+
+
+\comment{mistype - he instead of The starting the last paragraph}
+
+
+
+
+
+
+
+\comment{********************************************************************************************
+                                     THIRD BOOK SECTION
+*****************************************************************************************************}
+
+
+\indexentry{Cookies!Protecting|book {3}}{8-10}
+\indexentry{Multi-Factor Authentication (MFA)!Bypass|book {3}}{8}
+\indexentry{One-Time Password (OTP)!Bypass|book {3}}{8}
+\indexentry{Secure Attribute|book {3}}{10}
+\indexentry{Cookies!Protecting!Secure Attribute|book {3}}{10}
+\indexentry{HttpOnly|book {3}}{11}
+\indexentry{Cookies!Protecting!HttpOnly Attribute|book {3}}{11}
+\indexentry{Client-side scripting languages|book {3}}{11}
+\indexentry{SameSite|book {3}}{12}
+\indexentry{Cookies!Protecting!SameSite Attribute|book {3}}{12-13}
+\indexentry{Cross Site Request Forgery (CSRF)!SameSite Cookie Attribute|book {3}}{12-13}
+\indexentry{Hypertext Transfer Protocol (HTTP)!Security Headers|book {3}}{14-17}
+\indexentry{X-Frame-Options!Defined|book {3}}{14}
+\indexentry{HTTP Strict Transport Security (HSTS)!Defined|book {3}}{14}
+\indexentry{Content-Security-Policy (CSP)!Defined|book {3}}{14}
+\indexentry{X-Frame-Options|book {3}}{15}
+\indexentry{Clickjacking|book {3}}{15}
+\indexentry{iframe|book {3}}{15}
+\indexentry{embedded|book {3}}{15}
+\indexentry{HTTP Strict Transport Security (HSTS)|book {3}}{16}
+\indexentry{Content-Security-Policy (CSP)|book {3}}{17-18}
+\indexentry{Web Security Testing Guide (WSTG)!WSTG-IVPV-12:Testing for Command Injection|book {3}}{20}
+\indexentry{Command Injection|book {3}}{21-23}
+\indexentry{Command Injection!Finding|book {3}}{22-23}
+\indexentry{Command Substitution|book {3}}{22}
+\indexentry{Command Injection!Exploiting|book {3}}{24}
+\indexentry{Command Injection!Blind|book {3}}{24-26}
+\indexentry{Coomand Injection!Non-blind|book {3}}{24}
+\indexentry{Command Injection!Blind!Detetion methods|book {3}}{26-27}
+\indexentry{Commands!pause using ping|book {3}}{26}
+\indexentry{Ping|book {3}}{26}
+\indexentry{DNS!Blind injection|book {3}}{27}
+\indexentry{Burp Suite Professional!Collaborator|book {3}}{28}
+\indexentry{Burp Suite Professional!Collaborator!Blind Exfil|book {3}}{29}
+\indexentry{Commands!Base 32|book {3}}{29}
+\indexentry{Commands!Strip off equal signs|book {3}}{29}
+\indexentry{DNS!Data exfil|book {3}}{29-32}
+\indexentry{Commands!Blind DNS exfil|book {3}}{30-32}
+\indexentry{Web Security Testing Guide (WSTG)!WSTG-INPV-11:Testing for Code Injection: LFI/RFI|book {3}}{36}
+\indexentry{Local File Inclusion (LFI)|book {3}}{37}
+\indexentry{Local File Inclusion (LFI)!Directory Traversal|book {3}}{38}
+\indexentry{Directory Traversal|book {3}}{38}
+\indexentry{Local File Inclusion (LFI)!Demonstrating Impact|book {3}}{39}
+\indexentry{Remote File Inclusion (RFI)|book {3}}{40}
+\indexentry{OWASP!Top 10!A08:2021-Software and Data Integrity Faulures|book {3}}{44}
+\indexentry{Insecure Deserialization|book {3}}{44-47}
+\indexentry{Insecure Deserialization!Exploitation|book {3}}{48}
+\indexentry{Insecure Deserialization!Java Example|book {3}}{49-57}
+\indexentry{Commands!xxd|book {3}}{51}
+\indexentry{Insecure Deserialization!RCE|book {3}}{58-59}
+\indexentry{Remote Code Execution|Insecure Deserialization|book {3}}{58-59}
+\indexentry{Property-Oriented Programming|book {3}}{59}
+\indexentry{Return Oriented Programming (ROP)|book {3}}{59}
+\indexentry{Gadget classes|book {3}}{59}
+\indexentry{ysoserial|book {3}}{60}
+\indexentry{Commands!ysoserial.jar|book {3}}{60}
+\indexentry{SQL Injection (SQLi)!Intro|book {3}}{65}
+\indexentry{SQL Injection (SQLi)!Origin|book {3}}{66}
+\indexentry{Relational Databases|book {3}}{67}
+\indexentry{SQL!Key Verbs|book {3}}{68}
+\indexentry{SQL!Query Modifiers|book {3}}{69}
+\indexentry{SQL!Data Types|book {3}}{70}
+\indexentry{SQL!Special Characters|book {3}}{71}
+\indexentry{SQL Injection (SQLi)!Examples|book {3}}{72-77}
+\indexentry{SQL Injection (SQLi)!Payloads|book {3}}{76}
+\indexentry{Tautology|book {3}}{76}
+\indexentry{Commands!SQLi payload|book {3}}{76}
+\indexentry{SQL Injection (SQLi)!Balancing Act|book {3}}{78}
+\indexentry{SQL Injection (SQLi)!Balancing Act!Quotes|book {3}}{79}
+\indexentry{SQL Injection (SQLi)!Balancing Act!Colmun Numbers|book {3}}{80}
+\indexentry{SQL Injection (SQLi)!Balancing Act!DataType|book {3}}{81}
+\indexentry{SQL Injection (SQLi)!Discovering|book {3}}{83}
+\indexentry{SQL Injection (SQLi)!Input Locations|book {3}}{84}
+\indexentry{SQL Injection (SQLi)!Classes|book {3}}{85}
+\indexentry{SQL Injection (SQLi)!In-Band/Inline|book {3}}{86}
+\indexentry{SQL Injection (SQLi)!Blind|book {3}}{87-100}
+\indexentry{SQL Injection (SQLi)!Blind!Database Error Messages|book {3}}{89-91}
+\indexentry{SQL Injection (SQLi)!Blind!Custom Error Messages|book {3}}{92-94}
+\indexentry{SQL Injection (SQLi)!Without Error Messages|book {3}}{95}
+\indexentry{Commands!SQLi equivalent string injections|book {3}}{96-98}
+\indexentry{SQL Injection (SQLi)!Payloads!equivalent String Injections|book {3}}{96-98}
+\indexentry{Commands!SQLi Binary/Boolean Inference Testing|book {3}}{99}
+\indexentry{SQL Injection (SQLi)!Payloads!Binary/Boolean Inference Testing|book {3}}{99}
+\indexentry{SQL Injection (SQLi)!Blind!Increasing Blindness|book {3}}{100}
+\indexentry{SQL Injection (SQLi)!Blind!Timing Inferences|book {3}}{101}
+\indexentry{SQL Injection (SQLi)!Blind!Out-of-Band|book {3}}{102-103}
+\indexentry{Database!Fingerprinting|book {3}}{105}
+\indexentry{SQL Injection (SQLi)!DB Fingerprinting|book {3}}{105}
+\indexentry{Commands!SQL DB Fingerprinting|book {3}}{105}
+\indexentry{Database!Meta Info|book {3}}{106-107}
+\indexentry{SQL Injection (SQLi)!DB Meta Info|book {3}}{106-107}
+\indexentry{Commands!SQL DB Meta Info queries|book {3}}{107}
+\indexentry{SQL Injection (SQLi)!In-Band/Inline!Exploiting|book {3}}{108}
+\indexentry{SQL Injection (SQLi)!In-Band/Inline!Stacked Queries|book {3}}{109-112}
+\indexentry{Commands!SQL Stacked Queries|book {3}}{109-112}
+\indexentry{SQL Injection (SQLi)!UNION|book {3}}{113-114}
+\indexentry{SQL Injection (SQLi)!FROMless SELECT|book {3}}{115}
+\indexentry{SQL Injection (SQLi)!DUAL|book {3}}{115}
+\indexentry{SQL Injection (SQLi)!NULL|book {3}}{116}
+\indexentry{SQL Injection (SQLi)!UNION+NULL|book {3}}{117}
+\indexentry{SQL Injection (SQLi)!ORDER BY|book {3}}{117}
+\indexentry{SQL Injection (SQLi)!Determine Data Types|book {3}}{118}
+\indexentry{SQL Injection (SQLi)!Data Exfil|book {3}}{119-122}
+\indexentry{SQL Injection (SQLi)!Blind Data Exfil|book {3}}{120-122}
+\indexentry{sqlmap!Data exfil|book {3}}{120}
+\indexentry{SQL Injection (SQLi)!Potential Attacks|book {3}}{123}
+\indexentry{SQL Injection (SQLi)!Write file -> Shell|book {3}}{124}
+\indexentry{SQL Injection (SQLi)!Cheat Sheets|book {3}}{125}
+\indexentry{SQL Injection (SQLi)!Tools|book {3}}{129}
+\indexentry{SQL Injection (SQLi)!Tools!sqlmap|book {3}}{130}
+\indexentry{Tools!sqlmap|book {3}}{130}
+\indexentry{Tools!sqlmap!Initial Targeting|book {3}}{134}
+\indexentry{Tools!sqlmap!Auth/Sessions/Proxies|book {3}}{135}
+\indexentry{Tools!sqlmap!Proxies and Active Sessions|book {3}}{136}
+\indexentry{Tools!sqlmap!Riding ZAP/Burp Sessions|book {3}}{137-138}
+\indexentry{Burp Suite Professional!Cookie Jar|book {3}}{138-139}
+\indexentry{Zed Attack Proxy (ZAP)!Cookie Jar|book {3}}{138-139}
+\indexentry{Tools!sqlmap!HTTP Headers|book {3}}{139}
+\indexentry{Tools!sqlmap!DB Enum|book {3}}{140}
+\indexentry{Tools!sqlmap!DB Data Exfil|book {3}}{141}
+\indexentry{Tools!sqlmap!Beyond DB Data Exfil|book {3}}{142}
+\indexentry{Tools!sqlmap!Post Exploitition & Priv Esc|book {3}}{143}
+
+
+
+
+
+
+
+
+
+
+\comment{uses than instead of then in the last sentence of the second paragraph}
+
+
+
+
+
+
+
+
+\comment{********************************************************************************************
+                                     FOURTH BOOK SECTION
+*****************************************************************************************************}
+
+
+
+\indexentry{Document Object Model (DOM)|book {4}}{8}
+\indexentry{Document Object Model (DOM)!Tree|book {4}}{9-10}
+\indexentry{Browsers!Developer Tools|book {4}}{11}
+\indexentry{Document Object Model (DOM)!JavaScript|book {4}}{12}
+\indexentry{JavaScript!DOM Manipulation|book {4}}{12}
+\indexentry{JavaScript|book {4}}{13}
+\indexentry{JavaScript!Objects|book {4}}{14}
+\indexentry{JavaScript!Browser Objects|book {4}}{15}
+\indexentry{JavaScript!Objects!Document|book {4}}{15}
+\indexentry{JavaScript!Objects!Window|book {4}}{15}
+\indexentry{Document Object Model (DOM)!Browser Objects|book {4}}{15}
+\indexentry{Document Object Model (DOM)!Objects!Document|book {4}}{15}
+\indexentry{Document Object Model (DOM)!Objects!Window|book {4}}{15}
+\indexentry{JavaScript!Web Page Interaction|book {4}}{16}
+\indexentry{Cross-Site Scripting (XSS)|book {4}}{18}
+\indexentry{Web Security Testing Guide (WSTG)!WSTG-CLNT-03:Test for HTML Injection|book {4}}{19}
+\indexentry{HTML!Injection|book {4}}{20-21}
+\indexentry{Script Injection|book {4}}{22}
+\indexentry{JavaScript!Injection|book {4}}{22}
+\indexentry{Origin of  Trust|book {4}}{23}
+\indexentry{Same-Origin Policy (SOP)|book {4}}{23}
+\indexentry{Same-Origin Policy (SOP)!Basics|book {4}}{24}
+\indexentry{Same-Origin Policy (SOP)!Requirements|book {4}}{25}
+\indexentry{Same-Origin Policy (SOP)!Test Case!DOM|book {4}}{26}
+\indexentry{Internet Explorer (IE)|book {4}}{26}
+\indexentry{Same-Origin Policy (SOP)!Test Case!Cookies|book {4}}{27}
+\indexentry{Same-Origin Policy (SOP)!Externally Sourced Scripts|book {4}}{28-29}
+\indexentry{Same-Origin Policy (SOP)!Not Bypassing|book {4}}{30}
+\indexentry{Cross-Site Scripting (XSS)!cross-Site aspect|book {4}}{31}
+\indexentry{Cross-Site Scripting (XSS)!PoC Payloads|book {4}}{35-37}
+\indexentry{Sessions!Abuse|book {4}}{38-40}
+\indexentry{Cross-Site Scripting (XSS)!Session Abuse|book {4}}{38-40}
+\indexentry{Sessions!Abuse!Hijacking|book {4}}{39-41}
+\indexentry{Cross-Site Scripting (XSS)!Session Abuse!Hijacking|book {4}}{39-41}
+\indexentry{HTTPOnly|book {4}}{42}
+\indexentry{BeEF|book {4}}{44-46}
+\indexentry{Tools!BeEEF|book {4}}{44-46}
+\indexentry{BeEF!Issuinng Commands|book {4}}{48}
+\indexentry{Tools!BeEEF!Issuing Commands|book {4}}{48}
+\indexentry{BeEF!Payloads|book {4}}{49}
+\indexentry{Tools!BeEEF!Payloads|book {4}}{49}
+\indexentry{Cross-Site Scripting (XSS)!Classes|book {4}}{53}
+\indexentry{Cross-Site Scripting (XSS)!Classes!Reflected|book {4}}{54-63}
+\indexentry{Cross-Site Scripting (XSS)!URL Encoding!Burp|book {4}}{59}
+\indexentry{Burp Suite Professional!Decoder|book {4}}{59}
+\indexentry{Burp Suite Professional!Intruder|book {4}}{60}
+\indexentry{Zed Attack Proxy (ZAP)!Encoding URLs|book {4}}{61}
+\indexentry{Firefox!URL Encoding|book {4}}{62}
+\indexentry{Cross-Site Scripting (XSS)!Classes!Stored/Persistent|book {4}}{64-70}
+\indexentry{Cross-Site Scripting (XSS)!Classes!DOM-Based|book {4}}{71-72}
+\indexentry{Cross-Site Scripting (XSS)!Classes!Client and Server|book {4}}{73}
+\indexentry{Cross-Site Scripting (XSS)!Discovery|book {4}}{77}
+\indexentry{Cross-Site Scripting (XSS)!Fuzzing|book {4}}{77}
+\indexentry{Cross-Site Scripting (XSS)!Injection Points|book {4}}{78}
+\indexentry{Cross-Site Scripting (XSS)!Reflection Tests|book {4}}{79}
+\indexentry{Cross-Site Scripting (XSS)!Common Injection Contexts|book {4}}{80}
+\indexentry{Cross-Site Scripting (XSS)!Common Injection Contexts!HTML|book {4}}{81}
+\indexentry{Commands!XSS HTML img onerror|book {4}}{81}
+\indexentry{Cross-Site Scripting (XSS)!Common Injection Contexts!Tag Attributes|book {4}}{82}
+\indexentry{Commands!XSS Tag Attributes|book {4}}{82}
+\indexentry{Cross-Site Scripting (XSS)!Common Injection Contexts!Existing JS|book {4}}{83}
+\indexentry{Commands!XSS Existing JS|book {4}}{83}
+\indexentry{Cross-Site Scripting (XSS)!Filter!Tests|book {4}}{84}
+\indexentry{Cross-Site Scripting (XSS)!Filter!Bypass/Evasion|book {4}}{85}
+\indexentry{Cross-Site Scripting (XSS)!DOM Event Handler Bypass|book {4}}{86}
+\indexentry{Cross-Site Scripting (XSS)!HTML Event Handler Injection|book {4}}{87}
+\indexentry{Commands!XSS Evnet Handler|book {4}}{87}
+\indexentry{Broswers!Bypassing Filters|book {4}}{88}
+\indexentry{Cross-Site Scripting (XSS)!Bypassing Broswer Filters|book {4}}{88}
+\indexentry{Cross-Site Scripting (XSS)!PoC Payloads|book {4}}{89}
+\indexentry{Fuzzing!XSS PoC Payloads|book {4}}{89}
+\indexentry{Interception Proxies|book {4}}{91}
+\indexentry{Cross-Site Scripting (XSS)!Interception Proxies|book {4}}{91}
+\indexentry{Cross-Site Scripting (XSS)!Interception Proxies!Burp Intruder - Reflection Tests|book {4}}{92-95}
+\indexentry{Burp Suite Professional!Intruder!Reflection Tests|book {4}}{92-95}
+\indexentry{Burp Suite Professional!Grep Payloads|book {4}}{94}
+\indexentry{Cross-Site Scripting (XSS)!Reflected POST|book {4}}{97}
+\indexentry{Cross-Site Scripting (XSS)!GET -> POST Flaws|book {4}}{98}
+\indexentry{AJAX|book {4}}{102-103}
+\indexentry{XMLHttpRequest|book {4}}{104}
+\indexentry{AJAX!XMLHttpRequest \goto XMLHttpRequest|book {4}}{104}
+\indexentry{XMLHttpRequest!Properties and Methods|book {4}}{105-106}
+\indexentry{XMLHttpRequest!Features and Limitations|book {4}}{108}
+\indexentry{Same Origin Policy (SOP)!XMLHttpRequest|book {4}}{108}
+\indexentry{Same Origin Policy (SOP)!Evading|book {4}}{109}
+\indexentry{AJAX!proxy|book {4}}{109}
+\indexentry{Cross Origin Resource Sharing (CORS)|book {4}}{110}
+\indexentry{Cross Origin Resource Sharing (CORS)!Headers|book {4}}{111}
+\indexentry{AJAX!Penetration Testing|book {4}}{112}
+\indexentry{JavaScript!Frameworks|book {4}}{113-114}
+\indexentry{Single Page Applications (SPA) \goto JavaScript Frameworks|book {4}}{113-114}
+\indexentry{JavaScript!Frameworks!jQuery|book {4}}{113}
+\indexentry{JavaScript!Frameworks!AngularJS|book {4}}{113}
+\indexentry{JavaScript!Frameworks!ReactJS|book {4}}{113}
+\indexentry{JavaScript!Frameworks!Bootstrap|book {4}}{113}
+\indexentry{JavaScript!Server-side|book {4}}{115}
+\indexentry{Node.js|book {4}}{115}
+\indexentry{Data!Attacks|book {4}}{117}
+\indexentry{Data!Formats|book {4}}{118}
+\indexentry{JavaScript Object Notation (JSON)|book {4}}{118}
+\indexentry{XML|book {4}}{118}
+\indexentry{JavaScript Object Notation (JSON)!Advantages of XML|book {4}}{118}
+\indexentry{JavaScript Object Notation (JSON)|book {4}}{119}
+\indexentry{JavaScript Object Notation (JSON)!Attacks|book {4}}{120-121}
+\indexentry{Web Services|book {4}}{123-124}
+\indexentry{REST|book {4}}{123}
+\indexentry{SOAP|book {4}}{123}
+\indexentry{REST!RESTful API|book {4}}{125}
+\indexentry{SOAP!Web Services|book {4}}{126-127}
+\indexentry{Postman|book {4}}{128}
+\indexentry{SoapUI|book {4}}{129}
+\indexentry{Web Services!Pentesting Methodology|book {4}}{130}
+\indexentry{Server-Side Request Forgery (SSRF)|book {4}}{132-134}
+\indexentry{Server-Side Request Forgery (SSRF)!Impact|book {4}}{136-138}
+\indexentry{XML External Entity (XEE)!SSRF|book {4}}{135}
+\indexentry{Server-Side Request Forgery (SSRF)!Impact!Cloud|book {4}}{136}
+\indexentry{Cloud!Metadata|book {4}}{137}
+\indexentry{Metadata|book {4}}{137}
+\indexentry{Elasticsearch|book {4}}{138}
+\indexentry{XML External Entity (XEE)|book {4}}{142-143}
+\indexentry{XML External Entity (XEE)!PoC|book {4}}{144-145}
+\indexentry{Commands!XXE PoC using cURL|book {4}}{144-146}
+\indexentry{XML Schema Definition (XSD)|book {4}}{145}
+\indexentry{XML External Entity (XEE)!Example!Display Local File|book {4}}{146}
+\indexentry{XML External Entity (XEE)!Example!Access URL|book {4}}{147}
+\indexentry{XML External Entity (XEE)!Example!RCE via PHP|book {4}}{148}
+\indexentry{PHP!Expect module|book {4}}{148}
+\indexentry{XML External Entity (XEE)!Blind|book {4}}{149}
+\indexentry{XML External Entity (XEE)!Blind!Example|book {4}}{150}
+
+
+
+
+
+
+
+
+
+
+
+
+
+\comment{********************************************************************************************
+                                     FIFTH BOOK SECTION
+*****************************************************************************************************}
+
+
+
+\indexentry{Web Security Testing Guide (WSTG)!WSTG-SESS-05:Testing for Cross-Site Request Forgery (CSRF)|book {5}}{8}
+\indexentry{Cross-Site Reqeust Forgery (CSRF)!CSRF vs XSS|book {5}}{9}
+\indexentry{Cross-Site Reqeust Forgery (CSRF)!Visualized!Step 1|book {5}}{10}
+\indexentry{Cross-Site Reqeust Forgery (CSRF)!Visualized!Step 2|book {5}}{11}
+\indexentry{Cross-Site Reqeust Forgery (CSRF)!Visualized!Step 3|book {5}}{12}
+\indexentry{Cross-Site Reqeust Forgery (CSRF)!Example visualized!Step 4|book {5}}{13}
+\indexentry{Cross-Site Reqeust Forgery (CSRF)!Tokens|book {5}}{13}
+\indexentry{Zed Attack Proxy (ZAP)!CSRF Test Form|book {5}}{14}
+\indexentry{Cross-Site Reqeust Forgery (CSRF)!ZAP|book {5}}{14}
+\indexentry{Logic Flaws|book {5}}{18}
+\indexentry{Logic Flaws!Workflow Tampering|book {5}}{19}
+\indexentry{Logic Flaws!Manual Discovery|book {5}}{20}
+\indexentry{Logic Flaws!WSTG Guidance|book {5}}{21}
+\indexentry{Web Security Testing Guide (WSTG)!Logic Flaws|book {5}}{21}
+\indexentry{Python|book {5}}{23}
+\indexentry{Python!for Pentesters|book {5}}{24}
+\indexentry{Commands!Python - retrieve Server header|book {5}}{24}
+\indexentry{Python!Availability|book {5}}{25}
+\indexentry{Commands!Python - check if installed/version|book {5}}{25}
+\indexentry{Python!2 vs. 3|book {5}}{26}
+\indexentry{Python!use 3, right?|book {5}}{27}
+\indexentry{Python!use 3, right?!Example|book {5}}{27}
+\indexentry{Commands!Python3 - install requests|book {5}}{27}
+\indexentry{Python!why writre scripts?|book {5}}{28}
+\indexentry{Python!Basics|book {5}}{29}
+\indexentry{Python!Data Types and if/elif/else Syntax|book {5}}{30}
+\indexentry{Python!Loops|book {5}}{31}
+\indexentry{Python!Lists and Dictionaries|book {5}}{32}
+\indexentry{Python!Web Libraries|book {5}}{33}
+\indexentry{Python!Web Libraries!Requests|book {5}}{31-35}
+\indexentry{Commands!Python - Putting it Together|book {5}}{38}
+\indexentry{Commands!Python - PSSL/TLS|book {5}}{37}
+\indexentry{Commands!Python - POST|book {5}}{36}
+\indexentry{WPScan|book {5}}{42-43}
+\indexentry{WordPress|book {5}}{42-43}
+\indexentry{Tools!WPScan|book {5}}{42-43}
+\indexentry{Burp Suite Professional!Automated Scanning|book {5}}{47-48}
+\indexentry{Burp Suite Professional!Automated Scanning!Passive|book {5}}{49}
+\indexentry{Burp Suite Professional!Automated Scanning!Push Button|book {5}}{50}
+\indexentry{Burp Suite Professional!Automated Scanning!Live|book {5}}{51}
+\indexentry{Burp Suite Professional!Automated Scanning!Instantiating Scans|book {5}}{52}
+\indexentry{Burp Suite Professional!Automated Scanning!Configuration|book {5}}{53-56}
+\indexentry{Burp Suite Professional!Automated Scanning!Add to Task|book {5}}{57}
+\indexentry{Burp Suite Professional!Automated Scanning!Results|book {5}}{58-59}
+\indexentry{Burp Suite Professional!Automated Scanning!Automatic|book {5}}{60}
+\indexentry{Burp Suite Professional!Issues!Vulnerability Verification|book {5}}{61}
+\indexentry{Burp Suite Professional!Issues!Retesting and Remediation Verification|book {5}}{62-63}
+\indexentry{Metasploit|book {5}}{65}
+\indexentry{Metasploit!Web Testing|book {5}}{66}
+\indexentry{Metasploit!Auxiliary modules|book {5}}{66}
+\indexentry{Metasploit!Seeding Database|book {5}}{67}
+\indexentry{Metasploit!Spidering and Crawling|book {5}}{67}
+\indexentry{Metasploit!db_import|book {5}}{68}
+\indexentry{Metasploit!Integration|book {5}}{69}
+\indexentry{BeEF!Metasploit|book {5}}{70-71}
+\indexentry{Metasploit!BeEF|book {5}}{70-71}
+\indexentry{Metasploit!sqlmatp|book {5}}{72}
+\indexentry{sqlmap!Metasploit|book {5}}{72}
+\indexentry{Metasploit!Known Vulnerabilities|book {5}}{73}
+\indexentry{Drupal|book {5}}{74}
+\indexentry{Drupal!Drupalgeddon|book {5}}{75-78}
+\indexentry{Drupal!Got hacked?|book {5}}{76}
+\indexentry{PHP Data Object (PDO)|book {5}}{77}
+\indexentry{Drupal!Metasploit|book {5}}{78}
+\indexentry{Metasploit!Drupal|book {5}}{78}
+\indexentry{Nuclei Vulnerability Scanner|book {5}}{82-83}
+\indexentry{Nuclei Vulnerability Scanner!Nuclei Templates|book {5}}{84-85}
+\indexentry{Nuclei Vulnerability Scanner!Running Nuclei|book {5}}{86-87}
+\indexentry{Nuclei Vulnerability Scanner!Interactsh|book {5}}{86}
+\indexentry{Nuclei Vulnerability Scanner!Command options|book {5}}{87}
+\indexentry{Tools!When they fail|book {5}}{91}
+\indexentry{Tools!Next level|book {5}}{92}
+\indexentry{Metasploit!mediawiki_thumb|book {5}}{93}
+\indexentry{MediaWiki|book {5}}{93}
+\indexentry{Tools!When they fail!Research the flaw|book {5}}{94}
+\indexentry{Metasploit!mediawiki_thumb|book {5}}{96}
+\indexentry{Penetration Testing!Preparation|book {5}}{100}
+\indexentry{Penetration Testing!Skills and Practice|book {5}}{101-102}
+\indexentry{Penetration Testing!Toolkit|book {5}}{103-104}
+\indexentry{Penetration Testing!Pre-Engagement Specifics|book {5}}{105-109}
+\indexentry{Penetration Testing!Pre-Engagement Specifics!Permission|book {5}}{106}
+\indexentry{Penetration Testing!Pre-Engagement Specifics!Scope|book {5}}{107}
+\indexentry{Penetration Testing!Pre-Engagement Specifics!Rules of Engagement|book {5}}{107}
+\indexentry{Penetration Testing!Pre-Engagement Specifics!Source Details|book {5}}{108}
+\indexentry{Penetration Testing!Pre-Engagement Specifics!Filtering|book {5}}{108}
+\indexentry{Penetration Testing!Pre-Engagement Specifics!Test Accounts|book {5}}{108}
+\indexentry{Penetration Testing!Pre-Engagement Specifics!Backups|book {5}}{109}
+\indexentry{Penetration Testing!Communication Plans|book {5}}{110-112}
+\indexentry{Penetration Testing!Post Assessment Results|book {5}}{114}
+\indexentry{Penetration Testing!Reports|book {5}}{115}
+\indexentry{Penetration Testing!Reports!Executive Summary|book {5}}{116-117}
+\indexentry{Enterprise Resource Management (ERM)|book {5}}{116}
+\indexentry{Governance, Risk, and Compliance (GRC)|book {5}}{116}
+\indexentry{Penetration Testing!Reports!Test Parameters|book {5}}{118}
+\indexentry{Penetration Testing!Reports!Findings|book {5}}{119}
+\indexentry{Penetration Testing!Reports!Appendices|book {5}}{120}
+\indexentry{Penetration Testing!Reports!Alternative Result Formats|book {5}}{121}
+\indexentry{Penetration Testing!Reports!Automation|book {5}}{122}
+\indexentry{Penetration Testing!Debrief Presentation|book {5}}{123}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\comment{********************************************************************************************
+                                     SIXTH BOOK SECTION
+*****************************************************************************************************}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\comment{Pages 32 and 33 are the same}
+
+
+
+
+\comment{********************************************************************************************
+                                      CROSS-KEYS SECTION
+*****************************************************************************************************}
+% \indexentry{RFMON \goto Monitor Mode|comment}{0}
+% \indexentry{Regulatory Domain Settings \goto Domain Settings|comment}{0}
+% \indexentry{DFS \goto Dynamic Frequency Selection|comment}{0}
+% \indexentry{BPF \goto Berkeley Packet Filter|comment}{0}
+% \indexentry{WIDS \goto WLAN IDS|comment}{0}
+% \indexentry{CDP \goto Cisco Discovery Protocol|comment}{0}
+% \indexentry{KYS \goto Know Your System|comment}{0}
+% \indexentry{OTG \goto On-The-Go|comment}{0}
+% \indexentry{RTLS \goto Real-Time Location System|comment}{0}
+% \indexentry{KML \goto Keyhole Markup Language|comment}{0}
+% \indexentry{NSE \goto Nmap Scripting Engine|comment}{0}
+% \indexentry{SNR \goto Signal-to-Noise Ratio|comment}{0}
+% \indexentry{UMPC \goto Ultra Mobile PC|comment}{0}
+% \indexentry{HT \goto High Throughput|comment}{0}
+% \indexentry{PNL \goto Preferred Network List|comment}{0}
+% \indexentry{PSPF \goto Publicly Secure Packet Forwarding|comment}{0}
+% \indexentry{ACL \goto Access Control List|comment}{0}
+% \indexentry{Karmetasploit Attack \goto Karma Attack|comment}{0}
+% \indexentry{ILMN \goto I-Love-My-Neighbors|comment}{0}
+% \indexentry{IV \goto Initialization Vector|comment}{0}
+% \indexentry{ICV \goto Integrity Check Value|comment}{0}
+% \indexentry{PSK \goto Pre-Shared Key|comment}{0}
+% \indexentry{PLC \goto Programmable Logic Controller|comment}{0}
+% \indexentry{AID \goto Association IDentifier|comment}{0}
+% \indexentry{MIC \goto Message Integrity Check|comment}{0}
+% \indexentry{MFP \goto Management Frame Protection|comment}{0}
+% \indexentry{CTS \goto Clear To Send|comment}{0}
+% \indexentry{RTS \goto Ready To Send|comment}{0}
+% \indexentry{NAV \goto Network Allocator Vector|comment}{0}
+% \indexentry{Temporal Key Integrity Protocol \goto TKIP|comment}{0}
+% \indexentry{TSC \goto TKIP Sequence Counter|comment}{0}
+% \indexentry{Protocol Fuzzing \goto Fuzzing|comment}{0}
+% \indexentry{WiFi Protected Access \goto WPA(2)|comment}{0}
+% \indexentry{PMK \goto Pairwise Master Key|comment}{0}
+% \indexentry{PTK \goto Pairwise Transient Key|comment}{0}
+% \indexentry{KEK \goto Key Encryption Key|comment}{0}
+% \indexentry{WPS \goto WiFi Protected Setup|comment}{0}
+% \indexentry{SAE \goto Simultaneous Authentication of Equals|comment}{0}
+% \indexentry{PFS \goto Perfect Forward Secrecy|comment}{0}
+% \indexentry{DPP \goto Device Provisioning Protocol|comment}{0}
+% \indexentry{OWE \goto Opportunistic Wireless Encryption|comment}{0}
+% \indexentry{PEAP \goto Protected Extensible Auth Protocol|comment}{0}
+% \indexentry{MS-CHAP \goto EAP-MS-CHAP|comment}{0}
+% \indexentry{DSC \goto DECT Standard Cipher|comment}{0}
+% \indexentry{SNA \goto Sensor Network Analyzer|comment}{0}
+% \indexentry{OTA \goto Over-the-Air|comment}{0}
+% \indexentry{CCM* \goto AES-CCM*|comment}{0}
+% \indexentry{FH \goto Frequency Hopping|comment}{0}
+% \indexentry{AFH \goto Frequency Hopping / Adaptive|comment}{0}
