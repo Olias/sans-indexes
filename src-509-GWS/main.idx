@@ -1,0 +1,109 @@
+% \comment{********************************************************************************************
+%                                       CATEGORIES SECTION
+% *****************************************************************************************************
+% Sort entries consist of a number to be inserted in the standard 'Numbers' section
+% Number composition : [(1) Alphabet order number] [(2) 0]
+%   (1) Sorting in alphabetical number
+%   (2) Allows up to 10 subsections / alphabet character }
+
+% \indexentry{1A@\textbf{Ransomware}!1@Locky|book{1}}{31}
+
+\indexentry{1Z@\blankline|comment}{0}
+\indexentry{2Z@\blankline|comment}{0}
+\indexentry{3Z@\blankline|comment}{0}
+\indexentry{4Z@\blankline|comment}{0}
+
+% \indexentry{999ZZZ@\blankline|newpage\comment}{0}
+
+% \comment{********************************************************************************************
+%                                        FIRST BOOK SECTION
+% *****************************************************************************************************}
+
+\indexentry{GWS Editions|book{4}}{12}
+\indexentry{GWS Editions!Starter/Essential|book{4}}{12}
+\indexentry{GWS Editions!Standard|book{4}}{12}
+\indexentry{GWS Editions!Plus|book{4}}{12}
+
+\indexentry{Organitional Units|book{4}}{14}
+\indexentry{Groups|book{4}}{14}
+
+\indexentry{Admin Log Events|book{4}}{21}
+
+\indexentry{Groups|book{4}}{23}
+
+\indexentry{Inspecting Groups|book{4}}{26}
+
+\indexentry{Log Retentions|book{4}}{31}
+\indexentry{Log Lag|book{4}}{31}
+
+\indexentry{Log types|book{4}}{32}
+
+\indexentry{Log Collection : API vs Admin interface|book{4}}{35}
+
+\indexentry{Sending Logs to Google cloud|book{4}}{38}
+
+\indexentry{Log Collection : API setup|book{4}}{41}
+\indexentry{Log Collection : API setup!1.API Persmission|book{4}}{43}
+\indexentry{API Persmission|book{4}}{43}
+
+\indexentry{Log Collection : API setup!2.OAuth Consebt Screen|book{4}}{45}
+\indexentry{OAuth Consebt Screen|book{4}}{45}
+
+\indexentry{Log Collection : API setup!3.Create Service Account|book{4}}{46}
+\indexentry{Service Account|book{4}}{46}
+
+\indexentry{Log Collection : API setup!4.Authorise Service Account|book{4}}{47}
+\indexentry{Domain Wide delegation|book{4}}{47}
+
+\indexentry{Log Collection : API setup!5.Log Extraction Script|book{4}}{49}
+
+\indexentry{Mitre ATT&CK|book{4}}{55}
+
+\indexentry{Mitre ATT&CK|book{4}}{55}
+
+\indexentry{Gmail Logs|book{4}}{61}
+\indexentry{Gmail Messages|book{4}}{61}
+
+\indexentry{Blocked attachment types|book{4}}{68}
+
+\indexentry{Google Bault|book{4}}{70}
+
+\indexentry{Gmail Export|book{4}}{80}
+
+\indexentry{Anti Phishing & Malware solution|book{4}}{86}
+
+\indexentry{Admin Audit Logs|book{4}}{93}
+\indexentry{User Audit Logs|book{4}}{95}
+\indexentry{MFA Changes|book{4}}{95}
+
+\indexentry{User Login Types|book{4}}{98}
+\indexentry{User Log Events|book{4}}{99}
+
+\indexentry{OAuth|book{4}}{102}
+\indexentry{OAuth Abuse with 3rd party App|book{4}}{103}
+\indexentry{OAuth Log Events|book{4}}{106}
+
+\indexentry{Admin Investigator Tool|book{4}}{107}
+\indexentry{OAuth Log Events via API|book{4}}{108}
+\indexentry{OAuth Log Events!Client Types|book{4}}{109}
+
+\indexentry{OAuth Log Events!Product Bucket|book{4}}{109}
+\indexentry{API Controls|book{4}}{110}
+\indexentry{OAuth!Revoke Tokens|book{4}}{110}
+
+\indexentry{Google Drive!Investigation Tools|book{4}}{117}
+\indexentry{Google Drive!Logs Lag Time (none)|book{4}}{117}
+\indexentry{Google Drive!Logs Lag Time in investigation tool (12G+)|book{4}}{120}
+
+\indexentry{Google Drive!File recover|book{4}}{119}
+
+\indexentry{Google Drive!Audit Log GUI Export|book{4}}{126}
+\indexentry{Google Drive!Audit Log Fields|book{4}}{129}
+
+\indexentry{Takeout!Setup|book{4}}{135}
+\indexentry{Takeout!Export Process|book{4}}{136}
+\indexentry{Takeout!Audit Logs|book{4}}{137}
+
+\indexentry{Takeout!Customer Takeout|book{4}}{139}
+
+

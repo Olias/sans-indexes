@@ -1,0 +1,134 @@
+% \comment{********************************************************************************************
+%                                       CATEGORIES SECTION
+% *****************************************************************************************************
+% Sort entries consist of a number to be inserted in the standard 'Numbers' section
+% Number composition : [(1) Alphabet order number] [(2) 0]
+%   (1) Sorting in alphabetical number
+%   (2) Allows up to 10 subsections / alphabet character }
+
+% \indexentry{1A@\textbf{Ransomware}!1@Locky|book{1}}{31}
+
+\indexentry{1Z@\blankline|comment}{0}
+\indexentry{2Z@\blankline|comment}{0}
+\indexentry{3Z@\blankline|comment}{0}
+\indexentry{4Z@\blankline|comment}{0}
+
+% \indexentry{999ZZZ@\blankline|newpage\comment}{0}
+
+
+\indexentry{S3 Transfert Acceleration|book{3}}{5}
+
+\indexentry{AWS Organisation|book{3}}{6-9}
+
+\indexentry{Root Account|book{3}}{7}
+\indexentry{Root Account|book{3}}{12}
+
+\indexentry{IR account|book{3}}{6}
+\indexentry{IR account|book{3}}{10}
+
+\indexentry{Identity and Access Management|book{3}}{11}
+\indexentry{Identity and Access Management!Account|book{3}}{12}
+
+\indexentry{Identity and Access Management!1.Roles|book{3}}{11}
+\indexentry{Identity and Access Management!2.Rules|book{3}}{11}
+\indexentry{Identity and Access Management!3.Responsibities|book{3}}{11}
+\indexentry{Identity and Access Management!ARN|book{3}}{11}
+
+\indexentry{Identity and Access Management!Policy|book{3}}{13}
+\indexentry{Identity and Access Management!Policy|book{3}}{15}
+\indexentry{Identity and Access Management!Policy!IAM Policy Simulator|book{3}}{16}
+\indexentry{Identity and Access Management!Roles|book{3}}{13}
+
+\indexentry{ARN (Amazon Resource Name)|book{3}}{11}
+\indexentry{ARN (Amazon Resource Name)|book{3}}{37}
+
+\indexentry{Accessing AWS|book{3}}{19-20}
+
+\indexentry{Shared Responsabilities Model|book{3}}{20}
+
+\indexentry{CloudTrail|book{3}}{24}
+\indexentry{CloudTrail!90 days retention|book{3}}{24}
+\indexentry{CloudTrail!UTC Timezone|book{3}}{24}
+\indexentry{CloudTrail!Management & Data Events|book{3}}{25}
+\indexentry{CloudTrail!Logs retention 90d|book{3}}{26}
+\indexentry{CloudTrail!Trail creation|book{3}}{27}
+\indexentry{CloudTrail!Retrieve default logs|book{3}}{29}
+\indexentry{CloudTrail!Retrieve logs from S3|book{3}}{30}
+\indexentry{CloudTrail!Insights|book{3}}{31}
+
+\indexentry{CloudTrail!Pricing|book{3}}{32}
+\indexentry{CloudTrail!logs fields for IR|book{3}}{33}
+\indexentry{CloudTrail!logs fields for IR|book{3}}{36}
+
+\indexentry{CloudTrail!userIdentity Types|book{3}}{34}
+\indexentry{CloudTrail!userIdentity Types!FederatedUser|book{3}}{34}
+\indexentry{CloudTrail!userIdentity Types!AWSAccount|book{3}}{34}
+\indexentry{CloudTrail!userIdentity Types!AssumedRole|book{3}}{34}
+
+\indexentry{CloudTrail!IAM investigation examples|book{3}}{41}
+\indexentry{CloudTrail!IAM investigation examples!Access to the Console|book{3}}{42}
+\indexentry{CloudTrail!IAM investigation examples!New API Keys creation|book{3}}{44}
+\indexentry{CloudTrail!IAM investigation examples!Finding Exposed API Keys|book{3}}{51}
+\indexentry{API Calls that return Credentials|book{3}}{52}
+\indexentry{CloudTrail!IAM investigation examples!Threat Hunting|book{3}}{54}
+
+\indexentry{CloudTrail!User Agents|book{3}}{47}
+\indexentry{Access Keys|book{3}}{49}
+
+\indexentry{GuardDuty|book{3}}{56}
+
+\indexentry{EC2|book{3}}{61}
+\indexentry{EC2!Types|book{3}}{62}
+
+\indexentry{Elastic Block Store (EBS)|book{3}}{68}
+
+\indexentry{Snapshots|book{3}}{72}
+\indexentry{Snapshots!CLI|book{3}}{74}
+
+\indexentry{Elastic File Store (EFS)|book{3}}{78}
+
+\indexentry{AssumedRole|book{3}}{34}
+\indexentry{AssumedRole|book{3}}{79}
+
+\indexentry{Virtual Private Cloud (VPC)|book{3}}{81}
+\indexentry{Virtual Private Cloud (VPC)|book{3}}{84}
+\indexentry{Virtual Private Cloud (VPC)!Internet Gatways|book{3}}{87}
+\indexentry{Virtual Private Cloud (VPC)!AWS Load Balancers|book{3}}{88}
+\indexentry{Virtual Private Cloud (VPC)!Flowlogs|book{3}}{91  }
+
+\indexentry{Internet Gatways|book{3}}{87}
+\indexentry{AWS Load Balancers|book{3}}{88}
+\indexentry{AWS Load Balancers!Network Load Balader|book{3}}{88}
+\indexentry{AWS Load Balancers!Classic AWS Load Balancer|book{3}}{88}
+\indexentry{AWS Load Balancers!Application Load Balancer|book{3}}{88}
+
+\indexentry{Route 53 : DNS|book{3}}{93}
+
+\indexentry{S3 Buckets|book{3}}{96}
+\indexentry{S3 Buckets!Access Restrictions|book{3}}{97}
+\indexentry{S3 Buckets!Logging|book{3}}{106}
+
+\indexentry{Transfert Acceleration|book{3}}{101}
+
+\indexentry{Glue|book{3}}{101}
+\indexentry{Athena|book{3}}{101}
+\indexentry{Glue|book{3}}{111}
+\indexentry{Athena|book{3}}{111}
+
+\indexentry{Logs sources|book{3}}{110}
+
+\indexentry{Glue|book{3}}{112}
+\indexentry{Athena|book{3}}{114}
+
+\indexentry{AWS Detective|book{3}}{115}
+
+\indexentry{Lambda Functions|book{3}}{120}
+
+\indexentry{IR in Cloud|book{3}}{128}
+
+\indexentry{AWS System Manager|book{3}}{132}
+
+\indexentry{Capturing Linux Memory|book{3}}{133}
+
+\indexentry{Capturing Windows Memory|book{3}}{134}
+\indexentry{Kubernetes (EKS)|book{3}}{135}
