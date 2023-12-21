@@ -535,7 +535,7 @@
 \indexentry{oledump|book{3}}{47-49}
 \indexentry{regsvr32|book{3}}{53}
 \indexentry{SRP Stream|book{3}}{54}
-\indexentry{exiftool|book{3}}{54}
+\indexentry{ExifTool|book{3}}{54}
 \indexentry{ViperMonkey (vmonkey)|book{3}}{56}
 \indexentry{evilclippy|book{3}}{57}
 \indexentry{Macro!Debug|book{3}}{57}
@@ -680,7 +680,6 @@
 \indexentry{Call Stack|book{4}}{89}
 \indexentry{x32dbg!Dump|book{4}}{95-100}
 
-
 \indexentry{00A@\textbf{Chapters}!4.6 Examining .NET Malware|book{4}}{106}
 \indexentry{Just-In-Time Compiler|book{4}}{107}
 \indexentry{Compiler@Just-In-Time Compiler|book{4}}{107}
@@ -719,139 +718,130 @@
                                      FIFTH BOOK SECTION
 *****************************************************************************************************}
 
+\indexentry{00A@\textbf{Chapters}!5.1 Debugger Detection and Data Protection|book{5}}{3}
 \indexentry{Anti-Debugger|book{5}}{6}
 \indexentry{Anti-Debugger!Countermeasure|book{5}}{9}
 \indexentry{Register!Edit|book{5}}{9}
 \indexentry{Patching|book{5}}{9}
 \indexentry{x32dbg!Save Patch|book{5}}{11}
 \indexentry{BeingDebugged (flag)|book{5}}{12}
-\indexentry{Process Environment Block (PEB)|book{5}}{12}
-\indexentry{FS:[30h]|book{5}}{12}
-\indexentry{ScyllaHide|book{5}}{14}
-\indexentry{Anti-Debugger!Countermeasure|book{5}}{14}
-\indexentry{XORSearch|book{5}}{16}
-\indexentry{XOR Encoding|book{5}}{15}
-\indexentry{brxor.py|book{5}}{17}
-\indexentry{brutexor.py|book{5}}{17}
-\indexentry{Balbuzard toolkit|book{5}}{18}
-\indexentry{bbcrack.py|book{5}}{18}
-\indexentry{xorBruteForcer.py|book{5}}{18}
-\indexentry{NoMoreXOR.py|book{5}}{18}
-\indexentry{unXOR|book{5}}{18}
-\indexentry{xortool|book{5}}{18}
-\indexentry{Kahu tools|book{5}}{18}
-\indexentry{Stack String \goto String,stack|comment}{0}
-\indexentry{String!Stack|book{5}}{19}
-\indexentry{String!Stack|book{5}}{19}
-\indexentry{Ghidra!Convert|book{5}}{21}
-\indexentry{Ghidra!Key binding|book{5}}{22}
-\indexentry{strdeob.pl|book{5}}{23}
-\indexentry{FLOSS|book{5}}{24}
-\indexentry{ScyllaHide|book{5}}{27}
-\indexentry{x32dbg!SetBPX|book{5}}{28}
-\indexentry{x32dbg!Dump|book{5}}{29}
-\indexentry{Call Stack|book{5}}{30}
+\indexentry{Process Environment Block (PEB)|book{5}}{12-13}
+\indexentry{FS:[30h] \goto Process Environment Block|book{5}}{12-13}
+\indexentry{NtGlobalFlag|book{5}}{13}
+\indexentry{TAIL_CHECK@FLG\_HEAP\_ENABLE\_TAIL\_CHECK|book{5}}{13}
+\indexentry{FREE_CHECK@FLG\_HEAP\_ENABLE\_FREE\_CHECK|book{5}}{13}
+\indexentry{VALIDATE_PARAMETERS@FLG\_HEAP\_VALIDATE\_PARAMETERS|book{5}}{13}
+\indexentry{Anti-Debugger!Timing|book{5}}{14}
+\indexentry{ScyllaHide|book{5}}{15}
+\indexentry{XORSearch|book{5}}{17}
+\indexentry{XOR Encoding|book{5}}{16}
+\indexentry{brxor.py|book{5}}{18}
+\indexentry{brutexor.py|book{5}}{18}
+\indexentry{Balbuzard toolkit|book{5}}{19}
+\indexentry{bbcrack.py|book{5}}{19}
+\indexentry{Stack String \goto String,stack|book{5}}{21}
+\indexentry{String!Stack|book{5}}{21}
+\indexentry{Ghidra!Convert|book{5}}{22}
+\indexentry{Ghidra!Key binding|book{5}}{23}
+\indexentry{strdeob.pl|book{5}}{24}
+\indexentry{FLOSS|book{5}}{25-26}
+\indexentry{ScyllaHide|book{5}}{28}
+\indexentry{x32dbg!SetBPX|book{5}}{30}
+\indexentry{x32dbg!Dump|book{5}}{31}
+\indexentry{Call Stack|book{5}}{32}
 \indexentry{x32dbg!Dump|book{5}}{34}
+
+\indexentry{00A@\textbf{Chapters}!5.2 Unpacking Process Hollowing|book{5}}{43}
+\indexentry{capa|book{5}}{45-46}
 \indexentry{Process Hacker|book{5}}{44}
 \indexentry{Process Monitor|book{5}}{44}
 \indexentry{Process Monitor!Process Tree|book{5}}{45}
-\indexentry{ProcDOT|book{5}}{46}
-\indexentry{Process hollowing|book{5}}{54}
-\indexentry{Process replacement|book{5}}{54}
-\indexentry{RunPE|book{5}}{54}
-\indexentry{Process hollowing!Dump|book{5}}{55-56}
-\indexentry{ASLR|book{5}}{56}
-\indexentry{x32dbg!Dump|book{5}}{57}
-\indexentry{x32dbg!Follow in Memory Map|book{5}}{58}
-\indexentry{Process hollowing|book{5}}{61}
-\indexentry{Code Injection|book{5}}{61}
-\indexentry{API!Concealed|book{5}}{61}
-\indexentry{Sandbox detection|book{5}}{63}
-\indexentry{Virtualization detection|book{5}}{65}
-\indexentry{Sandbox detection|book{5}}{66}
-\indexentry{Dyre|book{5}}{66}
-\indexentry{Tinba|book{5}}{66}
-\indexentry{Upatre|book{5}}{66}
-\indexentry{WH\_MOUSE\_LL|book{5}}{70}
-\indexentry{WM\_MOUSEMOVE|book{5}}{71}
-\indexentry{DynamicBase|book{5}}{74}
-\indexentry{ASLR|book{5}}{74}
-\indexentry{CFF Explorer|book{5}}{74}
-\indexentry{x32dbg!Stack edition|book{5}}{77}
-\indexentry{AV detection|book{5}}{78}
-\indexentry{avghookx.dll|book{5}}{78}
-\indexentry{OllyDbg|book{5}}{79}
-\indexentry{Debugger!Detection|book{5}}{80}
-\indexentry{KdDebuggerFlag|book{5}}{80}
-\indexentry{Sandboxie|book{5}}{82}
-\indexentry{WinDbg|book{5}}{82}
-\indexentry{Avast Antivirus|book{5}}{82}
-\indexentry{SysAnalyzer|book{5}}{82}
-\indexentry{Windows Virtual PC|book{5}}{82}
-\indexentry{WPE Pro|book{5}}{82}
-\indexentry{ThreatAnalyzer|book{5}}{82}
-\indexentry{Sandbox detection|book{5}}{93}
-\indexentry{Analysis detection|book{5}}{93}
-\indexentry{Misdirection|book{5}}{96}
-\indexentry{BinText|book{5}}{97}
-\indexentry{Exeinfo PE|book{5}}{97}
-\indexentry{PECompact|book{5}}{97}
-\indexentry{DynamicBase|book{5}}{98}
-\indexentry{Structured Exception Handling (SEH)|book{5}}{99}
-\indexentry{try/except|book{5}}{99}
-\indexentry{Exception!Frame-based|book{5}}{99}
-\indexentry{Exception!Stack-based|book{5}}{99}
+\indexentry{CREATE\_SUSPENDED|book{5}}{46}
+\indexentry{Process replacement|book{5}}{52}
+\indexentry{RunPE|book{5}}{52}
+\indexentry{Process hollowing!Dump|book{5}}{52-57}
+\indexentry{x32dbg!Follow in Memory Map|book{5}}{56}
+\indexentry{ASLR|book{5}}{54}
+\indexentry{Code Injection|book{5}}{59}
+
+\indexentry{00A@\textbf{Chapters}!5.3 Detecting the Analysis Toolkit|book{5}}{61}
+\indexentry{Sandbox detection|book{5}}{62}
+\indexentry{Virtualization detection|book{5}{63-64}
+\indexentry{Sandbox detection|book{5}}{65}
+\indexentry{Dyre|book{5}}{65}
+\indexentry{Tinba|book{5}}{65}
+\indexentry{Upatre|book{5}}{65}
+\indexentry{WH\_MOUSE\_LL|book{5}}{69}
+\indexentry{WM\_MOUSEMOVE|book{5}}{70}
+\indexentry{WM\_LMOUSEBUTTONDOWN|book{5}}{71}
+\indexentry{WM\_LMOUSEBUTTOUP|book{5}}{71}
+\indexentry{BlockInput|book{5}}{75}
+\indexentry{DynamicBase|book{5}}{73}
+\indexentry{ASLR|book{5}}{73}
+\indexentry{CFF Explorer|book{5}}{73}
+\indexentry{x32dbg!Stack edition|book{5}}{76}
+\indexentry{AV detection|book{5}}{77}
+\indexentry{avghookx.dll|book{5}}{77}
+\indexentry{OllyDbg|book{5}}{78}
+\indexentry{Debugger!Detection|book{5}}{79}
+\indexentry{KdDebuggerFlag|book{5}}{79}
+\indexentry{Sandboxie|book{5}}{81}
+\indexentry{WinDbg|book{5}}{81}
+\indexentry{Avast Antivirus|book{5}}{81}
+\indexentry{SysAnalyzer|book{5}}{81}
+\indexentry{Windows Virtual PC|book{5}}{81}
+\indexentry{WPE Pro|book{5}}{81}
+\indexentry{ThreatAnalyzer|book{5}}{81}
+\indexentry{Sandbox detection|book{5}}{92}
+\indexentry{Analysis detection|book{5}}{92}
+
+\indexentry{00A@\textbf{Chapters}!5.4 Handling Misdirection Techniques|book{5}}{94}
+\indexentry{PECompact|book{5}}{96}
+\indexentry{PEStudio|book{5}}{96}
+\indexentry{Detect It Easy|book{5}}{96}
+\indexentry{DynamicBase|book{5}}{97}
+\indexentry{Structured Exception Handling (SEH)|book{5}}{98}
+\indexentry{try/except|book{5}}{98}
+\indexentry{Exception!Frame-based|book{5}}{98}
+\indexentry{Exception!Stack-based|book{5}}{98}
 \indexentry{FS:[0]|book{5}}{99}
 \indexentry{Thread Information Block (TIB)|book{5}}{99}
-\indexentry{x32dbg!SEH|book{5}}{101}
-\indexentry{x32dbg!SEH|book{5}}{104}
-\indexentry{x32dbg!Ignore Exception|book{5}}{105}
-\indexentry{Stack!Cleanup|book{5}}{106}
-\indexentry{Entry Point!Original|book{5}}{106}
-\indexentry{Breakpoint!Hardware|book{5}}{107}
-\indexentry{OllyDumpEx|book{5}}{109}
-\indexentry{OllyDumpEx|book{5}}{112}
-\indexentry{Entry Point|book{5}}{112}
-\indexentry{Import Address Table (IAT)!Rebuild|book{5}}{113}
-\indexentry{Scylla|book{5}}{113}
-\indexentry{Stack!Breakpoint|book{5}}{115}
-\indexentry{Thread Local Storage (TLS)|book{5}}{116}
-\indexentry{PeStudio!TLS|book{5}}{117}
-\indexentry{Ghidra!TLS|book{5}}{118}
-\indexentry{XOR Obfuscation|book{5}}{119}
-\indexentry{Ghidra!Bad instruction|book{5}}{120}
-\indexentry{x32dbg!TLS|book{5}}{121}
-\indexentry{Entry Point|book{5}}{121}
-\indexentry{Breakpoint!hardware|book{5}}{122}
+\indexentry{x32dbg!SEH|book{5}}{100}
+\indexentry{x32dbg!SEH|book{5}}{105}
+\indexentry{x32dbg!Ignore Exception|book{5}}{102}
+\indexentry{Exception!Ignore Exception x32dbg|book{5}}{102}
+\indexentry{Entry Point!Original|book{5}}{105}
+\indexentry{Breakpoint!Hardware|book{5}}{106-109}
+\indexentry{OllyDumpEx|book{5}}{111}
+\indexentry{Entry Point|book{5}}{111}
+\indexentry{Import Address Table (IAT)!Rebuild|book{5}}{112}
+\indexentry{Scylla|book{5}}{112}
+\indexentry{Thread Local Storage (TLS)|book{5}}{115}
+\indexentry{PeStudio!TLS|book{5}}{113}
+\indexentry{Ghidra!TLS|book{5}}{117}
+\indexentry{XOR Obfuscation|book{5}}{118}
+\indexentry{Ghidra!Bad instruction|book{5}}{119}
+\indexentry{x32dbg!TLS|book{5}}{120}
+\indexentry{Entry Point|book{5}}{120}
+\indexentry{Segment register|book{5}}{127}
 \indexentry{selector|book{5}}{127}
 \indexentry{Global Descriptor Table (GDT)|book{5}}{127}
 \indexentry{Patching|book{5}}{130}
 \indexentry{NanoLocker|book{5}}{141}
-\indexentry{Misdirection|book{5}}{142}
-\indexentry{Unpacking|book{5}}{145}
+
+\indexentry{00A@\textbf{Chapters}!5.5 Unpacking by Anticipating Actions|book{5}}{144}
 \indexentry{Imports|book{5}}{146}
-\indexentry{xAnalyzer|book{5}}{151}
-\indexentry{Variable!Local|book{5}}{151}
-\indexentry{Breakpoint!VirtualProtect|book{5}}{156}
-\indexentry{Breakpoint!Hardware|book{5}}{158}
-\indexentry{x32dbg!Dump|book{5}}{160}
-\indexentry{Page Memory Rights|book{5}}{160}
-\indexentry{pe\_unmapper|book{5}}{161}
-\indexentry{Remapping|book{5}}{161}
-\indexentry{TrickBot|book{5}}{161}
-\indexentry{Import Address Table (IAT)|book{5}}{162}
-\indexentry{Scylla!IAT|book{5}}{162}
-\indexentry{Anti-analysis|book{5}}{163}
-\indexentry{Breakpoint!Countermeasure|book{5}}{163}
-\indexentry{Volatility|book{5}}{170}
-\indexentry{pestr|book{5}}{170}
-\indexentry{Strings!pestr|book{5}}{170}
-\indexentry{pe\_unmapper|book{5}}{170}
-\indexentry{Process Hacker!Dump|book{5}}{171}
-\indexentry{Page Memory Rights|book{5}}{171}
-\indexentry{CREATE\_SUSPENDED|book{5}}{175}
-\indexentry{CREATE\_SUSPENDED|book{5}}{51}
-\indexentry{x32dbg!Thread|book{5}}{177}
+\indexentry{xAnalyzer|book{5}}{152}
+\indexentry{Variable!Local|book{5}}{152}
+\indexentry{Breakpoint!Memory|book{5}}{158}
+\indexentry{x32dbg!Dump|book{5}}{162}
+\indexentry{Page Memory Rights|book{5}}{158}
+\indexentry{pe\_unmapper|book{5}}{163}
+\indexentry{TrickBot|book{5}}{163}
+\indexentry{Import Address Table (IAT)|book{5}}{164}
+\indexentry{Scylla!IAT|book{5}}{164}
+\indexentry{Anti-analysis|book{5}}{166}
+\indexentry{Breakpoint!Countermeasure|book{5}}{167}
 
 
 \comment{********************************************************************************************
