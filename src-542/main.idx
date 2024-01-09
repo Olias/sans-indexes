@@ -40,7 +40,7 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 \indexentry{1b@\blankline|comment}{0}
 
 \indexentry{2a@\textbf{Defense-in-Depth}!1@Defense-in-Depth|book{2}}{3-45}
-\indexentry{2a@\textbf{Defense-in-Depth}!2@Identity & Access Managemnet|book{2}}{46-76}
+\indexentry{2a@\textbf{Defense-in-Depth}!2@Identity \& Access Managemnet|book{2}}{46-76}
 \indexentry{2a@\textbf{Defense-in-Depth}!3@Authentication and Password Secuirty|book{2}}{77-112}
 \indexentry{2a@\textbf{Defense-in-Depth}!4@Security Frameworks|book{2}}{113-141}
 \indexentry{2a@\textbf{Defense-in-Depth}!5@Data Loss Prevention|book{2}}{142-181}
@@ -1334,7 +1334,7 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 \indexentry{Tools!sqlmap!DB Enum|book {3}}{140}
 \indexentry{Tools!sqlmap!DB Data Exfil|book {3}}{141}
 \indexentry{Tools!sqlmap!Beyond DB Data Exfil|book {3}}{142}
-\indexentry{Tools!sqlmap!Post Exploitition & Priv Esc|book {3}}{143}
+\indexentry{Tools!sqlmap!Post Exploitition \& Priv Esc|book {3}}{143}
 
 
 
@@ -1560,7 +1560,7 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 \indexentry{Metasploit!Auxiliary modules|book {5}}{66}
 \indexentry{Metasploit!Seeding Database|book {5}}{67}
 \indexentry{Metasploit!Spidering and Crawling|book {5}}{67}
-\indexentry{Metasploit!db_import|book {5}}{68}
+\indexentry{Metasploit!db\_import|book {5}}{68}
 \indexentry{Metasploit!Integration|book {5}}{69}
 \indexentry{BeEF!Metasploit|book {5}}{70-71}
 \indexentry{Metasploit!BeEF|book {5}}{70-71}
@@ -1580,10 +1580,10 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 \indexentry{Nuclei Vulnerability Scanner!Command options|book {5}}{87}
 \indexentry{Tools!When they fail|book {5}}{91}
 \indexentry{Tools!Next level|book {5}}{92}
-\indexentry{Metasploit!mediawiki_thumb|book {5}}{93}
+\indexentry{Metasploit!mediawiki\_thumb|book {5}}{93}
 \indexentry{MediaWiki|book {5}}{93}
 \indexentry{Tools!When they fail!Research the flaw|book {5}}{94}
-\indexentry{Metasploit!mediawiki_thumb|book {5}}{96}
+\indexentry{Metasploit!mediawiki\_thumb|book {5}}{96}
 \indexentry{Penetration Testing!Preparation|book {5}}{100}
 \indexentry{Penetration Testing!Skills and Practice|book {5}}{101-102}
 \indexentry{Penetration Testing!Toolkit|book {5}}{103-104}
