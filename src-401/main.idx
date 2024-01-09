@@ -40,7 +40,7 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 \indexentry{1b@\blankline|comment}{0}
 
 \indexentry{2a@\textbf{Defense-in-Depth}!1@Defense-in-Depth|book{2}}{3-45}
-\indexentry{2a@\textbf{Defense-in-Depth}!2@Identity & Access Managemnet|book{2}}{46-76}
+\indexentry{2a@\textbf{Defense-in-Depth}!2@Identity \& Access Managemnet|book{2}}{46-76}
 \indexentry{2a@\textbf{Defense-in-Depth}!3@Authentication and Password Secuirty|book{2}}{77-112}
 \indexentry{2a@\textbf{Defense-in-Depth}!4@Security Frameworks|book{2}}{113-141}
 \indexentry{2a@\textbf{Defense-in-Depth}!5@Data Loss Prevention|book{2}}{142-181}
@@ -576,7 +576,7 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 \indexentry{Threat Agents!Opportunistic Attacker|book {1}}{32}
 \indexentry{Opportunistic Attacker \goto Threat Agents|comment}{0}
 \indexentry{Threat Agents!Organized Cybercrime|book{1}}{32}
-\indexentry{Organized Cybercrime \goto Threat Agents|commnet}{0}
+\indexentry{Organized Cybercrime \goto Threat Agents|comment}{0}
 \indexentry{Threat Enumeration!TTP|book{1}}{32}
 \indexentry{Threat Agents!Nation State Actors|book {1}}{32}
 \indexentry{Threat Agents!Advanced Persistent Threat (APT)|book {1}}{32}
@@ -689,7 +689,7 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 \indexentry{Protocol!Headers|book {1}}{62}
 \indexentry{Headers \goto Protocol \goto Headers|comment}{0}
 \indexentry{Layer Independence|book {1}}{62}
-\indexentry{Spoofing|boo {1}}{62}
+\indexentry{Spoofing|book {1}}{62}
 \indexentry{Encapsulation|book {1}}{62}
 \indexentry{Decapsulation|book {1}}{62}
 \indexentry{Open Systems Interconnect (OSI)|book {1}}{63}
@@ -716,7 +716,7 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 \indexentry{Classless Inter-Domain Routing (CIDR)|book {1}}{68}
 \indexentry{CIDR \goto Classless Inter-Domain Routing (CIDR)|comment}{0}
 \indexentry{IPv6!Ouality of Service (QoS)|book {1}}{70}
-\indexentry{QoS \goto IPv6 \goto Quality of Service (QoS)|commnet}{0}
+\indexentry{QoS \goto IPv6 \goto Quality of Service (QoS)|comment}{0}
 \indexentry{ARPANET|book {1}}{70}
 \indexentry{IPv4!Address Space|book {1}}{70}
 \indexentry{IPv6!Address Space|book {1}}{70}
@@ -1107,23 +1107,23 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 \indexentry{Security Frameworks|book {2}}{109-110}
 \indexentry{CIS Controls|book {2}}{114}
 \indexentry{NIST Framework|book {2}}{114-115}
-\indexentry{MITRE ATT&CK Framework|book {2}}{116}
+\indexentry{MITRE ATT\&CK Framework|book {2}}{116}
 \indexentry{CIS Controls!Guiding Principles|book {2}}{117-118}
 \indexentry{CIS Controls!Critical Security Controls (CSC)|book {2}}{116-117}
 \indexentry{CIS Controls!Summary|book {2}}{119}
 \indexentry{CIS Controls!Controls|book {2}}{120-121}
-\indexentry{CIS Controls!Sample Control #2|book {2}}{122}
+\indexentry{CIS Controls!Sample Control \#2|book {2}}{122}
 \indexentry{Attacks!SolarWinds|book {2}}{123}
 \indexentry{SolarWindws|book {2}}{125}
 \indexentry{Core Evaluation Test|book {2}}{125}
 \indexentry{AppLocker|book {2}}{126}
-\indexentry{CIS Controls!Sample Control #2!Measures|book {2}}{126}
+\indexentry{CIS Controls!Sample Control \#2!Measures|book {2}}{126}
 \indexentry{NIST Framework|book {2}}{127}
 \indexentry{NIST Framework!Functions|book {2}}{127-128}
 \indexentry{NIST Framework!Core|book {2}}{128}
 \indexentry{NIST Framework!Implementation Tiers|book {2}}{130-131}
 \indexentry{NIST Framework!Profiles|book {2}}{132}
-\indexentry{MITRE ATT&CK Framework|book {2}}{133-135}
+\indexentry{MITRE ATT\&CK Framework|book {2}}{133-135}
 \indexentry{Tactics|book {2}}{133}
 \indexentry{Security Frameworks!Other|book {2}}{137}
 \indexentry{Australian Signal Directive (ASD) controls|book {2}}{137}
