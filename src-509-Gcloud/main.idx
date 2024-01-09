@@ -64,7 +64,7 @@
 \indexentry{DFIR mission example|book{5}}{67}
 
 \indexentry{Log Cloud Pub/Sub|book{5}}{68}
-\indexentry{Log Queueing & Shipping|book{5}}{68}
+\indexentry{Log Queueing \& Shipping|book{5}}{68}
 
 \indexentry{Compute Overview|book{5}}{75}
 
@@ -118,7 +118,7 @@
 \indexentry{Kubernetes!ECS (Amazon Elastic Kebernetes Service)|book{5}}{144}
 \indexentry{Kubernetes!GKE (Kubernietes Engine|book{5}}{144}
 
-\indexentry{Kubernetes!Attacks (MITRE ATT&CK)|book{5}}{149}
+\indexentry{Kubernetes!Attacks (MITRE ATT\&CK)|book{5}}{149}
 
 \indexentry{Kubernetes!Attacks in the cloud|book{5}}{153}
 

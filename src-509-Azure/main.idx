@@ -41,7 +41,7 @@
 
 \indexentry{Tools!az|book{2}}{15}
 
-\indexentry{MITRE ATT&CK and Azure|book{2}}{16}
+\indexentry{MITRE ATT\&CK and Azure|book{2}}{16}
 
 \indexentry{Accessing Microsoft Azure|book{2}}{17}
 \indexentry{Accessing Microsoft Azure!1.Portal|book{2}}{18}
@@ -115,10 +115,10 @@
 \indexentry{Subscription Logs|book{2}}{80}
 \indexentry{Subscription Logs!1.resourceId|book{2}}{81}
 \indexentry{Subscription Logs!2.operationName|book{2}}{81}
-\indexentry{Subscription Logs!3.resultType & resultSignature|book{2}}{81}
+\indexentry{Subscription Logs!3.resultType \& resultSignature|book{2}}{81}
 \indexentry{Subscription Logs!4.callerIpAddress|book{2}}{81}
 \indexentry{Subscription Logs!5.correlationId|book{2}}{81}
-\indexentry{Subscription Logs!6.Identity & claims|book{2}}{81}
+\indexentry{Subscription Logs!6.Identity \& claims|book{2}}{81}
 \indexentry{Subscription Logs!5.correlationId|book{2}}{82}
 
 \indexentry{Network Security Group|book{2}}{98}
