@@ -31,78 +31,145 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 *****************************************************************************************************
  Sort entries consist of a number and a letter to be inserted in the standard 'Symbols' section }
 
-\indexentry{1a@\textbf{Introduction and Information Gathering}!1@Introduction and Information Gathering|book{1}}{3-13}
-\indexentry{1a@\textbf{Introduction and Information Gathering}!2@Defensible Network Architecture|book{1}}{14-53}
-\indexentry{1a@\textbf{Introduction and Information Gathering}!3@Protocols and Packet Analysis|book{1}}{54-107}
-\indexentry{1a@\textbf{Introduction and Information Gathering}!4@Virtualization and Cloud Essentials|book{1}}{108-165}
-\indexentry{1a@\textbf{Introduction and Information Gathering}!5@Securing Wireless Networks|book{1}}{166-235}
+\indexentry{1a@\textbf{Book 1: Introduction and Information Gathering}!1@Wy the Web?|book{1}}{7-10}
+\indexentry{1a@\textbf{Book 1: Introduction and Information Gathering}!2@DApplication Assessment Methodologies|book{1}}{11-30}
+\indexentry{1a@\textbf{Book 1: Introduction and Information Gathering}!3@Web Application Pen Tester's Toolkit|book{1}}{31-37}
+\indexentry{1a@\textbf{Book 1: Introduction and Information Gathering}!4@Interception Proxies|book{1}}{37-55}
+\indexentry{1a@\textbf{Book 1: Introduction and Information Gathering}!5@EXERCISE: Configuring Interception Proxies|book{1}}{56-57}
+\indexentry{1a@\textbf{Book 1: Introduction and Information Gathering}!6@Open-Source Intelligence (OSINT)|book{1}}{58-71}
+\indexentry{1a@\textbf{Book 1: Introduction and Information Gathering}!7@Virtual Host Discovery|book{1}}{72-87}
+\indexentry{1a@\textbf{Book 1: Introduction and Information Gathering}!8@EXERCISE: Virtual Host Discovery|book{1}}{88-89}
+\indexentry{1a@\textbf{Book 1: Introduction and Information Gathering}!5@HTTP Syntax and Semantics|book{1}}{90-124}
+\indexentry{1a@\textbf{Book 1: Introduction and Information Gathering}!5@HTTPS and Testing for Weak Ciphers|book{1}}{125-137}
+\indexentry{1a@\textbf{Book 1: Introduction and Information Gathering}!5@EXERCISE: Testing HTTPS|book{1}}{138-139}
+\indexentry{1a@\textbf{Book 1: Introduction and Information Gathering}!5@Target Profiling|book{1}}{140-155}
+\indexentry{1a@\textbf{Book 1: Introduction and Information Gathering}!5@EXERCISE: Gathering Server Information|book{1}}{156-157}
+\indexentry{1a@\textbf{Book 1: Introduction and Information Gathering}!5@Summary|book{1}}{158-159}
+\indexentry{1a@\textbf{Book 1: Introduction and Information Gathering}!5@BONUS EXERCISE: Testing and Exploiting Heartbleed|book{1}}{160}
 
 \indexentry{1b@\blankline|comment}{0}
 
-\indexentry{2a@\textbf{Defense-in-Depth}!1@Defense-in-Depth|book{2}}{3-45}
-\indexentry{2a@\textbf{Defense-in-Depth}!2@Identity \& Access Managemnet|book{2}}{46-76}
-\indexentry{2a@\textbf{Defense-in-Depth}!3@Authentication and Password Secuirty|book{2}}{77-112}
-\indexentry{2a@\textbf{Defense-in-Depth}!4@Security Frameworks|book{2}}{113-141}
-\indexentry{2a@\textbf{Defense-in-Depth}!5@Data Loss Prevention|book{2}}{142-181}
-\indexentry{2a@\textbf{Defense-in-Depth}!6@Mobile Device Security|book{2}}{182-205}
+\indexentry{2a@\textbf{Book 2: Content Discovery, Authentication, and Session Testing}!1@Insufficient Loggin and Monitoring|book{2}}{7-11}
+\indexentry{2a@\textbf{Book 2: Content Discovery, Authentication, and Session Testing}!2@Spidering Web Applications|book{2}}{12-23}
+\indexentry{2a@\textbf{Book 2: Content Discovery, Authentication, and Session Testing}!3@EXERCISE: Web Spidering|book{2}}{24-25}
+\indexentry{2a@\textbf{Book 2: Content Discovery, Authentication, and Session Testing}!4@Forced Browsing|book{2}}{26-32}
+\indexentry{2a@\textbf{Book 2: Content Discovery, Authentication, and Session Testing}!5@EXERCISE: ZAP and fuff Forced Browse|book{2}}{33-34}
+\indexentry{2a@\textbf{Book 2: Content Discovery, Authentication, and Session Testing}!6@Fuzzing|book{2}}{35-41}
+\indexentry{2a@\textbf{Book 2: Content Discovery, Authentication, and Session Testing}!7@Information Leakage|book{2}}{42-48}
+\indexentry{2a@\textbf{Book 2: Content Discovery, Authentication, and Session Testing}!8@Authentication|book{2}}{49-76}
+\indexentry{2a@\textbf{Book 2: Content Discovery, Authentication, and Session Testing}!9@EXERCISE: Authentication|book{2}}{77-78}
+\indexentry{2a@\textbf{Book 2: Content Discovery, Authentication, and Session Testing}!10@Username Harvesting|book{2}}{89-90}
+\indexentry{2a@\textbf{Book 2: Content Discovery, Authentication, and Session Testing}!11@Burp Intruder|book{2}}{91-96}
+\indexentry{2a@\textbf{Book 2: Content Discovery, Authentication, and Session Testing}!12@EXERCISE: Fuzzing with Burp Intruder|book{2}}{97-98}
+\indexentry{2a@\textbf{Book 2: Content Discovery, Authentication, and Session Testing}!13@Session Management|book{2}}{99-114}
+\indexentry{2a@\textbf{Book 2: Content Discovery, Authentication, and Session Testing}!14@EXERCISE: Burp Sequencer|book{2}}{115-116}
+\indexentry{2a@\textbf{Book 2: Content Discovery, Authentication, and Session Testing}!15@Authentication and Authorization Bypass|book{2}}{117-125}
+\indexentry{2a@\textbf{Book 2: Content Discovery, Authentication, and Session Testing}!16@Vulnerable Web Apps: Mutillidaw|book{2}}{126-130}
+\indexentry{2a@\textbf{Book 2: Content Discovery, Authentication, and Session Testing}!17@EXERCISE: Authentication Bypass|book{2}}{131-132}
+\indexentry{2a@\textbf{Book 2: Content Discovery, Authentication, and Session Testing}!18@Summary|book{2}}{133-134}
+\indexentry{2a@\textbf{Book 2: Content Discovery, Authentication, and Session Testing}!19@Appendix: Shellshock|book{2}}{135-144}
+\indexentry{2a@\textbf{Book 2: Content Discovery, Authentication, and Session Testing}!20@Exploiting Shellshock|book{2}}{145}
 
 \indexentry{2b@\blankline|comment}{0}
 
-\indexentry{3a@\textbf{Vulnerability Management and Response}!1@Vulnerability Assessments|book{3}}{3-32}
-\indexentry{3a@\textbf{Vulnerability Management and Response}!2@Penetration Testing|book{3}}{33-76}
-\indexentry{3a@\textbf{Vulnerability Management and Response}!3@Attacks and Malicious Software|book{3}}{77-128}
-\indexentry{3a@\textbf{Vulnerability Management and Response}!4@Web Application Security|book{3}}{129-162}
-\indexentry{3a@\textbf{Vulnerability Management and Response}!5@Security Operations and Log Management|book{3}}{162-200}
-\indexentry{3a@\textbf{Vulnerability Management and Response}!6@Digital Forensics and Incident Response|book{3}}{201-239}
+\indexentry{3a@\textbf{Book 3: Injection}!1@HTTP Response Security Controls|book{3}}{7-18}
+\indexentry{3a@\textbf{Book 3: Injection}!2@Command Injection|book{3}}{19-32}
+\indexentry{3a@\textbf{Book 3: Injection}!3@EXERCISE: Command Injection|book{3}}{33-34}
+\indexentry{3a@\textbf{Book 3: Injection}!4@File Inclusion and Directory Traversal|book{3}}{35-40}
+\indexentry{3a@\textbf{Book 3: Injection}!5@EXERCISE: Local/Remote File Inclusion|book{3}}{41-42}
+\indexentry{3a@\textbf{Book 3: Injection}!7@Insecure Deserialization|book{3}}{43-61}
+\indexentry{3a@\textbf{Book 3: Injection}!8@EXERCISE: Insecure Deserialization|book{3}}{62-63}
+\indexentry{3a@\textbf{Book 3: Injection}!9@SQL Injection Primer|book{3}}{64-81}
+\indexentry{3a@\textbf{Book 3: Injection}!10@Discovering SQL|book{3}}{82-103}
+\indexentry{3a@\textbf{Book 3: Injection}!11@Exploiting SQLi|book{3}}{104-125}
+\indexentry{3a@\textbf{Book 3: Injection}!12@EXERCISE: Error-Based SQLi|book{3}}{126-127}
+\indexentry{3a@\textbf{Book 3: Injection}!13@SQLi Tools|book{3}}{128-143}
+\indexentry{3a@\textbf{Book 3: Injection}!14@sqlmap + ZAP|book{3}}{144-145}
+\indexentry{3a@\textbf{Book 3: Injection}!15@Summary|book{3}}{146}
 
 \indexentry{3b@\blankline|comment}{0}
 
-\indexentry{4a@\textbf{Data Security Technologies}!1@Cryptography|book{4}}{3-52}
-\indexentry{4a@\textbf{Data Security Technologies}!2@Cryptography Algroithms and Deployment|book{4}}{53-80}
-\indexentry{4a@\textbf{Data Security Technologies}!3@Applying Cryptography|book{4}}{81-129}
-\indexentry{4a@\textbf{Data Security Technologies}!4@Network Security Devices|book{4}}{130-184}
-\indexentry{4a@\textbf{Data Security Technologies}!5@Endpoint Security|book{4}}{185-220}
+\indexentry{4a@\textbf{Book 4: XSS, SSRF, and XXE}!1@Document Object Model (DOM)|book{4}}{7-16}
+\indexentry{4a@\textbf{Book 4: XSS, SSRF, and XXE}!2@Cross-Site Scripting (XSS) Primer|book{4}}{17-31}
+\indexentry{4a@\textbf{Book 4: XSS, SSRF, and XXE}!3@EXERCISE: HTML Injection|book{4}}{32-33}
+\indexentry{4a@\textbf{Book 4: XSS, SSRF, and XXE}!4@XSS Impacts|book{4}}{34-42}
+\indexentry{4a@\textbf{Book 4: XSS, SSRF, and XXE}!5@BeEF|book{4}}{43-49}
+\indexentry{4a@\textbf{Book 4: XSS, SSRF, and XXE}!6@EXERCISE: BeEF|book{4}}{50-51}
+\indexentry{4a@\textbf{Book 4: XSS, SSRF, and XXE}!7@Classes of XSS|book{4}}{50-73}
+\indexentry{4a@\textbf{Book 4: XSS, SSRF, and XXE}!8@EXERCISE: DOM-Based XSS|book{4}}{74-75}
+\indexentry{4a@\textbf{Book 4: XSS, SSRF, and XXE}!9@Discovering XSS|book{4}}{76-89}
+\indexentry{4a@\textbf{Book 4: XSS, SSRF, and XXE}!10@XSS Tools|book{4}}{90-98}
+\indexentry{4a@\textbf{Book 4: XSS, SSRF, and XXE}!11@EXERCISE: XSS|book{4}}{99-100}
+\indexentry{4a@\textbf{Book 4: XSS, SSRF, and XXE}!12@AJAX|book{4}}{101-115}
+\indexentry{4a@\textbf{Book 4: XSS, SSRF, and XXE}!13@Data Attacks|book{4}}{116-121}
+\indexentry{4a@\textbf{Book 4: XSS, SSRF, and XXE}!14@REST and SOAP|book{4}}{122-130}
+\indexentry{4a@\textbf{Book 4: XSS, SSRF, and XXE}!15@Server-Side Request Forgery (SSRF)|book{4}}{131-138}
+\indexentry{4a@\textbf{Book 4: XSS, SSRF, and XXE}!16@EXERCISE: Server-Side Request Forgery |book{4}}{139-140}
+\indexentry{4a@\textbf{Book 4: XSS, SSRF, and XXE}!17@XML External Entities (XXE)|book{4}}{141-150}
+\indexentry{4a@\textbf{Book 4: XSS, SSRF, and XXE}!18@EXERCISE: XXE|book{4}}{151-152}
+\indexentry{4a@\textbf{Book 4: XSS, SSRF, and XXE}!19@Summary|book{4}}{153}
 
 \indexentry{4b@\blankline|comment}{0}
 
-\indexentry{5a@\textbf{Windows and Azure Security}!1@Windows Security Infrastructure|book{5}}{3-43}
-\indexentry{5a@\textbf{Windows and Azure Security}!2@Windows as a Service|book{5}}{44-70}
-\indexentry{5a@\textbf{Windows and Azure Security}!3@Windows Access Controls|book{5}}{71-119}
-\indexentry{5a@\textbf{Windows and Azure Security}!4@Enforcing Security Policy|book{5}}{120-193}
-\indexentry{5a@\textbf{Windows and Azure Security}!5@Microsoft Cloud Computing|book{5}}{194-247}
-\indexentry{5a@\textbf{Windows and Azure Security}!6@Automation, Logging, and Auditing|book{5}}{248-296}
+\indexentry{5a@\textbf{Book 5: CSRF, Logic Flaws, and Advanced Tools}!1@Cross-Site Request Forgery|book{5}}{7-14}
+\indexentry{5a@\textbf{Book 5: CSRF, Logic Flaws, and Advanced Tools}!2@EXERCISE: CSRF|book{5}}{15-16}
+\indexentry{5a@\textbf{Book 5: CSRF, Logic Flaws, and Advanced Tools}!3@Logic Flaws|book{5}}{17-21}
+\indexentry{5a@\textbf{Book 5: CSRF, Logic Flaws, and Advanced Tools}!4@Python for Web App Pen Testers|book{5}}{22-38}
+\indexentry{5a@\textbf{Book 5: CSRF, Logic Flaws, and Advanced Tools}!5@EXERCISE: Python|book{5}}{39-40}
+\indexentry{5a@\textbf{Book 5: CSRF, Logic Flaws, and Advanced Tools}!6@WPScan and ExploitDB|book{5}}{41-43}
+\indexentry{5a@\textbf{Book 5: CSRF, Logic Flaws, and Advanced Tools}!7@EXERCISE: WPScan and ExploitDB|book{5}}{44-45}
+\indexentry{5a@\textbf{Book 5: CSRF, Logic Flaws, and Advanced Tools}!8@Burp Scanner|book{5}}{46-63}
+\indexentry{5a@\textbf{Book 5: CSRF, Logic Flaws, and Advanced Tools}!9@Metasploit|book{5}}{64-78}
+\indexentry{5a@\textbf{Book 5: CSRF, Logic Flaws, and Advanced Tools}!10@EXERCISE: Metasploit|book{5}}{79-80}
+\indexentry{5a@\textbf{Book 5: CSRF, Logic Flaws, and Advanced Tools}!11@Nuclei|book{5}}{81-87}
+\indexentry{5a@\textbf{Book 5: CSRF, Logic Flaws, and Advanced Tools}!12@EXERCISE: Nuclei/Jenkins|book{5}}{88-89}
+\indexentry{5a@\textbf{Book 5: CSRF, Logic Flaws, and Advanced Tools}!13@When Tools Fail|book{5}}{90-96}
+\indexentry{5a@\textbf{Book 5: CSRF, Logic Flaws, and Advanced Tools}!14@EXERCISE: When Tools Fail|book{5}}{97-98}
+\indexentry{5a@\textbf{Book 5: CSRF, Logic Flaws, and Advanced Tools}!15@Business of Penetration Testing: Preparation|book{5}}{99-112}
+\indexentry{5a@\textbf{Book 5: CSRF, Logic Flaws, and Advanced Tools}!16@Business of Penetration Testing: Post Assessment|book{5}}{113-123}
+\indexentry{5a@\textbf{Book 5: CSRF, Logic Flaws, and Advanced Tools}!17@Summary|book{5}}{124-125}
+\indexentry{5a@\textbf{Book 5: CSRF, Logic Flaws, and Advanced Tools}!18@BONUS EXERCISE: Bonus Challenges|book{5}}{126}
 
 \indexentry{5b@\blankline|comment}{0}
 
-\indexentry{6a@\textbf{Linux, AWS, and Mac Security}!1@Linux Fundamentals|book{5}}{3-66}
-\indexentry{6a@\textbf{Linux, AWS, and Mac Security}!2@Linux Security Enhancements and Infrastructure|book{5}}{67-121}
-\indexentry{6a@\textbf{Linux, AWS, and Mac Security}!3@Containerized Security|book{5}}{122-143}
-\indexentry{6a@\textbf{Linux, AWS, and Mac Security}!4@AWS Fundamentals|book{5}}{144-161}
-\indexentry{6a@\textbf{Linux, AWS, and Mac Security}!5@AWS Security Controls|book{5}}{162-178}
-\indexentry{6a@\textbf{Linux, AWS, and Mac Security}!6@AWS Hardening|book{5}}{179-200}
-\indexentry{6a@\textbf{Linux, AWS, and Mac Security}!7@macOS Security|book{5}}{201-215}
+
+\indexentry{6a@\textbf{Book 6: Workbook}!1@Exercise 1.1 - Configuring Interception Proxies|book{W}}{2-22}
+\indexentry{6a@\textbf{Book 6: Workbook}!2@Exercise 1.2 - Virtual Host Discovery|book{W}}{23-37}
+\indexentry{6a@\textbf{Book 6: Workbook}!3@Exercise 1.3 - Testing HTTPS|book{W}}{38-43}
+\indexentry{6a@\textbf{Book 6: Workbook}!4@Exercise 1.4 - Gathering Server Information|book{W}}{44-54}
+\indexentry{6a@\textbf{Book 6: Workbook}!5@Exercise 1.Bonus - Testing and Exploiting Heartbleed|book{W}}{55-63}
+\indexentry{6a@\textbf{Book 6: Workbook}!6@Exercise 2.1 - Web Spidering|book{W}}{64-77}
+\indexentry{6a@\textbf{Book 6: Workbook}!7@Exercise 2.2 - ZAP and fuff Forced Browse|book{W}}{78-87}
+\indexentry{6a@\textbf{Book 6: Workbook}!8@Exercise 2.3 - Authentication|book{W}}{88-101}
+\indexentry{6a@\textbf{Book 6: Workbook}!9@Exercise 2.4 - Username Harvesting|book{W}}{102-}
+\indexentry{6a@\textbf{Book 6: Workbook}!10@Exercise 2.5 - Fuzzing with Burp Intruder|book{W}}{117-126}
+\indexentry{6a@\textbf{Book 6: Workbook}!11@Exercise 2.6 - Burp Suquencer: Analyzing Session Tokens|book{W}}{127-141}
+\indexentry{6a@\textbf{Book 6: Workbook}!12@Exercise 2.7 - Authentication Bypass|book{W}}{142-165}
+\indexentry{6a@\textbf{Book 6: Workbook}!13@Exercise 2.Bonus  - Exploiting Shellshock|book{W}}{167-176}
+\indexentry{6a@\textbf{Book 6: Workbook}!14@Exercise 2.Bonus-2 - Snake Challenge|book{W}}{177-188}
+\indexentry{6a@\textbf{Book 6: Workbook}!15@Exercise 3.1 - Command Injection|book{W}}{189-206}
+\indexentry{6a@\textbf{Book 6: Workbook}!16@Exercise 3.2 - Local/Remote File Inclusion|book{W}}{207-214}
+\indexentry{6a@\textbf{Book 6: Workbook}!17@Exercise 3.3 - Insecure Deserialization|book{W}}{215-229}
+\indexentry{6a@\textbf{Book 6: Workbook}!18@Exercise 3.4 - Error-Based SQLi|book{W}}{230-236}
+\indexentry{6a@\textbf{Book 6: Workbook}!19@Exercise 3.5 - sqlmap + ZAP|book{W}}{237-250}
+\indexentry{6a@\textbf{Book 6: Workbook}!20@Exercise 4.1 - HTML Injection|book{W}}{251-260}
+\indexentry{6a@\textbf{Book 6: Workbook}!21@Exercise 4.2 - BeEF|book{W}}{261-275}
+\indexentry{6a@\textbf{Book 6: Workbook}!22@Exercise 4.3 - DOM-Based XSS|book{W}}{276-284}
+\indexentry{6a@\textbf{Book 6: Workbook}!23@Exercise 4.4 - XSS|book{W}}{285-297}
+\indexentry{6a@\textbf{Book 6: Workbook}!24@Exercise 4.5 - Servre-Side Request Forgery|book{W}}{298-316}
+\indexentry{6a@\textbf{Book 6: Workbook}!25@Exercise 4.6 - XXE|book{W}}{317-329}
+\indexentry{6a@\textbf{Book 6: Workbook}!26@Exercise 5.1 - CSRF|book{W}}{330-346}
+\indexentry{6a@\textbf{Book 6: Workbook}!26@Exercise 5.2 - Python|book{W}}{347-355}
+\indexentry{6a@\textbf{Book 6: Workbook}!26@Exercise 5.3 - WPScan and ExploitDB|book{W}}{356-363}
+\indexentry{6a@\textbf{Book 6: Workbook}!26@Exercise 5.4 - Metasploit|book{W}}{364-376}
+\indexentry{6a@\textbf{Book 6: Workbook}!26@Exercise 5.5 - Nuclei and Jenkins|book{W}}{377-393}
+\indexentry{6a@\textbf{Book 6: Workbook}!26@Exercise 5.6 - When Tools Fail|book{W}}{394-405}
+\indexentry{6a@\textbf{Book 6: Workbook}!26@Exercise 5.Bonus - Python|book{W}}{406-409}
+\indexentry{6a@\textbf{Book 6: Workbook}!26@Exercise 5.Bonus2 - Exploiting Ruby on Rails|book{W}}{410-422}
+
+
 
 \indexentry{6b@\blankline|comment}{0}
-
-\indexentry{7a@\textbf{Workbook}!1@tcpdump|book{5}}{26-37}
-\indexentry{7a@\textbf{Workbook}!2@Wireshark|book{5}}{38-50}
-\indexentry{7a@\textbf{Workbook}!3@Aircrack-ng|book{5}}{51-57}
-\indexentry{7a@\textbf{Workbook}!4@Hashcat|book{5}}{58-69}
-\indexentry{7a@\textbf{Workbook}!5@Cain and Abel|book{5}}{70-94}
-\indexentry{7a@\textbf{Workbook}!6@AppLocker|book{5}}{95-123}
-\indexentry{7a@\textbf{Workbook}!7@Nmap|book{5}}{124-139}
-\indexentry{7a@\textbf{Workbook}!8@Malicious Software|book{5}}{140-147}
-\indexentry{7a@\textbf{Workbook}!9@Command Injection|book{5}}{148-153}
-\indexentry{7a@\textbf{Workbook}!10@hping3|book{5}}{154-163}
-\indexentry{7a@\textbf{Workbook}!11@Image Steganography|book{5}}{164-184}
-\indexentry{7a@\textbf{Workbook}!12@GNU Privacy Guard (GPG)|book{5}}{184-203}
-\indexentry{7a@\textbf{Workbook}!13@Snort|book{5}}{204-227}
-\indexentry{7a@\textbf{Workbook}!14@Process Hacker|book{5}}{228-244}
-\indexentry{7a@\textbf{Workbook}!15@NTFS Permissions Reporter|book{5}}{245-258}
-\indexentry{7a@\textbf{Workbook}!16@SECEDIT.EXE|book{5}}{259-266}
-\indexentry{7a@\textbf{Workbook}!17@PowerShell Scripting|book{5}}{267-}
-
-\indexentry{7b@\blankline|comment}{0}
 
 
 \comment{********************************************************************************************
@@ -118,351 +185,116 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 %\indexentry{101@\blankline|comment}{0}
 
 % \indexentry{200@\textbf{Summaries}!Wireless Threat|book{1}}{31}
-% \indexentry{200@\textbf{Summaries}!Sniffing WiFi|book{1}}{87}
-% \indexentry{200@\textbf{Summaries}!Rogue AP Analysis|book{1}}{121}
-% \indexentry{200@\textbf{Summaries}!Bridging the Airgap|book{1}}{152}
-% \indexentry{200@\textbf{Summaries}!Exploiting WiFi Hotspots|book{2}}{30}
-% \indexentry{200@\textbf{Summaries}!WiFi Client Attacks|book{2}}{61}
-% \indexentry{200@\textbf{Summaries}!WEP Attacks|book{2}}{80}
-% \indexentry{200@\textbf{Summaries}!Denial-of-Service Attacks|book{2}}{120}
-% \indexentry{200@\textbf{Summaries}!WiFi Fuzzing for Bug Discovery|book{2}}{145}
-% \indexentry{200@\textbf{Summaries}!WPA2 PSK Attacks|book{3}}{48}
-% \indexentry{200@\textbf{Summaries}!WPA2 Enterprise Attacks|book{3}}{76}
-% \indexentry{200@\textbf{Summaries}!DECT Attacks|book{3}}{104}
-% \indexentry{200@\textbf{Summaries}!Zigbee Attacks|book{3}}{148}
-% \indexentry{200@\textbf{Summaries}!Bluetooth Attacks|book{4}}{47-48}
-% \indexentry{200@\textbf{Summaries}!Bluetooth LE Attacks|book{4}}{94}
-% \indexentry{200@\textbf{Summaries}!SDR|book{4}}{130}
-% \indexentry{200@\textbf{Summaries}!RFID|book{5}}{14}
-% \indexentry{200@\textbf{Summaries}!RFID!Tracking \& Privacy Attacks|book{5}}{32}
-% \indexentry{200@\textbf{Summaries}!RFID!Low-Frequency Attacks|book{5}}{66}
-% \indexentry{200@\textbf{Summaries}!RFID!Contactless Smart Card Attacks|book{5}}{113}
-% \indexentry{200@\textbf{Summaries}!NFC Attacks|book{5}}{137}
+
 
 % \indexentry{201@\blankline|comment}{0}
 
-% \indexentry{300@\textbf{Tools}!Tcpdump|book{1}}{37-38}
-% \indexentry{300@\textbf{Tools}!AirPcap|book{1}}{40}
-% \indexentry{300@\textbf{Tools}!Wireshark|book{1}}{40}
-% \indexentry{300@\textbf{Tools}!WinPcap|book{1}}{40}
-% \indexentry{300@\textbf{Tools}!Kismet|book{1}}{40}
-% \indexentry{300@\textbf{Tools}!Windump|book{1}}{40}
-% \indexentry{300@\textbf{Tools}!Cain \& Abel|book{1}}{40}
-% \indexentry{300@\textbf{Tools}!NetMon|book{1}}{41-42}
-% \indexentry{300@\textbf{Tools}!MS Message Analyzer (MMA)|book{1}}{42}
-% \indexentry{300@\textbf{Tools}!LibPcap|book{1}}{43}
-% \indexentry{300@\textbf{Tools}!Airport|book{1}}{43}
-% \indexentry{300@\textbf{Tools}!Aircrack-ng|book{1}}{45}
-% \indexentry{300@\textbf{Tools}!Aircrack-ng!Airmon-ng|book{1}}{45}
-% \indexentry{300@\textbf{Tools}!Tcpdump}{53}
-% \indexentry{300@\textbf{Tools}!Wireshark}{53}
-% \indexentry{300@\textbf{Tools}!Kismet}{53}
-% \indexentry{300@\textbf{Tools}!Android Pcap Capture|book{1}}{53}
-% \indexentry{300@\textbf{Tools}!Tcpdump}{55-58}
-% \indexentry{300@\textbf{Tools}!Tcpdump!Options|book{1}}{56}
-% \indexentry{300@\textbf{Tools}!Tcpdump!Filters|book{1}}{58}
-% \indexentry{300@\textbf{Tools}!Wireshark}{59}
-% \indexentry{300@\textbf{Tools}!WildPackets AiroPeek NX|book{1}}{59}
-% \indexentry{300@\textbf{Tools}!Network Chemistry WSP-100|book{1}}{59}
-% \indexentry{300@\textbf{Tools}!Network Associates Sniffer|book{1}}{59}
-% \indexentry{300@\textbf{Tools}!Wireshark!Filters|book{1}}{61-65}
-% \indexentry{300@\textbf{Tools}!Kismet}{67-74}
-% \indexentry{300@\textbf{Tools}!Kismet!Features|book{1}}{68-69}
-% \indexentry{300@\textbf{Tools}!Kismet!Aircrack-PTW Plugin|book{1}}{69}
-% \indexentry{300@\textbf{Tools}!Kismet!Channel Control|book{1}}{74}
-% \indexentry{300@\textbf{Tools}!GISKismet|book{1}}{77}
-% \indexentry{300@\textbf{Tools}!Android Pcap Capture}{79-80}
-% \indexentry{300@\textbf{Tools}!Ekahau HeatMapper|book{1}}{82}
-% \indexentry{300@\textbf{Tools}!Kismapping|book{1}}{83-84}
-% \indexentry{300@\textbf{Tools}!GPSMap|book{1}}{83}
-% \indexentry{300@\textbf{Tools}!Kismet!Oldcore|book{1}}{83}
-% \indexentry{300@\textbf{Tools}!MyKismap|book{1}}{83-84}
-% \indexentry{300@\textbf{Tools}!Kismet!Postprocessing Analysis|book{1}}{85-86}
-% \indexentry{300@\textbf{Tools}!Nmap|book{1}}{99}
-% \indexentry{300@\textbf{Tools}!Nmap!RogueAP (NSE Script)|book{1}}{99}
-% \indexentry{300@\textbf{Tools}!Kismet!Filtering|book{1}}{101-104}
-% \indexentry{300@\textbf{Tools}!Vistumbler|book{1}}{105}
-% \indexentry{300@\textbf{Tools}!InSSIDer|book{1}}{105-106}
-% \indexentry{300@\textbf{Tools}!AirMagnet Laptop Analyzer|book{1}}{105}
-% \indexentry{300@\textbf{Tools}!RFProtect Mobile|book{1}}{105}
-% \indexentry{300@\textbf{Tools}!Android WiFi Analyzer|book{1}}{107}
-% \indexentry{300@\textbf{Tools}!WiFiFoFum|book{1}}{107}
-% \indexentry{300@\textbf{Tools}!Aruba AirMonitor|book{1}}{110}
-% \indexentry{300@\textbf{Tools}!Kismet!Signal Quality|book{1}}{113}
-% \indexentry{300@\textbf{Tools}!NetScout AirCheck G2|book{1}}{115}
-% \indexentry{300@\textbf{Tools}!Netdisco|book{1}}{119}
-% \indexentry{300@\textbf{Tools}!Metasploit|book{1}}{130}
-% \indexentry{300@\textbf{Tools}!Metasploit!MsfVenom|book{1}}{130}
-% \indexentry{300@\textbf{Tools}!Metasploit!Meterpreter|book{1}}{130-132}
-% \indexentry{300@\textbf{Tools}!WirelessKeyView|book{1}}{134}
-% \indexentry{300@\textbf{Tools}!Metasploit!Meterpreter}{137}
-% \indexentry{300@\textbf{Tools}!Metasploit!Meterpreter}{141-143}
-% \indexentry{300@\textbf{Tools}!NetMon}{137-138}
-% \indexentry{300@\textbf{Tools}!Wireshark}{138}
-% \indexentry{300@\textbf{Tools}!CrowbarKC|book{1}}{148}
-% \indexentry{300@\textbf{Tools}!Iodine|book{2}}{12}
-% \indexentry{300@\textbf{Tools}!Nstx|book{2}}{12}
-% \indexentry{300@\textbf{Tools}!ICMPTX|book{2}}{12}
-% \indexentry{300@\textbf{Tools}!Pickupline|book{2}}{17}
-% \indexentry{300@\textbf{Tools}!Cpscam|book{2}}{17}
-% \indexentry{300@\textbf{Tools}!Zillow|book{2}}{19}
-% \indexentry{300@\textbf{Tools}!Aircrack-ng!Aireplay-ng|book{2}}{21}
-% \indexentry{300@\textbf{Tools}!Metasploit! |book{2}}{22}
-% \indexentry{300@\textbf{Tools}!Ferret|book{2}}{24}
-% \indexentry{300@\textbf{Tools}!Hamster|book{2}}{24}
-% \indexentry{300@\textbf{Tools}!Wireshark!TCP Stream|book{2}}{25}
-% \indexentry{300@\textbf{Tools}!Cookies Manager+|book{2}}{26}
-% \indexentry{300@\textbf{Tools}!Burp Suite|book{2}}{27}
-% \indexentry{300@\textbf{Tools}!AirPWN|book{2}}{36-38}
-% \indexentry{300@\textbf{Tools}!Aircrack-ng!Airtun-ng|book{2}}{42}
-% \indexentry{300@\textbf{Tools}!ISniff-GPS|book{2}}{44-46}
-% \indexentry{300@\textbf{Tools}!Metasploit! }{47}
-% \indexentry{300@\textbf{Tools}!Cain Password Sniffer|book{2}}{50}
-% \indexentry{300@\textbf{Tools}!Metasploit!Meterpreter@ |book{2}}{56-59}
-% \indexentry{300@\textbf{Tools}!Aircrack-ng! |book{2}}{73-74}
-% \indexentry{300@\textbf{Tools}!Aircrack-ng!Aireplay-ng}{77}
-% \indexentry{300@\textbf{Tools}!Wifite2|book{2}}{78}
-% \indexentry{300@\textbf{Tools}!Aircrack-ng!Airdecap-ng|book{2}}{79}
-% \indexentry{300@\textbf{Tools}!Hwk|book{2}}{95}
-% \indexentry{300@\textbf{Tools}!File2Air|book{2}}{99-100}
-% \indexentry{300@\textbf{Tools}!Aircrack-ng!Aireplay-ng}{101}
-% \indexentry{300@\textbf{Tools}!MDK3|book{2}}{102}
-% \indexentry{300@\textbf{Tools}!File2Air}{104}
-% \indexentry{300@\textbf{Tools}!Scapy|book{2}}{105}
-% \indexentry{300@\textbf{Tools}!File2Air}{110}
-% \indexentry{300@\textbf{Tools}!JRockets|book{2}}{115}
-% \indexentry{300@\textbf{Tools}!Scapy}{131-139}
-% \indexentry{300@\textbf{Tools}!Nmap! |book{2}}{131}
-% \indexentry{300@\textbf{Tools}!Tshark|book{2}}{143}
-% \indexentry{300@\textbf{Tools}!CoWPAtty|book{3}}{21-23}
-% \indexentry{300@\textbf{Tools}!Hashcat|book{3}}{26-28}
-% \indexentry{300@\textbf{Tools}!Hashcat!HCCAPX Format|book{3}}{26}
-% \indexentry{300@\textbf{Tools}!Reaver|book{3}}{35-37}
-% \indexentry{300@\textbf{Tools}!WirelessKeyView! |book{3}}{39}
-% \indexentry{300@\textbf{Tools}!Aircrack-ng!Airdecap-ng! |book{3}}{40}
-% \indexentry{300@\textbf{Tools}!Aircrack-ng!Airodump-ng|book{3}}{52}
-% \indexentry{300@\textbf{Tools}!Aircrack-ng!Airgraph-ng|book{3}}{52}
-% \indexentry{300@\textbf{Tools}!SniffAir|book{3}}{60}
-% \indexentry{300@\textbf{Tools}!Hostapd-WPE|book{3}}{69-71}
-% \indexentry{300@\textbf{Tools}!Aircrack-ng!Hostapd-WPE|book{3}}{69-71}
-% \indexentry{300@\textbf{Tools}!Eaphammer|book{3}}{71}
-% \indexentry{300@\textbf{Tools}!Asleap|book{3}}{72}
-% \indexentry{300@\textbf{Tools}!John the Ripper|book{3}}{73}
-% \indexentry{300@\textbf{Tools}!DECT CLI|book{3}}{92}
-% \indexentry{300@\textbf{Tools}!DECTShark|book{3}}{93-94}
-% \indexentry{300@\textbf{Tools}!Wireshark! |book{3}}{95}
-% \indexentry{300@\textbf{Tools}!DECT Decoder|book{3}}{97}
-% \indexentry{300@\textbf{Tools}!G72X Decoder|book{3}}{97}
-% \indexentry{300@\textbf{Tools}!DECT CLI}{98}
-% \indexentry{300@\textbf{Tools}!DECT Decoder}{99-100}
-% \indexentry{300@\textbf{Tools}!Re-DECTed|book{3}}{103}
-% \indexentry{300@\textbf{Tools}!Wireshark! }{103}
-% \indexentry{300@\textbf{Tools}!KillerBee|book{3}}{126-141}
-% \indexentry{300@\textbf{Tools}!KillerBee!Arsenal|book{3}}{130}
-% \indexentry{300@\textbf{Tools}!KillerBee!Attack Example|book{3}}{132}
-% \indexentry{300@\textbf{Tools}!KillerBee!Attack Example}{134}
-% \indexentry{300@\textbf{Tools}!KillerBee!Attack Example}{136}
-% \indexentry{300@\textbf{Tools}!Wireshark! }{141}
-% \indexentry{300@\textbf{Tools}!KillerZee|book{3}}{144-147}
-% \indexentry{300@\textbf{Tools}!BTCrack|book{4}}{27-28}
-% \indexentry{300@\textbf{Tools}!BlueScannner|book{4}}{39}
-% \indexentry{300@\textbf{Tools}!BTScannner|book{4}}{39}
-% \indexentry{300@\textbf{Tools}!Bluetooth Scannner|book{4}}{39}
-% \indexentry{300@\textbf{Tools}!BLE Scannner|book{4}}{39}
-% \indexentry{300@\textbf{Tools}!BTCrack}{40}
-% \indexentry{300@\textbf{Tools}!BTScannner}{43}
-% \indexentry{300@\textbf{Tools}!CarWhisperer|book{4}}{43}
-% \indexentry{300@\textbf{Tools}!Bluesnarfer|book{4}}{43}
-% \indexentry{300@\textbf{Tools}!Hcitool|book{4}}{44-45}
-% \indexentry{300@\textbf{Tools}!Rfcomm|book{4}}{44-45}
-% \indexentry{300@\textbf{Tools}!Ussp-Push|book{4}}{44-45}
-% \indexentry{300@\textbf{Tools}!Obexftp|book{4}}{44-45}
-% \indexentry{300@\textbf{Tools}!Bluetooth Stack Smasher|book{4}}{46}
-% \indexentry{300@\textbf{Tools}!BLE Sniffer|book{4}}{67}
-% \indexentry{300@\textbf{Tools}!Wireshark!  |book{4}}{68}
-% \indexentry{300@\textbf{Tools}!Crackle|book{4}}{71}
-% \indexentry{300@\textbf{Tools}!BlueZ Suite|book{4}}{74-75}
-% \indexentry{300@\textbf{Tools}!NRF Connect|book{4}}{76-78}
-% \indexentry{300@\textbf{Tools}!BLESuite|book{4}}{79-80}
-% \indexentry{300@\textbf{Tools}!BLEReplay|book{4}}{79}
-% \indexentry{300@\textbf{Tools}!BLESuiteCLI|book{4}}{80}
-% \indexentry{300@\textbf{Tools}!Crackle}{81}
-% \indexentry{300@\textbf{Tools}!BlueZ Suite}{84-85}
-% \indexentry{300@\textbf{Tools}!Scapy! |book{4}}{84}
-% \indexentry{300@\textbf{Tools}!BLE Fuzzer|book{4}}{85}
-% \indexentry{300@\textbf{Tools}!BLESuite}{85}
-% \indexentry{300@\textbf{Tools}!BLEFuzz|book{4}}{86}
-% \indexentry{300@\textbf{Tools}!BLEAH|book{4}}{86}
-% \indexentry{300@\textbf{Tools}!BLEReplay}{89}
-% \indexentry{300@\textbf{Tools}!Blue Hydra|book{4}}{94}
-% \indexentry{300@\textbf{Tools}!Vapor Trail|book{4}}{101}
-% \indexentry{300@\textbf{Tools}!Responder|book{4}}{101}
-% \indexentry{300@\textbf{Tools}!SpectrumSpy|book{4}}{107}
-% \indexentry{300@\textbf{Tools}!RTL Power \& Heatmap|book{4}}{109}
-% \indexentry{300@\textbf{Tools}!RTL Power \& Heatmap}{112-114}
-% \indexentry{300@\textbf{Tools}!Dump1090|book{4}}{116}
-% \indexentry{300@\textbf{Tools}!RTL-FM|book{4}}{120}
-% \indexentry{300@\textbf{Tools}!Multimon-ng|book{4}}{120}
-% \indexentry{300@\textbf{Tools}!RX-Tools|book{4}}{120}
-% \indexentry{300@\textbf{Tools}!Kalibrate|book{4}}{122}
-% \indexentry{300@\textbf{Tools}!RTL\_433|book{4}}{125}
-% \indexentry{300@\textbf{Tools}!RFIDIOt|book{5}}{38-39}
-% \indexentry{300@\textbf{Tools}!Proxmark 3|book{5}}{45-52}
-% \indexentry{300@\textbf{Tools}!ProxBrute|book{5}}{50-52}
-% \indexentry{300@\textbf{Tools}!Easy Flasher|book{5}}{51}
-% \indexentry{300@\textbf{Tools}!Proxmark 3!Data Plot|book{5}}{58-61}
-% \indexentry{300@\textbf{Tools}!Proxmark 3!Data Decoding|book{5}}{63-64}
-% \indexentry{300@\textbf{Tools}!Pwnpass|book{5}}{74}
-% \indexentry{300@\textbf{Tools}!NFC Smart Card Info|book{5}}{75}
-% \indexentry{300@\textbf{Tools}!Squareless|book{5}}{75}
-% \indexentry{300@\textbf{Tools}!NFCProxy|book{5}}{77}
-% \indexentry{300@\textbf{Tools}!PCSC-Lite|book{5}}{79-80}
-% \indexentry{300@\textbf{Tools}!NFC Tag Info|book{5}}{81}
-% \indexentry{300@\textbf{Tools}!Mfoc|book{5}}{85-87}
-% \indexentry{300@\textbf{Tools}!Mfcuk|book{5}}{85}
-% \indexentry{300@\textbf{Tools}!Mfcuk}{88-89}
-% \indexentry{300@\textbf{Tools}!Mfoc}{90-91}
-% \indexentry{300@\textbf{Tools}!NFC MFClassic|book{5}}{94-95}
-% \indexentry{300@\textbf{Tools}!Mifare Classic Tool|book{5}}{95-96}
-% \indexentry{300@\textbf{Tools}!NFC Tag Info}{101}
-% \indexentry{300@\textbf{Tools}!UltraReset|book{5}}{105}
-% \indexentry{300@\textbf{Tools}!NFC Tag Cloner|book{5}}{106}
-% \indexentry{300@\textbf{Tools}!MIFARE SmartHack|book{5}}{108}
-% \indexentry{300@\textbf{Tools}!NFC Tag Info}{110}
-% \indexentry{300@\textbf{Tools}!MIFARE SmartHack}{111-112}
-% \indexentry{300@\textbf{Tools}!NFC Tag Writer|book{5}}{124}
-% \indexentry{300@\textbf{Tools}!Ulread|book{5}}{128}
-% \indexentry{300@\textbf{Tools}!TagMo|book{5}}{131-132}
+\indexentry{300@\textbf{Tools}!dig!search for record type ANY|book{W}}{25}
+\indexentry{300@\textbf{Tools}!dig!zone transfer|book{W}}{30}
+\indexentry{300@\textbf{Tools}!nmap!dns-zone-transfer|book{W}}{28}
+\indexentry{300@\textbf{Tools}!nmap!dns-brute|book{W}}{29}
+\indexentry{300@\textbf{Tools}!DNSRecon!zone transfer|book{W}}{28}
+\indexentry{300@\textbf{Tools}!DNSRecon!dns brute|book{W}}{30}
+\indexentry{300@\textbf{Tools}!nmap!dns-brute|book{W}}{31}
+\indexentry{300@\textbf{Tools}!wc|book{W}}{30-31}
+\indexentry{300@\textbf{Tools}!dnsdumpster|book{W}}{32-33}
+\indexentry{300@\textbf{Tools}!crt.sh|book{W}}{34-36}
+\indexentry{300@\textbf{Tools}!ssllabs.com|book{W}}{39}
+\indexentry{300@\textbf{Tools}!nmap!enum-ciphers|book{W}}{40-43}
+\indexentry{300@\textbf{Tools}!nmap!script-help|book{W}}{41}
+\indexentry{300@\textbf{Tools}!grep!nmap heartbleed output|book{W}}{43}
+\indexentry{300@\textbf{Tools}!nc!craft HTTP request|book{W}}{46-48}
+\indexentry{300@\textbf{Tools}!nmap!version scan|book{W}}{49}
+\indexentry{300@\textbf{Tools}!nmap!http-robots.txt|book{W}}{50}
+\indexentry{300@\textbf{Tools}!nmap!NSE scripts|book{W}}{50}
+\indexentry{300@\textbf{Tools}!Burp Suite!BApp - Retire.js|book{W}}{51-53}
+\indexentry{300@\textbf{Tools}!nmap!ssl-heartbleed|book{W}}{55-57}
+\indexentry{300@\textbf{Tools}!heartbleed.py|book{W}}{60-61}
+\indexentry{300@\textbf{Tools}!strings|book{W}}{63}
+\indexentry{300@\textbf{Tools}!wget!spidering|book{W}}{65-66}
+\indexentry{300@\textbf{Tools}!diff!compare sitemaps|book{W}}{66}
+\indexentry{300@\textbf{Tools}!ZAP!spidering|book{W}}{67-71}
+\indexentry{300@\textbf{Tools}!Burp Suite!spidering|book{W}}{71-77}
+\indexentry{300@\textbf{Tools}!ZAP!forced browse|book{W}}{81-85}
+\indexentry{300@\textbf{Tools}!fuff!forced browse|book{W}}{85-86}
+\indexentry{300@\textbf{Tools}!ZAP!basic auth|book{W}}{89-94}
+\indexentry{300@\textbf{Tools}!ZAP!digest auth|book{W}}{94-96}
+\indexentry{300@\textbf{Tools}!ZAP!form-based auth|book{W}}{96-98}
+\indexentry{300@\textbf{Tools}!ZAP!method interchange|book{W}}{98-100}
+\indexentry{300@\textbf{Tools}!nmap!enum-ciphers|book{W}}{40}
+\indexentry{300@\textbf{Tools}!user\_enum|book{W}}{104-105}
+\indexentry{300@\textbf{Tools}!ZAP!user enum|book{W}}{106-115}
+\indexentry{300@\textbf{Tools}!Burp Suite!fuzzing|book{W}}{118-126}
+\indexentry{300@\textbf{Tools}!Burp Suite!Sequencer|book{W}}{127-}140
+\indexentry{300@\textbf{Tools}!python!generate session tokens|book{W}}{134-135}
+\indexentry{300@\textbf{Tools}!Burp Suite!auth bypass|book{W}}{142-165}
+\indexentry{300@\textbf{Tools}!netstat.cgi|book{W}}{167-168}
+\indexentry{300@\textbf{Tools}!nmap!enum-ciphers|book{W}}{40}
+\indexentry{300@\textbf{Tools}!Burp Suite!shellshock|book{W}}{169-173}
+\indexentry{300@\textbf{Tools}!curl!shellshock|book{W}}{173-176}
+\indexentry{300@\textbf{Tools}!Burp Suite!request params|book{W}}{177-182}
+\indexentry{300@\textbf{Tools}!ifconfig!get VM ip|book{W}}{189}
+\indexentry{300@\textbf{Tools}!nslookup!command injection|book{W}}{191}
+\indexentry{300@\textbf{Tools}!id!command injection|book{W}}{192}
+\indexentry{300@\textbf{Tools}!nmap!enum-ciphers|book{W}}{40}
+\indexentry{300@\textbf{Tools}!nc!shell|book{W}}{193-194}
+\indexentry{300@\textbf{Tools}!ping!blind injection|book{W}}{196-197}
+\indexentry{300@\textbf{Tools}!tcpdump!blind injection|book{W}}{198-199}
+\indexentry{300@\textbf{Tools}!ping!blind injection|book{W}}{198-199}
+\indexentry{300@\textbf{Tools}!iptables!block icmp|book{W}}{199-200}
+\indexentry{300@\textbf{Tools}!Burp Suite!blind injection|book{W}}{201}
+\indexentry{300@\textbf{Tools}!Burp Suite!Collaborator|book{W}}{200-205}
+\indexentry{300@\textbf{Tools}!nslookup!blind injection|book{W}}{202}
+\indexentry{300@\textbf{Tools}!nslookup!Burp Collaborator|book{W}}{202}
+\indexentry{300@\textbf{Tools}!base32|book{W}}{204}
+\indexentry{300@\textbf{Tools}!nmap!enum-ciphers|book{W}}{40}
+\indexentry{300@\textbf{Tools}!tr!-d|book{W}}{204}
+\indexentry{300@\textbf{Tools}!Burp Suite!LFI/RFI|book{W}}{207-212}
+\indexentry{300@\textbf{Tools}!php!shell|book{W}}{210-212}
+\indexentry{300@\textbf{Tools}!nc!backdoor listener|book{W}}{213}
+\indexentry{300@\textbf{Tools}!Burp Suite!insecure deserialization|book{W}}{219-228}
+\indexentry{300@\textbf{Tools}!ysoserial!insecure deserialization|book{W}}{219}
+\indexentry{300@\textbf{Tools}!curl!insecure deserialization|book{W}}{228}
+\indexentry{300@\textbf{Tools}!ZAP!SQLi error|book{W}}{242}
+\indexentry{300@\textbf{Tools}!sqlmap!identify vulnerable param|book{W}}{243}
+\indexentry{300@\textbf{Tools}!sqlmap!user-agent|book{W}}{228}
+\indexentry{300@\textbf{Tools}!sqlmap!count records in table|book{W}}{245-47}
+\indexentry{300@\textbf{Tools}!sqlmap!read file|book{W}}{248}
+\indexentry{300@\textbf{Tools}!sqlmap!dump db users and password hashes|book{W}}{249}
+\indexentry{300@\textbf{Tools}!sqlmap!search col names|book{W}}{250}
+\indexentry{300@\textbf{Tools}!BeEF|book{W}}{261}
+\indexentry{300@\textbf{Tools}!python!http server|book{W}}{281}
+\indexentry{300@\textbf{Tools}!BeEF!DOM-Based XSS|book{W}}{283-284}
+\indexentry{300@\textbf{Tools}!Burp Suite!SSRF|book{W}}{307-309}
+\indexentry{300@\textbf{Tools}!fuff!force browse directories|book{W}}{303-304}
+\indexentry{300@\textbf{Tools}!curl!ssrf|book{W}}{305-309}
+\indexentry{300@\textbf{Tools}!sqlmap!ssrf|book{W}}{310-314}
+\indexentry{300@\textbf{Tools}!sqlmap!level|book{W}}{310}
+\indexentry{300@\textbf{Tools}!sqlmap!dump dbs|book{W}}{311}
+\indexentry{300@\textbf{Tools}!sqlmap!dump tables|book{W}}{312s}
+\indexentry{300@\textbf{Tools}!sqlmap!dump table contents|book{W}}{313}
+\indexentry{300@\textbf{Tools}!curl!XXE|book{W}}{320-329}
+\indexentry{300@\textbf{Tools}!ZAP!CSRF|book{W}}{334-336}
+\indexentry{300@\textbf{Tools}!ZAP!Generate Anti CSRF Test FORM|book{W}}{335}
+\indexentry{300@\textbf{Tools}!JavaScript!Auto-submit form|book{W}}{339}
+\indexentry{300@\textbf{Tools}!wpscan|book{W}}{358-360}
+\indexentry{300@\textbf{Tools}!Metasploit|book{W}}{364}
+\indexentry{300@\textbf{Tools}!Burp Suite!smart decode|book{W}}{372-375}
+\indexentry{300@\textbf{Tools}!Nuclei!run scan|book{W}}{380}
+\indexentry{300@\textbf{Tools}!Nuclei!run scan with cookie|book{W}}{385}
+\indexentry{300@\textbf{Tools}!Metasploit!exploit Jenkins|book{W}}{387-390}
+\indexentry{300@\textbf{Tools}!jenkins-credentials-decryptor|book{W}}{392}
+\indexentry{300@\textbf{Tools}!Metasploit!exploit mediawiki|book{W}}{396-399}
+\indexentry{300@\textbf{Tools}!php!cmd shell|book{W}}{400}
+\indexentry{300@\textbf{Tools}!python!password guessing|book{W}}{406}
+\indexentry{300@\textbf{Tools}!Metasploit!exploit Ruby on Rails|book{W}}{410-422}
+
+
+
 
 % \indexentry{301@\blankline|comment}{0}
 
 % \indexentry{500@\textbf{Commands}!\texttt{tcpdump}|book{1}}{37-38}
-% \indexentry{500@\textbf{Commands}!\texttt{airport}|book{1}}{43}
-% \indexentry{500@\textbf{Commands}!\texttt{iw}|book{1}}{44-46}
-% \indexentry{500@\textbf{Commands}!\texttt{iwconfig}|book{1}}{44-46}
-% \indexentry{500@\textbf{Commands}!\texttt{ifconfig}|book{1}}{44-46}
-% \indexentry{500@\textbf{Commands}!\texttt{airmon-ng}|book{1}}{45}
-% \indexentry{500@\textbf{Commands}!\texttt{iw}}{51-52}
-% \indexentry{500@\textbf{Commands}!\texttt{tcpdump}}{57}
-% \indexentry{500@\textbf{Commands}!\texttt{kismet}|book{1}}{70}
-% \indexentry{500@\textbf{Commands}!\texttt{giskismet}|book{1}}{75-77}
-% \indexentry{500@\textbf{Commands}!\texttt{netsh}|book{1}}{96}
-% \indexentry{500@\textbf{Commands}!\texttt{nmap}|book{1}}{99}
-% \indexentry{500@\textbf{Commands}!\texttt{netsh}}{129}
-% \indexentry{500@\textbf{Commands}!\texttt{msfvenom}|book{1}}{130}
-% \indexentry{500@\textbf{Commands}!\texttt{msfconsole}|book{1}}{130}
-% \indexentry{500@\textbf{Commands}!\texttt{netsh}}{133-135}
-% \indexentry{500@\textbf{Commands}!\texttt{msiexec}|book{1}}{137}
-% \indexentry{500@\textbf{Commands}!\texttt{nmwifi}|book{1}}{137}
-% \indexentry{500@\textbf{Commands}!\texttt{nmcap}|book{1}}{137}
-% \indexentry{500@\textbf{Commands}!\texttt{idletime}|book{1}}{137}
-% \indexentry{500@\textbf{Commands}!\texttt{netsh}}{139-143}
-% \indexentry{500@\textbf{Commands}!\texttt{nm2lp}|book{1}}{138}
-% \indexentry{500@\textbf{Commands}!\texttt{winenum}|book{1}}{141}
-% \indexentry{500@\textbf{Commands}!\texttt{rogueap}|book{1}}{142}
-% \indexentry{500@\textbf{Commands}!\texttt{getsystem}|book{1}}{142}
-% \indexentry{500@\textbf{Commands}!\texttt{airport}}{145-146}
-% \indexentry{500@\textbf{Commands}!\texttt{sw\_vers}|book{1}}{147}
-% \indexentry{500@\textbf{Commands}!\texttt{security}|book{1}}{148}
-% \indexentry{500@\textbf{Commands}!\texttt{networksetup}|book{1}}{150}
-% \indexentry{500@\textbf{Commands}!\texttt{macshift}|book{2}}{16}
-% \indexentry{500@\textbf{Commands}!\texttt{ifconfig}! |book{2}}{16}
-% \indexentry{500@\textbf{Commands}!\texttt{airpwn}|book{2}}{38}
-% \indexentry{500@\textbf{Commands}!\texttt{airtun-ng}|book{2}}{42}
-% \indexentry{500@\textbf{Commands}!\texttt{ncpa.cpl}|book{2}}{49}
-% \indexentry{500@\textbf{Commands}!\texttt{neighbor.sh}|book{2}}{52-55}
-% \indexentry{500@\textbf{Commands}!\texttt{neighbor.sh}}{57}
-% \indexentry{500@\textbf{Commands}!\texttt{msfvenom}! |book{2}}{56}
-% \indexentry{500@\textbf{Commands}!\texttt{msfconsole}! |book{2}}{57}
-% \indexentry{500@\textbf{Commands}!\texttt{aircrack-ng}|book{2}}{74}
-% \indexentry{500@\textbf{Commands}!\texttt{aireplay-ng}|book{2}}{77}
-% \indexentry{500@\textbf{Commands}!\texttt{wifite2}|book{2}}{78}
-% \indexentry{500@\textbf{Commands}!\texttt{airdecap-ng}|book{2}}{79}
-% \indexentry{500@\textbf{Commands}!\texttt{hwk}|book{2}}{95}
-% \indexentry{500@\textbf{Commands}!\texttt{file2air}|book{2}}{100}
-% \indexentry{500@\textbf{Commands}!\texttt{aireplay-ng}}{101}
-% \indexentry{500@\textbf{Commands}!\texttt{mdk3}|book{2}}{102}
-% \indexentry{500@\textbf{Commands}!\texttt{jrockets}|book{2}}{115}
-% \indexentry{500@\textbf{Commands}!\texttt{scapy}|book{2}}{132}
-% \indexentry{500@\textbf{Commands}!\texttt{tshark}|book{2}}{143}
-% \indexentry{500@\textbf{Commands}!\texttt{cowpatty}|book{3}}{23}
-% \indexentry{500@\textbf{Commands}!\texttt{aircrack-ng}! |book{3}}{24}
-% \indexentry{500@\textbf{Commands}!\texttt{genpmk}|book{3}}{25}
-% \indexentry{500@\textbf{Commands}!\texttt{cowpatty}}{25}
-% \indexentry{500@\textbf{Commands}!\texttt{hashcat}|book{3}}{27-28}
-% \indexentry{500@\textbf{Commands}!\texttt{cap2hccapx}|book{3}}{27}
-% \indexentry{500@\textbf{Commands}!\texttt{reaver}|book{3}}{36}
-% \indexentry{500@\textbf{Commands}!\texttt{wirelesskeyview}|book{3}}{39}
-% \indexentry{500@\textbf{Commands}!\texttt{airdecap-ng}! |book{3}}{40}
-% \indexentry{500@\textbf{Commands}!\texttt{airodump-ng}|book{3}}{52}
-% \indexentry{500@\textbf{Commands}!\texttt{airgraph-ng}|book{3}}{52}
-% \indexentry{500@\textbf{Commands}!\texttt{sniffair.py}|book{3}}{60}
-% \indexentry{500@\textbf{Commands}!\texttt{hostapd-wpe}|book{3}}{71}
-% \indexentry{500@\textbf{Commands}!\texttt{airmon-ng}! |book{3}}{71}
-% \indexentry{500@\textbf{Commands}!\texttt{asleap}|book{3}}{72}
-% \indexentry{500@\textbf{Commands}!\texttt{john}|book{3}}{73}
-% \indexentry{500@\textbf{Commands}!\texttt{dect\_cli}|book{3}}{92}
-% \indexentry{500@\textbf{Commands}!\texttt{dectshark}|book{3}}{93}
-% \indexentry{500@\textbf{Commands}!\texttt{dect\_cli}}{98}
-% \indexentry{500@\textbf{Commands}!\texttt{dect-decoder.sh}|book{3}}{100}
-% \indexentry{500@\textbf{Commands}!\texttt{play}|book{3}}{100}
-% \indexentry{500@\textbf{Commands}!\texttt{zbid}|book{3}}{131}
-% \indexentry{500@\textbf{Commands}!\texttt{zbstumbler}|book{3}}{131}
-% \indexentry{500@\textbf{Commands}!\texttt{zbdump}|book{3}}{131}
-% \indexentry{500@\textbf{Commands}!\texttt{zbdsniff}|book{3}}{133}
-% \indexentry{500@\textbf{Commands}!\texttt{zbreplay}|book{3}}{135}
-% \indexentry{500@\textbf{Commands}!\texttt{zbfind}|book{3}}{137}
-% \indexentry{500@\textbf{Commands}!\texttt{zbgoodfind}|book{3}}{140}
-% \indexentry{500@\textbf{Commands}!\texttt{zwdump}|book{3}}{147}
-% \indexentry{500@\textbf{Commands}!\texttt{zwreplay}|book{3}}{147}
-% \indexentry{500@\textbf{Commands}!\texttt{btcrack}|book{4}}{28}
-% \indexentry{500@\textbf{Commands}!\texttt{tshark}! |book{4}}{32}
-% \indexentry{500@\textbf{Commands}!\texttt{hcitool}|book{4}}{32}
-% \indexentry{500@\textbf{Commands}!\texttt{ubertooth-lap}|book{4}}{35}
-% \indexentry{500@\textbf{Commands}!\texttt{ubertooth-lap}}{37}
-% \indexentry{500@\textbf{Commands}!\texttt{ubertooth-uap}|book{4}}{37}
-% \indexentry{500@\textbf{Commands}!\texttt{hcitool}}{37}
-% \indexentry{500@\textbf{Commands}!\texttt{hcitool}}{44}
-% \indexentry{500@\textbf{Commands}!\texttt{sdptool}|book{4}}{45}
-% \indexentry{500@\textbf{Commands}!\texttt{bss}|book{4}}{46}
-% \indexentry{500@\textbf{Commands}!\texttt{btmon}|book{4}}{70}
-% \indexentry{500@\textbf{Commands}!\texttt{ubertooth-btle}|book{4}}{72}
-% \indexentry{500@\textbf{Commands}!\texttt{hcitool}}{75}
-% \indexentry{500@\textbf{Commands}!\texttt{gatttool}|book{4}}{75}
-% \indexentry{500@\textbf{Commands}!\texttt{blesuite-runner.py}|book{4}}{80}
-% \indexentry{500@\textbf{Commands}!\texttt{ubertooth-btle}}{82}
-% \indexentry{500@\textbf{Commands}!\texttt{crackle}|book{4}}{82}
-% \indexentry{500@\textbf{Commands}!\texttt{bleah}|book{4}}{87-88}
-% \indexentry{500@\textbf{Commands}!\texttt{rtl\_power}|book{4}}{113}
-% \indexentry{500@\textbf{Commands}!\texttt{heatmap.py}|book{4}}{113}
-% \indexentry{500@\textbf{Commands}!\texttt{dump1090}|book{4}}{116}
-% \indexentry{500@\textbf{Commands}!\texttt{rtl\_fm}|book{4}}{120}
-% \indexentry{500@\textbf{Commands}!\texttt{multimon-ng}|book{4}}{120}
-% \indexentry{500@\textbf{Commands}!\texttt{kal}|book{4}}{122}
-% \indexentry{500@\textbf{Commands}!\texttt{rtl\_433}|book{4}}{126-127}
-% \indexentry{500@\textbf{Commands}!\texttt{cardselect.py}|book{5}}{38}
-% \indexentry{500@\textbf{Commands}!\texttt{fdxbnum.py}|book{5}}{39}
-% \indexentry{500@\textbf{Commands}!\texttt{proxmark3}|book{5}}{45-46}
-% \indexentry{500@\textbf{Commands}!\texttt{proxmark3}}{56-57}
-% \indexentry{500@\textbf{Commands}!\texttt{proxmark3}}{63-64}
-% \indexentry{500@\textbf{Commands}!\texttt{pcsc\_scan}|book{5}}{80}
-% \indexentry{500@\textbf{Commands}!\texttt{mfoc}|book{5}}{87}
-% \indexentry{500@\textbf{Commands}!\texttt{mfcuk}|book{5}}{89}
-% \indexentry{500@\textbf{Commands}!\texttt{mfoc}}{90}
-% \indexentry{500@\textbf{Commands}!\texttt{nfc-mfclassic}|book{5}}{94}
-% \indexentry{500@\textbf{Commands}!\texttt{proxmark3}}{97-98}
-% \indexentry{500@\textbf{Commands}!\texttt{nfc-list}|book{5}}{100}
-% \indexentry{500@\textbf{Commands}!\texttt{nfc-emulate-tag}|book{5}}{101}
-% \indexentry{500@\textbf{Commands}!\texttt{nfc-emulate-uid}|book{5}}{102}
-% \indexentry{500@\textbf{Commands}!\texttt{nfc-mfultralight}|book{5}}{105}
-% \indexentry{500@\textbf{Commands}!\texttt{mifare-ultralight-info}|book{5}}{108}
-% \indexentry{500@\textbf{Commands}!\texttt{nfc-mfultralightc}|book{5}}{108}
-% \indexentry{500@\textbf{Commands}!\texttt{nfc-mfdesfire-keysearch}|book{5}}{112}
-% \indexentry{500@\textbf{Commands}!\texttt{nfc-mfultralight}|book{5}}{124}
-% \indexentry{500@\textbf{Commands}!\texttt{ulread}|book{5}}{128}
-% \indexentry{500@\textbf{Commands}!\texttt{amiitool}|book{5}}{131}
-% \indexentry{500@\textbf{Commands}!\texttt{gstrings}|book{5}}{131}
-% \indexentry{500@\textbf{Commands}!\texttt{msfconsole}!  |book{5}}{134}
 
 % \indexentry{501@\blankline|comment}{0}
 
@@ -940,7 +772,7 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 \indexentry{Tools!Netcraft Sitereport|book {1}}{149}
 \indexentry{Application Infrastructure|book {1}}{150}
 \indexentry{Port!3306/tcp|book {1}}{150}
-\indexentry{mySQL|book {1}}{150}
+\indexentry{MySQL|book {1}}{150}
 \indexentry{Identifying Web Server Components|book {1}}{151}
 \indexentry{Web Servers|book {1}}{151}
 \indexentry{Application Frameworks|book {1}}{151}
@@ -1152,7 +984,7 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 \indexentry{Globally Unique Identifiers (GUID)|book {2}}{103}
 \indexentry{Sessions!Predicatbility|book {2}}{104}
 \indexentry{Commands!SHA1 hash of session id|book {1}}{104}
-\indexentry{Sessions!Tamper Resistant|book {2}}{105+}
+\indexentry{Sessions!Tamper Resistant|book {2}}{105}
 \indexentry{Sessions!Expire|book {2}}{106}
 \indexentry{Sessions!Confidential|book {2}}{107}
 \indexentry{Sessions!Theft|book {2}}{108}
@@ -1301,6 +1133,7 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 \indexentry{SQL Injection (SQLi)!Blind!Out-of-Band|book {3}}{102-103}
 \indexentry{Database!Fingerprinting|book {3}}{105}
 \indexentry{SQL Injection (SQLi)!DB Fingerprinting|book {3}}{105}
+\indexentry{DB Fingerprinting|book {3}}{105}
 \indexentry{Commands!SQL DB Fingerprinting|book {3}}{105}
 \indexentry{Database!Meta Info|book {3}}{106-107}
 \indexentry{SQL Injection (SQLi)!DB Meta Info|book {3}}{106-107}
@@ -1310,6 +1143,7 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 \indexentry{Commands!SQL Stacked Queries|book {3}}{109-112}
 \indexentry{SQL Injection (SQLi)!UNION|book {3}}{113-114}
 \indexentry{SQL Injection (SQLi)!FROMless SELECT|book {3}}{115}
+\indexentry{Oracle|book {3}}{115}
 \indexentry{SQL Injection (SQLi)!DUAL|book {3}}{115}
 \indexentry{SQL Injection (SQLi)!NULL|book {3}}{116}
 \indexentry{SQL Injection (SQLi)!UNION+NULL|book {3}}{117}
@@ -1337,9 +1171,15 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 \indexentry{Tools!sqlmap!Post Exploitition \& Priv Esc|book {3}}{143}
 
 
-
-
-
+\indexentry{MySQL!DB Fingerprinting|book {3}}{105}
+\indexentry{MySQL!Timing/Sleep/Delay|book {3}}{101}
+\indexentry{MS SQL!DB Fingerprinting|book {3}}{105}
+\indexentry{MS SQL!Timing/Sleep/Delay|book {3}}{101}
+\indexentry{MySQL!Meta db info|book {3}}{106}
+\indexentry{MySQL!Databases/Tables/Columns enum|book {3}}{107}
+\indexentry{Oracle!Databases/Tables/Columns enum|book {3}}{107}
+\indexentry{MS SQL!Databases/Tables/Columns enum|book {3}}{107}
+\indexentry{MS SQL!Meta db info|book {3}}{106}
 
 
 
