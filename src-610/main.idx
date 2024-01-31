@@ -572,7 +572,7 @@
 \indexentry{Archive (self-extracting)|book{3}}{98}
 
 \indexentry{00A@\textbf{Chapters}!3.4 Deobfuscating Malicious JavaScript|book{3}}{102}
-\indexentry{js-beautofy.js|book{3}}{104}
+\indexentry{js-beautify.js|book{3}}{104}
 \indexentry{JavaScript!Beautify|book{3}}{104}
 \indexentry{js eval|book{3}}{105}
 \indexentry{Deobfuscation|book{3}}{105}
@@ -583,8 +583,8 @@
 \indexentry{AMSI|book{3}}{109-110}
 \indexentry{Antimalware San Interface(AMSI)|book{3}}{109-110}
 \indexentry{logman|book{3}}{110}
-\indexentry{CScript|book{3}}{110}
-\indexentry{CScript|book{3}}{118}
+\indexentry{CScript|book{3}}{106}
+\indexentry{CScript|book{3}}{112}
 \indexentry{objects.js|book{3}}{107}
 \indexentry{objects.js|book{3}}{114-117}
 \indexentry{box-js|book{3}}{118}
@@ -665,7 +665,8 @@
 \indexentry{javascript|book{4}}{68}
 \indexentry{Registry|book{4}}{68-69}
 \indexentry{reg\_export|book{4}}{69}
-\indexentry{Unicode conversion|book{4}}{7}
+\indexentry{Unicode conversion|book{4}}{71}
+\indexentry{js-beautify.js|book{4}}{71}
 \indexentry{Base64|book{4}}{72}
 \indexentry{PowerShell|book{4}}{72}
 \indexentry{base64dump.py|book{4}}{73}
